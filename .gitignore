@@ -15,6 +15,18 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Testing files with sensitive data
+test_*.js
+*_test.js
+check_*.js
+upload_*.js
+generate_*.js
+quick_*.js
+*_connection.js
+*_dataset.js
+*_products.js
+*_system.js
+
 # IDE files
 .vscode/
 .idea/
