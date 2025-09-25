@@ -2,8 +2,19 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
-import { sampleProducts, suggestedQueries, Product, SuggestedQuery } from './data/products';
-import RAGService from './services/simpleRagService';
+import { sampleProducts, suggestedQueries } from './data/products';
+import { Product, SuggestedQuery } from './types/shared';
+import { SimpleRAGService } from './services/simpleRagService';
+import aiRoutes from './routes/ai';
+import albiMallRoutes from './routes/albiMall';
+import { 
+  validateSearchQuery, 
+  validateProductArray, 
+  validateCategory, 
+  validateProductIds,
+  errorHandler,
+  notFoundHandler
+} from './middleware/validation';
 
 dotenv.config();
 
@@ -11,12 +22,24 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Initialize RAG Service
-const ragService = new RAGService();
+const ragService = new SimpleRAGService();
 
 // Middleware
 app.use(helmet());
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production' 
+    ? process.env.FRONTEND_URL 
+    : 'http://localhost:3000',
+  credentials: true
+}));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// AI Routes (secure server-side only)
+app.use('/api/ai', aiRoutes);
+
+// Albi Mall AI Shopping Assistant Routes
+app.use('/api/albi-mall', albiMallRoutes);
 
 // Simple keyword matching function for product suggestions
 function findMatchingProducts(query: string, products: Product[]): Product[] {
@@ -37,8 +60,8 @@ function findMatchingProducts(query: string, products: Product[]): Product[] {
     // Check if any keyword matches
     return keywords.some(keyword => 
       searchableText.includes(keyword) ||
-      product.tags.some(tag => tag.toLowerCase().includes(keyword)) ||
-      product.features.some(feature => feature.toLowerCase().includes(keyword))
+      product.tags.some((tag: string) => tag.toLowerCase().includes(keyword)) ||
+      product.features.some((feature: string) => feature.toLowerCase().includes(keyword))
     );
   });
 }
@@ -75,32 +98,35 @@ app.get('/api/suggested-queries', (req, res) => {
   res.json(suggestedQueries);
 });
 
-app.post('/api/search', async (req, res) => {
-  const { query } = req.body;
-  
-  if (!query || typeof query !== 'string') {
-    return res.status(400).json({ error: 'Query is required' });
-  }
-  
+app.post('/api/search', validateSearchQuery, async (req, res) => {
   try {
-    const ragResponse = await ragService.processQuery(query);
-    res.json(ragResponse);
+    const { query, isGeneralQuestion, conversationHistory } = req.body;
+    
+    if (isGeneralQuestion) {
+      // Handle general questions with intelligent AI response
+      const generalResponse = await ragService.handleGeneralQuestion(query, conversationHistory);
+      res.json(generalResponse);
+    } else {
+      // Handle product searches with conversation context
+      const ragResponse = await ragService.processQuery(query, conversationHistory);
+      res.json(ragResponse);
+    }
   } catch (error) {
     console.error('Search error:', error);
     res.status(500).json({ 
       error: 'Failed to process search query',
       message: "I'm having trouble processing your request right now. Please try again.",
       products: [],
-      query: query,
+      query: req.body.query,
       timestamp: new Date().toISOString()
     });
   }
 });
 
-app.post('/api/suggest', async (req, res) => {
-  const { category } = req.body;
-  
+app.post('/api/suggest', validateCategory, async (req, res) => {
   try {
+    const { category } = req.body;
+    
     if (!category) {
       const allProducts = await ragService.getAllProducts();
       return res.json(allProducts.slice(0, 6));
@@ -114,16 +140,10 @@ app.post('/api/suggest', async (req, res) => {
   }
 });
 
-// New RAG-powered endpoints
-app.post('/api/recommendations', async (req, res) => {
-  const { preferences } = req.body;
-  
-  if (!preferences || typeof preferences !== 'string') {
-    return res.status(400).json({ error: 'Preferences are required' });
-  }
-  
+app.post('/api/recommendations', validateSearchQuery, validateProductArray, async (req, res) => {
   try {
-    const recommendations = await ragService.getRecommendations(preferences);
+    const { query, products } = req.body;
+    const recommendations = await ragService.getRecommendations(query);
     res.json(recommendations);
   } catch (error) {
     console.error('Recommendations error:', error);
@@ -131,20 +151,15 @@ app.post('/api/recommendations', async (req, res) => {
       error: 'Failed to get recommendations',
       message: "I couldn't generate recommendations right now. Please try again.",
       products: [],
-      query: preferences,
+      query: req.body.query,
       timestamp: new Date().toISOString()
     });
   }
 });
 
-app.post('/api/compare', async (req, res) => {
-  const { productIds } = req.body;
-  
-  if (!productIds || !Array.isArray(productIds)) {
-    return res.status(400).json({ error: 'Product IDs array is required' });
-  }
-  
+app.post('/api/compare', validateProductIds, async (req, res) => {
   try {
+    const { productIds } = req.body;
     const comparison = await ragService.compareProducts(productIds);
     res.json(comparison);
   } catch (error) {
@@ -153,7 +168,7 @@ app.post('/api/compare', async (req, res) => {
       error: 'Failed to compare products',
       message: "I couldn't compare the products right now. Please try again.",
       products: [],
-      query: `Compare products: ${productIds.join(', ')}`,
+      query: `Compare products: ${req.body.productIds.join(', ')}`,
       timestamp: new Date().toISOString()
     });
   }
@@ -178,6 +193,10 @@ app.get('/api/status', (req, res) => {
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
+
+// Error handling middleware (must be last)
+app.use(notFoundHandler);
+app.use(errorHandler);
 
 app.listen(PORT, async () => {
   console.log(`🚀 Server running on port ${PORT}`);

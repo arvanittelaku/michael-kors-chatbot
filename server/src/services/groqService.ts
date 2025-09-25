@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { ProductDocument } from '../types/trieve';
 
 interface GroqConfig {
   apiKey: string;
@@ -26,39 +27,18 @@ interface GroqResponse {
   };
 }
 
-interface ProductDocument {
-  id: string;
-  name: string;
-  brand: string;
-  category: string;
-  subcategory: string;
-  price: number;
-  color: string;
-  colors: string[];
-  size: string;
-  sizes: string[];
-  material: string;
-  description: string;
-  features: string[];
-  tags: string[];
-  availability: string;
-  rating: number;
-  reviews_count: number;
-  collection: string;
-  season: string;
-  care_instructions: string;
-  dimensions: string;
-  weight: string;
-  warranty: string;
-}
 
 class GroqService {
   private config: GroqConfig;
   private baseURL: string;
 
-  constructor(config: GroqConfig) {
-    this.config = config;
-    this.baseURL = config.baseUrl || 'https://api.groq.com/openai/v1';
+  constructor(config?: GroqConfig) {
+    this.config = config || {
+      apiKey: process.env.GROQ_API_KEY || '',
+      model: 'llama-3.1-70b-versatile',
+      baseUrl: 'https://api.groq.com/openai/v1'
+    };
+    this.baseURL = this.config.baseUrl || 'https://api.groq.com/openai/v1';
   }
 
   /**
@@ -130,6 +110,8 @@ RESPONSE GUIDELINES:
 - Highlight key product features that specifically match their needs
 - Mention specific colors, sizes, and materials when relevant
 - Include price information and any discounts
+- CRITICAL: Always respect budget constraints - if user mentions a budget, only recommend products within that budget
+- If no products fit the budget, suggest alternatives or ask if they'd like to see higher-priced options
 - Suggest alternatives if the exact request isn't available
 - Be encouraging and positive about the products
 - Use phrases like "I found the perfect match for you!" or "This would be ideal for your needs"
@@ -158,19 +140,19 @@ Remember: You are representing Michael Kors, so maintain the brand's sophisticat
     return products.map(product => `
 Product: ${product.name}
 Brand: ${product.brand}
-Collection: ${product.collection}
+Collection: ${product.collection || 'Michael Kors'}
 Category: ${product.category} - ${product.subcategory}
 Price: $${product.price}
 Color: ${product.color} (Available: ${product.colors.join(', ')})
-Size: ${product.size} (Available: ${product.sizes.join(', ')})
+Size: ${product.size || 'One Size'} (Available: ${product.sizes?.join(', ') || 'One Size'})
 Material: ${product.material}
 Description: ${product.description}
 Key Features: ${product.features.join(', ')}
-Rating: ${product.rating}/5 (${product.reviews_count} reviews)
-Availability: ${product.availability}
-Dimensions: ${product.dimensions}
-Weight: ${product.weight}
-Care: ${product.care_instructions}
+Rating: ${product.rating || 4.5}/5 (${product.reviews_count || 0} reviews)
+Availability: ${product.availability || 'In Stock'}
+Dimensions: ${product.dimensions || 'Standard'}
+Weight: ${product.weight || 'Lightweight'}
+Care: ${product.care_instructions || 'Professional cleaning recommended'}
 Tags: ${product.tags.join(', ')}
     `).join('\n---\n');
   }
@@ -243,4 +225,4 @@ Tags: ${product.tags.join(', ')}
   }
 }
 
-export default GroqService;
+export { GroqService };

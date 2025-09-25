@@ -1,24 +1,4 @@
-export interface Product {
-  id: string;
-  name: string;
-  brand: string;
-  category: string;
-  subcategory: string;
-  price: number;
-  image: string;
-  description: string;
-  tags: string[];
-  colors: string[];
-  sizes?: string[];
-  features: string[];
-}
-
-export interface SuggestedQuery {
-  id: string;
-  text: string;
-  category: string;
-  keywords: string[];
-}
+import { Product, SuggestedQuery } from '../types/shared';
 
 export const sampleProducts: Product[] = [
   {
@@ -32,6 +12,8 @@ export const sampleProducts: Product[] = [
     description: "Spacious leather tote perfect for everyday use",
     tags: ["leather", "tote", "everyday", "spacious"],
     colors: ["brown", "black", "tan"],
+    color: "brown",
+    material: "leather",
     features: ["leather", "adjustable straps", "multiple compartments"]
   },
   {
@@ -45,6 +27,8 @@ export const sampleProducts: Product[] = [
     description: "Durable backpack ideal for travel and daily use",
     tags: ["backpack", "travel", "durable", "everyday"],
     colors: ["black", "navy", "gray"],
+    color: "black",
+    material: "nylon",
     features: ["waterproof", "laptop compartment", "usb charging port"]
   },
   {
@@ -58,6 +42,8 @@ export const sampleProducts: Product[] = [
     description: "Slim wallet designed to fit your phone",
     tags: ["wallet", "phone", "slim", "compact"],
     colors: ["black", "brown", "blue"],
+    color: "black",
+    material: "leather",
     features: ["rfid blocking", "card slots", "phone holder"]
   },
   {
@@ -71,6 +57,8 @@ export const sampleProducts: Product[] = [
     description: "Lightweight sneakers perfect for travel",
     tags: ["sneakers", "comfortable", "travel", "lightweight"],
     colors: ["white", "black", "gray"],
+    color: "white",
+    material: "canvas",
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: ["memory foam", "breathable", "slip-on"]
   },
@@ -85,6 +73,8 @@ export const sampleProducts: Product[] = [
     description: "Stylish crossbody bag for hands-free convenience",
     tags: ["crossbody", "stylish", "hands-free", "compact"],
     colors: ["black", "brown", "pink"],
+    color: "black",
+    material: "leather",
     features: ["adjustable strap", "zipper closure", "inner pockets"]
   },
   {
@@ -98,6 +88,8 @@ export const sampleProducts: Product[] = [
     description: "Large tote perfect for weekend adventures",
     tags: ["tote", "large", "weekend", "adventure"],
     colors: ["beige", "navy", "olive"],
+    color: "beige",
+    material: "canvas",
     features: ["reinforced handles", "water resistant", "multiple pockets"]
   },
   {
@@ -111,6 +103,8 @@ export const sampleProducts: Product[] = [
     description: "Ultra-slim wallet with phone compatibility",
     tags: ["wallet", "minimalist", "slim", "phone"],
     colors: ["black", "brown", "gray"],
+    color: "black",
+    material: "leather",
     features: ["ultra-slim", "phone slot", "card holder"]
   },
   {
@@ -124,6 +118,8 @@ export const sampleProducts: Product[] = [
     description: "Professional hiking backpack for outdoor adventures",
     tags: ["backpack", "hiking", "outdoor", "professional"],
     colors: ["green", "black", "orange"],
+    color: "green",
+    material: "nylon",
     features: ["waterproof", "chest strap", "hydration compatible"]
   },
   {
@@ -137,6 +133,8 @@ export const sampleProducts: Product[] = [
     description: "Professional tote for business meetings",
     tags: ["tote", "business", "professional", "meetings"],
     colors: ["black", "navy", "gray"],
+    color: "black",
+    material: "leather",
     features: ["laptop compartment", "organizer pockets", "leather trim"]
   },
   {
@@ -150,6 +148,8 @@ export const sampleProducts: Product[] = [
     description: "Packable shoes designed for easy travel",
     tags: ["shoes", "travel", "packable", "easy"],
     colors: ["white", "black", "blue"],
+    color: "white",
+    material: "mesh",
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: ["packable", "quick-dry", "slip-resistant"]
   }
