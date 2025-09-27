@@ -1,0 +1,422 @@
+{
+  "total_products": 5811,
+  "total_batches": 59,
+  "batch_size": 100,
+  "created_at": "2025-09-26T14:33:12.675Z",
+  "source_file": "Lista artikujve me foto Albi Fashion Loyalty(Sheet2) (1).csv",
+  "batches": [
+    {
+      "batch_number": 1,
+      "filename": "batch_001.json",
+      "product_count": 100,
+      "file_size_bytes": 152896,
+      "created_at": "2025-09-26T14:33:12.434Z"
+    },
+    {
+      "batch_number": 2,
+      "filename": "batch_002.json",
+      "product_count": 100,
+      "file_size_bytes": 151947,
+      "created_at": "2025-09-26T14:33:12.438Z"
+    },
+    {
+      "batch_number": 3,
+      "filename": "batch_003.json",
+      "product_count": 100,
+      "file_size_bytes": 150561,
+      "created_at": "2025-09-26T14:33:12.443Z"
+    },
+    {
+      "batch_number": 4,
+      "filename": "batch_004.json",
+      "product_count": 100,
+      "file_size_bytes": 151809,
+      "created_at": "2025-09-26T14:33:12.448Z"
+    },
+    {
+      "batch_number": 5,
+      "filename": "batch_005.json",
+      "product_count": 100,
+      "file_size_bytes": 155155,
+      "created_at": "2025-09-26T14:33:12.452Z"
+    },
+    {
+      "batch_number": 6,
+      "filename": "batch_006.json",
+      "product_count": 100,
+      "file_size_bytes": 135158,
+      "created_at": "2025-09-26T14:33:12.457Z"
+    },
+    {
+      "batch_number": 7,
+      "filename": "batch_007.json",
+      "product_count": 100,
+      "file_size_bytes": 133919,
+      "created_at": "2025-09-26T14:33:12.461Z"
+    },
+    {
+      "batch_number": 8,
+      "filename": "batch_008.json",
+      "product_count": 100,
+      "file_size_bytes": 140541,
+      "created_at": "2025-09-26T14:33:12.466Z"
+    },
+    {
+      "batch_number": 9,
+      "filename": "batch_009.json",
+      "product_count": 100,
+      "file_size_bytes": 139393,
+      "created_at": "2025-09-26T14:33:12.472Z"
+    },
+    {
+      "batch_number": 10,
+      "filename": "batch_010.json",
+      "product_count": 100,
+      "file_size_bytes": 138262,
+      "created_at": "2025-09-26T14:33:12.476Z"
+    },
+    {
+      "batch_number": 11,
+      "filename": "batch_011.json",
+      "product_count": 100,
+      "file_size_bytes": 138880,
+      "created_at": "2025-09-26T14:33:12.480Z"
+    },
+    {
+      "batch_number": 12,
+      "filename": "batch_012.json",
+      "product_count": 100,
+      "file_size_bytes": 132899,
+      "created_at": "2025-09-26T14:33:12.486Z"
+    },
+    {
+      "batch_number": 13,
+      "filename": "batch_013.json",
+      "product_count": 100,
+      "file_size_bytes": 133331,
+      "created_at": "2025-09-26T14:33:12.491Z"
+    },
+    {
+      "batch_number": 14,
+      "filename": "batch_014.json",
+      "product_count": 100,
+      "file_size_bytes": 132985,
+      "created_at": "2025-09-26T14:33:12.495Z"
+    },
+    {
+      "batch_number": 15,
+      "filename": "batch_015.json",
+      "product_count": 100,
+      "file_size_bytes": 135459,
+      "created_at": "2025-09-26T14:33:12.500Z"
+    },
+    {
+      "batch_number": 16,
+      "filename": "batch_016.json",
+      "product_count": 100,
+      "file_size_bytes": 138479,
+      "created_at": "2025-09-26T14:33:12.504Z"
+    },
+    {
+      "batch_number": 17,
+      "filename": "batch_017.json",
+      "product_count": 100,
+      "file_size_bytes": 135207,
+      "created_at": "2025-09-26T14:33:12.508Z"
+    },
+    {
+      "batch_number": 18,
+      "filename": "batch_018.json",
+      "product_count": 100,
+      "file_size_bytes": 141340,
+      "created_at": "2025-09-26T14:33:12.512Z"
+    },
+    {
+      "batch_number": 19,
+      "filename": "batch_019.json",
+      "product_count": 100,
+      "file_size_bytes": 141862,
+      "created_at": "2025-09-26T14:33:12.518Z"
+    },
+    {
+      "batch_number": 20,
+      "filename": "batch_020.json",
+      "product_count": 100,
+      "file_size_bytes": 145769,
+      "created_at": "2025-09-26T14:33:12.521Z"
+    },
+    {
+      "batch_number": 21,
+      "filename": "batch_021.json",
+      "product_count": 100,
+      "file_size_bytes": 154764,
+      "created_at": "2025-09-26T14:33:12.527Z"
+    },
+    {
+      "batch_number": 22,
+      "filename": "batch_022.json",
+      "product_count": 100,
+      "file_size_bytes": 150429,
+      "created_at": "2025-09-26T14:33:12.531Z"
+    },
+    {
+      "batch_number": 23,
+      "filename": "batch_023.json",
+      "product_count": 100,
+      "file_size_bytes": 146661,
+      "created_at": "2025-09-26T14:33:12.535Z"
+    },
+    {
+      "batch_number": 24,
+      "filename": "batch_024.json",
+      "product_count": 100,
+      "file_size_bytes": 144610,
+      "created_at": "2025-09-26T14:33:12.540Z"
+    },
+    {
+      "batch_number": 25,
+      "filename": "batch_025.json",
+      "product_count": 100,
+      "file_size_bytes": 141848,
+      "created_at": "2025-09-26T14:33:12.544Z"
+    },
+    {
+      "batch_number": 26,
+      "filename": "batch_026.json",
+      "product_count": 100,
+      "file_size_bytes": 142572,
+      "created_at": "2025-09-26T14:33:12.548Z"
+    },
+    {
+      "batch_number": 27,
+      "filename": "batch_027.json",
+      "product_count": 100,
+      "file_size_bytes": 134495,
+      "created_at": "2025-09-26T14:33:12.552Z"
+    },
+    {
+      "batch_number": 28,
+      "filename": "batch_028.json",
+      "product_count": 100,
+      "file_size_bytes": 136900,
+      "created_at": "2025-09-26T14:33:12.555Z"
+    },
+    {
+      "batch_number": 29,
+      "filename": "batch_029.json",
+      "product_count": 100,
+      "file_size_bytes": 134891,
+      "created_at": "2025-09-26T14:33:12.560Z"
+    },
+    {
+      "batch_number": 30,
+      "filename": "batch_030.json",
+      "product_count": 100,
+      "file_size_bytes": 132784,
+      "created_at": "2025-09-26T14:33:12.563Z"
+    },
+    {
+      "batch_number": 31,
+      "filename": "batch_031.json",
+      "product_count": 100,
+      "file_size_bytes": 137827,
+      "created_at": "2025-09-26T14:33:12.570Z"
+    },
+    {
+      "batch_number": 32,
+      "filename": "batch_032.json",
+      "product_count": 100,
+      "file_size_bytes": 139253,
+      "created_at": "2025-09-26T14:33:12.574Z"
+    },
+    {
+      "batch_number": 33,
+      "filename": "batch_033.json",
+      "product_count": 100,
+      "file_size_bytes": 137848,
+      "created_at": "2025-09-26T14:33:12.578Z"
+    },
+    {
+      "batch_number": 34,
+      "filename": "batch_034.json",
+      "product_count": 100,
+      "file_size_bytes": 133517,
+      "created_at": "2025-09-26T14:33:12.583Z"
+    },
+    {
+      "batch_number": 35,
+      "filename": "batch_035.json",
+      "product_count": 100,
+      "file_size_bytes": 136764,
+      "created_at": "2025-09-26T14:33:12.586Z"
+    },
+    {
+      "batch_number": 36,
+      "filename": "batch_036.json",
+      "product_count": 100,
+      "file_size_bytes": 135770,
+      "created_at": "2025-09-26T14:33:12.593Z"
+    },
+    {
+      "batch_number": 37,
+      "filename": "batch_037.json",
+      "product_count": 100,
+      "file_size_bytes": 137897,
+      "created_at": "2025-09-26T14:33:12.598Z"
+    },
+    {
+      "batch_number": 38,
+      "filename": "batch_038.json",
+      "product_count": 100,
+      "file_size_bytes": 135442,
+      "created_at": "2025-09-26T14:33:12.602Z"
+    },
+    {
+      "batch_number": 39,
+      "filename": "batch_039.json",
+      "product_count": 100,
+      "file_size_bytes": 137451,
+      "created_at": "2025-09-26T14:33:12.604Z"
+    },
+    {
+      "batch_number": 40,
+      "filename": "batch_040.json",
+      "product_count": 100,
+      "file_size_bytes": 134069,
+      "created_at": "2025-09-26T14:33:12.609Z"
+    },
+    {
+      "batch_number": 41,
+      "filename": "batch_041.json",
+      "product_count": 100,
+      "file_size_bytes": 132771,
+      "created_at": "2025-09-26T14:33:12.612Z"
+    },
+    {
+      "batch_number": 42,
+      "filename": "batch_042.json",
+      "product_count": 100,
+      "file_size_bytes": 135106,
+      "created_at": "2025-09-26T14:33:12.616Z"
+    },
+    {
+      "batch_number": 43,
+      "filename": "batch_043.json",
+      "product_count": 100,
+      "file_size_bytes": 138621,
+      "created_at": "2025-09-26T14:33:12.620Z"
+    },
+    {
+      "batch_number": 44,
+      "filename": "batch_044.json",
+      "product_count": 100,
+      "file_size_bytes": 137000,
+      "created_at": "2025-09-26T14:33:12.624Z"
+    },
+    {
+      "batch_number": 45,
+      "filename": "batch_045.json",
+      "product_count": 100,
+      "file_size_bytes": 135975,
+      "created_at": "2025-09-26T14:33:12.627Z"
+    },
+    {
+      "batch_number": 46,
+      "filename": "batch_046.json",
+      "product_count": 100,
+      "file_size_bytes": 139957,
+      "created_at": "2025-09-26T14:33:12.630Z"
+    },
+    {
+      "batch_number": 47,
+      "filename": "batch_047.json",
+      "product_count": 100,
+      "file_size_bytes": 136788,
+      "created_at": "2025-09-26T14:33:12.634Z"
+    },
+    {
+      "batch_number": 48,
+      "filename": "batch_048.json",
+      "product_count": 100,
+      "file_size_bytes": 135056,
+      "created_at": "2025-09-26T14:33:12.638Z"
+    },
+    {
+      "batch_number": 49,
+      "filename": "batch_049.json",
+      "product_count": 100,
+      "file_size_bytes": 131179,
+      "created_at": "2025-09-26T14:33:12.640Z"
+    },
+    {
+      "batch_number": 50,
+      "filename": "batch_050.json",
+      "product_count": 100,
+      "file_size_bytes": 133693,
+      "created_at": "2025-09-26T14:33:12.644Z"
+    },
+    {
+      "batch_number": 51,
+      "filename": "batch_051.json",
+      "product_count": 100,
+      "file_size_bytes": 137147,
+      "created_at": "2025-09-26T14:33:12.648Z"
+    },
+    {
+      "batch_number": 52,
+      "filename": "batch_052.json",
+      "product_count": 100,
+      "file_size_bytes": 139017,
+      "created_at": "2025-09-26T14:33:12.652Z"
+    },
+    {
+      "batch_number": 53,
+      "filename": "batch_053.json",
+      "product_count": 100,
+      "file_size_bytes": 141430,
+      "created_at": "2025-09-26T14:33:12.655Z"
+    },
+    {
+      "batch_number": 54,
+      "filename": "batch_054.json",
+      "product_count": 100,
+      "file_size_bytes": 142877,
+      "created_at": "2025-09-26T14:33:12.659Z"
+    },
+    {
+      "batch_number": 55,
+      "filename": "batch_055.json",
+      "product_count": 100,
+      "file_size_bytes": 141200,
+      "created_at": "2025-09-26T14:33:12.662Z"
+    },
+    {
+      "batch_number": 56,
+      "filename": "batch_056.json",
+      "product_count": 100,
+      "file_size_bytes": 141606,
+      "created_at": "2025-09-26T14:33:12.666Z"
+    },
+    {
+      "batch_number": 57,
+      "filename": "batch_057.json",
+      "product_count": 100,
+      "file_size_bytes": 145753,
+      "created_at": "2025-09-26T14:33:12.670Z"
+    },
+    {
+      "batch_number": 58,
+      "filename": "batch_058.json",
+      "product_count": 100,
+      "file_size_bytes": 144638,
+      "created_at": "2025-09-26T14:33:12.673Z"
+    },
+    {
+      "batch_number": 59,
+      "filename": "batch_059.json",
+      "product_count": 11,
+      "file_size_bytes": 15869,
+      "created_at": "2025-09-26T14:33:12.674Z"
+    }
+  ]
+}

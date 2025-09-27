@@ -1,0 +1,5101 @@
+[
+  {
+    "id": "albi-041129420-5401",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 15,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CHARCOAL",
+    "colors": [
+      "CHARCOAL"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546549712_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546549712_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 21,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063546549736",
+    "product_no": "50536568",
+    "color_hex": "#36454F",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129510-5402",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "133",
+    "colors": [
+      "133"
+    ],
+    "size": "39",
+    "sizes": [
+      "39"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546227115_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546227115_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 16,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546227191",
+    "product_no": "50541578",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129363-5403",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 27,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546392745",
+    "product_no": "50541711",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129388-5404",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 48,
+    "original_price": 60,
+    "discount_percentage": 20,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546720302_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546720302_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 8,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546720388",
+    "product_no": "50548061",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128634-5405",
+    "name": "FUSTANË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "983",
+    "colors": [
+      "983"
+    ],
+    "size": "36",
+    "sizes": [
+      "36"
+    ],
+    "material": "67% Acetate 33% Viscose",
+    "description": "FUSTANË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546254012_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546254012_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546254012_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546254012_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546254012_4.jpg"
+    ],
+    "features": [
+      "67% Acetate 33% Viscose",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 28,
+    "country_of_origin": "SRI LANKA",
+    "cross_reference": "4063545104608",
+    "product_no": "50542863",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129412-5406",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 10,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545094008",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041124195-5407",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 30,
+    "original_price": 36,
+    "discount_percentage": 16,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 60% Poly",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063543204621_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063543204621_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 60% Poly",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 49,
+    "country_of_origin": "CHINA",
+    "cross_reference": "4063544621595",
+    "product_no": "50529903",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129293-5408",
+    "name": "FUNDË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN MISCELLANEOUS",
+    "colors": [
+      "OPEN MISCELLANEOUS"
+    ],
+    "size": "34",
+    "sizes": [
+      "34"
+    ],
+    "material": "62% Polyester 34% Viscose 4% Elastane",
+    "description": "FUNDË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546112565_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546112565_5.jpg"
+    ],
+    "features": [
+      "62% Polyester 34% Viscose 4% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 39,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546112565",
+    "product_no": "50538192",
+    "color_hex": "#CCCCCC",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041125216-5409",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "100% Polyamide",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544200509_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544200509_5.jpg"
+    ],
+    "features": [
+      "100% Polyamide",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 19,
+    "country_of_origin": "INDONESIA",
+    "cross_reference": "4063544200738",
+    "product_no": "50522380",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129414-5410",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 33,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545095500",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041124154-5411",
+    "name": "VESHJE PLAZHI",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Swimwear",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "78% Polyamide (recycled) 22% Elastane",
+    "description": "VESHJE PLAZHI",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544390606_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544390606_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544390606_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544390606_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544390606_4.jpg"
+    ],
+    "features": [
+      "78% Polyamide (recycled) 22% Elastane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Swimwear",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 26,
+    "country_of_origin": "TURKEY",
+    "cross_reference": "4063544390606",
+    "product_no": "50527081",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129800-5412",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BEIGE",
+    "colors": [
+      "MEDIUM BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547250853_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547250853_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 20,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546768670",
+    "product_no": "50545383",
+    "color_hex": "#D6CFC7",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041128020-5413",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 48,
+    "original_price": 58,
+    "discount_percentage": 17,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "34",
+    "sizes": [
+      "34"
+    ],
+    "material": "53% Linen 29% Polyester 16% Viscose 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546092485_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_5.jpg"
+    ],
+    "features": [
+      "53% Linen 29% Polyester 16% Viscose 2% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 44,
+    "country_of_origin": "TURKEY",
+    "cross_reference": "4063546092485",
+    "product_no": "50537619",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129411-5414",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 46,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546183947",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127446-5415",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545033373_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545033373_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 11,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063545033373",
+    "product_no": "50534953",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126460-5416",
+    "name": "JEANS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "TURQUOISE/AQUA",
+    "colors": [
+      "TURQUOISE/AQUA"
+    ],
+    "size": "36",
+    "sizes": [
+      "36"
+    ],
+    "material": "99% Cotton (5% recycled) 1% Elastane",
+    "description": "JEANS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545589115_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_5.jpg"
+    ],
+    "features": [
+      "99% Cotton (5% recycled) 1% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 21,
+    "country_of_origin": "PAKISTAN",
+    "cross_reference": "4063545589276",
+    "product_no": "50534822",
+    "color_hex": "#40E0D0",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130965-5417",
+    "name": "Pantallona",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BLUE",
+    "colors": [
+      "MEDIUM BLUE"
+    ],
+    "size": "34",
+    "sizes": [
+      "34"
+    ],
+    "material": "81% Cotton 18% Lyocell 1% Elastane",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546699516_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546699516_5.jpg"
+    ],
+    "features": [
+      "81% Cotton 18% Lyocell 1% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 26,
+    "country_of_origin": "Egypt",
+    "cross_reference": "4063547124482",
+    "product_no": "50542690",
+    "color_hex": "#0000CD",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127490-5418",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "483",
+    "colors": [
+      "483"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546045818_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 52,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063546045917",
+    "product_no": "50525892",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126509-5419",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Pants",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "100% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063542711410_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542711410_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "Pants",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 29,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063542711441",
+    "product_no": "50522417",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-041129362-5420",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546392707_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546392707_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 25,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545095289",
+    "product_no": "50541711",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128767-5421",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546149080_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546149080_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 11,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546149158",
+    "product_no": "50539101",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129036-5422",
+    "name": "ÇANTË",
+    "brand": "HUGO",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "70% Polypropylene 30% Polyethylene",
+    "description": "ÇANTË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545103465_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545103465_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545103465_2.jpg"
+    ],
+    "features": [
+      "70% Polypropylene 30% Polyethylene",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 10,
+    "country_of_origin": "CHINA",
+    "cross_reference": "4063545103465",
+    "product_no": "50541811",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127584-5423",
+    "name": "POLO",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "483",
+    "colors": [
+      "483"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "93% Cotton 7% Elastane",
+    "description": "POLO",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545950892_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545950892_5.jpg"
+    ],
+    "features": [
+      "93% Cotton 7% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 24,
+    "country_of_origin": "PERU",
+    "cross_reference": "4063545951387",
+    "product_no": "50467344",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129838-5424",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BEIGE",
+    "colors": [
+      "MEDIUM BEIGE"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546972282_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546972282_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 41,
+    "country_of_origin": "India",
+    "cross_reference": "4063546972473",
+    "product_no": "50289499",
+    "color_hex": "#D6CFC7",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041128626-5425",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "TURQUOISE/AQUA",
+    "colors": [
+      "TURQUOISE/AQUA"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545028140_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545028140_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 43,
+    "country_of_origin": "PAKISTAN",
+    "cross_reference": "4063546028347",
+    "product_no": "50535366",
+    "color_hex": "#40E0D0",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128722-5426",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "675",
+    "colors": [
+      "675"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "66% Cotton 29% Polyester (recycled) 5% Elastane",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545973754_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545973754_5.jpg"
+    ],
+    "features": [
+      "66% Cotton 29% Polyester (recycled) 5% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 14,
+    "country_of_origin": "PAKISTAN",
+    "cross_reference": "4063545973754",
+    "product_no": "50512000",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129307-5427",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 5,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546415444",
+    "product_no": "50543305",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126493-5428",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Pants",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "100% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545191813_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545191813_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Pants",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 41,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063545192049",
+    "product_no": "50522417",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130238-5429",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "50",
+    "sizes": [
+      "50"
+    ],
+    "material": "51% Wool 44% Polyester 5% Elastane 65% Polyester 35% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545259810_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_5.jpg"
+    ],
+    "features": [
+      "51% Wool 44% Polyester 5% Elastane 65% Polyester 35% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 20,
+    "country_of_origin": "Türkiye",
+    "cross_reference": "4063545259810",
+    "product_no": "50530110",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041128641-5430",
+    "name": "POLO",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 32,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "POLO",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545944884_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545944884_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 42,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063545944884",
+    "product_no": "50466182",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129350-5431",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN RED",
+    "colors": [
+      "OPEN RED"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546390581_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546390581_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 28,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546390598",
+    "product_no": "50541700",
+    "color_hex": "#FF6347",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041125072-5432",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 15,
+    "original_price": 18,
+    "discount_percentage": 16,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Virgin wool",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544142380_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544142380_5.jpg"
+    ],
+    "features": [
+      "100% Virgin wool",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 38,
+    "country_of_origin": "TUNISIA",
+    "cross_reference": "4063544142380",
+    "product_no": "50474193",
+    "color_hex": "#808080",
+    "season_year": "2024",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129446-5433",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 27,
+    "original_price": 39,
+    "discount_percentage": 30,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 10,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546400648",
+    "product_no": "50542042",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128629-5434",
+    "name": "PANTALLONA TË SHKURTA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 15,
+    "original_price": 22,
+    "discount_percentage": 31,
+    "color": "TURQUOISE/AQUA",
+    "colors": [
+      "TURQUOISE/AQUA"
+    ],
+    "size": "29",
+    "sizes": [
+      "29"
+    ],
+    "material": "100% Cotton",
+    "description": "PANTALLONA TË SHKURTA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546142821_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 45,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063546142913",
+    "product_no": "50538863",
+    "color_hex": "#40E0D0",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127491-5435",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "483",
+    "colors": [
+      "483"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546045818_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546045818_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 14,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063546045993",
+    "product_no": "50525892",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129407-5436",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "100% Polyester 100% ethylene vinyl acetate 60% Polyester 40% Polyurethane 100% Polyester 100% Polyester",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545093995_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545093995_1.jpg"
+    ],
+    "features": [
+      "100% Polyester 100% ethylene vinyl acetate 60% Polyester 40% Polyurethane 100% Polyester 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 7,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545093995",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041128916-5437",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "483",
+    "colors": [
+      "483"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Linen",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545977653_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545977653_5.jpg"
+    ],
+    "features": [
+      "100% Linen",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 34,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063545065596",
+    "product_no": "50490740",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129851-5438",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 40,
+    "original_price": 56,
+    "discount_percentage": 28,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547244241_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 29,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063547244241",
+    "product_no": "50545326",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129315-5439",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546551616_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546551616_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 13,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063546551616",
+    "product_no": "50536568",
+    "color_hex": "#FFFFFF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128991-5440",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN MISCELLANEOUS",
+    "colors": [
+      "OPEN MISCELLANEOUS"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% Viscose",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546412054_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546412054_5.jpg"
+    ],
+    "features": [
+      "100% Viscose",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 30,
+    "country_of_origin": "VIETNAM",
+    "cross_reference": "4063546412078",
+    "product_no": "50543031",
+    "color_hex": "#CCCCCC",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128920-5441",
+    "name": "BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "72% Viscose 28% Polyester",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546192253_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_5.jpg"
+    ],
+    "features": [
+      "72% Viscose 28% Polyester",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 34,
+    "country_of_origin": "CHINA",
+    "cross_reference": "4063546192369",
+    "product_no": "50536693",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129413-5442",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546183947_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 6,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546184012",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129449-5443",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 49,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063545095067",
+    "product_no": "50542042",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041125210-5444",
+    "name": "PALLTO",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Coats",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Polyester",
+    "description": "PALLTO",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063542957610_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063542957610_5.jpg"
+    ],
+    "features": [
+      "100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Coats",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 40,
+    "country_of_origin": "INDONESIA",
+    "cross_reference": "4063542957610",
+    "product_no": "50524611",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127985-5445",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "62% Polyester 28% Viscose 5% Metallized 3% Polyamide 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545029321_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545029321_5.jpg"
+    ],
+    "features": [
+      "62% Polyester 28% Viscose 5% Metallized 3% Polyamide 2% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 39,
+    "country_of_origin": "TURKEY",
+    "cross_reference": "4063546102900",
+    "product_no": "50537747",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127505-5446",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "82% Cotton 13% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546184296_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546184296_5.jpg"
+    ],
+    "features": [
+      "82% Cotton 13% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 22,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063546184524",
+    "product_no": "50536336",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129429-5447",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 44,
+    "original_price": 65,
+    "discount_percentage": 32,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546388410_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546388410_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 17,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063545095678",
+    "product_no": "50541682",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129421-5448",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 46,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "066",
+    "colors": [
+      "066"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546549750_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546549750_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 53,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063546549750",
+    "product_no": "50536568",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126458-5449",
+    "name": "JEANS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "TURQUOISE/AQUA",
+    "colors": [
+      "TURQUOISE/AQUA"
+    ],
+    "size": "33",
+    "sizes": [
+      "33"
+    ],
+    "material": "99% Cotton (5% recycled) 1% Elastane",
+    "description": "JEANS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545589115_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545589115_5.jpg"
+    ],
+    "features": [
+      "99% Cotton (5% recycled) 1% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 53,
+    "country_of_origin": "PAKISTAN",
+    "cross_reference": "4063545589160",
+    "product_no": "50534822",
+    "color_hex": "#40E0D0",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129448-5450",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545095432_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 9,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546400655",
+    "product_no": "50542042",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128919-5451",
+    "name": "BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "72% Viscose 28% Polyester",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546192253_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546192253_5.jpg"
+    ],
+    "features": [
+      "72% Viscose 28% Polyester",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 16,
+    "country_of_origin": "CHINA",
+    "cross_reference": "4063545086300",
+    "product_no": "50536693",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130259-5452",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "56",
+    "sizes": [
+      "56"
+    ],
+    "material": "51% Wool 44% Polyester 5% Elastane 65% Polyester 35% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545259810_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545259810_5.jpg"
+    ],
+    "features": [
+      "51% Wool 44% Polyester 5% Elastane 65% Polyester 35% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 14,
+    "country_of_origin": "Türkiye",
+    "cross_reference": "4063545260069",
+    "product_no": "50530110",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041125787-5453",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 14,
+    "original_price": 19,
+    "discount_percentage": 26,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545620986_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545620986_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 45,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063544920322",
+    "product_no": "50536205",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129290-5454",
+    "name": "FUNDË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN MISCELLANEOUS",
+    "colors": [
+      "OPEN MISCELLANEOUS"
+    ],
+    "size": "34",
+    "sizes": [
+      "34"
+    ],
+    "material": "62% Polyester 34% Viscose 4% Elastane",
+    "description": "FUNDË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546089058_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546089058_5.jpg"
+    ],
+    "features": [
+      "62% Polyester 34% Viscose 4% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 22,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063546089058",
+    "product_no": "50537612",
+    "color_hex": "#CCCCCC",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129338-5455",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 13,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 60% Poly",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546390079_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546390079_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 60% Poly",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 52,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063545095838",
+    "product_no": "50541696",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041125939-5456",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 48,
+    "original_price": 62,
+    "discount_percentage": 22,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% Polyester",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544428453_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544428453_5.jpg"
+    ],
+    "features": [
+      "100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 9,
+    "country_of_origin": "VIETNAM",
+    "cross_reference": "4063542957368",
+    "product_no": "50524093",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041130994-5457",
+    "name": "Pantallona",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NAVY",
+    "colors": [
+      "NAVY"
+    ],
+    "size": "27",
+    "sizes": [
+      "27"
+    ],
+    "material": "100% Cotton 65% Polyester 35% Cotton",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547420065_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420065_5.jpg"
+    ],
+    "features": [
+      "100% Cotton 65% Polyester 35% Cotton",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 42,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063546713717",
+    "product_no": "50541522",
+    "color_hex": "#000080",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129872-5458",
+    "name": "ÇANTË",
+    "brand": "HUGO",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "60% Polyester (recycled) 40% Polyurethane",
+    "description": "ÇANTË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547415863_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547415863_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547415863_2.jpg"
+    ],
+    "features": [
+      "60% Polyester (recycled) 40% Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 51,
+    "country_of_origin": "Cambodia",
+    "cross_reference": "4063547415863",
+    "product_no": "50552482",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041130609-5459",
+    "name": "Çizme",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Shoes",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "100% Polyester 100% ethylene vinyl acetate 100% Polyester 100% Calf leather 100% Polyester",
+    "description": "Çizme",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547050330_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547050330_1.jpg"
+    ],
+    "features": [
+      "100% Polyester 100% ethylene vinyl acetate 100% Polyester 100% Calf leather 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Shoes",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 15,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063547050330",
+    "product_no": "50548694",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041130687-5460",
+    "name": "Atlete",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 36,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT BEIGE",
+    "colors": [
+      "LIGHT BEIGE"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "88% Polyester 12% Polyurethane 100% Rubber 100% Polyester 60% Polyester 40% Polyurethane 55% Polyamide 45% Polyurethane 100% Polyester",
+    "description": "Atlete",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546803357_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546803357_1.jpg"
+    ],
+    "features": [
+      "88% Polyester 12% Polyurethane 100% Rubber 100% Polyester 60% Polyester 40% Polyurethane 55% Polyamide 45% Polyurethane 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 44,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546803753",
+    "product_no": "50548526",
+    "color_hex": "#F2EAD3",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129511-5461",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "133",
+    "colors": [
+      "133"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546227115_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546227115_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% ethylene vinyl acetate Facing 60% Polyester 40% Polyurethane Upper m",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 42,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545097535",
+    "product_no": "50541578",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128947-5462",
+    "name": "BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 36,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "72% Viscose 28% Polyester",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546191478_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546191478_5.jpg"
+    ],
+    "features": [
+      "72% Viscose 28% Polyester",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 9,
+    "country_of_origin": "China",
+    "cross_reference": "4063546191478",
+    "product_no": "50536693",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129417-5463",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CHARCOAL",
+    "colors": [
+      "CHARCOAL"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546549712_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546549712_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 50% Polyamide 50% Polyuretha",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 15,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063545094015",
+    "product_no": "50536568",
+    "color_hex": "#36454F",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128001-5464",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "296",
+    "colors": [
+      "296"
+    ],
+    "size": "34",
+    "sizes": [
+      "34"
+    ],
+    "material": "70% Polyester (42% recycled) 23% Viscose 7% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546084978_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_5.jpg"
+    ],
+    "features": [
+      "70% Polyester (42% recycled) 23% Viscose 7% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 32,
+    "country_of_origin": "MACEDONIA",
+    "cross_reference": "4063546084978",
+    "product_no": "50537589",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126379-5465",
+    "name": "POLO",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "96% Cotton 4% Elastane",
+    "description": "POLO",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544863995_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544863995_5.jpg"
+    ],
+    "features": [
+      "96% Cotton 4% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 20,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063544863995",
+    "product_no": "50530169",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126028-5466",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 25,
+    "original_price": 33,
+    "discount_percentage": 24,
+    "color": "OPEN MISCELLANEOUS",
+    "colors": [
+      "OPEN MISCELLANEOUS"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "93% Cotton 7% Elastane",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063535215093_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063535215093_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063535215093_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063535215093_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063535215093_4.jpg"
+    ],
+    "features": [
+      "93% Cotton 7% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 52,
+    "country_of_origin": "SRI LANKA",
+    "cross_reference": "4063535215123",
+    "product_no": "50469778",
+    "color_hex": "#CCCCCC",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128003-5467",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 10,
+    "original_price": 13,
+    "discount_percentage": 23,
+    "color": "296",
+    "colors": [
+      "296"
+    ],
+    "size": "38",
+    "sizes": [
+      "38"
+    ],
+    "material": "70% Polyester (42% recycled) 23% Viscose 7% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546084978_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546084978_5.jpg"
+    ],
+    "features": [
+      "70% Polyester (42% recycled) 23% Viscose 7% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 34,
+    "country_of_origin": "MACEDONIA",
+    "cross_reference": "4063546085081",
+    "product_no": "50537589",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126383-5468",
+    "name": "POLO",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 38,
+    "original_price": 53,
+    "discount_percentage": 28,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "96% Cotton 4% Elastane",
+    "description": "POLO",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545302301_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545302301_5.jpg"
+    ],
+    "features": [
+      "96% Cotton 4% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 39,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063545302509",
+    "product_no": "50530169",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129408-5469",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "100% Polyester 100% ethylene vinyl acetate 60% Polyester 40% Polyurethane 100% Polyester 100% Polyester",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545093995_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545093995_1.jpg"
+    ],
+    "features": [
+      "100% Polyester 100% ethylene vinyl acetate 60% Polyester 40% Polyurethane 100% Polyester 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 50,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546183602",
+    "product_no": "50536270",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129527-5470",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "Lining 60% Polyester 40% Polyurethane Sole 100% Thermoplastic elastomer Upper material 100% Cow hide",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546235141_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546235141_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546235141_2.jpg"
+    ],
+    "features": [
+      "Lining 60% Polyester 40% Polyurethane Sole 100% Thermoplastic elastomer Upper material 100% Cow hide",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 5,
+    "country_of_origin": "China",
+    "cross_reference": "4063545096743",
+    "product_no": "50541753",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129435-5471",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "242",
+    "colors": [
+      "242"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546388472_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546388472_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 46,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063546388496",
+    "product_no": "50541682",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127556-5472",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 44,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545997538",
+    "product_no": "50505201",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130623-5473",
+    "name": "Atlete",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 26,
+    "original_price": 35,
+    "discount_percentage": 25,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "100% Polyester 100% Rubber 60% Polyester 40% Polyurethane 100% Polyester",
+    "description": "Atlete",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547009000_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547009000_1.jpg"
+    ],
+    "features": [
+      "100% Polyester 100% Rubber 60% Polyester 40% Polyurethane 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 14,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063547009024",
+    "product_no": "50548507",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041126451-5474",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "086",
+    "colors": [
+      "086"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "82% Cotton 13% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544864817_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_5.jpg"
+    ],
+    "features": [
+      "82% Cotton 13% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 46,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063544864527",
+    "product_no": "50533689",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041127557-5475",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 9,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545997637",
+    "product_no": "50505201",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129483-5476",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM RED",
+    "colors": [
+      "MEDIUM RED"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546401126_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546401126_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 70% Polyvinylchlorid 30% Thermoplastic polyurethane Upper material 98% Po",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 8,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546401133",
+    "product_no": "50542063",
+    "color_hex": "#CD5C5C",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129428-5477",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546388410_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546388410_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 75% ethylene vinyl acetate 25% Rubber Facing 55% Polyurethane 45% Polyest",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 15,
+    "country_of_origin": "Laos",
+    "cross_reference": "4063546388427",
+    "product_no": "50541682",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126352-5478",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063537052016_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063537052016_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 50,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063537052061",
+    "product_no": "50488330",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-041127864-5479",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN RED",
+    "colors": [
+      "OPEN RED"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 100% Rubber Facing 60% Polyester 40",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545777796_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545777796_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 100% Rubber Facing 60% Polyester 40",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 30,
+    "country_of_origin": "VIETNAM",
+    "cross_reference": "4063544920155",
+    "product_no": "50535857",
+    "color_hex": "#FF6347",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129803-5480",
+    "name": "BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Corsetry",
+    "price": 21,
+    "original_price": 28,
+    "discount_percentage": 25,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "38",
+    "sizes": [
+      "38"
+    ],
+    "material": "100% Cotton 50% Polyester 50% Polyurethane",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546560298_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546560298_5.jpg"
+    ],
+    "features": [
+      "100% Cotton 50% Polyester 50% Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Corsetry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 18,
+    "country_of_origin": "Türkiye",
+    "cross_reference": "4063547428733",
+    "product_no": "50543364",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129853-5481",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547244241_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547244241_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 45,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063547244296",
+    "product_no": "50545326",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129820-5482",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "65% Polyester 35% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545647846_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545647846_5.jpg"
+    ],
+    "features": [
+      "65% Polyester 35% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 43,
+    "country_of_origin": "India",
+    "cross_reference": "4063545647754",
+    "product_no": "50541392",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041129528-5483",
+    "name": "SANDALE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "37",
+    "sizes": [
+      "37"
+    ],
+    "material": "Lining 60% Polyester 40% Polyurethane Sole 100% Thermoplastic elastomer Upper material 100% Cow hide",
+    "description": "SANDALE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545096828_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545096828_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545096828_2.jpg"
+    ],
+    "features": [
+      "Lining 60% Polyester 40% Polyurethane Sole 100% Thermoplastic elastomer Upper material 100% Cow hide",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sandals",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 42,
+    "country_of_origin": "China",
+    "cross_reference": "4063545096828",
+    "product_no": "50542072",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126450-5484",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "086",
+    "colors": [
+      "086"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "82% Cotton 13% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544864817_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864817_5.jpg"
+    ],
+    "features": [
+      "82% Cotton 13% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 48,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063544864817",
+    "product_no": "50533689",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126385-5485",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 46,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "96% Cotton 4% Elastane",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063544864015_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063544864015_5.jpg"
+    ],
+    "features": [
+      "96% Cotton 4% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 32,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063544864015",
+    "product_no": "50530185",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129366-5486",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 15,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 42,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545094602",
+    "product_no": "50541711",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129306-5487",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 42,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546415437",
+    "product_no": "50543305",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130018-5488",
+    "name": "JEANS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 10,
+    "original_price": 14,
+    "discount_percentage": 28,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "32",
+    "sizes": [
+      "32"
+    ],
+    "material": "81% Cotton 18% Lyocell 1% Elastane",
+    "description": "JEANS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547130865_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547130865_5.jpg"
+    ],
+    "features": [
+      "81% Cotton 18% Lyocell 1% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 25,
+    "country_of_origin": "Egypt",
+    "cross_reference": "4063547130865",
+    "product_no": "50542701",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127477-5489",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "483",
+    "colors": [
+      "483"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546411941_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546411941_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 19,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546411941",
+    "product_no": "50542969",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129308-5490",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 15,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546415420_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 55% ethylene vinyl acetate 30% Rubb",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 12,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545784572",
+    "product_no": "50543305",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129365-5491",
+    "name": "ATLETE",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546392745_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Sole 100% Rubber Facing 100% Polyester Upper material 60% Polyester 40% Polyur",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 41,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546392752",
+    "product_no": "50541711",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130509-5492",
+    "name": "Xhaketë",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 50,
+    "original_price": 72,
+    "discount_percentage": 30,
+    "color": "MEDIUM BROWN",
+    "colors": [
+      "MEDIUM BROWN"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "46% Cotton (recycled) 34% Wool (recycled) 12% Polyester 8% Polyamide 100% Polyester 88% Polyamide (recycled) 11% Polyamide 1% Elastane 100% Cotton 100% Polyester",
+    "description": "Xhaketë",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546713656_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546713656_5.jpg"
+    ],
+    "features": [
+      "46% Cotton (recycled) 34% Wool (recycled) 12% Polyester 8% Polyamide 100% Polyester 88% Polyamide (recycled) 11% Polyamide 1% Elastane 100% Cotton 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 29,
+    "country_of_origin": "Türkiye",
+    "cross_reference": "4063546713632",
+    "product_no": "50542617",
+    "color_hex": "#8B4513",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127555-5493",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 49,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545997422",
+    "product_no": "50505201",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041130999-5494",
+    "name": "Xhaketë",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 41,
+    "original_price": 55,
+    "discount_percentage": 25,
+    "color": "NAVY",
+    "colors": [
+      "NAVY"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "Xhaketë",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547420621_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547420621_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 35,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063546713755",
+    "product_no": "50541531",
+    "color_hex": "#000080",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127085-5495",
+    "name": "XHAKETË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "48",
+    "sizes": [
+      "48"
+    ],
+    "material": "66% Polyester 32% Viscose 2% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545035452_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545035452_5.jpg"
+    ],
+    "features": [
+      "66% Polyester 32% Viscose 2% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 28,
+    "country_of_origin": "BULGARIA",
+    "cross_reference": "4063545035452",
+    "product_no": "50538431",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041129831-5496",
+    "name": "KËMISHË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063547234013_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063547234013_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 49,
+    "country_of_origin": "India",
+    "cross_reference": "4063547234037",
+    "product_no": "50544934",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-041127558-5497",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "219",
+    "colors": [
+      "219"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545997422_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 42,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545997743",
+    "product_no": "50505201",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128627-5498",
+    "name": "PANTALLONA TË SHKURTA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "TURQUOISE/AQUA",
+    "colors": [
+      "TURQUOISE/AQUA"
+    ],
+    "size": "27",
+    "sizes": [
+      "27"
+    ],
+    "material": "100% Cotton",
+    "description": "PANTALLONA TË SHKURTA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546142821_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546142821_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 15,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063545028164",
+    "product_no": "50538863",
+    "color_hex": "#40E0D0",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041126435-5499",
+    "name": "DUKS",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "343",
+    "colors": [
+      "343"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063545249248_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063545249248_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 9,
+    "country_of_origin": "BANGLADESH",
+    "cross_reference": "4063545249323",
+    "product_no": "50525892",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-041128021-5500",
+    "name": "PANTALLONA",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NATURAL",
+    "colors": [
+      "NATURAL"
+    ],
+    "size": "36",
+    "sizes": [
+      "36"
+    ],
+    "material": "53% Linen 29% Polyester 16% Viscose 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/04/0413/Published/4063546092485_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_1.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_2.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_3.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_4.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_5.jpg",
+      "http://91.187.98.69:8001/04/0413/Published/4063546092485_5.jpg"
+    ],
+    "features": [
+      "53% Linen 29% Polyester 16% Viscose 2% Elastane",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 26,
+    "country_of_origin": "TURKEY",
+    "cross_reference": "4063545029291",
+    "product_no": "50537619",
+    "color_hex": "#E3DAC9",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  }
+]

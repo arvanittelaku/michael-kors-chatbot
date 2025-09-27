@@ -1,0 +1,5003 @@
+[
+  {
+    "id": "albi-071245977-2901",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "93% Polyester (recycled) 7% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547932100_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547932100_5.jpg"
+    ],
+    "features": [
+      "93% Polyester (recycled) 7% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 41,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063547931547",
+    "product_no": "50543328",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244366-2902",
+    "name": "Atlete",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "100% Polyester 100% Rubber 60% Polyester 40% Polyurethane 100% Polyester",
+    "description": "Atlete",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546804118_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546804118_1.jpg"
+    ],
+    "features": [
+      "100% Polyester 100% Rubber 60% Polyester 40% Polyurethane 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 36,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063547008614",
+    "product_no": "50548507",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239662-2903",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 25,
+    "original_price": 36,
+    "discount_percentage": 30,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Zinc",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/irregular-open-hoop-earrings/233358.html?dwvar_233358_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/irregular-open-hoop-earrings/233358.html?dwvar_233358_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Zinc",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 16,
+    "country_of_origin": "China",
+    "cross_reference": "5608348649902",
+    "product_no": "233358_GDU",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239676-2904",
+    "name": "Unazë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Body: 100%Zinc",
+    "description": "Unazë",
+    "image": "https://www.parfois.com/en/si/jewellery/rings/set-of-rings-with-embossed-detail/238666.html?dwvar_238666_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/rings/set-of-rings-with-embossed-detail/238666.html?dwvar_238666_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Zinc",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 53,
+    "country_of_origin": "China",
+    "cross_reference": "5608348716253",
+    "product_no": "238666_GDL",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239714-2905",
+    "name": "Xhup",
+    "brand": "PARFOIS",
+    "category": "1",
+    "subcategory": "114",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Sweatshirts",
+    "colors": [
+      "Sweatshirts"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Body: 81%Cotton",
+    "description": "Xhup",
+    "image": "https://www.parfois.com/en/si/clothing/sweatshirts/sleeveless-sweatshirt/238538.html?dwvar_238538_color=_AN",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/sweatshirts/sleeveless-sweatshirt/238538.html?dwvar_238538_color=_AN"
+    ],
+    "features": [
+      "Body: 81%Cotton",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "1",
+      "114",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 35,
+    "country_of_origin": "19%Polyamide",
+    "cross_reference": "5608348714426",
+    "product_no": "238538_ANM",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239716-2906",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 36,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Lining: 95%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/shoulder-bags/shoulder-bag-with-studs/237651.html?dwvar_237651_color=_RD",
+    "images": [
+      "https://www.parfois.com/en/si/bags/shoulder-bags/shoulder-bag-with-studs/237651.html?dwvar_237651_color=_RD"
+    ],
+    "features": [
+      "Lining: 95%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 28,
+    "country_of_origin": "5%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348700351",
+    "product_no": "237651_RDS",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071237169-2907",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Accessories",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "301",
+    "colors": [
+      "301"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Lining: 95%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/crossbody-bags/colour-block-crossbody-bag/236804.html?dwvar_236804_color=_OR",
+    "images": [
+      "https://www.parfois.com/en/si/bags/crossbody-bags/colour-block-crossbody-bag/236804.html?dwvar_236804_color=_OR"
+    ],
+    "features": [
+      "Lining: 95%Polyester",
+      "Myanmar design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Accessories",
+      "Myanmar",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 54,
+    "country_of_origin": "5%Polyurethane / Exterior: 94%Polyester",
+    "cross_reference": "5608348687331",
+    "product_no": "236804_ORM",
+    "color_hex": "Bags",
+    "season_year": "2",
+    "gender": "Myanmar",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071237188-2908",
+    "name": "Pantallona",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "104",
+    "colors": [
+      "104"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Body: 8%Elastane",
+    "description": "Pantallona",
+    "image": "https://www.parfois.com/en/si/clothing/trousers/trousers-with-elastic-waist/237612.html?dwvar_237612_color=_LY",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/trousers/trousers-with-elastic-waist/237612.html?dwvar_237612_color=_LY"
+    ],
+    "features": [
+      "Body: 8%Elastane",
+      "China design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "China",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 34,
+    "country_of_origin": "56%Polyester",
+    "cross_reference": "5608348712972",
+    "product_no": "237612_LYS",
+    "color_hex": "Trousers",
+    "season_year": "2",
+    "gender": "China",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071239601-2909",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 30,
+    "original_price": 44,
+    "discount_percentage": 31,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Lining: 60%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/shoppers/laptop-bag-with-texture/238229.html?dwvar_238229_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/bags/shoppers/laptop-bag-with-texture/238229.html?dwvar_238229_color=_BK"
+    ],
+    "features": [
+      "Lining: 60%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 9,
+    "country_of_origin": "40%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348708968",
+    "product_no": "238229_BKL",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239702-2910",
+    "name": "Rrip",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BROWN",
+    "colors": [
+      "BROWN"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Polyurethane",
+    "description": "Rrip",
+    "image": "https://www.parfois.com/en/si/accessories/belts/belt-with-rectangular-buckle/238129.html?dwvar_238129_color=_BN",
+    "images": [
+      "https://www.parfois.com/en/si/accessories/belts/belt-with-rectangular-buckle/238129.html?dwvar_238129_color=_BN"
+    ],
+    "features": [
+      "Body: 100%Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Belts",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 36,
+    "country_of_origin": "China",
+    "cross_reference": "5608348707107",
+    "product_no": "238129_BNU",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071242520-2911",
+    "name": "BLUZE",
+    "brand": "LAUREN",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "RED",
+    "colors": [
+      "RED"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "60% POLYESTER (RECYCLED) 40% POLYESTER",
+    "description": "BLUZE",
+    "image": "https://www.gustostore.gr/el/gynaika-preview/rouxa-preview/tops-preview/blouzes-preview/200951231004-satin-charmeuse-off-the-shoulder-BLUZE?var1=1&srsltid=AfmBOoqvFdlsmhHeoCrP4lBL29u4JsElfxH_N_hriATum7-MkAX-X3wF",
+    "images": [
+      "https://www.gustostore.gr/el/gynaika-preview/rouxa-preview/tops-preview/blouzes-preview/200951231004-satin-charmeuse-off-the-shoulder-BLUZE?var1=1&srsltid=AfmBOoqvFdlsmhHeoCrP4lBL29u4JsElfxH_N_hriATum7-MkAX-X3wF"
+    ],
+    "features": [
+      "60% POLYESTER (RECYCLED) 40% POLYESTER",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 28,
+    "country_of_origin": "CN",
+    "cross_reference": "3616853816834",
+    "product_no": "200951231004",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246493-2912",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "289",
+    "colors": [
+      "289"
+    ],
+    "size": "46",
+    "sizes": [
+      "46"
+    ],
+    "material": "74% Cotton 23% Polyamide 3% Elastane",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548162353_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548162353_5.jpg"
+    ],
+    "features": [
+      "74% Cotton 23% Polyamide 3% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 54,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548162490",
+    "product_no": "50552907",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245989-2913",
+    "name": "DUKS",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "358",
+    "colors": [
+      "358"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "62% Cotton 33% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548042808_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548042808_5.jpg"
+    ],
+    "features": [
+      "62% Cotton 33% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 45,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548043225",
+    "product_no": "50548324",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071242530-2914",
+    "name": "PANTALLONA",
+    "brand": "LAUREN",
+    "category": "Apparel",
+    "subcategory": "Pants",
+    "price": 37,
+    "original_price": 50,
+    "discount_percentage": 26,
+    "color": "LIGHT BEIGE",
+    "colors": [
+      "LIGHT BEIGE"
+    ],
+    "size": "6",
+    "sizes": [
+      "6"
+    ],
+    "material": "100% COTTON",
+    "description": "PANTALLONA",
+    "image": "https://www.skroutz.eu/s/61357950/ralph-lauren-women-s-fabric-trousers-ecru-200970940001.html",
+    "images": [
+      "https://www.skroutz.eu/s/61357950/ralph-lauren-women-s-fabric-trousers-ecru-200970940001.html"
+    ],
+    "features": [
+      "100% COTTON",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Pants",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 45,
+    "country_of_origin": "PH",
+    "cross_reference": "3616855033789",
+    "product_no": "200970940001",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239627-2915",
+    "name": "Çantë shpine",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Lining: 70%Polyester",
+    "description": "Çantë shpine",
+    "image": "https://www.parfois.com/en/si/bags/backpacks/leather-effect-backpack-with-flap/237243.html?dwvar_237243_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/bags/backpacks/leather-effect-backpack-with-flap/237243.html?dwvar_237243_color=_BK"
+    ],
+    "features": [
+      "Lining: 70%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 13,
+    "country_of_origin": "30%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348693035",
+    "product_no": "237243_BKL",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071242546-2916",
+    "name": "PANTALLONA",
+    "brand": "LAUREN",
+    "category": "Apparel",
+    "subcategory": "Pants",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "8",
+    "sizes": [
+      "8"
+    ],
+    "material": "65% VISCOSE 29% NYLON 6% ELASTANE",
+    "description": "PANTALLONA",
+    "image": "https://www.gustostore.gr/el/gynaika/rouxa/pantelonia/pantelones/200971132001-ponte-boot-trouser?var1=1&srsltid=AfmBOoqCd6M9orz6aw1A9VvSivWY5XfosjZ2xrot3mtmCNGYJoME4nsH",
+    "images": [
+      "https://www.gustostore.gr/el/gynaika/rouxa/pantelonia/pantelones/200971132001-ponte-boot-trouser?var1=1&srsltid=AfmBOoqCd6M9orz6aw1A9VvSivWY5XfosjZ2xrot3mtmCNGYJoME4nsH"
+    ],
+    "features": [
+      "65% VISCOSE 29% NYLON 6% ELASTANE",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Pants",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 46,
+    "country_of_origin": "PH",
+    "cross_reference": "3616854851889",
+    "product_no": "200971132001",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071217769-2917",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546201870_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546201870_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 39,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063546201870",
+    "product_no": "50537845",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071246567-2918",
+    "name": "PULLOVER",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweaters",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Virgin wool",
+    "description": "PULLOVER",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4029052878944_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029052878944_5.jpg"
+    ],
+    "features": [
+      "100% Virgin wool",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweaters",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 14,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4029052878678",
+    "product_no": "50468239",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246573-2919",
+    "name": "PULLOVER",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweaters",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Virgin wool",
+    "description": "PULLOVER",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4029055188200_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg"
+    ],
+    "features": [
+      "100% Virgin wool",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweaters",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 20,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4029055189436",
+    "product_no": "50468262",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071242645-2920",
+    "name": "KEMISHE",
+    "brand": "POLO RALPH",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 50,
+    "original_price": 69,
+    "discount_percentage": 27,
+    "color": "BLUE",
+    "colors": [
+      "BLUE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "91% COTTON 9% ELASTANE",
+    "description": "KEMISHE",
+    "image": "https://modivo.it/p/polo-ralph-lauren-camicia-710929346017-blu-custom-fit-0000304999833",
+    "images": [
+      "https://modivo.it/p/polo-ralph-lauren-camicia-710929346017-blu-custom-fit-0000304999833"
+    ],
+    "features": [
+      "91% COTTON 9% ELASTANE",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 33,
+    "country_of_origin": "ID",
+    "cross_reference": "3616854761140",
+    "product_no": "710929346018",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239727-2921",
+    "name": "Portofol",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Accessories",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "302",
+    "colors": [
+      "302"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Lining: 40%Polyester",
+    "description": "Portofol",
+    "image": "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-m/238313.html?dwvar_238313_color=_EC",
+    "images": [
+      "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-m/238313.html?dwvar_238313_color=_EC"
+    ],
+    "features": [
+      "Lining: 40%Polyester",
+      "China design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Accessories",
+      "China",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 27,
+    "country_of_origin": "55%Polyurethane",
+    "cross_reference": "5608348711135",
+    "product_no": "238313_ECM",
+    "color_hex": "Wallets",
+    "season_year": "2",
+    "gender": "China",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071239537-2922",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Lining: 70%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/crossbody-bags/extendable-crossbody-bag-with-flap/237247.html?dwvar_237247_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/bags/crossbody-bags/extendable-crossbody-bag-with-flap/237247.html?dwvar_237247_color=_BK"
+    ],
+    "features": [
+      "Lining: 70%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 19,
+    "country_of_origin": "30%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348693066",
+    "product_no": "237247_BKM",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071242698-2923",
+    "name": "MAICE POLO",
+    "brand": "POLO RALPH",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MULTI",
+    "colors": [
+      "MULTI"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% COTTON",
+    "description": "MAICE POLO",
+    "image": "https://www.kularfashion.com/product/polo-ralph-lauren-custom-slim-fit-stripe-oxford-mesh-polo-shirt-sage-34280?srsltid=AfmBOop09_y4sXVrwNq-fuw2XnGuU-VdxpERIL3Z1DkeAu9TcFfCrWh7",
+    "images": [
+      "https://www.kularfashion.com/product/polo-ralph-lauren-custom-slim-fit-stripe-oxford-mesh-polo-shirt-sage-34280?srsltid=AfmBOop09_y4sXVrwNq-fuw2XnGuU-VdxpERIL3Z1DkeAu9TcFfCrWh7"
+    ],
+    "features": [
+      "100% COTTON",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 32,
+    "country_of_origin": "VN",
+    "cross_reference": "3616853588359",
+    "product_no": "710974596004",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245991-2924",
+    "name": "DUKS",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "62% Cotton 33% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546907758_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_5.jpg"
+    ],
+    "features": [
+      "62% Cotton 33% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 43,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548044093",
+    "product_no": "50548324",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071217898-2925",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT/PASTEL BLUE",
+    "colors": [
+      "LIGHT/PASTEL BLUE"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546345895_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 24,
+    "country_of_origin": "India",
+    "cross_reference": "4063546345871",
+    "product_no": "50539099",
+    "color_hex": "#B0E0E6",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071244589-2926",
+    "name": "Shall",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "306",
+    "price": 31,
+    "original_price": 46,
+    "discount_percentage": 32,
+    "color": "Scarves",
+    "colors": [
+      "Scarves"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Body: 30%Linen",
+    "description": "Shall",
+    "image": "https://www.parfois.com/en/si/accessories/scarves/printed-scarf-with-linen/239031.html?dwvar_239031_color=_BM",
+    "images": [
+      "https://www.parfois.com/en/si/accessories/scarves/printed-scarf-with-linen/239031.html?dwvar_239031_color=_BM"
+    ],
+    "features": [
+      "Body: 30%Linen",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "306",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 31,
+    "country_of_origin": "70%VISCOSE",
+    "cross_reference": "5608348720267",
+    "product_no": "239031_BMM",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071248809-2927",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 50%Iron",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dwb8f498c7/images/hi-res/252/52/239100_GD_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dwb8f498c7/images/hi-res/252/52/239100_GD_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Body: 50%Iron",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 46,
+    "country_of_origin": "50%Zinc",
+    "cross_reference": "5608348721202",
+    "product_no": "239100_GDU",
+    "color_hex": "GOLD",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239777-2928",
+    "name": "Fund",
+    "brand": "PARFOIS",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 47,
+    "original_price": 69,
+    "discount_percentage": 31,
+    "color": "COGNAC",
+    "colors": [
+      "COGNAC"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Body: 100%Polyurethane",
+    "description": "Fund",
+    "image": "https://www.parfois.com/en/si/clothing/skirts/long-leather-effect-skirt/237631.html?dwvar_237631_color=_CG",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/skirts/long-leather-effect-skirt/237631.html?dwvar_237631_color=_CG"
+    ],
+    "features": [
+      "Body: 100%Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 15,
+    "country_of_origin": "China",
+    "cross_reference": "5608348700177",
+    "product_no": "237631_CGM",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244655-2929",
+    "name": "Unazë",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Accessories",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "307",
+    "colors": [
+      "307"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Body: 40%Brass",
+    "description": "Unazë",
+    "image": "https://www.parfois.com/en/si/jewellery/rings/bar-ring-with-zircons/237877.html?dwvar_237877_color=_SV",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/rings/bar-ring-with-zircons/237877.html?dwvar_237877_color=_SV"
+    ],
+    "features": [
+      "Body: 40%Brass",
+      "China design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Accessories",
+      "China",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 9,
+    "country_of_origin": "40%Iron",
+    "cross_reference": "5608348702454",
+    "product_no": "237877_SVL",
+    "color_hex": "Jewelry",
+    "season_year": "2",
+    "gender": "China",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071244571-2930",
+    "name": "Shall",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "306",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Scarves",
+    "colors": [
+      "Scarves"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Body: 30%Linen",
+    "description": "Shall",
+    "image": "https://www.parfois.com/en/si/accessories/scarves/printed-scarf-with-linen/239031.html?dwvar_239031_color=_DM",
+    "images": [
+      "https://www.parfois.com/en/si/accessories/scarves/printed-scarf-with-linen/239031.html?dwvar_239031_color=_DM"
+    ],
+    "features": [
+      "Body: 30%Linen",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "306",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 23,
+    "country_of_origin": "70%VISCOSE",
+    "cross_reference": "5608348720274",
+    "product_no": "239031_DMM",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239654-2931",
+    "name": "Balerina",
+    "brand": "PARFOIS",
+    "category": "2",
+    "subcategory": "217",
+    "price": 13,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Ballerinas",
+    "colors": [
+      "Ballerinas"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "INSOLE : 100%Polyurethane / Lining: 40%Polyester",
+    "description": "Balerina",
+    "image": "https://www.parfois.com/en/si/shoes/ballerinas/sabrina-mule-with-buckles/238294.html?dwvar_238294_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/shoes/ballerinas/sabrina-mule-with-buckles/238294.html?dwvar_238294_color=_BK"
+    ],
+    "features": [
+      "INSOLE : 100%Polyurethane / Lining: 40%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "2",
+      "217",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 10,
+    "country_of_origin": "60%Polyurethane / UPPER: 100%Polyurethane / OUTSOLE: 100%Thermoplastic Polyurethane",
+    "cross_reference": "5608348712309",
+    "product_no": "238294_BK40",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071245993-2932",
+    "name": "DUKS",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "62% Cotton 33% Polyester 5% Elastane",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546907758_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546907758_5.jpg"
+    ],
+    "features": [
+      "62% Cotton 33% Polyester 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 14,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548044321",
+    "product_no": "50548324",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244613-2933",
+    "name": "Portofol",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "302",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Wallets",
+    "colors": [
+      "Wallets"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Lining: 40%Polyester",
+    "description": "Portofol",
+    "image": "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-and-double-zipper-closure/238842.html?dwvar_238842_color=_LL",
+    "images": [
+      "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-and-double-zipper-closure/238842.html?dwvar_238842_color=_LL"
+    ],
+    "features": [
+      "Lining: 40%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "302",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 28,
+    "country_of_origin": "60%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348718264",
+    "product_no": "238842_LLS",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239648-2934",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 50%Resin",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/oval-earrings-with-resin/237411.html?dwvar_237411_color=_GN",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/oval-earrings-with-resin/237411.html?dwvar_237411_color=_GN"
+    ],
+    "features": [
+      "Body: 50%Resin",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 17,
+    "country_of_origin": "50%Zinc",
+    "cross_reference": "5608348696937",
+    "product_no": "237411_GNU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244663-2935",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 5%Acrylic",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/set-with-open-hoop-earrings/238726.html?dwvar_238726_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/set-with-open-hoop-earrings/238726.html?dwvar_238726_color=_GD"
+    ],
+    "features": [
+      "Body: 5%Acrylic",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 53,
+    "country_of_origin": "95%Zinc",
+    "cross_reference": "5608348716918",
+    "product_no": "238726_GDU",
+    "color_hex": "GOLD",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071246004-2936",
+    "name": "BLUZË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "473",
+    "colors": [
+      "473"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "BLUZË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547808979_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 30,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547808948",
+    "product_no": "50468392",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244647-2937",
+    "name": "Gjerdan",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 50%Polyester",
+    "description": "Gjerdan",
+    "image": "https://www.parfois.com/en/si/jewellery/necklaces/necklace-with-heart-pendant/238979.html?dwvar_238979_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/necklaces/necklace-with-heart-pendant/238979.html?dwvar_238979_color=_BK"
+    ],
+    "features": [
+      "Body: 50%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 18,
+    "country_of_origin": "50%Zinc",
+    "cross_reference": "5608348719919",
+    "product_no": "238979_BKU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244372-2938",
+    "name": "Xhaketë",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "39% Viscose 31% Polyamide 25% Polyester 5% Elastane 100% Polyester",
+    "description": "Xhaketë",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546721828_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546721828_5.jpg"
+    ],
+    "features": [
+      "39% Viscose 31% Polyamide 25% Polyester 5% Elastane 100% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 50,
+    "country_of_origin": "Indonesia",
+    "cross_reference": "4063547193488",
+    "product_no": "50544597",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246036-2939",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "50",
+    "sizes": [
+      "50"
+    ],
+    "material": "95% Polyester (recycled) 5% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545463989_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_5.jpg"
+    ],
+    "features": [
+      "95% Polyester (recycled) 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 37,
+    "country_of_origin": "Indonesia",
+    "cross_reference": "4063545463941",
+    "product_no": "50534313",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239782-2940",
+    "name": "Byzylykë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "HALFTONE MULTICOLOR",
+    "colors": [
+      "HALFTONE MULTICOLOR"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Thermoplastic Polyurethane",
+    "description": "Byzylykë",
+    "image": "https://www.parfois.com/en/si/jewellery/bracelets/set-of-elastic-bracelets/239890.html?dwvar_239890_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/bracelets/set-of-elastic-bracelets/239890.html?dwvar_239890_color=_HM"
+    ],
+    "features": [
+      "Body: 100%Thermoplastic Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 43,
+    "country_of_origin": "China",
+    "cross_reference": "5608348733021",
+    "product_no": "239890_HMU",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246050-2941",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "244",
+    "colors": [
+      "244"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "90% Cotton 10% Silk",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547782934_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547782934_5.jpg"
+    ],
+    "features": [
+      "90% Cotton 10% Silk",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 54,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548400639",
+    "product_no": "50554093",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244661-2942",
+    "name": "Gjerdan",
+    "brand": "PARFOIS",
+    "category": "2",
+    "subcategory": "2025",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "3",
+    "colors": [
+      "3"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 30%Glass",
+    "description": "Gjerdan",
+    "image": "https://www.parfois.com/en/si/jewellery/necklaces/necklace-with-shells-and-glass-beads/235026.html?dwvar_235026_color=_WT",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/necklaces/necklace-with-shells-and-glass-beads/235026.html?dwvar_235026_color=_WT"
+    ],
+    "features": [
+      "Body: 30%Glass",
+      "8%Wood design",
+      "For india",
+      "female collection"
+    ],
+    "tags": [
+      "2",
+      "2025",
+      "8%Wood",
+      "India",
+      "female"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 23,
+    "country_of_origin": "50%Iron",
+    "cross_reference": "5608348672870",
+    "product_no": "235026_WTU",
+    "color_hex": "Accessories",
+    "season_year": "8",
+    "gender": "8%Wood",
+    "age_class": "India",
+    "season": "female"
+  },
+  {
+    "id": "albi-071239793-2943",
+    "name": "Unazë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Body: 100%Copper",
+    "description": "Unazë",
+    "image": "https://www.parfois.com/en/si/jewellery/rings/wide-ring-with-bars/239849.html?dwvar_239849_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/rings/wide-ring-with-bars/239849.html?dwvar_239849_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Copper",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 46,
+    "country_of_origin": "China",
+    "cross_reference": "5608348732208",
+    "product_no": "239849_GDS",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071235384-2944",
+    "name": "Pantallona",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BROWN",
+    "colors": [
+      "DARK BROWN"
+    ],
+    "size": "38",
+    "sizes": [
+      "38"
+    ],
+    "material": "72% Poliester 25% Viskozë 3% Elastanë",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546730066_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546730066_5.jpg"
+    ],
+    "features": [
+      "72% Poliester 25% Viskozë 3% Elastanë",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 16,
+    "country_of_origin": "Turqi",
+    "cross_reference": "4063547430125",
+    "product_no": "50544107",
+    "color_hex": "#654321",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244576-2945",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Lining: 60%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/shoppers/leather-effect-shopper-bag/238232.html?dwvar_238232_color=_CA",
+    "images": [
+      "https://www.parfois.com/en/si/bags/shoppers/leather-effect-shopper-bag/238232.html?dwvar_238232_color=_CA"
+    ],
+    "features": [
+      "Lining: 60%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 23,
+    "country_of_origin": "40%Polyurethane / Exterior: 100%Polyester",
+    "cross_reference": "5608348709071",
+    "product_no": "238232_CAL",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244672-2946",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 30%Thermoplastic Polyurethane",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/open-hoop-earrings-with-stones/238639.html?dwvar_238639_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/open-hoop-earrings-with-stones/238639.html?dwvar_238639_color=_HM"
+    ],
+    "features": [
+      "Body: 30%Thermoplastic Polyurethane",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 37,
+    "country_of_origin": "70%Zinc",
+    "cross_reference": "5608348715867",
+    "product_no": "238639_HMU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244584-2947",
+    "name": "Ponço",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "108",
+    "colors": [
+      "108"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 24%Polyamide",
+    "description": "Ponço",
+    "image": "https://www.parfois.com/en/si/clothing/ponchos-and-kimonos/knitted-poncho-with-stitching-detail/237422.html?dwvar_237422_color=_DG",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/ponchos-and-kimonos/knitted-poncho-with-stitching-detail/237422.html?dwvar_237422_color=_DG"
+    ],
+    "features": [
+      "Body: 24%Polyamide",
+      "China design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "China",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 24,
+    "country_of_origin": "28%Polyester",
+    "cross_reference": "5608348697163",
+    "product_no": "237422_DGU",
+    "color_hex": "Cardigans",
+    "season_year": "2",
+    "gender": "China",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071244716-2948",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 40%Resin",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/flower-earrings-with-resin/241036.html?dwvar_241036_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/flower-earrings-with-resin/241036.html?dwvar_241036_color=_BK"
+    ],
+    "features": [
+      "Body: 40%Resin",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 32,
+    "country_of_origin": "60%Zinc",
+    "cross_reference": "5608348749510",
+    "product_no": "241036_BKU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244590-2949",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "301",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bags",
+    "colors": [
+      "Bags"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Lining: 90%Polyester",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/en/si/bags/shoulder-bags/padded-shoulder-bag-with-flap/238665.html?dwvar_238665_color=_BK",
+    "images": [
+      "https://www.parfois.com/en/si/bags/shoulder-bags/padded-shoulder-bag-with-flap/238665.html?dwvar_238665_color=_BK"
+    ],
+    "features": [
+      "Lining: 90%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "301",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 21,
+    "country_of_origin": "10%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348716222",
+    "product_no": "238665_BKS",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071245832-2950",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063541364396_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 31,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063541364228",
+    "product_no": "50506373",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244725-2951",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Zinc",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/long-earrings-stars/238982.html?dwvar_238982_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/long-earrings-stars/238982.html?dwvar_238982_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Zinc",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 35,
+    "country_of_origin": "China",
+    "cross_reference": "5608348719940",
+    "product_no": "238982_GDU",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244623-2952",
+    "name": "Fustan",
+    "brand": "PARFOIS",
+    "category": "1",
+    "subcategory": "119",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Dresses",
+    "colors": [
+      "Dresses"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Body: 29%Polyamide",
+    "description": "Fustan",
+    "image": "https://www.parfois.com/en/si/clothing/dresses/midi-shirt-dress/238089.html?dwvar_238089_color=_KK",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/dresses/midi-shirt-dress/238089.html?dwvar_238089_color=_KK"
+    ],
+    "features": [
+      "Body: 29%Polyamide",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "1",
+      "119",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 39,
+    "country_of_origin": "71%VISCOSE",
+    "cross_reference": "5608348705806",
+    "product_no": "238089_KKL",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071235411-2953",
+    "name": "Xhaketë",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambukë",
+    "description": "Xhaketë",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546713663_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546713663_5.jpg"
+    ],
+    "features": [
+      "100% Pambukë",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 31,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063546713663",
+    "product_no": "50544628",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246644-2954",
+    "name": "TË BRENDSHME",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Underwear",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "965",
+    "colors": [
+      "965"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "TË BRENDSHME",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547929179_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547929179_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547929179_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547929179_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547929179_4.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Underwear",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 12,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063547930335",
+    "product_no": "50531684",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239691-2955",
+    "name": "Xhup",
+    "brand": "PARFOIS",
+    "category": "1",
+    "subcategory": "114",
+    "price": 32,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Sweatshirts",
+    "colors": [
+      "Sweatshirts"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Body: 81%Cotton",
+    "description": "Xhup",
+    "image": "https://www.parfois.com/en/si/clothing/sweatshirts/sleeveless-sweatshirt/238538.html?dwvar_238538_color=_AN",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/sweatshirts/sleeveless-sweatshirt/238538.html?dwvar_238538_color=_AN"
+    ],
+    "features": [
+      "Body: 81%Cotton",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "1",
+      "114",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 40,
+    "country_of_origin": "19%Polyamide",
+    "cross_reference": "5608348714433",
+    "product_no": "238538_ANS",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244694-2956",
+    "name": "Unazë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Body: 100%Zinc",
+    "description": "Unazë",
+    "image": "https://www.parfois.com/en/si/jewellery/rings/star-ring/238978.html?dwvar_238978_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/rings/star-ring/238978.html?dwvar_238978_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Zinc",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 34,
+    "country_of_origin": "China",
+    "cross_reference": "5608348719902",
+    "product_no": "238978_GDS",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071235471-2957",
+    "name": "Atlete",
+    "brand": "HUGO",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 46,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "100% Poliester Sole 100% Rubber Upper material 60% Poliester 40% Poliuretane Innersole 100%",
+    "description": "Atlete",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546804118_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546804118_1.jpg"
+    ],
+    "features": [
+      "100% Poliester Sole 100% Rubber Upper material 60% Poliester 40% Poliuretane Innersole 100%",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 19,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546804118",
+    "product_no": "50548507",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245819-2958",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "017",
+    "colors": [
+      "017"
+    ],
+    "size": "32-32",
+    "sizes": [
+      "32-32"
+    ],
+    "material": "92% Cotton 6% Elastomultiester 2% Elastane",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063543483439_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_5.jpg"
+    ],
+    "features": [
+      "92% Cotton 6% Elastomultiester 2% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 7,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063543483262",
+    "product_no": "50520851",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239651-2959",
+    "name": "Zinxhirë çelësash",
+    "brand": "PARFOIS",
+    "category": "Adult",
+    "subcategory": "Fall/Winter",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "2025",
+    "colors": [
+      "2025"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 20%Cotton",
+    "description": "Zinxhirë çelësash",
+    "image": "https://www.parfois.com/en/si/accessories/keychains/bear-keychain-charm/240083.html?dwvar_240083_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/accessories/keychains/bear-keychain-charm/240083.html?dwvar_240083_color=_HM"
+    ],
+    "features": [
+      "Body: 20%Cotton",
+      "25%Polyamide design",
+      "For 25%zinc / ring: 100%zinc",
+      "2 collection"
+    ],
+    "tags": [
+      "Adult",
+      "Fall/Winter",
+      "25%Polyamide",
+      "25%Zinc / Ring: 100%Zinc",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 41,
+    "country_of_origin": "5%Enamel",
+    "cross_reference": "5608348735513",
+    "product_no": "240083_HMU",
+    "color_hex": "3",
+    "season_year": "female",
+    "gender": "25%Polyamide",
+    "age_class": "25%Zinc / Ring: 100%Zinc",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244606-2960",
+    "name": "Pantallona",
+    "brand": "PARFOIS",
+    "category": "Fall/Winter",
+    "subcategory": "1",
+    "price": 29,
+    "original_price": 41,
+    "discount_percentage": 29,
+    "color": "Apparel",
+    "colors": [
+      "Apparel"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "Body: 19%Cotton",
+    "description": "Pantallona",
+    "image": "https://www.parfois.com/en/si/clothing/trousers/elastic-waist-pants-with-pockets/238308.html?dwvar_238308_color=_YL",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/trousers/elastic-waist-pants-with-pockets/238308.html?dwvar_238308_color=_YL"
+    ],
+    "features": [
+      "Body: 19%Cotton",
+      "54%Polyester design",
+      "For 2",
+      "8 collection"
+    ],
+    "tags": [
+      "Fall/Winter",
+      "1",
+      "54%Polyester",
+      "2",
+      "8"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 40,
+    "country_of_origin": "7%Elastane",
+    "cross_reference": "5608348711081",
+    "product_no": "238308_YLS",
+    "color_hex": "104",
+    "season_year": "Adult",
+    "gender": "54%Polyester",
+    "age_class": "2",
+    "season": "8"
+  },
+  {
+    "id": "albi-071239657-2961",
+    "name": "Byzylykë",
+    "brand": "PARFOIS",
+    "category": "2025",
+    "subcategory": "Accessories",
+    "price": 13,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "307",
+    "colors": [
+      "307"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 35%Resin",
+    "description": "Byzylykë",
+    "image": "https://www.parfois.com/en/si/jewellery/bracelets/elastic-bracelet-with-multicolor-stones/237477.html?dwvar_237477_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/bracelets/elastic-bracelet-with-multicolor-stones/237477.html?dwvar_237477_color=_HM"
+    ],
+    "features": [
+      "Body: 35%Resin",
+      "China design",
+      "For female",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Accessories",
+      "China",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 31,
+    "country_of_origin": "15%Stone",
+    "cross_reference": "5608348697767",
+    "product_no": "237477_HMU",
+    "color_hex": "Jewelry",
+    "season_year": "2",
+    "gender": "China",
+    "age_class": "female",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-071244577-2962",
+    "name": "Brosh",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 10%Iron",
+    "description": "Brosh",
+    "image": "https://www.parfois.com/en/si/jewellery/pins/brooch-with-heart/237913.html?dwvar_237913_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/pins/brooch-with-heart/237913.html?dwvar_237913_color=_GD"
+    ],
+    "features": [
+      "Body: 10%Iron",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 53,
+    "country_of_origin": "90%Zinc",
+    "cross_reference": "5608348702805",
+    "product_no": "237913_GDU",
+    "color_hex": "GOLD",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244666-2963",
+    "name": "Byzylykë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 60%Acrylic",
+    "description": "Byzylykë",
+    "image": "https://www.parfois.com/en/si/jewellery/bracelets/set-of-multicolor-bracelets-with-resin/240239.html?dwvar_240239_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/bracelets/set-of-multicolor-bracelets-with-resin/240239.html?dwvar_240239_color=_HM"
+    ],
+    "features": [
+      "Body: 60%Acrylic",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 54,
+    "country_of_origin": "40%Resin",
+    "cross_reference": "5608348737302",
+    "product_no": "240239_HMU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071239689-2964",
+    "name": "Portofol",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "302",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Wallets",
+    "colors": [
+      "Wallets"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "Lining: 60%Polyester",
+    "description": "Portofol",
+    "image": "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-l/238311.html?dwvar_238311_color=_BU",
+    "images": [
+      "https://www.parfois.com/en/si/wallets/wallets/wallet-with-texture-l/238311.html?dwvar_238311_color=_BU"
+    ],
+    "features": [
+      "Lining: 60%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "302",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 6,
+    "country_of_origin": "40%Polyurethane / Exterior: 100%Polyurethane",
+    "cross_reference": "5608348711104",
+    "product_no": "238311_BUL",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244583-2965",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Brass",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/open-golden-hoop-earrings/238968.html?dwvar_238968_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/open-golden-hoop-earrings/238968.html?dwvar_238968_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Brass",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 12,
+    "country_of_origin": "China",
+    "cross_reference": "5608348719728",
+    "product_no": "238968_GDU",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244658-2966",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 35%Thermoplastic Polyurethane",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/golden-hoop-earrings-with-resin/223120.html?dwvar_223120_color=_LN",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/golden-hoop-earrings-with-resin/223120.html?dwvar_223120_color=_LN"
+    ],
+    "features": [
+      "Body: 35%Thermoplastic Polyurethane",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 24,
+    "country_of_origin": "65%Zinc",
+    "cross_reference": "5608348697873",
+    "product_no": "223120_LNU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071244692-2967",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 100%Brass",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/en/si/jewellery/earrings/mussel-earrings/235123.html?dwvar_235123_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/earrings/mussel-earrings/235123.html?dwvar_235123_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Brass",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 49,
+    "country_of_origin": "China",
+    "cross_reference": "5608348674188",
+    "product_no": "235123_GDU",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244668-2968",
+    "name": "Aksesorë flokësh",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "311",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Hair Accessories",
+    "colors": [
+      "Hair Accessories"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 85%Polyester",
+    "description": "Aksesorë flokësh",
+    "image": "https://www.parfois.com/en/si/accessories/hair-accessories/twisted-effect-hair-tie-set/239066.html?dwvar_239066_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/accessories/hair-accessories/twisted-effect-hair-tie-set/239066.html?dwvar_239066_color=_HM"
+    ],
+    "features": [
+      "Body: 85%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "311",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 52,
+    "country_of_origin": "15%Thermoplastic Polyurethane",
+    "cross_reference": "5608348720885",
+    "product_no": "239066_HMU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071246829-2969",
+    "name": "KOSTUMË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suits",
+    "price": 47,
+    "original_price": 67,
+    "discount_percentage": 29,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "100% Virgin wool",
+    "description": "KOSTUMË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548036784_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548036784_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548036784_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548036784_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548036784_4.jpg"
+    ],
+    "features": [
+      "100% Virgin wool",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suits",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 8,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548036784",
+    "product_no": "50549626",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245825-2970",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 39,
+    "original_price": 55,
+    "discount_percentage": 29,
+    "color": "017",
+    "colors": [
+      "017"
+    ],
+    "size": "34-34",
+    "sizes": [
+      "34-34"
+    ],
+    "material": "92% Cotton 6% Elastomultiester 2% Elastane",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063543483439_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063543483439_5.jpg"
+    ],
+    "features": [
+      "92% Cotton 6% Elastomultiester 2% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 18,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063543483354",
+    "product_no": "50520851",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071239734-2971",
+    "name": "Jelek",
+    "brand": "PARFOIS",
+    "category": "1",
+    "subcategory": "131",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Vest",
+    "colors": [
+      "Vest"
+    ],
+    "size": "M-L",
+    "sizes": [
+      "M-L"
+    ],
+    "material": "Body: 44%Polyester",
+    "description": "Jelek",
+    "image": "https://www.parfois.com/en/si/clothing/tops-and-t-shirts/knit-vest-with-stripes/237930.html?dwvar_237930_color=_BM",
+    "images": [
+      "https://www.parfois.com/en/si/clothing/tops-and-t-shirts/knit-vest-with-stripes/237930.html?dwvar_237930_color=_BM"
+    ],
+    "features": [
+      "Body: 44%Polyester",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "1",
+      "131",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 31,
+    "country_of_origin": "56%recycled polyester",
+    "cross_reference": "5608348703161",
+    "product_no": "237930_BMM-L",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071245905-2972",
+    "name": "BLUZË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "058",
+    "colors": [
+      "058"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "70% Lyocell 30% Wool",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548126201_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548126201_5.jpg"
+    ],
+    "features": [
+      "70% Lyocell 30% Wool",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 11,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063546902197",
+    "product_no": "50550639",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244721-2973",
+    "name": "Byzylykë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 10%Steel",
+    "description": "Byzylykë",
+    "image": "https://www.parfois.com/en/si/jewellery/bracelets/braided-bracelet/232128.html?dwvar_232128_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/bracelets/braided-bracelet/232128.html?dwvar_232128_color=_GD"
+    ],
+    "features": [
+      "Body: 10%Steel",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 43,
+    "country_of_origin": "90%Zinc",
+    "cross_reference": "5608348625890",
+    "product_no": "232128_GDU",
+    "color_hex": "GOLD",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071248954-2974",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 70%Glass",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw824a9e23/images/hi-res/252/52/239550_PE_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw824a9e23/images/hi-res/252/52/239550_PE_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Body: 70%Glass",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 28,
+    "country_of_origin": "30%Iron",
+    "cross_reference": "5608348727051",
+    "product_no": "239550_PEU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071245879-2975",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "358",
+    "colors": [
+      "358"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "72% Cotton 23% Lyocell 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548043126_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548043126_5.jpg"
+    ],
+    "features": [
+      "72% Cotton 23% Lyocell 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 54,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063548042907",
+    "product_no": "50548093",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245844-2976",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547297308_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 40,
+    "country_of_origin": "Peru",
+    "cross_reference": "4063547297322",
+    "product_no": "50551139",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246006-2977",
+    "name": "BLUZË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "473",
+    "colors": [
+      "473"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% Cotton",
+    "description": "BLUZË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547808979_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547808979_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 14,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547808979",
+    "product_no": "50468392",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245910-2978",
+    "name": "BLUZË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "70% Lyocell 30% Wool",
+    "description": "BLUZË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548127260_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548127260_5.jpg"
+    ],
+    "features": [
+      "70% Lyocell 30% Wool",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 6,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063548127260",
+    "product_no": "50550639",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071248979-2979",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BROWN",
+    "colors": [
+      "BROWN"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Lining: 100%Polyester / Int Comp 1: 100%Polyester / Ext Comp 1: 100%Polyurethane / Exterior: 100%Polyurethane",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dwde3c88ec/images/hi-res/252/54/240795_BN_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dwde3c88ec/images/hi-res/252/54/240795_BN_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Lining: 100%Polyester / Int Comp 1: 100%Polyester / Ext Comp 1: 100%Polyurethane / Exterior: 100%Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 24,
+    "country_of_origin": "China",
+    "cross_reference": "5608348745703",
+    "product_no": "240795_BNM",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244707-2980",
+    "name": "Unazë",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Jewelry",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GOLD",
+    "colors": [
+      "GOLD"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Body: 100%Zinc",
+    "description": "Unazë",
+    "image": "https://www.parfois.com/en/si/jewellery/rings/star-ring/238978.html?dwvar_238978_color=_GD",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/rings/star-ring/238978.html?dwvar_238978_color=_GD"
+    ],
+    "features": [
+      "Body: 100%Zinc",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Jewelry",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 51,
+    "country_of_origin": "China",
+    "cross_reference": "5608348719896",
+    "product_no": "238978_GDM",
+    "color_hex": "#FFD700",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245930-2981",
+    "name": "DUKS",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweatshirts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "245",
+    "colors": [
+      "245"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "86% Cotton 14% Polyester",
+    "description": "DUKS",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547891865_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547891865_5.jpg"
+    ],
+    "features": [
+      "86% Cotton 14% Polyester",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweatshirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 8,
+    "country_of_origin": "Morocco",
+    "cross_reference": "4063547892169",
+    "product_no": "50520303",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071244727-2982",
+    "name": "Gjerdan",
+    "brand": "PARFOIS",
+    "category": "2",
+    "subcategory": "2025",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "3",
+    "colors": [
+      "3"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 20%Enamel",
+    "description": "Gjerdan",
+    "image": "https://www.parfois.com/en/si/jewellery/necklaces/set-of-necklaces-with-stone-pendants/238646.html?dwvar_238646_color=_HM",
+    "images": [
+      "https://www.parfois.com/en/si/jewellery/necklaces/set-of-necklaces-with-stone-pendants/238646.html?dwvar_238646_color=_HM"
+    ],
+    "features": [
+      "Body: 20%Enamel",
+      "20%Stone design",
+      "For china",
+      "female collection"
+    ],
+    "tags": [
+      "2",
+      "2025",
+      "20%Stone",
+      "China",
+      "female"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 33,
+    "country_of_origin": "20%Iron",
+    "cross_reference": "5608348715959",
+    "product_no": "238646_HMU",
+    "color_hex": "Accessories",
+    "season_year": "8",
+    "gender": "20%Stone",
+    "age_class": "China",
+    "season": "female"
+  },
+  {
+    "id": "albi-071246137-2983",
+    "name": "TRENERKA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Fleece Pants",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "99% Polyester 1% Elastane",
+    "description": "TRENERKA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548121039_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548121039_5.jpg"
+    ],
+    "features": [
+      "99% Polyester 1% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Fleece Pants",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 29,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548120704",
+    "product_no": "50549713",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246022-2984",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "245",
+    "colors": [
+      "245"
+    ],
+    "size": "34-34",
+    "sizes": [
+      "34-34"
+    ],
+    "material": "60% Cotton 33% Polyamide (recycled) 7% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548079231_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548079231_5.jpg"
+    ],
+    "features": [
+      "60% Cotton 33% Polyamide (recycled) 7% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 37,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063548080831",
+    "product_no": "50543945",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246038-2985",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 35,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "95% Polyester (recycled) 5% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545463989_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545463989_5.jpg"
+    ],
+    "features": [
+      "95% Polyester (recycled) 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 49,
+    "country_of_origin": "Indonesia",
+    "cross_reference": "4063545464016",
+    "product_no": "50534313",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246210-2986",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "38-34",
+    "sizes": [
+      "38-34"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547175316_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547175316_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 18,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063547175569",
+    "product_no": "50543312",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071249046-2987",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 46,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 10%Acrylic",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw2d78bd16/images/hi-res/252/52/239746_GD_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw2d78bd16/images/hi-res/252/52/239746_GD_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Body: 10%Acrylic",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 10,
+    "country_of_origin": "90%Brass",
+    "cross_reference": "5608348730846",
+    "product_no": "239746_GDU",
+    "color_hex": "GOLD",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-071245835-2988",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547247662_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547247662_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 23,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547247662",
+    "product_no": "50543885",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071235925-2989",
+    "name": "Pantallona",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "NAVY",
+    "colors": [
+      "NAVY"
+    ],
+    "size": "32",
+    "sizes": [
+      "32"
+    ],
+    "material": "99% Pambukë (5% i ricikluar) 1% Elastanë",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546699509_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546699509_5.jpg"
+    ],
+    "features": [
+      "99% Pambukë (5% i ricikluar) 1% Elastanë",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 54,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063546699509",
+    "product_no": "50542689",
+    "color_hex": "#000080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246093-2990",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "416",
+    "colors": [
+      "416"
+    ],
+    "size": "27-32",
+    "sizes": [
+      "27-32"
+    ],
+    "material": "95% Cotton 4% Polyester 1% Elastane",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547910450_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547910450_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 4% Polyester 1% Elastane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 54,
+    "country_of_origin": "Egypt",
+    "cross_reference": "4063546883342",
+    "product_no": "50546329",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246232-2991",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "34-34",
+    "sizes": [
+      "34-34"
+    ],
+    "material": "60% Cotton 33% Polyamide (recycled) 7% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547260432_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547260432_5.jpg"
+    ],
+    "features": [
+      "60% Cotton 33% Polyamide (recycled) 7% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 17,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547260487",
+    "product_no": "50543945",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245831-2992",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063541364396_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541364396_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 54,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063539826882",
+    "product_no": "50506373",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246008-2993",
+    "name": "BLUZË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "BLUZË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547900642_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547900642_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 5,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063547900345",
+    "product_no": "50523917",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246963-2994",
+    "name": "XHAKETË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "48",
+    "sizes": [
+      "48"
+    ],
+    "material": "85% Polyamide 15% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547851890_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547851890_5.jpg"
+    ],
+    "features": [
+      "85% Polyamide 15% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 42,
+    "country_of_origin": "Bulgaria",
+    "cross_reference": "4063546900490",
+    "product_no": "50547203",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246310-2995",
+    "name": "PULLOVER",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweaters",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "89% Cotton 10% Polyester 1% Elastane",
+    "description": "PULLOVER",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063539097893_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539097893_5.jpg"
+    ],
+    "features": [
+      "89% Cotton 10% Polyester 1% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweaters",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 10,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063539097930",
+    "product_no": "50498518",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071249077-2996",
+    "name": "Çantë dore",
+    "brand": "PARFOIS",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ECRU",
+    "colors": [
+      "ECRU"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "Lining: 100%Polyester / Int Comp 1: 100%Polyester / Ext Comp 1: 100%Polyurethane / Exterior: 100%Polyurethane",
+    "description": "Çantë dore",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw2f2394f5/images/hi-res/252/54/240795_EC_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw2f2394f5/images/hi-res/252/54/240795_EC_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Lining: 100%Polyester / Int Comp 1: 100%Polyester / Ext Comp 1: 100%Polyurethane / Exterior: 100%Polyurethane",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 34,
+    "country_of_origin": "China",
+    "cross_reference": "5608348745710",
+    "product_no": "240795_ECM",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245843-2997",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547297308_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547297308_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 38,
+    "country_of_origin": "Peru",
+    "cross_reference": "4063547297308",
+    "product_no": "50551139",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071245858-2998",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN GREEN",
+    "colors": [
+      "OPEN GREEN"
+    ],
+    "size": "30-34",
+    "sizes": [
+      "30-34"
+    ],
+    "material": "97% Cotton 3% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063548387534_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063548387534_5.jpg"
+    ],
+    "features": [
+      "97% Cotton 3% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 8,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063548387466",
+    "product_no": "50555161",
+    "color_hex": "#90EE90",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071246328-2999",
+    "name": "PULLOVER",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Sweaters",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "PULLOVER",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063541876936_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541876936_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweaters",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 22,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063541876967",
+    "product_no": "50516914",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071249089-3000",
+    "name": "Vathë",
+    "brand": "PARFOIS",
+    "category": "3",
+    "subcategory": "307",
+    "price": 32,
+    "original_price": 44,
+    "discount_percentage": 27,
+    "color": "Jewelry",
+    "colors": [
+      "Jewelry"
+    ],
+    "size": "U",
+    "sizes": [
+      "U"
+    ],
+    "material": "Body: 50%Thermoplastic Polyurethane",
+    "description": "Vathë",
+    "image": "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw07a6fbcf/images/hi-res/252/52/239742_MM_1yf.jpg?sw=1920",
+    "images": [
+      "https://www.parfois.com/dw/image/v2/BBKR_PRD/on/demandware.static/-/Sites-parfois-master-catalog/default/dw07a6fbcf/images/hi-res/252/52/239742_MM_1yf.jpg?sw=1920"
+    ],
+    "features": [
+      "Body: 50%Thermoplastic Polyurethane",
+      "2 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "3",
+      "307",
+      "2",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 25,
+    "country_of_origin": "50%Zinc",
+    "cross_reference": "5608348730761",
+    "product_no": "239742_MMU",
+    "color_hex": "",
+    "season_year": "Fall/Winter",
+    "gender": "2",
+    "age_class": "8",
+    "season": "2"
+  }
+]

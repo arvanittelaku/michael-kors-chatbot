@@ -1,0 +1,4842 @@
+[
+  {
+    "id": "albi-011278723-301",
+    "name": "Mbulese Shtrati Dyshe - Essence",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 48,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "PINK",
+    "colors": [
+      "PINK"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "65% Poliester 35% Pambuk",
+    "description": "Mbulese Shtrati Dyshe - Essence",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353625763.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353625763.jpg"
+    ],
+    "features": [
+      "65% Poliester 35% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 18,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353625763",
+    "product_no": "8697353625763",
+    "color_hex": "#FFC0CB",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278751-302",
+    "name": "Set Jorgan Dyshe - Nova",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 61,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "Poliester",
+    "description": "Set Jorgan Dyshe - Nova",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353638220.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353638220.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353638220_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353638220_2.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353638220_3.jpg"
+    ],
+    "features": [
+      "Poliester",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 16,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353638220",
+    "product_no": "8697353638220",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-011292998-303",
+    "name": "Mantel Dushi - Fashion Line",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "S/M",
+    "sizes": [
+      "S/M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Fashion Line",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208.jpeg?lastmod=1140-20250106",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208.jpeg?lastmod=1140-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208_1.jpeg?lastmod=1140-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208_1.jpeg?lastmod=1140-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208_1.jpeg?lastmod=1140-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327KREM_8697353577208_1.jpeg?lastmod=1140-20250106"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 34,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353577123",
+    "product_no": "8697353577123",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011140273-304",
+    "name": "Peshqir Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658.jpeg?lastmod=1735-20230324",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327BEJ_8697353545658_1.jpeg?lastmod=1735-20230324"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 24,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545658",
+    "product_no": "8697353545658",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011140235-305",
+    "name": "Peshqir Fytyre - Acacia",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk Organik",
+    "description": "Peshqir Fytyre - Acacia",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353516931.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353516931.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353516931_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353516931_2.jpg"
+    ],
+    "features": [
+      "100% Pambuk Organik",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 11,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353516931",
+    "product_no": "8697353516931",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011216414-306",
+    "name": "Jastek - Cars Yellow",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "403",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bedroom",
+    "colors": [
+      "Bedroom"
+    ],
+    "size": "Standard",
+    "sizes": [
+      "Standard"
+    ],
+    "material": "mbushka: silikon",
+    "description": "Jastek - Cars Yellow",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353590290.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353590290.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353590290_1.jpg"
+    ],
+    "features": [
+      "mbushka: silikon",
+      "3 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "403",
+      "3",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 13,
+    "country_of_origin": "veshja 100% pambuk",
+    "cross_reference": "8697353590290",
+    "product_no": "8697353590290",
+    "color_hex": "RED",
+    "season_year": "NOS",
+    "gender": "3",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011122235-307",
+    "name": "Peshqir - Colourist",
+    "brand": "SHEFAME",
+    "category": "Apparel",
+    "subcategory": "Bathroom",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 22,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545368",
+    "product_no": "8697353545368",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122269-308",
+    "name": "Çarçaf Dysheku Njeshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 78,
+    "original_price": 98,
+    "discount_percentage": 20,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Njeshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177.jpeg?lastmod=1547-20240425",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177.jpeg?lastmod=1547-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177_1.jpeg?lastmod=1548-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177_1.jpeg?lastmod=1548-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177_1.jpeg?lastmod=1548-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327ACIKGRI_8697353558177_1.jpeg?lastmod=1548-20240425"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 25,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353558177",
+    "product_no": "8697353558177",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011208887-309",
+    "name": "Jastek Visco Aircomfort",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Home",
+    "price": 65,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "403",
+    "colors": [
+      "403"
+    ],
+    "size": "Standard",
+    "sizes": [
+      "Standard"
+    ],
+    "material": "Mbulesa: 65% mikro fibër 20% monofilament",
+    "description": "Jastek Visco Aircomfort",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353577789.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353577789.jpg"
+    ],
+    "features": [
+      "Mbulesa: 65% mikro fibër 20% monofilament",
+      "Turqi design",
+      "For unisex",
+      "Adult collection"
+    ],
+    "tags": [
+      "Home",
+      "Turqi",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 15,
+    "country_of_origin": "15% pëlhurë e thurura e përzier me material elastik",
+    "cross_reference": "8697353577789",
+    "product_no": "8697353577789",
+    "color_hex": "Bedroom",
+    "season_year": "3",
+    "gender": "Turqi",
+    "age_class": "unisex",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-011278783-310",
+    "name": "Mantel Dushi - Bright",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "S/M",
+    "sizes": [
+      "S/M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Bright",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493.jpeg?lastmod=0825-20231005",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493.jpeg?lastmod=0825-20231005",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493_1.jpeg?lastmod=0825-20231005",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493_1.jpeg?lastmod=0825-20231005",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493_1.jpeg?lastmod=0825-20231005",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493_1.jpeg?lastmod=0825-20231005",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58249301327KREM_8697353582493_2.jpeg?lastmod=0825-20231005"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 38,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353582578",
+    "product_no": "8697353582578",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011140198-311",
+    "name": "Mantel Dushi - Blanc",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Blanc",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353481574.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353481574.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 16,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353481574",
+    "product_no": "8697353481574",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293045-312",
+    "name": "Set Peshqir Fytyre - Plaid Moderna",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Peshqir Fytyre - Plaid Moderna",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353629631.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353629631.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 52,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353629631",
+    "product_no": "8697353629631",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011316754-313",
+    "name": "Set Çarçafesh & Mbulese - Maze",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 82,
+    "original_price": 107,
+    "discount_percentage": 23,
+    "color": "INDIGO",
+    "colors": [
+      "INDIGO"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Çarçafesh & Mbulese - Maze",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353625435.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353625435.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 12,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353625435",
+    "product_no": "8697353625435",
+    "color_hex": "#4B0082",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011195628-314",
+    "name": "Peshqir Fytyre - Fashion",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 9,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Fytyre - Fashion",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57205001327BEJ_8697353572081.jpeg?lastmod=1010-20221123",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57205001327BEJ_8697353572081.jpeg?lastmod=1010-20221123"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 8,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353572081",
+    "product_no": "8697353572081",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293063-315",
+    "name": "Set Çarçafe Bebesh - Pink Ballon",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 58,
+    "original_price": 72,
+    "discount_percentage": 19,
+    "color": "PINK",
+    "colors": [
+      "PINK"
+    ],
+    "size": "BABY",
+    "sizes": [
+      "BABY"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Çarçafe Bebesh - Pink Ballon",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066.jpeg?lastmod=1355-20241015",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066.jpeg?lastmod=1355-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066_1.jpeg?lastmod=1355-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066_1.jpeg?lastmod=1355-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066_1.jpeg?lastmod=1355-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066_1.jpeg?lastmod=1355-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63606601327PEMBE_8697353636066_2.jpeg?lastmod=1355-20241015"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 40,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353636066",
+    "product_no": "8697353636066",
+    "color_hex": "#FFC0CB",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056784-316",
+    "name": "Set Carcafe Dyshe - Daisy",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ASSORTED",
+    "colors": [
+      "ASSORTED"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% pambuk",
+    "description": "Set Carcafe Dyshe - Daisy",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353509568.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353509568.jpg"
+    ],
+    "features": [
+      "100% pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 16,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353509568",
+    "product_no": "8697353509568",
+    "color_hex": "#CCCCCC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056532-317",
+    "name": "Peshqir Dushi - Bronie",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 9,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM R",
+    "colors": [
+      "CREAM R"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Bronie",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353474958.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353474958.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 5,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353474958",
+    "product_no": "8697353474958",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262084-318",
+    "name": "Mantel Dushi Per Femije - Minnie M.Happy",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "PINK",
+    "colors": [
+      "PINK"
+    ],
+    "size": "5-6",
+    "sizes": [
+      "5-6"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi Per Femije - Minnie M.Happy",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353577932.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353577932.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353577932_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353577932_2.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 44,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353577932",
+    "product_no": "8697353577932",
+    "color_hex": "#FFC0CB",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262114-319",
+    "name": "Mantel Dushi Per Femije - Peace Birds",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 27,
+    "original_price": 40,
+    "discount_percentage": 32,
+    "color": "PEACH",
+    "colors": [
+      "PEACH"
+    ],
+    "size": "15",
+    "sizes": [
+      "15"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi Per Femije - Peace Birds",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871.jpeg?lastmod=1125-20241015",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60587101327SOMON_8697353605871_1.jpeg?lastmod=1125-20241015"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 28,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353605871",
+    "product_no": "8697353605871",
+    "color_hex": "#FFE5B4",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011140265-320",
+    "name": "Peshqir - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375.jpeg?lastmod=1450-20230220",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375.jpeg?lastmod=1450-20230220",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375_1.jpeg?lastmod=1732-20230308",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375_1.jpeg?lastmod=1732-20230308",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375_1.jpeg?lastmod=1732-20230308",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327GRI_8697353545375_1.jpeg?lastmod=1732-20230308"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 41,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545375",
+    "product_no": "8697353545375",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293014-321",
+    "name": "Peshqir Fytyre - Woven",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Fytyre - Woven",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807.jpeg?lastmod=1710-20250102",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327BEJ_8697353626807_1.jpeg?lastmod=1710-20250102"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 42,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353626807",
+    "product_no": "8697353626807",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293057-322",
+    "name": "Set Carcafe Dyshe - Saku",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "KING",
+    "sizes": [
+      "KING"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Saku",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831.jpeg?lastmod=1720-20250127",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831.jpeg?lastmod=1720-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831_1.jpeg?lastmod=1720-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831_1.jpeg?lastmod=1720-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831_1.jpeg?lastmod=1720-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831_1.jpeg?lastmod=1720-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63883101327BEJ_8697353638831_2.jpeg?lastmod=1720-20250127"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 48,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353638831",
+    "product_no": "8697353638831",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122249-323",
+    "name": "Peshqir Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BROWN",
+    "colors": [
+      "BROWN"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665.jpeg?lastmod=1735-20230324",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665_1.jpeg?lastmod=1735-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327KAHVE_8697353545665_1.jpeg?lastmod=1735-20230324"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 36,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545665",
+    "product_no": "8697353545665",
+    "color_hex": "#A52A2A",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011111901-324",
+    "name": "Peshqir Fytyre - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Peshqir Fytyre - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603.jpeg?lastmod=1557-20230324",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603.jpeg?lastmod=1557-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603_1.jpeg?lastmod=1601-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603_1.jpeg?lastmod=1601-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603_1.jpeg?lastmod=1601-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603_1.jpeg?lastmod=1601-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KREM_8697353545603_2.jpeg?lastmod=1601-20230224"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 42,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545603",
+    "product_no": "8697353545603",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122277-325",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 85,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "YELLOW",
+    "colors": [
+      "YELLOW"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863.jpeg?lastmod=1616-20240425",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863.jpeg?lastmod=1616-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863_1.jpeg?lastmod=1616-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863_1.jpeg?lastmod=1616-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863_1.jpeg?lastmod=1616-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ACIKSARI_8697353558863_1.jpeg?lastmod=1616-20240425"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 6,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353558863",
+    "product_no": "8697353558863",
+    "color_hex": "#FFFF00",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011111907-326",
+    "name": "Peshqir Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ANTRACIT",
+    "colors": [
+      "ANTRACIT"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54575701327ANTRASIT_8697353545771.jpeg?lastmod=1452-20230220",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54575701327ANTRASIT_8697353545771.jpeg?lastmod=1452-20230220"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 33,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545771",
+    "product_no": "8697353545771",
+    "color_hex": "#2F2F2F",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278818-327",
+    "name": "Set Carcafe Dyshe - Bliss",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 78,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM BEIGE",
+    "colors": [
+      "CREAM BEIGE"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Bliss",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144.jpeg?lastmod=1354-20240926",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144.jpeg?lastmod=1354-20240926",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144_1.jpeg?lastmod=1354-20240926",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144_1.jpeg?lastmod=1354-20240926",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144_1.jpeg?lastmod=1354-20240926",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144_1.jpeg?lastmod=1354-20240926",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63514401327BEJ_8697353635144_2.jpeg?lastmod=1355-20240926"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 8,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353635144",
+    "product_no": "8697353635144",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122252-328",
+    "name": "Peshqir Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 34,
+    "original_price": 45,
+    "discount_percentage": 24,
+    "color": "YELLOW",
+    "colors": [
+      "YELLOW"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327SARI_8697353545740.jpeg?lastmod=1853-20220526",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54562701327SARI_8697353545740.jpeg?lastmod=1853-20220526"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 49,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545740",
+    "product_no": "8697353545740",
+    "color_hex": "#FFFF00",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278707-329",
+    "name": "Mbulese Shtrati Dyshe - Piramit",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "Poliester",
+    "description": "Mbulese Shtrati Dyshe - Piramit",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353603761.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353603761.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353603761_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353603761_2.jpg"
+    ],
+    "features": [
+      "Poliester",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 6,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353603761",
+    "product_no": "8697353603761",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011140285-330",
+    "name": "Mantel Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLUE",
+    "colors": [
+      "BLUE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54601301327MAVI_8697353546211.jpeg?lastmod=1040-20241211",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54601301327MAVI_8697353546211.jpeg?lastmod=1040-20241211"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 44,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353546082",
+    "product_no": "8697353546082",
+    "color_hex": "#0000FF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011185250-331",
+    "name": "Mantel Dushi Per Femije - Ashley",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "402",
+    "price": 21,
+    "original_price": 28,
+    "discount_percentage": 25,
+    "color": "Bathroom",
+    "colors": [
+      "Bathroom"
+    ],
+    "size": "13/14",
+    "sizes": [
+      "13/14"
+    ],
+    "material": "60% Bambo",
+    "description": "Mantel Dushi Per Femije - Ashley",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312.jpeg?lastmod=1410-20231109",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312_1.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009304_8697353302312_2.jpeg?lastmod=1411-20231109"
+    ],
+    "features": [
+      "60% Bambo",
+      "2 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "402",
+      "2",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 5,
+    "country_of_origin": "40% Pambuk",
+    "cross_reference": "8697353302312",
+    "product_no": "8697353302312",
+    "color_hex": "PINK",
+    "season_year": "NOS",
+    "gender": "2",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011111900-332",
+    "name": "Peshqir Fytyre - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Peshqir Fytyre - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542.jpeg?lastmod=1451-20230220",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542.jpeg?lastmod=1451-20230220",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327YESIL_8697353545542_1.jpeg?lastmod=1600-20230224"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 8,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545542",
+    "product_no": "8697353545542",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011111879-333",
+    "name": "Peshqir Dushi - Bianco",
+    "brand": "SHEFAME",
+    "category": "Apparel",
+    "subcategory": "Bathroom",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Bianco",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353481635.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353481635.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 20,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353481635",
+    "product_no": "8697353481635",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278716-334",
+    "name": "Batanie Pambuku - Colourist",
+    "brand": "OZDILEK",
+    "category": "2025",
+    "subcategory": "Home",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "403",
+    "colors": [
+      "403"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "60% pambuk",
+    "description": "Batanie Pambuku - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261.jpeg?lastmod=1500-20241001",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261.jpeg?lastmod=1500-20241001",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261_1.jpeg?lastmod=1500-20241001",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261_1.jpeg?lastmod=1500-20241001",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261_1.jpeg?lastmod=1500-20241001",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60823001327INDIGO_8697353608261_1.jpeg?lastmod=1500-20241001"
+    ],
+    "features": [
+      "60% pambuk",
+      "Turqi design",
+      "For unisex",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Home",
+      "Turqi",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 26,
+    "country_of_origin": "30% poliester",
+    "cross_reference": "8697353608261",
+    "product_no": "8697353608261",
+    "color_hex": "Bedroom",
+    "season_year": "2",
+    "gender": "Turqi",
+    "age_class": "unisex",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-011056278-335",
+    "name": "Jorgan Dyshe - Ranforc",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "403",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bedroom",
+    "colors": [
+      "Bedroom"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "mbushja: silikon",
+    "description": "Jorgan Dyshe - Ranforc",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-YORGANRANFORCCIFT01327BEYAZ_8697353200809.jpeg?lastmod=0935-20240119",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-YORGANRANFORCCIFT01327BEYAZ_8697353200809.jpeg?lastmod=0935-20240119"
+    ],
+    "features": [
+      "mbushja: silikon",
+      "3 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "403",
+      "3",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 20,
+    "country_of_origin": "veshja 100% pambuk",
+    "cross_reference": "8697353200809",
+    "product_no": "8697353200809",
+    "color_hex": "WHITE",
+    "season_year": "NOS",
+    "gender": "3",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011122242-336",
+    "name": "Peshqir Fytyre - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ANTRACIT",
+    "colors": [
+      "ANTRACIT"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Peshqir Fytyre - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327ANTRASIT_8697353545511.jpeg?lastmod=1540-20230911",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327ANTRASIT_8697353545511.jpeg?lastmod=1540-20230911"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 38,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545511",
+    "product_no": "8697353545511",
+    "color_hex": "#2F2F2F",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011242853-337",
+    "name": "Set Peshqire Per Femije - Frozen Snowflake",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 17,
+    "original_price": 21,
+    "discount_percentage": 19,
+    "color": "BLUE",
+    "colors": [
+      "BLUE"
+    ],
+    "size": "M/L",
+    "sizes": [
+      "M/L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Peshqire Per Femije - Frozen Snowflake",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632.jpeg?lastmod=1411-20230904",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632.jpeg?lastmod=1411-20230904",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632_1.jpeg?lastmod=1411-20230904",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632_1.jpeg?lastmod=1411-20230904",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632_1.jpeg?lastmod=1411-20230904",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57863201327MAVI_8697353578632_1.jpeg?lastmod=1411-20230904"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "female",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 19,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353578632",
+    "product_no": "8697353578632",
+    "color_hex": "#0000FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-011166827-338",
+    "name": "Peshqir Dushi - Evony",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Evony",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353419645.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353419645.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 11,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353419645",
+    "product_no": "8697353419645",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011208890-339",
+    "name": "Set Peshqire Per Femije - Spiderman Grey",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 12,
+    "original_price": 17,
+    "discount_percentage": 29,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "M/L",
+    "sizes": [
+      "M/L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Peshqire Per Femije - Spiderman Grey",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588.jpeg?lastmod=1030-20230906",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588.jpeg?lastmod=1030-20230906",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588_1.jpeg?lastmod=1030-20230906",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588_1.jpeg?lastmod=1030-20230906",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588_1.jpeg?lastmod=1030-20230906",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57858801327GRI_8697353578588_1.jpeg?lastmod=1030-20230906"
+    ],
+    "features": [
+      "100% Pambuk",
+      "male design",
+      "For child"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "male",
+      "Child"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 14,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353578588",
+    "product_no": "8697353578588",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Child",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011223715-340",
+    "name": "Peshqir Kembesh - Plaid",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 29,
+    "original_price": 40,
+    "discount_percentage": 27,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk Organik",
+    "description": "Peshqir Kembesh - Plaid",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353612039.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353612039.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353612039_1.jpg"
+    ],
+    "features": [
+      "100% Pambuk Organik",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 11,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353612039",
+    "product_no": "8697353612039",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011216387-341",
+    "name": "Mantel Dushi Per Femije - Ashley",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "402",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bathroom",
+    "colors": [
+      "Bathroom"
+    ],
+    "size": "11/12",
+    "sizes": [
+      "11/12"
+    ],
+    "material": "60% Bambo",
+    "description": "Mantel Dushi Per Femije - Ashley",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305.jpeg?lastmod=1410-20231109",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305_1.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305_1.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305_1.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305_1.jpeg?lastmod=1410-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009416_8697353302305_2.jpeg?lastmod=1410-20231109"
+    ],
+    "features": [
+      "60% Bambo",
+      "2 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "402",
+      "2",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 15,
+    "country_of_origin": "40% Pambuk",
+    "cross_reference": "8697353302305",
+    "product_no": "8697353302305",
+    "color_hex": "PINK",
+    "season_year": "NOS",
+    "gender": "2",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011216410-342",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 79,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "EARTH",
+    "colors": [
+      "EARTH"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353607028.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353607028.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353607028_1.jpg"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 21,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353607028",
+    "product_no": "8697353607028",
+    "color_hex": "#A0522D",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262136-343",
+    "name": "Set Carcafe Dyshe - Love Ladder",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 84,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BROWN",
+    "colors": [
+      "BROWN"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Love Ladder",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068.jpeg?lastmod=1109-20240514",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068.jpeg?lastmod=1109-20240514",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068_1.jpeg?lastmod=1109-20240514",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068_1.jpeg?lastmod=1109-20240514",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068_1.jpeg?lastmod=1109-20240514",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62906801327KAHVE_8697353629068_1.jpeg?lastmod=1109-20240514"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 43,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353629068",
+    "product_no": "8697353629068",
+    "color_hex": "#A52A2A",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011185251-344",
+    "name": "Mantel Dushi Per Femije - Ashley",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "402",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bathroom",
+    "colors": [
+      "Bathroom"
+    ],
+    "size": "15",
+    "sizes": [
+      "15"
+    ],
+    "material": "60% Bambo",
+    "description": "Mantel Dushi Per Femije - Ashley",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329.jpeg?lastmod=1411-20231109",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329_1.jpeg?lastmod=1411-20231109",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10009311_8697353302329_2.jpeg?lastmod=1411-20231109"
+    ],
+    "features": [
+      "60% Bambo",
+      "2 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "402",
+      "2",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 47,
+    "country_of_origin": "40% Pambuk",
+    "cross_reference": "8697353302329",
+    "product_no": "8697353302329",
+    "color_hex": "PINK",
+    "season_year": "NOS",
+    "gender": "2",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011278775-345",
+    "name": "Mantel Dushi - Fashion Line",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Fashion Line",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEYAZ_8697353577116.jpeg?lastmod=0856-20230417",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEYAZ_8697353577116.jpeg?lastmod=0856-20230417"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 36,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353577154",
+    "product_no": "8697353577154",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278718-346",
+    "name": "Batanie Pambuku - Colourist",
+    "brand": "OZDILEK",
+    "category": "2025",
+    "subcategory": "Home",
+    "price": 42,
+    "original_price": 60,
+    "discount_percentage": 30,
+    "color": "403",
+    "colors": [
+      "403"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "60% pambuk",
+    "description": "Batanie Pambuku - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285.jpeg?lastmod=0950-20241023",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285.jpeg?lastmod=0950-20241023",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285_1.jpeg?lastmod=0950-20241023",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285_1.jpeg?lastmod=0950-20241023",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285_1.jpeg?lastmod=0950-20241023",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60832201327LAVANTA_8697353608285_1.jpeg?lastmod=0950-20241023"
+    ],
+    "features": [
+      "60% pambuk",
+      "Turqi design",
+      "For unisex",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Home",
+      "Turqi",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 18,
+    "country_of_origin": "30% poliester",
+    "cross_reference": "8697353608285",
+    "product_no": "8697353608285",
+    "color_hex": "Bedroom",
+    "season_year": "2",
+    "gender": "Turqi",
+    "age_class": "unisex",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-011278727-347",
+    "name": "Pantofla Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "KORAL",
+    "colors": [
+      "KORAL"
+    ],
+    "size": "STANDARD",
+    "sizes": [
+      "STANDARD"
+    ],
+    "material": "100% Pambuk",
+    "description": "Pantofla Dushi - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353612183.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353612183.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 40,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353612183",
+    "product_no": "8697353612183",
+    "color_hex": "#FF7F50",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278797-348",
+    "name": "Set Carcafe Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 83,
+    "original_price": 115,
+    "discount_percentage": 27,
+    "color": "MALDIVES",
+    "colors": [
+      "MALDIVES"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387.jpeg?lastmod=1553-20240425",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387.jpeg?lastmod=1553-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387_1.jpeg?lastmod=1553-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387_1.jpeg?lastmod=1553-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387_1.jpeg?lastmod=1553-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-58488601327AQUA_8697353607387_1.jpeg?lastmod=1553-20240425"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 54,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353607387",
+    "product_no": "8697353607387",
+    "color_hex": "#66CDAA",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293016-349",
+    "name": "Peshqir Fytyre - Woven",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Fytyre - Woven",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821.jpeg?lastmod=1710-20250102",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821_1.jpeg?lastmod=1710-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-62679101327YESIL_8697353626821_1.jpeg?lastmod=1710-20250102"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 50,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353626821",
+    "product_no": "8697353626821",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122293-350",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 66,
+    "original_price": 81,
+    "discount_percentage": 18,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353559105.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353559105.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353559105_1.jpg"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 16,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353559105",
+    "product_no": "8697353559105",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293050-351",
+    "name": "Mantel Dushi - Wowen",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Wowen",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999.jpeg?lastmod=1712-20250102",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999.jpeg?lastmod=1712-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999_1.jpeg?lastmod=1712-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999_1.jpeg?lastmod=1712-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999_1.jpeg?lastmod=1712-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999_1.jpeg?lastmod=1712-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327KREM_8697353639999_2.jpeg?lastmod=1712-20250102"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 26,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353639944",
+    "product_no": "8697353639944",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011242888-352",
+    "name": "Set Peshqire Bebesh - Bugs Bunny",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "402",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bathroom",
+    "colors": [
+      "Bathroom"
+    ],
+    "size": "BABY",
+    "sizes": [
+      "BABY"
+    ],
+    "material": "60% Bambo",
+    "description": "Set Peshqire Bebesh - Bugs Bunny",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024.jpeg?lastmod=1542-20240419",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024.jpeg?lastmod=1542-20240419",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024_1.jpeg?lastmod=1542-20240419",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024_1.jpeg?lastmod=1542-20240419",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024_1.jpeg?lastmod=1542-20240419",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024_1.jpeg?lastmod=1542-20240419",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61802401327BEJ_8697353618024_2.jpeg?lastmod=1543-20240419"
+    ],
+    "features": [
+      "60% Bambo",
+      "1 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "402",
+      "1",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 50,
+    "country_of_origin": "40% Pambuk",
+    "cross_reference": "8697353618024",
+    "product_no": "8697353618024",
+    "color_hex": "CREAM BEIGE",
+    "season_year": "NOS",
+    "gender": "1",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011195625-353",
+    "name": "Peshqir Fytyre - Fashion",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 9,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Fytyre - Fashion",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57205001327BEYAZ_8697353572050.jpeg?lastmod=1010-20221123",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57205001327BEYAZ_8697353572050.jpeg?lastmod=1010-20221123"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 50,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353572050",
+    "product_no": "8697353572050",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011223677-354",
+    "name": "Peshqir Fytyre - Stripe",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk Organik",
+    "description": "Peshqir Fytyre - Stripe",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353607950.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353607950.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353607950_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353607950_2.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353607950_3.jpg"
+    ],
+    "features": [
+      "100% Pambuk Organik",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 12,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353607950",
+    "product_no": "8697353607950",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011216389-355",
+    "name": "Çarçaf Dysheku Njeshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 55,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "AQUA",
+    "colors": [
+      "AQUA"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Njeshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759.jpeg?lastmod=1045-20241119",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759.jpeg?lastmod=1045-20241119",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759_1.jpeg?lastmod=1045-20241119",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759_1.jpeg?lastmod=1045-20241119",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759_1.jpeg?lastmod=1045-20241119",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327AQUA_8697353608759_1.jpeg?lastmod=1045-20241119"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 22,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353608759",
+    "product_no": "8697353608759",
+    "color_hex": "#00FFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011166900-356",
+    "name": "Peshqir Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "YELLOW",
+    "colors": [
+      "YELLOW"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353546631.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353546631.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 35,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353546631",
+    "product_no": "8697353546631",
+    "color_hex": "#FFFF00",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011216428-357",
+    "name": "Set Carcafe Njeshe - Inverno",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Inverno",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57690401327BEJ_8697353576904.jpeg?lastmod=1745-20230131",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57690401327BEJ_8697353576904.jpeg?lastmod=1745-20230131",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57691101327BEJ_8697353576911.jpeg?lastmod=1745-20230131",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57691101327BEJ_8697353576911.jpeg?lastmod=1745-20230131",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57691101327BEJ_8697353576911.jpeg?lastmod=1745-20230131",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57691101327BEJ_8697353576911.jpeg?lastmod=1745-20230131",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57691101327BEJ_8697353576911.jpeg?lastmod=1745-20230131"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 40,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353576904",
+    "product_no": "8697353576904",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278806-358",
+    "name": "Set Carcafe Njeshe - Colour Stripe",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 82,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "VJOLLCE",
+    "colors": [
+      "VJOLLCE"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Colour Stripe",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439.jpeg?lastmod=0851-20240627",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439.jpeg?lastmod=0851-20240627",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439_1.jpeg?lastmod=0851-20240627",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439_1.jpeg?lastmod=0851-20240627",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439_1.jpeg?lastmod=0851-20240627",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439_1.jpeg?lastmod=0851-20240627",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63043901327MURDUM_8697353630439_2.jpeg?lastmod=0851-20240627"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 29,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353630439",
+    "product_no": "8697353630439",
+    "color_hex": "#8F00FF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293062-359",
+    "name": "Set Carcafe Njeshe - Dream",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 75,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "VJOLLCE",
+    "colors": [
+      "VJOLLCE"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Dream",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353651199.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353651199.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353651199_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353651199_2.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353651199_3.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 9,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353651199",
+    "product_no": "8697353651199",
+    "color_hex": "#8F00FF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011111886-360",
+    "name": "Set Carcafe Dyshe - Soft Linen",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "King",
+    "sizes": [
+      "King"
+    ],
+    "material": "100% Pambuk Organik",
+    "description": "Set Carcafe Dyshe - Soft Linen",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353528095.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353528095.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353528095_1.jpg"
+    ],
+    "features": [
+      "100% Pambuk Organik",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 47,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353528095",
+    "product_no": "8697353528095",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056790-361",
+    "name": "Set Carcafe Njeshe - Naive",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 62,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Naive",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854.jpeg?lastmod=1612-20230908",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854.jpeg?lastmod=1612-20230908",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854_1.jpeg?lastmod=1612-20230908",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854_1.jpeg?lastmod=1612-20230908",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854_1.jpeg?lastmod=1612-20230908",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_12311236_8697353510854_1.jpeg?lastmod=1612-20230908"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 9,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353510854",
+    "product_no": "8697353510854",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278785-362",
+    "name": "Peshqir Koke - Bone",
+    "brand": "SHEFAME",
+    "category": "Apparel",
+    "subcategory": "Bathroom",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "STANDARD",
+    "sizes": [
+      "STANDARD"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Koke - Bone",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-HAVLUBONE01327GRI_8697353596698.jpeg?lastmod=1500-20250113",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-HAVLUBONE01327GRI_8697353596698.jpeg?lastmod=1500-20250113"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 22,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353596698",
+    "product_no": "8697353596698",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262063-363",
+    "name": "Pantofla Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MALDIVES",
+    "colors": [
+      "MALDIVES"
+    ],
+    "size": "STANDARD",
+    "sizes": [
+      "STANDARD"
+    ],
+    "material": "100% Pambuk",
+    "description": "Pantofla Dushi - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353612107.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353612107.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 9,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353612107",
+    "product_no": "8697353612107",
+    "color_hex": "#66CDAA",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011111899-364",
+    "name": "Peshqir Fytyre - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Peshqir Fytyre - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528.jpeg?lastmod=1556-20230324",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528.jpeg?lastmod=1556-20230324",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528_1.jpeg?lastmod=1600-20230224",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327BEJ_8697353545528_2.jpeg?lastmod=1600-20230224"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 40,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353545528",
+    "product_no": "8697353545528",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011117445-365",
+    "name": "Jorgan Njeshe - Lesh Deleje",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "403",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bedroom",
+    "colors": [
+      "Bedroom"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "mbushja: 100% Lesh Deleje",
+    "description": "Jorgan Njeshe - Lesh Deleje",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445.jpeg?lastmod=1800-20221020",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445.jpeg?lastmod=1800-20221020",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445_1.jpeg?lastmod=1800-20221020",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445_1.jpeg?lastmod=1800-20221020",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445_1.jpeg?lastmod=1800-20221020",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445_1.jpeg?lastmod=1800-20221020",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_10708447_8697353385445_2.jpeg?lastmod=1800-20221020"
+    ],
+    "features": [
+      "mbushja: 100% Lesh Deleje",
+      "3 design",
+      "For 8",
+      "2 collection"
+    ],
+    "tags": [
+      "4",
+      "403",
+      "3",
+      "8",
+      "2"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 18,
+    "country_of_origin": "veshja: 100% pambuk",
+    "cross_reference": "8697353385445",
+    "product_no": "8697353385445",
+    "color_hex": "CREAM",
+    "season_year": "Fall/Winter",
+    "gender": "3",
+    "age_class": "8",
+    "season": "2"
+  },
+  {
+    "id": "albi-011122298-366",
+    "name": "Çarçaf Dysheku Njeshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ROSE",
+    "colors": [
+      "ROSE"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Njeshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167.jpeg?lastmod=1610-20240425",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167.jpeg?lastmod=1610-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167_1.jpeg?lastmod=1610-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167_1.jpeg?lastmod=1610-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167_1.jpeg?lastmod=1610-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55817701327KOYUPEMBE_8697353559167_1.jpeg?lastmod=1610-20240425"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 27,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353559167",
+    "product_no": "8697353559167",
+    "color_hex": "#FF007F",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011316742-367",
+    "name": "Set Çarçafesh & Mbulese - Gris",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 54,
+    "original_price": 74,
+    "discount_percentage": 27,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Çarçafesh & Mbulese - Gris",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353625305.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353625305.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 19,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353625305",
+    "product_no": "8697353625305",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293077-368",
+    "name": "Set Carcafe Dyshe - Ornament",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 61,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Ornament",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250.jpeg?lastmod=1605-20250127",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250.jpeg?lastmod=1605-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250_1.jpeg?lastmod=1605-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250_1.jpeg?lastmod=1605-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250_1.jpeg?lastmod=1605-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250_1.jpeg?lastmod=1605-20250127",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64265401327SIYAH_8697353648250_2.jpeg?lastmod=1605-20250127"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 30,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353648250",
+    "product_no": "8697353648250",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011208993-369",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 77,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698.jpeg?lastmod=1602-20240425",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698.jpeg?lastmod=1602-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698_1.jpeg?lastmod=1602-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698_1.jpeg?lastmod=1602-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698_1.jpeg?lastmod=1602-20240425",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-55819101327ZUMRUT_8697353608698_1.jpeg?lastmod=1602-20240425"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 31,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353608698",
+    "product_no": "8697353608698",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011195630-370",
+    "name": "Peshqir Dushi - Fashion",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "Xl",
+    "sizes": [
+      "Xl"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Dushi - Fashion",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57209801327KREM_8697353572104.jpeg?lastmod=1010-20221123",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57209801327KREM_8697353572104.jpeg?lastmod=1010-20221123"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 22,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353572104",
+    "product_no": "8697353572104",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011107332-371",
+    "name": "Set Carcafe Njeshe - Line",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 60,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ASSORTED",
+    "colors": [
+      "ASSORTED"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Set Carcafe Njeshe - Line",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113.jpeg?lastmod=2117-20210620",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113.jpeg?lastmod=2117-20210620",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113_1.jpeg?lastmod=2117-20210620",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113_1.jpeg?lastmod=2117-20210620",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113_1.jpeg?lastmod=2118-20210620",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113_1.jpeg?lastmod=2118-20210620",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-LINETEKSATENNEVRE01327KREM_8697353453113_2.jpeg?lastmod=2118-20210620"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 9,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353453113",
+    "product_no": "8697353453113",
+    "color_hex": "#CCCCCC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262107-372",
+    "name": "Mantel Dushi Per Femije - Peace Birds",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "7-8",
+    "sizes": [
+      "7-8"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi Per Femije - Peace Birds",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918.jpeg?lastmod=1130-20241015",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918.jpeg?lastmod=1130-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918_1.jpeg?lastmod=1130-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918_1.jpeg?lastmod=1130-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918_1.jpeg?lastmod=1130-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60583301327YESIL_8697353605918_1.jpeg?lastmod=1130-20241015"
+    ],
+    "features": [
+      "100% Pambuk",
+      "male design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "male",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 19,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353605918",
+    "product_no": "8697353605918",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262110-373",
+    "name": "Mantel Dushi Per Femije - Peace Birds",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "PEACH",
+    "colors": [
+      "PEACH"
+    ],
+    "size": "11-12",
+    "sizes": [
+      "11-12"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi Per Femije - Peace Birds",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857.jpeg?lastmod=1125-20241015",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857_1.jpeg?lastmod=1125-20241015",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-60585701327SOMON_8697353605857_1.jpeg?lastmod=1125-20241015"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 11,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353605857",
+    "product_no": "8697353605857",
+    "color_hex": "#FFE5B4",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278710-374",
+    "name": "Batanie Pambuku - Navy",
+    "brand": "OZDILEK",
+    "category": "2025",
+    "subcategory": "Home",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "403",
+    "colors": [
+      "403"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "60% pambuk",
+    "description": "Batanie Pambuku - Navy",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353604485.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353604485.jpg"
+    ],
+    "features": [
+      "60% pambuk",
+      "Turqi design",
+      "For unisex",
+      "Adult collection"
+    ],
+    "tags": [
+      "2025",
+      "Home",
+      "Turqi",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 18,
+    "country_of_origin": "30% poliester",
+    "cross_reference": "8697353604485",
+    "product_no": "8697353604485",
+    "color_hex": "Bedroom",
+    "season_year": "2",
+    "gender": "Turqi",
+    "age_class": "unisex",
+    "season": "Adult"
+  },
+  {
+    "id": "albi-011278761-375",
+    "name": "Set Shtrati - Effect",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "Pambuk - Poliester",
+    "description": "Set Shtrati - Effect",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353641541.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353641541.jpg"
+    ],
+    "features": [
+      "Pambuk - Poliester",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 7,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353641541",
+    "product_no": "8697353641541",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011216405-376",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 54,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "KORAL",
+    "colors": [
+      "KORAL"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353607769.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353607769.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353607769_1.jpg"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 32,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353607769",
+    "product_no": "8697353607769",
+    "color_hex": "#FF7F50",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011072361-377",
+    "name": "Jastek - Klimate",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 74,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "Standard",
+    "sizes": [
+      "Standard"
+    ],
+    "material": "Pambuk/Poliester",
+    "description": "Jastek - Klimate",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353417139.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353417139.jpg"
+    ],
+    "features": [
+      "Pambuk/Poliester",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 41,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353417139",
+    "product_no": "8697353417139",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011122285-378",
+    "name": "Çarçaf Dysheku Dyshe - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 70,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% PAMBUK",
+    "description": "Çarçaf Dysheku Dyshe - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353558986.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353558986.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353558986_1.jpg"
+    ],
+    "features": [
+      "100% PAMBUK",
+      "For adult",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 49,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353558986",
+    "product_no": "8697353558986",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262086-379",
+    "name": "Mantel Dushi Per Femije - Minnie M.Heart",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MINT",
+    "colors": [
+      "MINT"
+    ],
+    "size": "7-8",
+    "sizes": [
+      "7-8"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi Per Femije - Minnie M.Heart",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353577888.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353577888.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353577888_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353577888_2.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 51,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353577888",
+    "product_no": "8697353577888",
+    "color_hex": "#98FF98",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293072-380",
+    "name": "Set Carcafe Njeshe - Helecho",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 75,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Helecho",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981.jpeg?lastmod=1802-20250128",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981.jpeg?lastmod=1802-20250128",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981_1.jpeg?lastmod=1802-20250128",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981_1.jpeg?lastmod=1802-20250128",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981_1.jpeg?lastmod=1802-20250128",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981_1.jpeg?lastmod=1802-20250128",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-64998101327GRI_8697353649981_2.jpeg?lastmod=1802-20250128"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 33,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353649981",
+    "product_no": "8697353649981",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011072387-381",
+    "name": "Kellef Jasteku - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 80,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "WHITE",
+    "colors": [
+      "WHITE"
+    ],
+    "size": "Standard",
+    "sizes": [
+      "Standard"
+    ],
+    "material": "100% Pambuk",
+    "description": "Kellef Jasteku - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353511363.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353511363.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 23,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353511363",
+    "product_no": "8697353511363",
+    "color_hex": "#FFFFFF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011208896-382",
+    "name": "Jorgan Dyshe - Pambuk",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "King",
+    "sizes": [
+      "King"
+    ],
+    "material": "100% Pambuk",
+    "description": "Jorgan Dyshe - Pambuk",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353587368.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353587368.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353587368_1.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 28,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353587368",
+    "product_no": "8697353587368",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011242905-383",
+    "name": "Set Carcafe Njeshe - Tweety Love",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "YELLOW",
+    "colors": [
+      "YELLOW"
+    ],
+    "size": "SINGLE",
+    "sizes": [
+      "SINGLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Njeshe - Tweety Love",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353624520.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353624520.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "female design",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "female",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 54,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353624520",
+    "product_no": "8697353624520",
+    "color_hex": "#FFFF00",
+    "season_year": "",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293011-384",
+    "name": "Set Peshqiresh - Flowers",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 12,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MULTICOLOR",
+    "colors": [
+      "MULTICOLOR"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Peshqiresh - Flowers",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353616419.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353616419.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 18,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353616419",
+    "product_no": "8697353616419",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011316747-385",
+    "name": "Set Çarçafesh & Mbulese - Veronica",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 61,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Çarçafesh & Mbulese - Veronica",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353625138.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353625138.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353625138_1.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353625138_2.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353625138_3.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 12,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353625138",
+    "product_no": "8697353625138",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278704-386",
+    "name": "Mbulese Shtrati Dyshe - Carmen",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 69,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "Poliester",
+    "description": "Mbulese Shtrati Dyshe - Carmen",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353603297.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353603297.jpg"
+    ],
+    "features": [
+      "Poliester",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 51,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353603297",
+    "product_no": "8697353603297",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011223757-387",
+    "name": "Set Carcafe Dyshe - Pink Wave",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 60,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "POWDER",
+    "colors": [
+      "POWDER"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Pink Wave",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205.jpeg?lastmod=1526-20240108",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205.jpeg?lastmod=1526-20240108",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205_1.jpeg?lastmod=1526-20240108",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205_1.jpeg?lastmod=1526-20240108",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205_1.jpeg?lastmod=1526-20240108",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205_1.jpeg?lastmod=1526-20240108",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61920501327PUDRA_8697353619205_2.jpeg?lastmod=1526-20240108"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 54,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353619205",
+    "product_no": "8697353619205",
+    "color_hex": "#E5C4B7",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056509-388",
+    "name": "Peshqir Fytyre - Mayra",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "PINK",
+    "colors": [
+      "PINK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Fytyre - Mayra",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183.jpeg?lastmod=1725-20240507",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183.jpeg?lastmod=1725-20240507",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183_1.jpeg?lastmod=1725-20240507",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183_1.jpeg?lastmod=1725-20240507",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183_1.jpeg?lastmod=1725-20240507",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-MAYRA50X90HAVLU01327PEMBE_8697353469183_1.jpeg?lastmod=1725-20240507"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 36,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353469183",
+    "product_no": "8697353469183",
+    "color_hex": "#FFC0CB",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011293051-389",
+    "name": "Mantel Dushi - Wowen",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GREEN",
+    "colors": [
+      "GREEN"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Wowen",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025.jpeg?lastmod=1713-20250102",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025.jpeg?lastmod=1713-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025_1.jpeg?lastmod=1713-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025_1.jpeg?lastmod=1713-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025_1.jpeg?lastmod=1713-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025_1.jpeg?lastmod=1713-20250102",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-63989001327YESIL_8697353640025_2.jpeg?lastmod=1713-20250102"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 33,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353639975",
+    "product_no": "8697353639975",
+    "color_hex": "#008000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056353-390",
+    "name": "Çarçaf Mbrojtes Dysheku",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "403",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bedroom",
+    "colors": [
+      "Bedroom"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "80% PAMBUK",
+    "description": "Çarçaf Mbrojtes Dysheku",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_11041543_8697353390128.jpeg?lastmod=2017-20210620",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_11041543_8697353390128.jpeg?lastmod=2017-20210620"
+    ],
+    "features": [
+      "80% PAMBUK",
+      "3 design",
+      "For 8",
+      "3 collection",
+      "100% cotton",
+      "Breathable",
+      "Soft texture"
+    ],
+    "tags": [
+      "4",
+      "403",
+      "3",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 27,
+    "country_of_origin": "20% POLIESTER",
+    "cross_reference": "8697353390128",
+    "product_no": "8697353390128",
+    "color_hex": "WHITE",
+    "season_year": "NOS",
+    "gender": "3",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011140289-391",
+    "name": "Mantel Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 15,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54601301327KREM_8697353546259.jpeg?lastmod=1040-20241211",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54601301327KREM_8697353546259.jpeg?lastmod=1040-20241211"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 18,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353546129",
+    "product_no": "8697353546129",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011195670-392",
+    "name": "Jorgan Dyshe - Pambuk",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% Pambuk",
+    "description": "Jorgan Dyshe - Pambuk",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384.jpeg?lastmod=1740-20240424",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384.jpeg?lastmod=1740-20240424",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384_1.jpeg?lastmod=1740-20240424",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384_1.jpeg?lastmod=1740-20240424",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384_1.jpeg?lastmod=1740-20240424",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384_1.jpeg?lastmod=1740-20240424",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-38538401327BEYAZ_8697353385384_2.jpeg?lastmod=1740-20240424"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 23,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353385384",
+    "product_no": "8697353385384",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011223740-393",
+    "name": "Set Carcafe Dyshe - Astible",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 35,
+    "original_price": 48,
+    "discount_percentage": 27,
+    "color": "CREAM",
+    "colors": [
+      "CREAM"
+    ],
+    "size": "Double",
+    "sizes": [
+      "Double"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Carcafe Dyshe - Astible",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955.jpeg?lastmod=1111-20231121",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955.jpeg?lastmod=1111-20231121",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955_1.jpeg?lastmod=1111-20231121",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955_1.jpeg?lastmod=1111-20231121",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955_1.jpeg?lastmod=1111-20231121",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61595501327KREM_8697353615955_1.jpeg?lastmod=1111-20231121"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 51,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353615955",
+    "product_no": "8697353615955",
+    "color_hex": "#FFFDD0",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011278815-394",
+    "name": "Set Çarçafesh & Mbulese - Natural Breeze",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 54,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "ANTRACIT",
+    "colors": [
+      "ANTRACIT"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk",
+    "description": "Set Çarçafesh & Mbulese - Natural Breeze",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203.jpeg?lastmod=1405-20240130",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203.jpeg?lastmod=1405-20240130",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203_1.jpeg?lastmod=1405-20240130",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203_1.jpeg?lastmod=1405-20240130",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203_1.jpeg?lastmod=1405-20240130",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-61320301327ANTRASIT_8697353613203_1.jpeg?lastmod=1405-20240130"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 15,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353613203",
+    "product_no": "8697353613203",
+    "color_hex": "#2F2F2F",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011242854-395",
+    "name": "Peshqir Plazhi Per Femije - Spiderman Night",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLUE",
+    "colors": [
+      "BLUE"
+    ],
+    "size": "4/9",
+    "sizes": [
+      "4/9"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir Plazhi Per Femije - Spiderman Night",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219.jpeg?lastmod=0957-20230728",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219.jpeg?lastmod=0957-20230728",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219_1.jpeg?lastmod=0957-20230728",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219_1.jpeg?lastmod=0957-20230728",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219_1.jpeg?lastmod=0957-20230728",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219_1.jpeg?lastmod=0957-20230728",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57921901327MAVI_8697353579219_2.jpeg?lastmod=0957-20230728"
+    ],
+    "features": [
+      "100% Pambuk",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 37,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353579219",
+    "product_no": "8697353579219",
+    "color_hex": "#0000FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-011292994-396",
+    "name": "Peshqir - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 13,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Pambuk",
+    "description": "Peshqir - Colourist",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 39,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353548956",
+    "product_no": "8697353548956",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011262068-397",
+    "name": "Pantofla Dushi - Colourist",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 34,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLUE",
+    "colors": [
+      "BLUE"
+    ],
+    "size": "STANDARD",
+    "sizes": [
+      "STANDARD"
+    ],
+    "material": "100% Pambuk",
+    "description": "Pantofla Dushi - Colourist",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353612213.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353612213.jpg"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 17,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353612213",
+    "product_no": "8697353612213",
+    "color_hex": "#0000FF",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011056277-398",
+    "name": "Jorgan Njeshe - Ranforc",
+    "brand": "OZDILEK",
+    "category": "4",
+    "subcategory": "403",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Bedroom",
+    "colors": [
+      "Bedroom"
+    ],
+    "size": "Single",
+    "sizes": [
+      "Single"
+    ],
+    "material": "mbushja: silikon",
+    "description": "Jorgan Njeshe - Ranforc",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-YORGANRANFORCTEK01327BEYAZ_8697353200724.jpeg?lastmod=0935-20240119",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-YORGANRANFORCTEK01327BEYAZ_8697353200724.jpeg?lastmod=0935-20240119"
+    ],
+    "features": [
+      "mbushja: silikon",
+      "3 design",
+      "For 8",
+      "3 collection"
+    ],
+    "tags": [
+      "4",
+      "403",
+      "3",
+      "8",
+      "3"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 41,
+    "country_of_origin": "veshja 100% pambuk",
+    "cross_reference": "8697353200724",
+    "product_no": "8697353200724",
+    "color_hex": "WHITE",
+    "season_year": "NOS",
+    "gender": "3",
+    "age_class": "8",
+    "season": "3"
+  },
+  {
+    "id": "albi-011278777-399",
+    "name": "Mantel Dushi - Fashion Line",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bathroom",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BEIGE",
+    "colors": [
+      "BEIGE"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Pambuk",
+    "description": "Mantel Dushi - Fashion Line",
+    "image": "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222.jpeg?lastmod=1140-20250106",
+    "images": [
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222.jpeg?lastmod=1140-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222_1.jpeg?lastmod=1141-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222_1.jpeg?lastmod=1141-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222_1.jpeg?lastmod=1141-20250106",
+      "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57711601327BEJ_8697353577222_1.jpeg?lastmod=1141-20250106"
+    ],
+    "features": [
+      "100% Pambuk",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bathroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 18,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353577185",
+    "product_no": "8697353577185",
+    "color_hex": "#F5F5DC",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-011242911-400",
+    "name": "Set Carcafe Dyshe - Soft Line",
+    "brand": "OZDILEK",
+    "category": "Home",
+    "subcategory": "Bedroom",
+    "price": 82,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "GRAY",
+    "colors": [
+      "GRAY"
+    ],
+    "size": "DOUBLE",
+    "sizes": [
+      "DOUBLE"
+    ],
+    "material": "100% Pambuk Organik",
+    "description": "Set Carcafe Dyshe - Soft Line",
+    "image": "http://91.187.98.69:8001/01/035/Published/8697353618925.jpg",
+    "images": [
+      "http://91.187.98.69:8001/01/035/Published/8697353618925.jpg",
+      "http://91.187.98.69:8001/01/035/Published/8697353618925_1.jpg"
+    ],
+    "features": [
+      "100% Pambuk Organik",
+      "For adult"
+    ],
+    "tags": [
+      "Home",
+      "Bedroom",
+      "unisex",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 45,
+    "country_of_origin": "Turqi",
+    "cross_reference": "8697353618925",
+    "product_no": "8697353618925",
+    "color_hex": "#808080",
+    "season_year": "",
+    "gender": "unisex",
+    "age_class": "Adult",
+    "season": "NOS"
+  }
+]

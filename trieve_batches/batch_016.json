@@ -1,0 +1,5115 @@
+[
+  {
+    "id": "albi-071198008-1501",
+    "name": "Pantallona",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "134",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Fleece Pants",
+    "colors": [
+      "Fleece Pants"
+    ],
+    "size": "31",
+    "sizes": [
+      "31"
+    ],
+    "material": "98% CO",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128179004_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128179004_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128179004_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128179004_3.jpg"
+    ],
+    "features": [
+      "98% CO",
+      "1 design",
+      "For 1",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "134",
+      "1",
+      "1",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 40,
+    "country_of_origin": "2% EA",
+    "cross_reference": "4068128179059",
+    "product_no": "64104471010",
+    "color_hex": "SMOKEY OLIVE GREEN",
+    "season_year": "Spring/Summer",
+    "gender": "1",
+    "age_class": "1",
+    "season": "1"
+  },
+  {
+    "id": "albi-071217788-1502",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546071251_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 11,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546071046",
+    "product_no": "50520298",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071217789-1503",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 22,
+    "original_price": 30,
+    "discount_percentage": 26,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546071251_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546071251_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 10,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546071121",
+    "product_no": "50520298",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071186582-1504",
+    "name": "T-Bluzë",
+    "brand": "TOM TAILOR",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "102",
+    "colors": [
+      "102"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "48% CO",
+    "description": "T-Bluzë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128036451_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128036451_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128036451_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128036451_3.jpg"
+    ],
+    "features": [
+      "48% CO",
+      "BGD design",
+      "For female",
+      "Infant collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "BGD",
+      "female",
+      "Infant"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 32,
+    "country_of_origin": "47% MD",
+    "cross_reference": "4068128036437",
+    "product_no": "10104541271",
+    "color_hex": "T-shirts",
+    "season_year": "1",
+    "gender": "BGD",
+    "age_class": "female",
+    "season": "Infant"
+  },
+  {
+    "id": "albi-071217896-1505",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT/PASTEL BLUE",
+    "colors": [
+      "LIGHT/PASTEL BLUE"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546345895_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546345895_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 23,
+    "country_of_origin": "India",
+    "cross_reference": "4063546345857",
+    "product_no": "50539099",
+    "color_hex": "#B0E0E6",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071186818-1506",
+    "name": "Duks me jakë të rrumbullakët",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "136",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Sweatshirt",
+    "colors": [
+      "Sweatshirt"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "60% CO",
+    "description": "Duks me jakë të rrumbullakët",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128005020_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128005020_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128005020_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128005020_3.jpg"
+    ],
+    "features": [
+      "60% CO",
+      "1 design",
+      "For 1",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "136",
+      "1",
+      "1",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 26,
+    "country_of_origin": "40% RPL",
+    "cross_reference": "4068128005013",
+    "product_no": "25104558812",
+    "color_hex": "BRIGHT IBIZA BLUE",
+    "season_year": "Spring/Summer",
+    "gender": "1",
+    "age_class": "1",
+    "season": "1"
+  },
+  {
+    "id": "albi-071186983-1507",
+    "name": "Jeans",
+    "brand": "TOM TAILOR",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "105",
+    "colors": [
+      "105"
+    ],
+    "size": "31/32",
+    "sizes": [
+      "31/32"
+    ],
+    "material": "88% CO",
+    "description": "Jeans",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128185845_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_3.jpg"
+    ],
+    "features": [
+      "88% CO",
+      "BGD design",
+      "For male",
+      "Newborn collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "BGD",
+      "male",
+      "Newborn"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 25,
+    "country_of_origin": "8% PL",
+    "cross_reference": "4068128185807",
+    "product_no": "62104496810",
+    "color_hex": "Jeans",
+    "season_year": "1",
+    "gender": "BGD",
+    "age_class": "male",
+    "season": "Newborn"
+  },
+  {
+    "id": "albi-071198083-1508",
+    "name": "Maice e shkurtër",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Tops",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OFF WHITE",
+    "colors": [
+      "OFF WHITE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% OCO",
+    "description": "Maice e shkurtër",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128221710_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128221710_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128221710_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128221710_3.jpg"
+    ],
+    "features": [
+      "100% OCO",
+      "female design",
+      "For infant",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Tops",
+      "female",
+      "Infant",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 30,
+    "country_of_origin": "BGD",
+    "cross_reference": "4068128221758",
+    "product_no": "10104553470",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Infant",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071191984-1509",
+    "name": "Maica",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "137",
+    "price": 32,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Tops",
+    "colors": [
+      "Tops"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "97% OCO",
+    "description": "Maica",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128135277_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128135277_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128135277_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128135277_3.jpg"
+    ],
+    "features": [
+      "97% OCO",
+      "2 design",
+      "For 2",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "137",
+      "2",
+      "2",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 27,
+    "country_of_origin": "3% EA",
+    "cross_reference": "4068128135253",
+    "product_no": "10104554170",
+    "color_hex": "WHISPER WHITE",
+    "season_year": "Spring/Summer",
+    "gender": "2",
+    "age_class": "2",
+    "season": "1"
+  },
+  {
+    "id": "albi-071220879-1510",
+    "name": "RRIP",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BROWN",
+    "colors": [
+      "MEDIUM BROWN"
+    ],
+    "size": "95",
+    "sizes": [
+      "95"
+    ],
+    "material": "100% Cow hide leather",
+    "description": "RRIP",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4043861425205_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4043861425205_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4043861425205_2.jpg"
+    ],
+    "features": [
+      "100% Cow hide leather",
+      "male design",
+      "For adult"
+    ],
+    "tags": [
+      "Accessories",
+      "Belts",
+      "male",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 45,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4043861425557",
+    "product_no": "50470787",
+    "color_hex": "#8B4513",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-071217947-1511",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 21,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 12,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545774450",
+    "product_no": "50542099",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217987-1512",
+    "name": "KEPUCË",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Shoes",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Cow hide leather Sole 100% Thermoplastic polyurethane Upper material 100% Cow hide leath",
+    "description": "KEPUCË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546472621_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546472621_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Cow hide leather Sole 100% Thermoplastic polyurethane Upper material 100% Cow hide leath",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Shoes",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 11,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063546472621",
+    "product_no": "50541760",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196678-1513",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 45,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN BEIGE",
+    "colors": [
+      "OPEN BEIGE"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546198033_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546198033_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 32,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546198033",
+    "product_no": "50537834",
+    "color_hex": "#F5F5DC",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196762-1514",
+    "name": "KAPELË",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Hats",
+    "price": 17,
+    "original_price": 22,
+    "discount_percentage": 22,
+    "color": "MEDIUM BLUE",
+    "colors": [
+      "MEDIUM BLUE"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "Quality 100% Cotton (65% recycled) Lining 100% Polyester",
+    "description": "KAPELË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063544719926_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063544719926_1.jpg"
+    ],
+    "features": [
+      "Quality 100% Cotton (65% recycled) Lining 100% Polyester",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Hats",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 22,
+    "country_of_origin": "Indonesia",
+    "cross_reference": "4063544719926",
+    "product_no": "50533299",
+    "color_hex": "#0000CD",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217886-1515",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546355740_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546355740_1.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 17,
+    "country_of_origin": "Albania",
+    "cross_reference": "4063546355764",
+    "product_no": "50539229",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071220920-1516",
+    "name": "TË BRENDSHME",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Underwear",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "TË BRENDSHME",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063535095428_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063535095428_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535095428_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535095428_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535095428_4.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult"
+    ],
+    "tags": [
+      "Apparel",
+      "Underwear",
+      "male",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 35,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063534486432",
+    "product_no": "50475273",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-071198226-1517",
+    "name": "Fustanë",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Dresses",
+    "price": 49,
+    "original_price": 59,
+    "discount_percentage": 16,
+    "color": "USED LIGHT STONE BLUE DENIM",
+    "colors": [
+      "USED LIGHT STONE BLUE DENIM"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% CO",
+    "description": "Fustanë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "female design",
+      "For infant",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Dresses",
+      "female",
+      "Infant",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.7",
+    "reviews_count": 49,
+    "country_of_origin": "BGD",
+    "cross_reference": "4068128002906",
+    "product_no": "50104546171",
+    "color_hex": "#0000FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Infant",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217990-1518",
+    "name": "KEPUCË",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Shoes",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BEIGE",
+    "colors": [
+      "MEDIUM BEIGE"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Cow hide leather Sole 100% Thermoplastic polyurethane Upper material 100% Cow hide leath",
+    "description": "KEPUCË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545774627_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545774627_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Cow hide leather Sole 100% Thermoplastic polyurethane Upper material 100% Cow hide leath",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Shoes",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 17,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063545774627",
+    "product_no": "50543083",
+    "color_hex": "#D6CFC7",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217996-1519",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 100% Calf leather Lining 100% Cow hide leather Lining 60% Polyester 40% Polyurethane Sole 85%",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546516714_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546516714_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Calf leather Lining 100% Cow hide leather Lining 60% Polyester 40% Polyurethane Sole 85%",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 21,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546516707",
+    "product_no": "50545153",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215528-1520",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "311",
+    "colors": [
+      "311"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546237015_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546237015_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 44,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546237015",
+    "product_no": "50536757",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071194842-1521",
+    "name": "Pantallona të shkurtra",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% CO",
+    "description": "Pantallona të shkurtra",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128053731_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128053731_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128053731_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128053731_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 15,
+    "country_of_origin": "LKA",
+    "cross_reference": "4068128053717",
+    "product_no": "64104483212",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215746-1522",
+    "name": "RRIP",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": 41,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREY",
+    "colors": [
+      "DARK GREY"
+    ],
+    "size": "110",
+    "sizes": [
+      "110"
+    ],
+    "material": "100% Cow hide leather",
+    "description": "RRIP",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546256917_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546256917_1.jpg"
+    ],
+    "features": [
+      "100% Cow hide leather",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Belts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 12,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546256917",
+    "product_no": "50537177",
+    "color_hex": "#505050",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071198236-1523",
+    "name": "Fustanë",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "119",
+    "price": 11,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Dresses",
+    "colors": [
+      "Dresses"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "55% LVI",
+    "description": "Fustanë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128005945_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128005945_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128005945_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128005945_3.jpg"
+    ],
+    "features": [
+      "55% LVI",
+      "2 design",
+      "For 2",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "119",
+      "2",
+      "2",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 34,
+    "country_of_origin": "45% VI",
+    "cross_reference": "4068128005976",
+    "product_no": "50104546271",
+    "color_hex": "ABSTRACT GREEN FLOWER PRINT",
+    "season_year": "Spring/Summer",
+    "gender": "2",
+    "age_class": "2",
+    "season": "1"
+  },
+  {
+    "id": "albi-071196911-1524",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 30,
+    "original_price": 39,
+    "discount_percentage": 23,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "100% Lyocell",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546358352_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_5.jpg"
+    ],
+    "features": [
+      "100% Lyocell",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 17,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546358338",
+    "product_no": "50539245",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071190624-1525",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "452",
+    "colors": [
+      "452"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "96% Cotton 4% Elastane",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545546521_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545546521_5.jpg"
+    ],
+    "features": [
+      "96% Cotton 4% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 54,
+    "country_of_origin": "India",
+    "cross_reference": "4063545546514",
+    "product_no": "50532804",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071194867-1526",
+    "name": "Pantallona",
+    "brand": "TOM TAILOR",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "104",
+    "colors": [
+      "104"
+    ],
+    "size": "34/32",
+    "sizes": [
+      "34/32"
+    ],
+    "material": "60% VI",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068127958778_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068127958778_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068127958778_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068127958778_3.jpg"
+    ],
+    "features": [
+      "60% VI",
+      "CHN design",
+      "For female",
+      "Infant collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "CHN",
+      "female",
+      "Infant"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 8,
+    "country_of_origin": "34% PA",
+    "cross_reference": "4068127958686",
+    "product_no": "64104542670",
+    "color_hex": "Trousers",
+    "season_year": "1",
+    "gender": "CHN",
+    "age_class": "female",
+    "season": "Infant"
+  },
+  {
+    "id": "albi-071217733-1527",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "31-32",
+    "sizes": [
+      "31-32"
+    ],
+    "material": "98% Cotton 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546307596_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_5.jpg"
+    ],
+    "features": [
+      "98% Cotton 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 44,
+    "country_of_origin": "Sri Lanka",
+    "cross_reference": "4063546307565",
+    "product_no": "50538370",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196926-1528",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 100% Cow",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545681987_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545681987_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper material 100% Cow",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 6,
+    "country_of_origin": "China",
+    "cross_reference": "4063544915878",
+    "product_no": "50536504",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217948-1529",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 38,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545091328",
+    "product_no": "50542099",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071198227-1530",
+    "name": "Fustanë",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Dresses",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "USED LIGHT STONE BLUE DENIM",
+    "colors": [
+      "USED LIGHT STONE BLUE DENIM"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% CO",
+    "description": "Fustanë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "female design",
+      "For infant",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Dresses",
+      "female",
+      "Infant",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 32,
+    "country_of_origin": "BGD",
+    "cross_reference": "4068128002883",
+    "product_no": "50104546171",
+    "color_hex": "#0000FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Infant",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217670-1531",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "67% Cotton 31% Lyocell 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063535981257_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535981257_5.jpg"
+    ],
+    "features": [
+      "67% Cotton 31% Lyocell 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 12,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063535981240",
+    "product_no": "50485788",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217666-1532",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 32,
+    "original_price": 43,
+    "discount_percentage": 25,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "67% Cotton 31% Lyocell 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063537147231_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063537147231_5.jpg"
+    ],
+    "features": [
+      "67% Cotton 31% Lyocell 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 36,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063537147231",
+    "product_no": "50485788",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217715-1533",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BRIGHT BLUE",
+    "colors": [
+      "BRIGHT BLUE"
+    ],
+    "size": "34-32",
+    "sizes": [
+      "34-32"
+    ],
+    "material": "92% Cotton 6% Elastomultiester 2% Elastane",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546415703_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546415703_5.jpg"
+    ],
+    "features": [
+      "92% Cotton 6% Elastomultiester 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 12,
+    "country_of_origin": "Tunisia",
+    "cross_reference": "4063546415666",
+    "product_no": "50540483",
+    "color_hex": "#1E90FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071224159-1534",
+    "name": "T-BLUZË",
+    "brand": "HUGO",
+    "category": "Apparel",
+    "subcategory": "Skirts",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "T-BLUZË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546411767_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546411767_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Skirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 25,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546411781",
+    "product_no": "50542969",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071186998-1535",
+    "name": "Jeans",
+    "brand": "TOM TAILOR",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 17,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "105",
+    "colors": [
+      "105"
+    ],
+    "size": "38/32",
+    "sizes": [
+      "38/32"
+    ],
+    "material": "88% CO",
+    "description": "Jeans",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128185845_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128185845_3.jpg"
+    ],
+    "features": [
+      "88% CO",
+      "BGD design",
+      "For male",
+      "Newborn collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "BGD",
+      "male",
+      "Newborn"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 46,
+    "country_of_origin": "8% PL",
+    "cross_reference": "4068128186002",
+    "product_no": "62104496810",
+    "color_hex": "Jeans",
+    "season_year": "1",
+    "gender": "BGD",
+    "age_class": "male",
+    "season": "Newborn"
+  },
+  {
+    "id": "albi-071217675-1536",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 25,
+    "original_price": 33,
+    "discount_percentage": 24,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "70% Cotton 30% Modal",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546243009_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546243009_5.jpg"
+    ],
+    "features": [
+      "70% Cotton 30% Modal",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 51,
+    "country_of_origin": "Pakistan",
+    "cross_reference": "4063546243054",
+    "product_no": "50536794",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071224563-1537",
+    "name": "XHAKETË KOSTUMËSH",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suit Jacket",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "024",
+    "colors": [
+      "024"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "100% Virgin wool",
+    "description": "XHAKETË KOSTUMËSH",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547062920_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547062920_5.jpg"
+    ],
+    "features": [
+      "100% Virgin wool",
+      "female design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suit Jacket",
+      "female",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 44,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547062913",
+    "product_no": "50543302",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071163809-1538",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 23,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "42",
+    "sizes": [
+      "42"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 70% ethylene vinyl acetate 30% Rubb",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063543200784_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063543200784_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 70% ethylene vinyl acetate 30% Rubb",
+      "male design",
+      "For newborn",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.0",
+    "reviews_count": 51,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063543200784",
+    "product_no": "50529544",
+    "color_hex": "#000000",
+    "season_year": "2024",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071224619-1539",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547409077_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547409077_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 40,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547409077",
+    "product_no": "50549230",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071224628-1540",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 14,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Linen",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546916972_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_5.jpg"
+    ],
+    "features": [
+      "100% Linen",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 37,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546916972",
+    "product_no": "50552246",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071188814-1541",
+    "name": "Pulover pambuku për meshkuj",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Sweaters",
+    "price": 47,
+    "original_price": 66,
+    "discount_percentage": 28,
+    "color": "BURGUNDY DARK RED MELANGE",
+    "colors": [
+      "BURGUNDY DARK RED MELANGE"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% CO",
+    "description": "Pulover pambuku për meshkuj",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4067672931670_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4067672931670_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4067672931670_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4067672931670_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Sweaters",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 19,
+    "country_of_origin": "CHN",
+    "cross_reference": "4067672931687",
+    "product_no": "30104245310",
+    "color_hex": "#CCCCCC",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071198306-1542",
+    "name": "Maice e shkurtër",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Tops",
+    "price": 16,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DEEP ORANGE WHITE MINI STRIPE",
+    "colors": [
+      "DEEP ORANGE WHITE MINI STRIPE"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% CO",
+    "description": "Maice e shkurtër",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068127980212_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068127980212_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068127980212_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068127980212_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Tops",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 10,
+    "country_of_origin": "BGD",
+    "cross_reference": "4068127979995",
+    "product_no": "10104504812",
+    "color_hex": "#FFA500",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217843-1543",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "75% Cotton 20% Polyamide 5% Elastane",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063535826916_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063535826916_5.jpg"
+    ],
+    "features": [
+      "75% Cotton 20% Polyamide 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 28,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063535826916",
+    "product_no": "50479915",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071217880-1544",
+    "name": "KAPELË",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Hats",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "Quality 100% Cotton (65% recycled) Lining 100% Polyester",
+    "description": "KAPELË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545078695_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545078695_1.jpg"
+    ],
+    "features": [
+      "Quality 100% Cotton (65% recycled) Lining 100% Polyester",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Hats",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 20,
+    "country_of_origin": "Indonesia",
+    "cross_reference": "4063545078695",
+    "product_no": "50533299",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071224630-1545",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 36,
+    "original_price": 53,
+    "discount_percentage": 32,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "100% Linen",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546916972_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546916972_5.jpg"
+    ],
+    "features": [
+      "100% Linen",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 45,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547414989",
+    "product_no": "50552246",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071190277-1546",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "47% Polyester 28% Wool 20% Viscose 5% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063544780032_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544780032_5.jpg"
+    ],
+    "features": [
+      "47% Polyester 28% Wool 20% Viscose 5% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 31,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545670172",
+    "product_no": "50535709",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217949-1547",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 31,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545774467_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Lining 60% Polyurethane 40% Polyester So",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 31,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545774467",
+    "product_no": "50542099",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071198016-1548",
+    "name": "Pantallona",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "134",
+    "price": 37,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Fleece Pants",
+    "colors": [
+      "Fleece Pants"
+    ],
+    "size": "32",
+    "sizes": [
+      "32"
+    ],
+    "material": "98% CO",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128178946_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128178946_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128178946_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128178946_3.jpg"
+    ],
+    "features": [
+      "98% CO",
+      "1 design",
+      "For 1",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "134",
+      "1",
+      "1",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 23,
+    "country_of_origin": "2% EA",
+    "cross_reference": "4068128178939",
+    "product_no": "64104471010",
+    "color_hex": "TARMAC GREY",
+    "season_year": "Spring/Summer",
+    "gender": "1",
+    "age_class": "1",
+    "season": "1"
+  },
+  {
+    "id": "albi-071198229-1549",
+    "name": "Fustanë",
+    "brand": "TOM TAILOR",
+    "category": "Apparel",
+    "subcategory": "Dresses",
+    "price": 40,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "USED LIGHT STONE BLUE DENIM",
+    "colors": [
+      "USED LIGHT STONE BLUE DENIM"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "100% CO",
+    "description": "Fustanë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128002876_3.jpg"
+    ],
+    "features": [
+      "100% CO",
+      "female design",
+      "For infant",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Dresses",
+      "female",
+      "Infant",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 14,
+    "country_of_origin": "BGD",
+    "cross_reference": "4068128002869",
+    "product_no": "50104546171",
+    "color_hex": "#0000FF",
+    "season_year": "2025",
+    "gender": "female",
+    "age_class": "Infant",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071190546-1550",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM BLUE",
+    "colors": [
+      "MEDIUM BLUE"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "57% Cotton 35% Polyamide (recycled) 8% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063544741279_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_5.jpg"
+    ],
+    "features": [
+      "57% Cotton 35% Polyamide (recycled) 8% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 32,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545122213",
+    "product_no": "50487754",
+    "color_hex": "#0000CD",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217832-1551",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "40",
+    "sizes": [
+      "40"
+    ],
+    "material": "75% Cotton 25% Polyester",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063534107306_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534107306_5.jpg"
+    ],
+    "features": [
+      "75% Cotton 25% Polyester",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 32,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063534107306",
+    "product_no": "50474283",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071190551-1552",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "53% Polyamide 47% Cotton",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545694475_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545694475_5.jpg"
+    ],
+    "features": [
+      "53% Polyamide 47% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 14,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545694475",
+    "product_no": "50537360",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071224869-1553",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 30,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT/PASTEL BLUE",
+    "colors": [
+      "LIGHT/PASTEL BLUE"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "100% Cotton",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547359662_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547359662_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 11,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063547359655",
+    "product_no": "50545917",
+    "color_hex": "#B0E0E6",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071190671-1554",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545681055_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545681055_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.2",
+    "reviews_count": 52,
+    "country_of_origin": "China",
+    "cross_reference": "4063545681062",
+    "product_no": "50536484",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071224900-1555",
+    "name": "MANSHETA",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Cufflinks",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "Brass",
+    "description": "MANSHETA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546548074_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546548074_1.jpg"
+    ],
+    "features": [
+      "Brass",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Cufflinks",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 33,
+    "country_of_origin": "China",
+    "cross_reference": "4063546548074",
+    "product_no": "50544119",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071224944-1556",
+    "name": "TË BRENDSHME",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Underwear",
+    "price": 37,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "981",
+    "colors": [
+      "981"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "TË BRENDSHME",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063547052570_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063547052570_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547052570_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547052570_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063547052570_4.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Fall/Winter collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Underwear",
+      "male",
+      "Adult",
+      "Fall/Winter"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 45,
+    "country_of_origin": "Sri Lanka",
+    "cross_reference": "4063547052570",
+    "product_no": "50531660",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Fall/Winter"
+  },
+  {
+    "id": "albi-071217734-1557",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 47,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "32-32",
+    "sizes": [
+      "32-32"
+    ],
+    "material": "98% Cotton 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546307596_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546307596_5.jpg"
+    ],
+    "features": [
+      "98% Cotton 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 43,
+    "country_of_origin": "Sri Lanka",
+    "cross_reference": "4063546307596",
+    "product_no": "50538370",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215423-1558",
+    "name": "XHAKETË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "48",
+    "sizes": [
+      "48"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546435008_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 21,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545063240",
+    "product_no": "50540701",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071189040-1559",
+    "name": "Pantallona",
+    "brand": "TOM TAILOR",
+    "category": "2025",
+    "subcategory": "Apparel",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "104",
+    "colors": [
+      "104"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "74% PL",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4063879624858_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4063879624858_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4063879624858_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4063879624858_3.jpg"
+    ],
+    "features": [
+      "74% PL",
+      "CHN design",
+      "For female",
+      "Infant collection"
+    ],
+    "tags": [
+      "2025",
+      "Apparel",
+      "CHN",
+      "female",
+      "Infant"
+    ],
+    "availability": "in_stock",
+    "rating": "4.9",
+    "reviews_count": 51,
+    "country_of_origin": "22% VI",
+    "cross_reference": "4063879624889",
+    "product_no": "68102117571",
+    "color_hex": "Trousers",
+    "season_year": "1",
+    "gender": "CHN",
+    "age_class": "female",
+    "season": "Infant"
+  },
+  {
+    "id": "albi-071217974-1560",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 49,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Calf leather Lining 60% Polyester 40% Polyurethane Sole 85% ethylene vinyl acetate 15% T",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546186283_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546186283_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Calf leather Lining 60% Polyester 40% Polyurethane Sole 85% ethylene vinyl acetate 15% T",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 46,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546186283",
+    "product_no": "50534292",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215557-1561",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "93% Polyester (recycled) 7% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546249100_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546249100_5.jpg"
+    ],
+    "features": [
+      "93% Polyester (recycled) 7% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 29,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546249155",
+    "product_no": "50539114",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215571-1562",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 44,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BRIGHT BLUE",
+    "colors": [
+      "BRIGHT BLUE"
+    ],
+    "size": "35-32",
+    "sizes": [
+      "35-32"
+    ],
+    "material": "78% Cotton 20% Polyester (recycled) 2% Elastane",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546192789_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546192789_5.jpg"
+    ],
+    "features": [
+      "78% Cotton 20% Polyester (recycled) 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 34,
+    "country_of_origin": "Egypt",
+    "cross_reference": "4063546193625",
+    "product_no": "50537800",
+    "color_hex": "#1E90FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215748-1563",
+    "name": "RRIP",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DK CHMB HTHR",
+    "colors": [
+      "DK CHMB HTHR"
+    ],
+    "size": "100",
+    "sizes": [
+      "100"
+    ],
+    "material": "100% Cow hide leather",
+    "description": "RRIP",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546257242_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546257242_1.jpg"
+    ],
+    "features": [
+      "100% Cow hide leather",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Belts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 5,
+    "country_of_origin": "Italy",
+    "cross_reference": "4063546257242",
+    "product_no": "50537177",
+    "color_hex": "#4A5D73",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196780-1564",
+    "name": "KAPELË",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Hats",
+    "price": 26,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "Quality 100% Cotton Lining / Sweatband 100% Cotton",
+    "description": "KAPELË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063538906745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063538906745_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063538906745_2.jpg"
+    ],
+    "features": [
+      "Quality 100% Cotton Lining / Sweatband 100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Hats",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 6,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063538906745",
+    "product_no": "50495121",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215424-1565",
+    "name": "XHAKETË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 32,
+    "original_price": 47,
+    "discount_percentage": 31,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546435008_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546435008_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 37,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546435022",
+    "product_no": "50540701",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071192004-1566",
+    "name": "Maica",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "137",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Tops",
+    "colors": [
+      "Tops"
+    ],
+    "size": "XXXL",
+    "sizes": [
+      "XXXL"
+    ],
+    "material": "97% OCO",
+    "description": "Maica",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128135420_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128135420_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128135420_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128135420_3.jpg"
+    ],
+    "features": [
+      "97% OCO",
+      "2 design",
+      "For 2",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "137",
+      "2",
+      "2",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 27,
+    "country_of_origin": "3% EA",
+    "cross_reference": "4068128135468",
+    "product_no": "10104554170",
+    "color_hex": "BRIGHT ROSE",
+    "season_year": "Spring/Summer",
+    "gender": "2",
+    "age_class": "2",
+    "season": "1"
+  },
+  {
+    "id": "albi-071196092-1567",
+    "name": "Pantallona",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "36",
+    "sizes": [
+      "36"
+    ],
+    "material": "97% Cotton 3% Elastane",
+    "description": "Pantallona",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545492118_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545492118_5.jpg"
+    ],
+    "features": [
+      "97% Cotton 3% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 14,
+    "country_of_origin": "Sri Lanka",
+    "cross_reference": "4063545492118",
+    "product_no": "50534378",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196958-1568",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "OPEN WHITE",
+    "colors": [
+      "OPEN WHITE"
+    ],
+    "size": "45",
+    "sizes": [
+      "45"
+    ],
+    "material": "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 70% ethylene vinyl acetate 30% Rubb",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546138633_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546138633_1.jpg"
+    ],
+    "features": [
+      "Lining 100% Polyester Lining 85% Polyester 15% Polyurethane Sole 70% ethylene vinyl acetate 30% Rubb",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "5.0",
+    "reviews_count": 25,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546138633",
+    "product_no": "50529544",
+    "color_hex": "#F8F8FF",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196586-1569",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 19,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT BEIGE",
+    "colors": [
+      "LIGHT BEIGE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "52% Cotton 48% Linen",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545050745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_5.jpg"
+    ],
+    "features": [
+      "52% Cotton 48% Linen",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 8,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063545050745",
+    "product_no": "50537498",
+    "color_hex": "#F2EAD3",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215498-1570",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 41,
+    "original_price": 53,
+    "discount_percentage": 22,
+    "color": "MEDIUM BLUE",
+    "colors": [
+      "MEDIUM BLUE"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "57% Cotton 35% Polyamide (recycled) 8% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063544741279_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063544741279_5.jpg"
+    ],
+    "features": [
+      "57% Cotton 35% Polyamide (recycled) 8% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 43,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545122237",
+    "product_no": "50487754",
+    "color_hex": "#0000CD",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196588-1571",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 15,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "LIGHT BEIGE",
+    "colors": [
+      "LIGHT BEIGE"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "52% Cotton 48% Linen",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545050745_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050745_5.jpg"
+    ],
+    "features": [
+      "52% Cotton 48% Linen",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 50,
+    "country_of_origin": "Portugal",
+    "cross_reference": "4063546272788",
+    "product_no": "50537498",
+    "color_hex": "#F2EAD3",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196671-1572",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 48,
+    "original_price": 68,
+    "discount_percentage": 29,
+    "color": "OPEN BEIGE",
+    "colors": [
+      "OPEN BEIGE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "94% Polyester (31% recycled) 6% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546186634_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546186634_5.jpg"
+    ],
+    "features": [
+      "94% Polyester (31% recycled) 6% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 19,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063546186634",
+    "product_no": "50537755",
+    "color_hex": "#F5F5DC",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071192180-1573",
+    "name": "Duks me mëngë të gjata për femra",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "136",
+    "price": 21,
+    "original_price": 27,
+    "discount_percentage": 22,
+    "color": "Sweatshirt",
+    "colors": [
+      "Sweatshirt"
+    ],
+    "size": "L",
+    "sizes": [
+      "L"
+    ],
+    "material": "50% OCO",
+    "description": "Duks me mëngë të gjata për femra",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128256088_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128256088_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128256088_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128256088_3.jpg"
+    ],
+    "features": [
+      "50% OCO",
+      "2 design",
+      "For 2",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "136",
+      "2",
+      "2",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.8",
+    "reviews_count": 6,
+    "country_of_origin": "50% CO",
+    "cross_reference": "4068128256088",
+    "product_no": "25104550871",
+    "color_hex": "WHITE RED PINK STRIPE",
+    "season_year": "Spring/Summer",
+    "gender": "2",
+    "age_class": "2",
+    "season": "1"
+  },
+  {
+    "id": "albi-071215443-1574",
+    "name": "PANTALLONA TË SHKURTËR",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 10,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "PANTALLONA TË SHKURTËR",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546431680_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546431680_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.2",
+    "reviews_count": 26,
+    "country_of_origin": "Bulgaria",
+    "cross_reference": "4063546431680",
+    "product_no": "50540694",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196471-1575",
+    "name": "PALLTO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Coats",
+    "price": 46,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "50",
+    "sizes": [
+      "50"
+    ],
+    "material": "88% Polyamide (recycled) 12% Elastane",
+    "description": "PALLTO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545665093_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545665093_5.jpg"
+    ],
+    "features": [
+      "88% Polyamide (recycled) 12% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Coats",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.7",
+    "reviews_count": 31,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545665093",
+    "product_no": "50535379",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196730-1576",
+    "name": "XHINSE",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jeans",
+    "price": 39,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "32-32",
+    "sizes": [
+      "32-32"
+    ],
+    "material": "100% Cotton",
+    "description": "XHINSE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545072013_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545072013_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jeans",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 32,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545071993",
+    "product_no": "50541924",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196912-1577",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "43",
+    "sizes": [
+      "43"
+    ],
+    "material": "100% Lyocell",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546358352_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546358352_5.jpg"
+    ],
+    "features": [
+      "100% Lyocell",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 41,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546358345",
+    "product_no": "50539245",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217831-1578",
+    "name": "KËMISHË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "44",
+    "sizes": [
+      "44"
+    ],
+    "material": "96% Cotton 4% Elastane",
+    "description": "KËMISHË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063534105838_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063534105838_5.jpg"
+    ],
+    "features": [
+      "96% Cotton 4% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 15,
+    "country_of_origin": "India",
+    "cross_reference": "4063534105845",
+    "product_no": "50473265",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071190272-1579",
+    "name": "XHAKETË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Jackets",
+    "price": 32,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "MEDIUM GREY",
+    "colors": [
+      "MEDIUM GREY"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "47% Polyester 28% Wool 20% Viscose 5% Elastane",
+    "description": "XHAKETË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545669992_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545669992_5.jpg"
+    ],
+    "features": [
+      "47% Polyester 28% Wool 20% Viscose 5% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Jackets",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 11,
+    "country_of_origin": "Ukraine",
+    "cross_reference": "4063545669978",
+    "product_no": "50535707",
+    "color_hex": "#808080",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215666-1580",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 10,
+    "original_price": 12,
+    "discount_percentage": 16,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XXL",
+    "sizes": [
+      "XXL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546199573_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546199573_5.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.8",
+    "reviews_count": 42,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546199863",
+    "product_no": "50537836",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196959-1581",
+    "name": "ATLETE",
+    "brand": "BOSS",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "price": 29,
+    "original_price": 36,
+    "discount_percentage": 19,
+    "color": "DK CHMB HTHR",
+    "colors": [
+      "DK CHMB HTHR"
+    ],
+    "size": "41",
+    "sizes": [
+      "41"
+    ],
+    "material": "Lining 85% Polyester 15% Polyurethane Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper m",
+    "description": "ATLETE",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546473994_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546473994_1.jpg"
+    ],
+    "features": [
+      "Lining 85% Polyester 15% Polyurethane Lining 60% Polyester 40% Polyurethane Sole 100% Rubber Upper m",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Footwear",
+      "Sneakers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.4",
+    "reviews_count": 16,
+    "country_of_origin": "China",
+    "cross_reference": "4063546473987",
+    "product_no": "50541868",
+    "color_hex": "#4A5D73",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071220842-1582",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 22,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "M",
+    "sizes": [
+      "M"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545050042_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545050042_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 12,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063545050042",
+    "product_no": "50520298",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215459-1583",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "56",
+    "sizes": [
+      "56"
+    ],
+    "material": "68% Polyester 29% Viscose 3% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546457666_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546457666_5.jpg"
+    ],
+    "features": [
+      "68% Polyester 29% Viscose 3% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.6",
+    "reviews_count": 11,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546457666",
+    "product_no": "50540791",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215414-1584",
+    "name": "XHAKETË KOSTUMËSH",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suit Jacket",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "50",
+    "sizes": [
+      "50"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "XHAKETË KOSTUMËSH",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546428901_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suit Jacket",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.1",
+    "reviews_count": 38,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546428888",
+    "product_no": "50540685",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215481-1585",
+    "name": "KOSTUMË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suits",
+    "price": 25,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "CHESTNUT",
+    "colors": [
+      "CHESTNUT"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "51% Linen 47% Virgin wool 2% Elastane",
+    "description": "KOSTUMË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546451510_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546451510_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546451510_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546451510_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546451510_4.jpg"
+    ],
+    "features": [
+      "51% Linen 47% Virgin wool 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suits",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.9",
+    "reviews_count": 18,
+    "country_of_origin": "Bulgaria",
+    "cross_reference": "4063546451510",
+    "product_no": "50540765",
+    "color_hex": "#954535",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196837-1586",
+    "name": "RRIP",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": 27,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BROWN",
+    "colors": [
+      "DARK BROWN"
+    ],
+    "size": "100",
+    "sizes": [
+      "100"
+    ],
+    "material": "100% Cow hide leather",
+    "description": "RRIP",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4044228003432_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4044228003432_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4044228003432_2.jpg"
+    ],
+    "features": [
+      "100% Cow hide leather",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Belts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.1",
+    "reviews_count": 50,
+    "country_of_origin": "Romania",
+    "cross_reference": "4044228003432",
+    "product_no": "50471321",
+    "color_hex": "#654321",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071192196-1587",
+    "name": "Fustanë",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "119",
+    "price": 38,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Dresses",
+    "colors": [
+      "Dresses"
+    ],
+    "size": "XS",
+    "sizes": [
+      "XS"
+    ],
+    "material": "90% RPL",
+    "description": "Fustanë",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128001831_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128001831_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128001831_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128001831_3.jpg"
+    ],
+    "features": [
+      "90% RPL",
+      "2 design",
+      "For 2",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "119",
+      "2",
+      "2",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 53,
+    "country_of_origin": "10% EA",
+    "cross_reference": "4068128001855",
+    "product_no": "50104546071",
+    "color_hex": "BLUE FLOWER PRINT",
+    "season_year": "Spring/Summer",
+    "gender": "2",
+    "age_class": "2",
+    "season": "1"
+  },
+  {
+    "id": "albi-071215415-1588",
+    "name": "XHAKETË KOSTUMËSH",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suit Jacket",
+    "price": 35,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "XHAKETË KOSTUMËSH",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546428901_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546428901_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suit Jacket",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 21,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546428895",
+    "product_no": "50540685",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217730-1589",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 32,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546251028_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546251028_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 37,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546250878",
+    "product_no": "50536853",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071190283-1590",
+    "name": "XHAKETË KOSTUMËSH",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Suit Jacket",
+    "price": 43,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "54",
+    "sizes": [
+      "54"
+    ],
+    "material": "82% Polyamide 18% Elastane",
+    "description": "XHAKETË KOSTUMËSH",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545696240_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545696240_5.jpg"
+    ],
+    "features": [
+      "82% Polyamide 18% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Suit Jacket",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 25,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063545696264",
+    "product_no": "50537441",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215577-1591",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 33,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "56",
+    "sizes": [
+      "56"
+    ],
+    "material": "51% Linen 30% Polyester 16% Viscose 3% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546414102_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546414102_5.jpg"
+    ],
+    "features": [
+      "51% Linen 30% Polyester 16% Viscose 3% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 52,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546414102",
+    "product_no": "50540480",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071217805-1592",
+    "name": "PANTALLONA TË SHKURTËR",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 24,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "474",
+    "colors": [
+      "474"
+    ],
+    "size": "36",
+    "sizes": [
+      "36"
+    ],
+    "material": "97% Cotton 3% Elastane",
+    "description": "PANTALLONA TË SHKURTËR",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546054049_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546054049_5.jpg"
+    ],
+    "features": [
+      "97% Cotton 3% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.3",
+    "reviews_count": 41,
+    "country_of_origin": "Sri Lanka",
+    "cross_reference": "4063546054049",
+    "product_no": "50536723",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071220764-1593",
+    "name": "MAICË POLO",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Polos",
+    "price": 50,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "131",
+    "colors": [
+      "131"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "100% Cotton",
+    "description": "MAICË POLO",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546067971_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546067971_5.jpg"
+    ],
+    "features": [
+      "100% Cotton",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Polos",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "4.0",
+    "reviews_count": 44,
+    "country_of_origin": "Bangladesh",
+    "cross_reference": "4063546067971",
+    "product_no": "50520297",
+    "color_hex": "",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071196846-1594",
+    "name": "QANTË",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 18,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "100% Polyester (recycled)",
+    "description": "QANTË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063541651212_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063541651212_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063541651212_2.jpg"
+    ],
+    "features": [
+      "100% Polyester (recycled)",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 45,
+    "country_of_origin": "China",
+    "cross_reference": "4063541651212",
+    "product_no": "50516790",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071192401-1595",
+    "name": "Polo bluzë me elastan",
+    "brand": "TOM TAILOR",
+    "category": "1",
+    "subcategory": "103",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "Polos",
+    "colors": [
+      "Polos"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "98% CO",
+    "description": "Polo bluzë me elastan",
+    "image": "http://91.187.98.69:8001/07/2570/Published/4068128258174_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2570/Published/4068128258174_1.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128258174_2.jpg",
+      "http://91.187.98.69:8001/07/2570/Published/4068128258174_3.jpg"
+    ],
+    "features": [
+      "98% CO",
+      "1 design",
+      "For 1",
+      "1 collection"
+    ],
+    "tags": [
+      "1",
+      "103",
+      "1",
+      "1",
+      "1"
+    ],
+    "availability": "in_stock",
+    "rating": "4.5",
+    "reviews_count": 6,
+    "country_of_origin": "2% EA",
+    "cross_reference": "4068128258204",
+    "product_no": "15104562910",
+    "color_hex": "DEEP RED TWO TONE",
+    "season_year": "Spring/Summer",
+    "gender": "1",
+    "age_class": "1",
+    "season": "1"
+  },
+  {
+    "id": "albi-071215636-1596",
+    "name": "MAICË",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "T-shirts",
+    "price": 28,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "S",
+    "sizes": [
+      "S"
+    ],
+    "material": "71% Lyocell 29% Cotton",
+    "description": "MAICË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546228846_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546228846_5.jpg"
+    ],
+    "features": [
+      "71% Lyocell 29% Cotton",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "T-shirts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 14,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546228914",
+    "product_no": "50536636",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071220914-1597",
+    "name": "QANTË",
+    "brand": "BOSS",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": 48,
+    "original_price": 58,
+    "discount_percentage": 17,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "ONESI",
+    "sizes": [
+      "ONESI"
+    ],
+    "material": "100% Polyester (recycled)",
+    "description": "QANTË",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063539997278_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063539997278_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063539997278_2.jpg"
+    ],
+    "features": [
+      "100% Polyester (recycled)",
+      "male design",
+      "For adult"
+    ],
+    "tags": [
+      "Accessories",
+      "Bags",
+      "male",
+      "Adult"
+    ],
+    "availability": "in_stock",
+    "rating": "3.4",
+    "reviews_count": 6,
+    "country_of_origin": "China",
+    "cross_reference": "4063539997278",
+    "product_no": "50511961",
+    "color_hex": "#000000",
+    "season_year": "",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "NOS"
+  },
+  {
+    "id": "albi-071215427-1598",
+    "name": "PANTALLONA",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Trousers",
+    "price": 20,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK GREEN",
+    "colors": [
+      "DARK GREEN"
+    ],
+    "size": "52",
+    "sizes": [
+      "52"
+    ],
+    "material": "66% Linen 32% Viscose 2% Elastane",
+    "description": "PANTALLONA",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546444888_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546444888_5.jpg"
+    ],
+    "features": [
+      "66% Linen 32% Viscose 2% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Trousers",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.5",
+    "reviews_count": 46,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546444888",
+    "product_no": "50540733",
+    "color_hex": "#006400",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071215683-1599",
+    "name": "PANTALLONA TË SHKURTËR",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Shorts",
+    "price": 42,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "DARK BLUE",
+    "colors": [
+      "DARK BLUE"
+    ],
+    "size": "56",
+    "sizes": [
+      "56"
+    ],
+    "material": "51% Linen 30% Polyester 16% Viscose 3% Elastane",
+    "description": "PANTALLONA TË SHKURTËR",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063546299983_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_4.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_5.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063546299983_5.jpg"
+    ],
+    "features": [
+      "51% Linen 30% Polyester 16% Viscose 3% Elastane",
+      "male design",
+      "For newborn",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Shorts",
+      "male",
+      "Newborn",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.3",
+    "reviews_count": 37,
+    "country_of_origin": "Turkey",
+    "cross_reference": "4063546299983",
+    "product_no": "50538016",
+    "color_hex": "#00008B",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Newborn",
+    "season": "Spring/Summer"
+  },
+  {
+    "id": "albi-071220949-1600",
+    "name": "TË BRENDSHME",
+    "brand": "BOSS",
+    "category": "Apparel",
+    "subcategory": "Underwear",
+    "price": 29,
+    "original_price": null,
+    "discount_percentage": null,
+    "color": "BLACK",
+    "colors": [
+      "BLACK"
+    ],
+    "size": "XL",
+    "sizes": [
+      "XL"
+    ],
+    "material": "95% Cotton 5% Elastane",
+    "description": "TË BRENDSHME",
+    "image": "http://91.187.98.69:8001/07/2615/Published/4063545916935_1.jpg",
+    "images": [
+      "http://91.187.98.69:8001/07/2615/Published/4063545916935_1.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545916935_2.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545916935_3.jpg",
+      "http://91.187.98.69:8001/07/2615/Published/4063545916935_4.jpg"
+    ],
+    "features": [
+      "95% Cotton 5% Elastane",
+      "male design",
+      "For adult",
+      "Spring/Summer collection"
+    ],
+    "tags": [
+      "Apparel",
+      "Underwear",
+      "male",
+      "Adult",
+      "Spring/Summer"
+    ],
+    "availability": "in_stock",
+    "rating": "3.6",
+    "reviews_count": 41,
+    "country_of_origin": "Vietnam",
+    "cross_reference": "4063545916935",
+    "product_no": "50544263",
+    "color_hex": "#000000",
+    "season_year": "2025",
+    "gender": "male",
+    "age_class": "Adult",
+    "season": "Spring/Summer"
+  }
+]

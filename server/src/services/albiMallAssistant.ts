@@ -1,611 +1,754 @@
-import { ProductDocument } from '../types/trieve';
+import { TrieveService } from './trieveService';
 import { GroqService } from './groqService';
-import TrieveService from './trieveService';
-import { searchCache, generateSearchKey, generateAIResponseKey } from '../utils/cache';
+import { Product, ChatbotResponse, SessionContext, ChatRequest, ChatResponse } from '../types/shared';
 
-export interface AlbiMallResponse {
-  assistant_text: string;
-  recommended_products: Array<{
-    id: string;
-    title: string;
-    highlight: string;
-  }>;
-  audit_notes?: string;
-}
+// Session Manager for robust context persistence
+class SessionManager {
+  private static instance: SessionManager;
+  private sessionStore: Map<string, {
+    lastQuery?: string;
+    lastProducts?: Product[];
+    lastCategory?: string;
+    lastProductType?: string;
+    timestamp: number;
+  }> = new Map();
 
-export interface SessionContext {
-  messages: Array<{
-    type: 'user' | 'assistant';
-    content: string;
-    timestamp: Date;
-  }>;
-  appliedFilters: {
-    color?: string;
-    priceRange?: { min?: number; max?: number };
-    category?: string;
-    material?: string;
-    style?: string;
-    occasion?: string;
-  };
-  previousRecommendations: string[];
-}
+  static getInstance(): SessionManager {
+    if (!SessionManager.instance) {
+      SessionManager.instance = new SessionManager();
+    }
+    return SessionManager.instance;
+  }
 
-export class AlbiMallAssistant {
-  private groqService: GroqService;
-  private trieveService: TrieveService;
-  private sessionContexts: Map<string, SessionContext> = new Map();
-
-  constructor() {
-    this.groqService = new GroqService();
-    this.trieveService = new TrieveService({
-      apiKey: process.env.TRIEVE_API_KEY || '',
-      datasetId: process.env.TRIEVE_DATASET_ID || '',
-      organizationId: process.env.TRIEVE_ORGANIZATION_ID || '',
-      baseUrl: process.env.TRIEVE_BASE_URL || 'https://api.trieve.ai'
+  setContext(sessionId: string, context: {
+    lastQuery?: string;
+    lastProducts?: Product[];
+    lastCategory?: string;
+    lastProductType?: string;
+  }): void {
+    this.sessionStore.set(sessionId, {
+      ...context,
+      timestamp: Date.now()
+    });
+    console.log(`[SessionManager] Stored context for ${sessionId}:`, {
+      lastQuery: context.lastQuery,
+      lastProductsCount: context.lastProducts?.length || 0,
+      lastProductType: context.lastProductType
     });
   }
 
-  /**
-   * Process user query and return structured response
-   */
-  async processQuery(
-    userQuery: string,
-    sessionId: string,
-    retrievedProducts: ProductDocument[] = []
-  ): Promise<AlbiMallResponse> {
-    try {
-      console.log(`🔍 Processing query: "${userQuery}" for session: ${sessionId}`);
-
-      // Get or create session context
-      const sessionContext = this.getSessionContext(sessionId);
-
-      // Check cache first
-      const cacheKey = generateSearchKey(userQuery);
-      const cachedResult = searchCache.get<AlbiMallResponse>(cacheKey);
-      
-      if (cachedResult) {
-        console.log(`🎯 Cache hit for query: "${userQuery}"`);
-        this.updateSessionContext(sessionId, 'user', userQuery);
-        this.updateSessionContext(sessionId, 'assistant', cachedResult.assistant_text);
-        return cachedResult;
-      }
-
-      // If no products provided, retrieve from Trieve
-      let products = retrievedProducts;
-      if (products.length === 0) {
-        products = await this.trieveService.searchProducts(userQuery, 10);
-      }
-
-      // Apply dynamic filtering based on user query and session context
-      const filteredProducts = this.applyDynamicFiltering(userQuery, products, sessionContext);
-
-      // Generate intelligent response using Groq
-      const response = await this.generateIntelligentResponse(
-        userQuery,
-        filteredProducts,
-        sessionContext
-      );
-
-      // Update session context
-      this.updateSessionContext(sessionId, 'user', userQuery);
-      this.updateSessionContext(sessionId, 'assistant', response.assistant_text);
-
-      // Cache the result
-      searchCache.set(cacheKey, response);
-
-      return response;
-    } catch (error) {
-      console.error('❌ Error processing query:', error);
-      return this.getFallbackResponse(userQuery, retrievedProducts);
+  getContext(sessionId: string): {
+    lastQuery?: string;
+    lastProducts?: Product[];
+    lastCategory?: string;
+    lastProductType?: string;
+  } | null {
+    const context = this.sessionStore.get(sessionId);
+    if (!context) {
+      console.log(`[SessionManager] No context found for ${sessionId}`);
+      return null;
     }
-  }
-
-  /**
-   * Apply dynamic filtering based on user query and session context
-   */
-  private applyDynamicFiltering(
-    userQuery: string,
-    products: ProductDocument[],
-    sessionContext: SessionContext
-  ): ProductDocument[] {
-    const queryLower = userQuery.toLowerCase();
-    let filteredProducts = [...products];
-
-    // Extract filters from current query
-    const currentFilters = this.extractFiltersFromQuery(userQuery);
-
-    // Merge with session context filters
-    const combinedFilters = {
-      ...sessionContext.appliedFilters,
-      ...currentFilters
-    };
-
-    // STRICT DATASET INTEGRITY CHECK
-    // If user asks for a specific brand that's not in our dataset, return empty
-    const brandKeywords = ['gucci', 'louis vuitton', 'chanel', 'prada', 'hermes', 'dior', 'balenciaga', 'versace', 'givenchy'];
-    const requestedBrand = brandKeywords.find(brand => queryLower.includes(brand));
     
-    if (requestedBrand && !products.some(p => p.brand.toLowerCase().includes(requestedBrand))) {
-      console.log(`🚫 Brand integrity check: User asked for ${requestedBrand} but we only have Michael Kors products`);
-      return []; // Return empty array to maintain dataset integrity
+    // Clean up old sessions (older than 1 hour)
+    if (Date.now() - context.timestamp > 3600000) {
+      this.sessionStore.delete(sessionId);
+      console.log(`[SessionManager] Cleaned up old session ${sessionId}`);
+      return null;
     }
-
-    // Apply color filtering
-    if (combinedFilters.color) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.color.toLowerCase().includes(combinedFilters.color!) ||
-        product.colors.some(color => color.toLowerCase().includes(combinedFilters.color!))
-      );
-    }
-
-    // Apply price range filtering
-    if (combinedFilters.priceRange) {
-      if (combinedFilters.priceRange.min !== undefined) {
-        filteredProducts = filteredProducts.filter(product => product.price >= combinedFilters.priceRange!.min!);
-      }
-      if (combinedFilters.priceRange.max !== undefined) {
-        filteredProducts = filteredProducts.filter(product => product.price <= combinedFilters.priceRange!.max!);
-      }
-    }
-
-    // Apply category filtering
-    if (combinedFilters.category) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.category.toLowerCase().includes(combinedFilters.category!) ||
-        product.subcategory.toLowerCase().includes(combinedFilters.category!)
-      );
-    }
-
-    // Apply material filtering
-    if (combinedFilters.material) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.material.toLowerCase().includes(combinedFilters.material!)
-      );
-    }
-
-    // Apply style filtering
-    if (combinedFilters.style) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.features.some(feature => feature.toLowerCase().includes(combinedFilters.style!)) ||
-        product.tags.some(tag => tag.toLowerCase().includes(combinedFilters.style!))
-      );
-    }
-
-    // Apply occasion filtering
-    if (combinedFilters.occasion) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.features.some(feature => feature.toLowerCase().includes(combinedFilters.occasion!)) ||
-        product.tags.some(tag => tag.toLowerCase().includes(combinedFilters.occasion!))
-      );
-    }
-
-    // Update session context with applied filters
-    sessionContext.appliedFilters = combinedFilters;
-
-    console.log(`🔍 Filtered ${products.length} products to ${filteredProducts.length} based on filters`);
-    return filteredProducts.slice(0, 5); // Limit to 5 products as per spec
+    
+    console.log(`[SessionManager] Retrieved context for ${sessionId}:`, {
+      lastQuery: context.lastQuery,
+      lastProductsCount: context.lastProducts?.length || 0,
+      lastProductType: context.lastProductType
+    });
+    
+    return {
+      lastQuery: context.lastQuery,
+      lastProducts: context.lastProducts,
+      lastCategory: context.lastCategory,
+      lastProductType: context.lastProductType
+    };
   }
 
-  /**
-   * Extract filters from user query
-   */
-  private extractFiltersFromQuery(query: string): SessionContext['appliedFilters'] {
+  clearSession(sessionId: string): void {
+    this.sessionStore.delete(sessionId);
+    console.log(`[SessionManager] Cleared session ${sessionId}`);
+  }
+}
+
+export class AlbiMallAssistant {
+  private trieveService: TrieveService;
+  private groqService: GroqService;
+  private sessions: Map<string, SessionContext>;
+  private sessionManager: SessionManager;
+
+  constructor() {
+    this.trieveService = new TrieveService();
+    this.groqService = new GroqService();
+    this.sessions = new Map();
+    this.sessionManager = SessionManager.getInstance();
+  }
+
+  private getOrCreateSession(sessionId: string): SessionContext {
+    if (!this.sessions.has(sessionId)) {
+      this.sessions.set(sessionId, {
+        conversationHistory: []
+      });
+    }
+    return this.sessions.get(sessionId)!;
+  }
+
+  private updateSessionContext(sessionId: string, userMessage: string, assistantResponse: string, products: Product[], searchQuery?: string, filters?: any) {
+    const context = this.getOrCreateSession(sessionId);
+    
+    // Add to conversation history
+    context.conversationHistory.push({
+      user: userMessage,
+      assistant: assistantResponse,
+      timestamp: new Date()
+    });
+
+    // Keep only last 10 conversations to prevent memory bloat
+    if (context.conversationHistory.length > 10) {
+      context.conversationHistory = context.conversationHistory.slice(-10);
+    }
+
+    // Update context with latest products and processed query
+    context.lastQuery = searchQuery || userMessage;
+    
+    // Only update lastProducts if this is a new product search, not a follow-up question
+    const isFollowUp = this.isFollowUpQuery(userMessage, context);
+    if (!isFollowUp) {
+      context.lastProducts = products;
+    }
+    
+    if (filters) {
+      context.lastFilters = filters;
+    }
+    
+    // Extract category from products if available
+    if (products.length > 0) {
+      context.lastCategory = products[0].category;
+    }
+
+    this.sessions.set(sessionId, context);
+    
+    // Update SessionManager with robust context storage
+    this.sessionManager.setContext(sessionId, {
+      lastQuery: context.lastQuery,
+      lastProducts: context.lastProducts,
+      lastCategory: context.lastCategory,
+      lastProductType: context.lastQuery ? this.extractProductType(context.lastQuery) : undefined
+    });
+  }
+
+  private extractProductType(query: string): string | undefined {
     const queryLower = query.toLowerCase();
-    const filters: SessionContext['appliedFilters'] = {};
-
-    // Extract color filters
-    const colorKeywords = [
-      'red', 'black', 'brown', 'navy', 'blue', 'green', 'white', 'gray', 'grey',
-      'pink', 'purple', 'yellow', 'orange', 'beige', 'tan', 'camel', 'burgundy'
-    ];
-    const foundColor = colorKeywords.find(color => queryLower.includes(color));
-    if (foundColor) {
-      filters.color = foundColor;
-    }
-
-    // Extract price range filters
-    const priceRange = this.extractPriceRange(queryLower);
-    if (priceRange.min !== undefined || priceRange.max !== undefined) {
-      filters.priceRange = priceRange;
-    }
-
-    // Extract category filters
-    if (queryLower.includes('bag') || queryLower.includes('handbag')) {
-      filters.category = 'bags';
-    } else if (queryLower.includes('wallet')) {
-      filters.category = 'wallet';
-    } else if (queryLower.includes('accessory')) {
-      filters.category = 'accessories';
-    }
-
-    // Extract material filters
-    const materialKeywords = ['leather', 'canvas', 'suede', 'fabric', 'denim'];
-    const foundMaterial = materialKeywords.find(material => queryLower.includes(material));
-    if (foundMaterial) {
-      filters.material = foundMaterial;
-    }
-
-    // Extract style filters
-    const styleKeywords = ['casual', 'formal', 'elegant', 'sporty', 'vintage', 'modern'];
-    const foundStyle = styleKeywords.find(style => queryLower.includes(style));
-    if (foundStyle) {
-      filters.style = foundStyle;
-    }
-
-    // Extract occasion filters with enhanced detection
-    const occasionKeywords = {
-      'work': ['work', 'office', 'business', 'professional', 'corporate'],
-      'everyday': ['everyday', 'daily', 'casual', 'regular'],
-      'evening': ['evening', 'night', 'party', 'dinner', 'cocktail', 'chic', 'elegant'],
-      'travel': ['travel', 'vacation', 'trip', 'journey'],
-      'formal': ['formal', 'sophisticated', 'elegant', 'chic'],
-      'casual': ['casual', 'relaxed', 'comfortable']
+    
+    // Define product type mappings
+    const productTypes: { [key: string]: string } = {
+      'këmishë': 'këmisha',
+      'kemishe': 'këmisha', 
+      'shirt': 'këmisha',
+      'pantofla': 'pantofla',
+      'slipper': 'pantofla',
+      'peshqir': 'peshqir',
+      'towel': 'peshqir',
+      'pantallona': 'pantallona',
+      'pants': 'pantallona',
+      'xhinse': 'xhinse',
+      'jeans': 'xhinse',
+      'bluzë': 'bluzë',
+      'blouse': 'bluzë',
+      'fustan': 'fustan',
+      'dress': 'fustan',
+      'xhaketë': 'xhaketë',
+      'jacket': 'xhaketë',
+      'qantë': 'qantë',
+      'bag': 'qantë',
+      'këpucë': 'këpucë',
+      'shoes': 'këpucë',
+      'çorape': 'çorape',
+      'socks': 'çorape',
+      'maicë': 'maicë',
+      't-shirt': 'maicë',
+      'të brendshme': 'të brendshme',
+      'underwear': 'të brendshme',
+      'jastek': 'jastek',
+      'pillow': 'jastek',
+      'jorgan': 'jorgan',
+      'duvet': 'jorgan'
     };
     
-    for (const [occasion, keywords] of Object.entries(occasionKeywords)) {
-      if (keywords.some(keyword => queryLower.includes(keyword))) {
-        filters.occasion = occasion;
+    // Find the first matching product type
+    for (const [keyword, productType] of Object.entries(productTypes)) {
+      if (queryLower.includes(keyword)) {
+        return productType;
+      }
+    }
+    
+    return undefined;
+  }
+
+  private extractFiltersFromQuery(query: string, context: SessionContext): {
+    price?: { min?: number; max?: number };
+    color?: string;
+    size?: string;
+    material?: string;
+    brand?: string;
+    productType?: string;
+  } {
+    const filters: any = {};
+    const queryLower = query.toLowerCase();
+
+    // Price filters
+    const priceMatch = queryLower.match(/(\d+)\s*\$?/g);
+    if (priceMatch) {
+      const prices = priceMatch.map(p => parseInt(p.replace(/\D/g, '')));
+      if (queryLower.includes('më pak') || queryLower.includes('nën') || queryLower.includes('under')) {
+        filters.price = { max: Math.max(...prices) };
+      } else if (queryLower.includes('më shumë') || queryLower.includes('mbi') || queryLower.includes('over')) {
+        filters.price = { min: Math.min(...prices) };
+      } else if (prices.length === 2) {
+        filters.price = { min: Math.min(...prices), max: Math.max(...prices) };
+      } else {
+        filters.price = { max: prices[0] };
+      }
+    }
+
+    // Color filters
+    const colors = ['kuqe', 'bardhë', 'zeze', 'blu', 'gjelbër', 'verdhë', 'portokalli', 'roze', 'vjollcë', 'kafe'];
+    for (const color of colors) {
+      if (queryLower.includes(color)) {
+        filters.color = color;
         break;
       }
+    }
+
+    // Size filters
+    const sizes = ['xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl'];
+    for (const size of sizes) {
+      if (queryLower.includes(size)) {
+        filters.size = size;
+        break;
+      }
+    }
+
+    // Material filters
+    const materials = ['pambuk', 'cotton', 'polyester', 'viscose', 'elastane'];
+    for (const material of materials) {
+      if (queryLower.includes(material)) {
+        filters.material = material;
+        break;
+      }
+    }
+
+    // Brand filters
+    const brands = ['boss', 'ozdilek', 'albi'];
+    for (const brand of brands) {
+      if (queryLower.includes(brand)) {
+        filters.brand = brand;
+        break;
+      }
+    }
+
+    // Product type filter - CRITICAL FIX
+    const productType = this.extractProductType(query);
+    if (productType) {
+      filters.productType = productType;
     }
 
     return filters;
   }
 
-  /**
-   * Extract price range from query
-   */
-  private extractPriceRange(query: string): { min?: number; max?: number } {
-    const priceRange: { min?: number; max?: number } = {};
-
-    // Look for "under $X" or "below $X"
-    const underMatch = query.match(/under\s+\$?(\d+)|below\s+\$?(\d+)/i);
-    if (underMatch) {
-      priceRange.max = parseInt(underMatch[1] || underMatch[2]);
+  private cleanColorValue(color: string): string {
+    // Clean up invalid color values
+    const invalidColors = ['sweaters', '900', 'bv9', 'dk chmb hthr', 'bedroom', 'apparel'];
+    const colorLower = color.toLowerCase();
+    
+    if (invalidColors.includes(colorLower)) {
+      return 'E bardhë'; // Default to white for invalid colors
     }
-
-    // Look for "over $X" or "above $X"
-    const overMatch = query.match(/over\s+\$?(\d+)|above\s+\$?(\d+)/i);
-    if (overMatch) {
-      priceRange.min = parseInt(overMatch[1] || overMatch[2]);
-    }
-
-    // Look for "$X-$Y" range
-    const rangeMatch = query.match(/\$?(\d+)\s*-\s*\$?(\d+)/i);
-    if (rangeMatch) {
-      priceRange.min = parseInt(rangeMatch[1]);
-      priceRange.max = parseInt(rangeMatch[2]);
-    }
-
-    // Look for "up to $X"
-    const upToMatch = query.match(/up\s+to\s+\$?(\d+)/i);
-    if (upToMatch) {
-      priceRange.max = parseInt(upToMatch[1]);
-    }
-
-    // Look for "around $X"
-    const aroundMatch = query.match(/around\s+\$?(\d+)/i);
-    if (aroundMatch) {
-      const price = parseInt(aroundMatch[1]);
-      priceRange.min = Math.max(0, price - 50);
-      priceRange.max = price + 50;
-    }
-
-    return priceRange;
+    
+    // Convert common English colors to Albanian
+    const colorMap: { [key: string]: string } = {
+      'white': 'E bardhë',
+      'black': 'E zezë',
+      'blue': 'Blu',
+      'red': 'E kuqe',
+      'green': 'E gjelbër',
+      'yellow': 'E verdhë',
+      'orange': 'Portokalli',
+      'pink': 'Roze',
+      'purple': 'Vjollcë',
+      'brown': 'Kafe',
+      'grey': 'Gri',
+      'gray': 'Gri'
+    };
+    
+    return colorMap[colorLower] || color;
   }
 
-  /**
-   * Generate intelligent response using Groq API
-   */
-  private async generateIntelligentResponse(
-    userQuery: string,
-    products: ProductDocument[],
-    sessionContext: SessionContext
-  ): Promise<AlbiMallResponse> {
+  private filterProductsByCriteria(products: Product[], filters: {
+    price?: { min?: number; max?: number };
+    color?: string;
+    size?: string;
+    material?: string;
+    brand?: string;
+    productType?: string; // Add product type filter
+  }): Product[] {
+    return products.filter(product => {
+      // Product type filter - CRITICAL for context retention
+      if (filters.productType) {
+        const productNameLower = product.name.toLowerCase();
+        const productTypeLower = filters.productType.toLowerCase();
+        
+        // Strict matching for product types
+        if (productTypeLower === 'këmisha') {
+          // Only allow shirts, not t-shirts or other items
+          if (!productNameLower.includes('këmish') && !productNameLower.includes('shirt')) {
+            return false;
+          }
+          // Exclude t-shirts, jeans, underwear, towels, etc.
+          if (productNameLower.includes('maicë') || 
+              productNameLower.includes('xhinse') || 
+              productNameLower.includes('të brendshme') || 
+              productNameLower.includes('peshqir') ||
+              productNameLower.includes('set')) {
+            return false;
+          }
+        } else if (productTypeLower === 'maicë') {
+          // Only allow t-shirts
+          if (!productNameLower.includes('maicë') && !productNameLower.includes('t-shirt')) {
+            return false;
+          }
+        } else if (productTypeLower === 'xhinse') {
+          // Only allow jeans
+          if (!productNameLower.includes('xhinse') && !productNameLower.includes('jeans')) {
+            return false;
+          }
+        } else if (productTypeLower === 'peshqir') {
+          // Only allow towels
+          if (!productNameLower.includes('peshqir') && !productNameLower.includes('towel')) {
+            return false;
+          }
+        } else if (productTypeLower === 'pantofla') {
+          // Only allow slippers - STRICT MATCHING
+          if (!productNameLower.includes('pantofla') && !productNameLower.includes('slipper')) {
+            return false;
+          }
+          // Exclude towels, sets, and other unrelated products
+          if (productNameLower.includes('peshqir') || 
+              productNameLower.includes('towel') ||
+              productNameLower.includes('set') ||
+              productNameLower.includes('çarçaf')) {
+            return false;
+          }
+        } else if (productTypeLower === 'jastek') {
+          // Only allow pillows - STRICT MATCHING
+          if (!productNameLower.includes('jastek') && !productNameLower.includes('pillow')) {
+            return false;
+          }
+          // Exclude sweaters, bags, and other unrelated products
+          if (productNameLower.includes('pulover') || 
+              productNameLower.includes('sweater') ||
+              productNameLower.includes('cante') ||
+              productNameLower.includes('bag') ||
+              productNameLower.includes('qantë')) {
+            return false;
+          }
+        } else if (productTypeLower === 'jorgan') {
+          // Only allow duvets/comforters - STRICT MATCHING
+          if (!productNameLower.includes('jorgan') && !productNameLower.includes('duvet') && !productNameLower.includes('comforter')) {
+            return false;
+          }
+          // Exclude pillows, sweaters, and other unrelated products
+          if (productNameLower.includes('jastek') || 
+              productNameLower.includes('pillow') ||
+              productNameLower.includes('pulover') ||
+              productNameLower.includes('sweater')) {
+            return false;
+          }
+        }
+      }
+      if (filters.price) {
+        if (filters.price.max && product.price > filters.price.max) {
+          return false;
+        }
+        if (filters.price.min && product.price < filters.price.min) {
+          return false;
+        }
+      }
+
+      // Color filter
+      if (filters.color && !product.color.toLowerCase().includes(filters.color.toLowerCase())) {
+        return false;
+      }
+
+      // Size filter
+      if (filters.size && !product.sizes.includes(filters.size.toLowerCase())) {
+        return false;
+      }
+
+      // Material filter
+      if (filters.material && !product.material.toLowerCase().includes(filters.material.toLowerCase())) {
+        return false;
+      }
+
+      // Brand filter
+      if (filters.brand && !product.brand.toLowerCase().includes(filters.brand.toLowerCase())) {
+        return false;
+      }
+
+      return true;
+    });
+  }
+
+  private isFollowUpQuery(query: string, context: SessionContext): boolean {
+    const followUpKeywords = [
+      'më lirë', 'më shtrenjtë', 'më pak', 'më shumë', 'nën', 'mbi',
+      'kuqe', 'bardhë', 'zeze', 'blu', 'gjelbër', 'verdhë',
+      'më të vogël', 'më të madhe', 's', 'm', 'l', 'xl',
+      'pambuk', 'cotton', 'polyester', 'viscose',
+      'cilën më sugjeron', 'më mirë', 'më të mirë'
+    ];
+
+    const queryLower = query.toLowerCase();
+    const hasFollowUpKeyword = followUpKeywords.some(keyword => queryLower.includes(keyword));
+    const hasLastProducts = Boolean(context.lastProducts && context.lastProducts.length > 0);
+    
+    return hasFollowUpKeyword && hasLastProducts;
+  }
+
+  private buildSearchQuery(userMessage: string, context: SessionContext): string {
+    // If it's a follow-up query, combine the last query with the new filter
+    if (this.isFollowUpQuery(userMessage, context) && context.lastQuery) {
+      // Extract filters from the current message
+      const filters = this.extractFiltersFromQuery(userMessage, context);
+      
+      // Build a combined query that includes both the original product type and new filters
+      let combinedQuery = context.lastQuery;
+      
+      console.log('Follow-up query detected. Original query:', context.lastQuery);
+      console.log('New filters:', filters);
+      
+      // Add price filters
+      if (filters.price) {
+        if (filters.price.max) {
+          combinedQuery += ` under ${filters.price.max} dollars`;
+        }
+        if (filters.price.min) {
+          combinedQuery += ` above ${filters.price.min} dollars`;
+        }
+      }
+      
+      // Add color filters
+      if (filters.color) {
+        combinedQuery += ` ${filters.color}`;
+      }
+      
+      // Add size filters
+      if (filters.size) {
+        combinedQuery += ` size ${filters.size}`;
+      }
+      
+      // Add material filters
+      if (filters.material) {
+        combinedQuery += ` ${filters.material}`;
+      }
+      
+      console.log('Combined query:', combinedQuery);
+      return combinedQuery;
+    }
+
+    // Clean and normalize the query
+    let query = userMessage.toLowerCase()
+      .replace(/[^\w\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    // Handle common Albanian product synonyms
+    const synonyms: { [key: string]: string } = {
+      'peshqir': 'towel',
+      'pantofla': 'slipper',
+      'këmishë': 'shirt',
+      'pantallona': 'pants',
+      'bluzë': 'blouse',
+      'fustan': 'dress',
+      'xhaketë': 'jacket',
+      'qantë': 'bag',
+      'këpucë': 'shoes',
+      'çorape': 'socks'
+    };
+
+    for (const [albanian, english] of Object.entries(synonyms)) {
+      if (query.includes(albanian)) {
+        query = query.replace(albanian, english);
+      }
+    }
+
+    // Special handling for specific queries
+    if (query.includes('shirt') && query.includes('meshkuj')) {
+      query = 'shirt men male dress shirt';
+    } else if (query.includes('shirt') && query.includes('femra')) {
+      query = 'shirt women female blouse';
+    } else if (query.includes('shirt')) {
+      query = 'shirt dress shirt';
+    }
+
+    return query;
+  }
+
+  async processMessage(request: ChatRequest): Promise<ChatResponse> {
+    const sessionId = request.sessionId || `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    const context = this.getOrCreateSession(sessionId);
+    
+    console.log('Processing message for session:', sessionId);
+    console.log('Current context:', {
+      lastQuery: context.lastQuery,
+      lastProductsCount: context.lastProducts?.length || 0,
+      lastCategory: context.lastCategory
+    });
+    
     try {
-      // Check AI response cache
-      const aiCacheKey = generateAIResponseKey(userQuery, products.map(p => p.id));
-      const cachedResponse = searchCache.get<AlbiMallResponse>(aiCacheKey);
+      // Enhanced follow-up detection using ChatGPT's recommended approach
+      const priceRegex = /\d+\$|\d+ lekë/i;
+      const lacksProduct = !/(kemishe|pantallona|xhinse|fustan|pantofla|peshqir|maicë|të brendshme)/i.test(request.message);
+      const isFollowUp = priceRegex.test(request.message) && lacksProduct;
       
-      if (cachedResponse) {
-        console.log(`🎯 AI Cache hit for query: "${userQuery}"`);
-        return cachedResponse;
+      console.log('=== ENHANCED FOLLOW-UP DETECTION ===');
+      console.log('Message:', request.message);
+      console.log('Price regex match:', priceRegex.test(request.message));
+      console.log('Lacks product type:', lacksProduct);
+      console.log('Is follow-up:', isFollowUp);
+      console.log('=====================================');
+      
+      if (isFollowUp) {
+        console.log('Follow-up query detected. Applying direct context filtering.');
+        console.log('Session ID:', sessionId);
+        
+        // Check SessionManager for robust context retrieval
+        const sessionContext = this.sessionManager.getContext(sessionId);
+        console.log('SessionManager context:', sessionContext);
+        
+        // CRITICAL FIX: Inject missing product type into follow-up query
+        let finalQuery = request.message;
+        if (sessionContext?.lastProductType) {
+          finalQuery = `${sessionContext.lastProductType} ${request.message}`;
+          console.log('Context injection applied:', {
+            originalQuery: request.message,
+            lastProductType: sessionContext.lastProductType,
+            finalQuery: finalQuery
+          });
+        } else {
+          console.log('No product type context available for injection');
+        }
+        
+        // Use SessionManager context if available, otherwise use session context
+        const productsToFilter = sessionContext?.lastProducts || context.lastProducts;
+        console.log('Products to filter count:', productsToFilter?.length || 0);
+        
+        if (!productsToFilter || productsToFilter.length === 0) {
+          console.log('No products to filter, proceeding with normal search');
+        } else {
+        
+        // Extract price from the message
+        const priceMatch = request.message.match(/(\d+)\s*\$?/);
+        if (priceMatch) {
+          const targetPrice = parseInt(priceMatch[1]);
+          console.log('Target price:', targetPrice);
+          
+          // Get locked product type from SessionManager - ensure it's properly extracted
+          let lockedProductType = sessionContext?.lastProductType;
+          if (!lockedProductType && context.lastQuery) {
+            lockedProductType = this.extractProductType(context.lastQuery);
+          }
+          
+          // CRITICAL FIX: Use the injected finalQuery for product type extraction
+          if (!lockedProductType) {
+            lockedProductType = this.extractProductType(finalQuery);
+          }
+          
+          console.log('Locked product type:', lockedProductType);
+          console.log('Context lastQuery:', context.lastQuery);
+          console.log('Final query used for extraction:', finalQuery);
+          
+          // CRITICAL DEBUG: Log when context is actually used
+          console.log('=== CONTEXT USAGE DEBUG ===');
+          console.log('Is follow-up:', isFollowUp);
+          console.log('Last product type from context:', sessionContext?.lastProductType);
+          console.log('Final query after injection:', finalQuery);
+          console.log('Locked product type for filtering:', lockedProductType);
+          console.log('============================');
+          
+          // Use the enhanced filterProductsByCriteria with product type locking
+          const filters = {
+            price: { max: targetPrice },
+            productType: lockedProductType
+          };
+          
+          const filteredProducts = this.filterProductsByCriteria(productsToFilter, filters);
+          
+          // CRITICAL DEBUG: Log filtering details
+          console.log('=== PRODUCT FILTERING DEBUG ===');
+          console.log('Query:', request.message);
+          console.log('Resolved product type:', lockedProductType);
+          console.log('Price max:', targetPrice);
+          console.log('Products to filter count:', productsToFilter.length);
+          console.log('Filtered products count:', filteredProducts.length);
+          console.log('Products returned:', filteredProducts.map(p => ({ name: p.name, price: p.price })));
+          console.log('Mismatched products:', productsToFilter.filter(p => !filteredProducts.includes(p)).map(p => ({ name: p.name, price: p.price })));
+          console.log('================================');
+          
+          if (filteredProducts.length > 0) {
+            // Create response with filtered products - use dynamic product type
+            const productTypeText = lockedProductType || 'produkte';
+            const response: ChatbotResponse = {
+              assistant_text: `Gjeta ${filteredProducts.length} ${productTypeText} që përputhen me kërkesën tuaj nën $${targetPrice}.`,
+              recommended_products: filteredProducts.slice(0, 3).map(product => ({
+                id: product.id || `product_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                title: product.name || 'Produkt i panjohur',
+                highlight: [
+                  `Çmimi: $${product.price || 'N/A'}`,
+                  `Ngjyra: ${product.color || 'N/A'}`,
+                  `Materiali: ${product.material || 'N/A'}`
+                ],
+                image: product.image || undefined
+              })),
+              audit_notes: 'Direct context filtering applied - follow-up query'
+            };
+            
+            // Update session context with filtered products
+            this.updateSessionContext(sessionId, request.message, response.assistant_text, filteredProducts, context.lastQuery, {});
+            
+            return {
+              success: true,
+              data: response,
+              sessionId: sessionId
+            };
+          } else {
+            // No products match the filter, return ONLY products of the correct type with explanation
+            const productTypeText = lockedProductType || 'produkte';
+            
+            // CRITICAL FIX: Filter original products by product type only (no price filter)
+            const typeOnlyFilter = { productType: lockedProductType };
+            const productsOfCorrectType = this.filterProductsByCriteria(productsToFilter, typeOnlyFilter);
+            
+            const response: ChatbotResponse = {
+              assistant_text: `Nuk gjeta ${productTypeText} nën $${targetPrice}. Këto janë ${productTypeText} që kemi në dispozicion:`,
+              recommended_products: productsOfCorrectType.slice(0, 3).map(product => ({
+                id: product.id || `product_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                title: product.name || 'Produkt i panjohur',
+                highlight: [
+                  `Çmimi: $${product.price || 'N/A'}`,
+                  `Ngjyra: ${product.color || 'N/A'}`,
+                  `Materiali: ${product.material || 'N/A'}`
+                ],
+                image: product.image || undefined
+              })),
+              audit_notes: 'No products match filter - showing original products'
+            };
+            
+            return {
+              success: true,
+              data: response,
+              sessionId: sessionId
+            };
+          }
+        }
+        }
+      }
+      
+      // Build search query
+      const searchQuery = this.buildSearchQuery(request.message, context);
+      
+      // Extract filters
+      const filters = this.extractFiltersFromQuery(request.message, context);
+      
+      // Search products
+      let products: Product[];
+      if (Object.keys(filters).length > 0) {
+        products = await this.trieveService.searchWithFilters(searchQuery, filters);
+      } else {
+        products = await this.trieveService.searchProducts(searchQuery);
       }
 
-      // Build context from session history
-      const contextPrompt = this.buildSessionContextPrompt(sessionContext);
+      // CRITICAL FIX: Apply product type filter after Trieve search to ensure strict filtering
+      if (filters.productType) {
+        console.log('Applying product type filter after Trieve search:', filters.productType);
+        const beforeCount = products.length;
+        products = this.filterProductsByCriteria(products, { productType: filters.productType });
+        console.log(`Product type filter: ${beforeCount} -> ${products.length} products`);
+      }
 
-      // Create product information for AI
-      const productInfo = products.map(p => ({
-        id: p.id,
-        name: p.name,
-        price: p.price,
-        color: p.color,
-        category: p.subcategory,
-        material: p.material,
-        features: p.features.slice(0, 3),
-        highlight: this.generateProductHighlight(p)
-      }));
+      // If this is a follow-up query with filters, prioritize filtering the last products
+      if (this.isFollowUpQuery(request.message, context) && context.lastProducts && context.lastProducts.length > 0) {
+        console.log('Follow-up query detected. Filtering last products.');
+        console.log('Last products count:', context.lastProducts.length);
+        console.log('Filters:', filters);
+        
+        const filteredProducts = this.filterProductsByCriteria(context.lastProducts, filters);
+        console.log('Filtered products count:', filteredProducts.length);
+        
+        if (filteredProducts.length > 0) {
+          console.log('Using filtered products from context');
+          products = filteredProducts;
+        } else {
+          console.log('No products match filters, using original products');
+          products = context.lastProducts;
+        }
+      }
 
-      const systemPrompt = `You are the Albi Mall AI Shopping Assistant, a professional, human-like shopping concierge. You will provide an experience equivalent to Michael Kors' Shopping Muse, but using the Trieve product dataset and Groq API for intelligent, context-aware responses. Follow these rules strictly:
-
-1. **Dataset-Only Recommendations**
-   - Always recommend items exclusively from RETRIEVED_PRODUCTS (from Trieve).
-   - NEVER invent or hallucinate products.
-   - If no products match the user's request, respond politely with: 
-     "I'm sorry, we currently do not have any items that match your request. Would you like to see similar products or adjust your filters?"
-
-2. **Natural Language Understanding**
-   - Interpret everyday, conversational user queries including vague, colloquial, or multi-part questions.
-   - Detect explicit and implicit filters (color, price range, category, material, style, occasion).
-
-3. **Dynamic Filtering and Intelligent Matching**
-   - Apply user-provided filters to RETRIEVED_PRODUCTS.
-   - If multiple items match, prioritize by relevance and display up to 5 items with highlights.
-   - Suggest closely related alternatives if no exact matches exist.
-   - Maintain awareness of previously applied filters and update recommendations dynamically if the user changes preferences.
-
-4. **Human-Like Personalized Responses**
-   - Use friendly, professional, and context-aware phrasing.
-   - Provide one-line dynamic highlights for each recommended product (e.g., "Leather, spacious, ideal for everyday use").
-   - Offer personalized suggestions based on session history (e.g., browsing preferences, previously selected products).
-   - Ask clarifying questions politely when user input is ambiguous.
-
-5. **Session and Context Awareness**
-   - Maintain context across multiple turns (last 2–3 messages).
-   - Track previous recommendations to avoid repetition.
-   - Allow follow-up queries to refine or change filters naturally.
-
-6. **Proactive Assistance**
-   - Offer suggestions based on inferred intent or observed preferences (e.g., "I notice you're looking for handbags under $200 — would you like to see crossbody options?").
-
-7. **Structured Output**
-   - Always respond in JSON with this schema:
-     - assistant_text: Human-readable conversational response.
-     - recommended_products: Array of {id, title, highlight} from RETRIEVED_PRODUCTS.
-     - audit_notes: Optional notes explaining filter application or reasoning for fallback suggestions.
-
-8. **Fallback & Error Handling**
-   - If RETRIEVED_PRODUCTS is empty after filtering, gracefully inform the user and offer alternatives.
-   - Never repeat the same fallback text verbatim — vary phrasing to maintain a natural conversation.
-
-9. **Integration with Groq API**
-   - Use Groq to generate intelligent, contextual explanations, suggestions, and product highlights.
-   - Do not allow Groq to introduce products outside the Trieve dataset.
-
-10. **Brand Voice Alignment**
-    - Maintain Albi Mall's friendly, helpful, and professional tone throughout all interactions.
-    - Responses should be concise but informative, avoiding overly generic or repetitive phrasing.
-
-RETRIEVED_PRODUCTS: ${JSON.stringify(productInfo, null, 2)}
-SESSION_CONTEXT: ${contextPrompt}`;
-
-      const response = await this.groqService.generateResponse(userQuery, products);
-      
-      // Parse JSON response
+      // Generate AI response
+      let response: ChatbotResponse;
       try {
-        const parsedResponse = JSON.parse(response);
-        
-        // Validate response structure
-        if (!parsedResponse.assistant_text) {
-          throw new Error('Invalid response structure');
+        // Force fallback for follow-up queries to test context retention
+        if (this.isFollowUpQuery(request.message, context) && context.lastProducts && context.lastProducts.length > 0) {
+          console.log('Using fallback response for follow-up query');
+          response = await this.groqService.generateFallbackResponse(request.message, products, context);
+        } else {
+          response = await this.groqService.generateResponse(request.message, products, context);
         }
-
-        // Cache the response
-        searchCache.set(aiCacheKey, parsedResponse);
-        
-        return parsedResponse;
-      } catch (parseError) {
-        console.log('⚠️ JSON parsing failed, creating structured response');
-        
-        // Create structured response from raw text
-        const structuredResponse: AlbiMallResponse = {
-          assistant_text: response,
-          recommended_products: products.slice(0, 5).map(p => ({
-            id: p.id,
-            title: p.name,
-            highlight: this.generateProductHighlight(p)
-          })),
-          audit_notes: 'Response generated from raw text due to JSON parsing failure'
-        };
-
-        // Cache the structured response
-        searchCache.set(aiCacheKey, structuredResponse);
-        
-        return structuredResponse;
+      } catch (error) {
+        console.error('Groq service error:', error);
+        response = await this.groqService.generateFallbackResponse(request.message, products, context);
       }
-    } catch (error) {
-      console.error('❌ AI Response Error:', error);
-      return this.getFallbackResponse(userQuery, products);
-    }
-  }
 
-  /**
-   * Build session context prompt
-   */
-  private buildSessionContextPrompt(sessionContext: SessionContext): string {
-    if (sessionContext.messages.length === 0) {
-      return 'No previous conversation context.';
-    }
+      // Update session context
+      this.updateSessionContext(sessionId, request.message, response.assistant_text, products, searchQuery, filters);
 
-    const recentMessages = sessionContext.messages.slice(-6); // Last 3 exchanges
-    let contextPrompt = 'RECENT CONVERSATION CONTEXT:\n';
-    
-    recentMessages.forEach(msg => {
-      contextPrompt += `${msg.type === 'user' ? 'User' : 'Assistant'}: ${msg.content}\n`;
-    });
-
-    if (Object.keys(sessionContext.appliedFilters).length > 0) {
-      contextPrompt += '\nAPPLIED FILTERS:\n';
-      Object.entries(sessionContext.appliedFilters).forEach(([key, value]) => {
-        if (value) {
-          contextPrompt += `- ${key}: ${JSON.stringify(value)}\n`;
-        }
-      });
-    }
-
-    if (sessionContext.previousRecommendations.length > 0) {
-      contextPrompt += '\nPREVIOUS RECOMMENDATIONS:\n';
-      contextPrompt += sessionContext.previousRecommendations.join(', ');
-    }
-
-    return contextPrompt;
-  }
-
-  /**
-   * Generate product highlight
-   */
-  private generateProductHighlight(product: ProductDocument): string {
-    const highlights = [];
-    
-    // Material highlight
-    if (product.material) {
-      highlights.push(product.material.toLowerCase());
-    }
-    
-    // Key features (pick most relevant ones)
-    const keyFeatures = product.features.filter(f => 
-      f.toLowerCase().includes('leather') ||
-      f.toLowerCase().includes('adjustable') ||
-      f.toLowerCase().includes('spacious') ||
-      f.toLowerCase().includes('compact') ||
-      f.toLowerCase().includes('multiple') ||
-      f.toLowerCase().includes('structured') ||
-      f.toLowerCase().includes('versatile')
-    );
-    
-    if (keyFeatures.length > 0) {
-      highlights.push(keyFeatures[0].toLowerCase());
-    }
-    
-    // Style highlight based on subcategory
-    if (product.subcategory) {
-      const styleMap: { [key: string]: string } = {
-        'tote': 'spacious and versatile',
-        'crossbody': 'hands-free convenience',
-        'satchel': 'structured elegance',
-        'clutch': 'evening sophistication',
-        'backpack': 'practical functionality',
-        'wallet': 'compact organization'
-      };
-      
-      const style = styleMap[product.subcategory.toLowerCase()];
-      if (style) {
-        highlights.push(style);
-      }
-    }
-    
-    // Take first 2-3 highlights and join them
-    return highlights.slice(0, 3).join(', ');
-  }
-
-  /**
-   * Get session context
-   */
-  private getSessionContext(sessionId: string): SessionContext {
-    if (!this.sessionContexts.has(sessionId)) {
-      this.sessionContexts.set(sessionId, {
-        messages: [],
-        appliedFilters: {},
-        previousRecommendations: []
-      });
-    }
-    return this.sessionContexts.get(sessionId)!;
-  }
-
-  /**
-   * Update session context
-   */
-  private updateSessionContext(sessionId: string, type: 'user' | 'assistant', content: string): void {
-    const context = this.getSessionContext(sessionId);
-    context.messages.push({
-      type,
-      content,
-      timestamp: new Date()
-    });
-
-    // Keep only last 10 messages
-    if (context.messages.length > 10) {
-      context.messages = context.messages.slice(-10);
-    }
-
-    // Update previous recommendations if assistant message
-    if (type === 'assistant') {
-      // Extract product names from response (simplified)
-      const productMatches = content.match(/[A-Z][a-z\s]+(?:Bag|Wallet|Tote|Crossbody|Satchel|Clutch|Backpack)/g);
-      if (productMatches) {
-        context.previousRecommendations.push(...productMatches);
-        // Keep only last 10 recommendations
-        if (context.previousRecommendations.length > 10) {
-          context.previousRecommendations = context.previousRecommendations.slice(-10);
-        }
-      }
-    }
-  }
-
-  /**
-   * Get fallback response
-   */
-  private getFallbackResponse(userQuery: string, products: ProductDocument[]): AlbiMallResponse {
-    if (products.length === 0) {
-      const queryLower = userQuery.toLowerCase();
-      
-      // Check if user asked for a specific brand not in our dataset
-      const brandKeywords = ['gucci', 'louis vuitton', 'chanel', 'prada', 'hermes', 'dior', 'balenciaga', 'versace', 'givenchy'];
-      const requestedBrand = brandKeywords.find(brand => queryLower.includes(brand));
-      
-      if (requestedBrand) {
-        return {
-          assistant_text: `I'm sorry, we don't carry ${requestedBrand} products. We specialize in Michael Kors handbags and accessories. Would you like to see our Michael Kors collection instead?`,
-          recommended_products: [],
-          audit_notes: `Brand integrity maintained: User asked for ${requestedBrand} but we only carry Michael Kors`
-        };
-      }
-      
       return {
-        assistant_text: "I'm sorry, we currently do not have any items that match your request. Would you like to see similar products or adjust your filters?",
+        success: true,
+        data: response,
+        sessionId: sessionId
+      };
+
+    } catch (error) {
+      console.error('AlbiMallAssistant error:', error);
+      
+      const errorResponse: ChatbotResponse = {
+        assistant_text: 'Më falni, por kam një problem teknik. Mund të provoni përsëri?',
         recommended_products: [],
-        audit_notes: 'No products found matching the query'
+        audit_notes: `Error: ${error}`
+      };
+
+      return {
+        success: false,
+        data: errorResponse,
+        sessionId: sessionId
       };
     }
-
-    // Simple fallback with available products
-    const product = products[0];
-    return {
-      assistant_text: `I found the ${product.name} in ${product.color} for $${product.price}. This ${product.material.toLowerCase()} ${product.subcategory} is a great choice and features ${product.features.slice(0, 3).join(', ')}.`,
-      recommended_products: products.slice(0, 5).map(p => ({
-        id: p.id,
-        title: p.name,
-        highlight: this.generateProductHighlight(p)
-      })),
-      audit_notes: 'Fallback response generated due to AI service error'
-    };
   }
 
-  /**
-   * Clear session context
-   */
-  clearSessionContext(sessionId: string): void {
-    this.sessionContexts.delete(sessionId);
+  async getSessionContext(sessionId: string): Promise<SessionContext | null> {
+    return this.sessions.get(sessionId) || null;
   }
 
-  /**
-   * Get session statistics
-   */
-  getSessionStats(): { totalSessions: number; activeSessions: number } {
-    const now = new Date();
-    const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
-    
-    const activeSessions = Array.from(this.sessionContexts.values()).filter(
-      context => context.messages.length > 0 && 
-      context.messages[context.messages.length - 1].timestamp > oneHourAgo
-    ).length;
+  async clearSession(sessionId: string): Promise<boolean> {
+    return this.sessions.delete(sessionId);
+  }
 
-    return {
-      totalSessions: this.sessionContexts.size,
-      activeSessions
-    };
+  async getActiveSessions(): Promise<string[]> {
+    return Array.from(this.sessions.keys());
   }
 }
-
-export default AlbiMallAssistant;

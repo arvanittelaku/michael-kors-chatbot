@@ -1,0 +1,664 @@
+{
+  "started_at": "2025-09-26T14:34:10.291Z",
+  "total_batches": 59,
+  "total_products": 5811,
+  "batches": [
+    {
+      "batch_number": 1,
+      "filename": "batch_001.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:13.696Z"
+    },
+    {
+      "batch_number": 2,
+      "filename": "batch_002.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:20.162Z"
+    },
+    {
+      "batch_number": 3,
+      "filename": "batch_003.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:25.438Z"
+    },
+    {
+      "batch_number": 4,
+      "filename": "batch_004.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:32.442Z"
+    },
+    {
+      "batch_number": 5,
+      "filename": "batch_005.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:37.311Z"
+    },
+    {
+      "batch_number": 6,
+      "filename": "batch_006.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:41.281Z"
+    },
+    {
+      "batch_number": 7,
+      "filename": "batch_007.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:45.010Z"
+    },
+    {
+      "batch_number": 8,
+      "filename": "batch_008.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:49.181Z"
+    },
+    {
+      "batch_number": 9,
+      "filename": "batch_009.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:53.432Z"
+    },
+    {
+      "batch_number": 10,
+      "filename": "batch_010.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:34:57.973Z"
+    },
+    {
+      "batch_number": 11,
+      "filename": "batch_011.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:02.132Z"
+    },
+    {
+      "batch_number": 12,
+      "filename": "batch_012.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:05.979Z"
+    },
+    {
+      "batch_number": 13,
+      "filename": "batch_013.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:10.241Z"
+    },
+    {
+      "batch_number": 14,
+      "filename": "batch_014.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:14.595Z"
+    },
+    {
+      "batch_number": 15,
+      "filename": "batch_015.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:18.561Z"
+    },
+    {
+      "batch_number": 16,
+      "filename": "batch_016.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:22.725Z"
+    },
+    {
+      "batch_number": 17,
+      "filename": "batch_017.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:26.699Z"
+    },
+    {
+      "batch_number": 18,
+      "filename": "batch_018.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:30.876Z"
+    },
+    {
+      "batch_number": 19,
+      "filename": "batch_019.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:35.029Z"
+    },
+    {
+      "batch_number": 20,
+      "filename": "batch_020.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:38.820Z"
+    },
+    {
+      "batch_number": 21,
+      "filename": "batch_021.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:43.001Z"
+    },
+    {
+      "batch_number": 22,
+      "filename": "batch_022.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:49.176Z"
+    },
+    {
+      "batch_number": 23,
+      "filename": "batch_023.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:54.746Z"
+    },
+    {
+      "batch_number": 24,
+      "filename": "batch_024.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:35:58.906Z"
+    },
+    {
+      "batch_number": 25,
+      "filename": "batch_025.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:03.270Z"
+    },
+    {
+      "batch_number": 26,
+      "filename": "batch_026.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:07.418Z"
+    },
+    {
+      "batch_number": 27,
+      "filename": "batch_027.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:11.189Z"
+    },
+    {
+      "batch_number": 28,
+      "filename": "batch_028.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:15.344Z"
+    },
+    {
+      "batch_number": 29,
+      "filename": "batch_029.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:19.123Z"
+    },
+    {
+      "batch_number": 30,
+      "filename": "batch_030.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:23.341Z"
+    },
+    {
+      "batch_number": 31,
+      "filename": "batch_031.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:27.240Z"
+    },
+    {
+      "batch_number": 32,
+      "filename": "batch_032.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:31.074Z"
+    },
+    {
+      "batch_number": 33,
+      "filename": "batch_033.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:35.437Z"
+    },
+    {
+      "batch_number": 34,
+      "filename": "batch_034.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:40.625Z"
+    },
+    {
+      "batch_number": 35,
+      "filename": "batch_035.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:45.383Z"
+    },
+    {
+      "batch_number": 36,
+      "filename": "batch_036.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:49.750Z"
+    },
+    {
+      "batch_number": 37,
+      "filename": "batch_037.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:53.924Z"
+    },
+    {
+      "batch_number": 38,
+      "filename": "batch_038.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:36:58.086Z"
+    },
+    {
+      "batch_number": 39,
+      "filename": "batch_039.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:02.054Z"
+    },
+    {
+      "batch_number": 40,
+      "filename": "batch_040.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:06.816Z"
+    },
+    {
+      "batch_number": 41,
+      "filename": "batch_041.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:11.359Z"
+    },
+    {
+      "batch_number": 42,
+      "filename": "batch_042.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:15.500Z"
+    },
+    {
+      "batch_number": 43,
+      "filename": "batch_043.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:19.469Z"
+    },
+    {
+      "batch_number": 44,
+      "filename": "batch_044.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:23.421Z"
+    },
+    {
+      "batch_number": 45,
+      "filename": "batch_045.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:27.608Z"
+    },
+    {
+      "batch_number": 46,
+      "filename": "batch_046.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:31.597Z"
+    },
+    {
+      "batch_number": 47,
+      "filename": "batch_047.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:35.382Z"
+    },
+    {
+      "batch_number": 48,
+      "filename": "batch_048.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:39.339Z"
+    },
+    {
+      "batch_number": 49,
+      "filename": "batch_049.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:43.108Z"
+    },
+    {
+      "batch_number": 50,
+      "filename": "batch_050.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:47.254Z"
+    },
+    {
+      "batch_number": 51,
+      "filename": "batch_051.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:51.246Z"
+    },
+    {
+      "batch_number": 52,
+      "filename": "batch_052.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:55.013Z"
+    },
+    {
+      "batch_number": 53,
+      "filename": "batch_053.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:37:59.177Z"
+    },
+    {
+      "batch_number": 54,
+      "filename": "batch_054.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:38:03.348Z"
+    },
+    {
+      "batch_number": 55,
+      "filename": "batch_055.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:38:07.721Z"
+    },
+    {
+      "batch_number": 56,
+      "filename": "batch_056.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:38:12.332Z"
+    },
+    {
+      "batch_number": 57,
+      "filename": "batch_057.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:38:18.300Z"
+    },
+    {
+      "batch_number": 58,
+      "filename": "batch_058.json",
+      "product_count": 100,
+      "result": {
+        "success": true,
+        "uploaded": 100,
+        "total": 100
+      },
+      "timestamp": "2025-09-26T14:38:22.688Z"
+    },
+    {
+      "batch_number": 59,
+      "filename": "batch_059.json",
+      "product_count": 11,
+      "result": {
+        "success": true,
+        "uploaded": 11,
+        "total": 11
+      },
+      "timestamp": "2025-09-26T14:38:24.939Z"
+    }
+  ],
+  "summary": {
+    "successful_batches": 59,
+    "failed_batches": 0,
+    "total_uploaded": 5811,
+    "total_failed": 0
+  },
+  "completed_at": "2025-09-26T14:38:24.939Z",
+  "duration_ms": 254648
+}
