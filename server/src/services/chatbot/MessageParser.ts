@@ -35,6 +35,7 @@ export class MessageParser {
   private static readonly COLOR_MAPPINGS = {
     'te zeze': 'black',
     'te zez': 'black',
+    'te zi': 'black',           // ← MISSING: This is why "pantallona te zi" fails
     'e zezë': 'black',
     'zeze': 'black',
     'e zeza': 'black',
@@ -42,6 +43,7 @@ export class MessageParser {
     'i zezë': 'black',
     'black': 'black',
     'te bardhe': 'white',
+    'te bardha': 'white',        // ← MISSING: Alternative form
     'e bardhë': 'white',
     'bardha': 'white',
     'barde': 'white',
@@ -49,10 +51,12 @@ export class MessageParser {
     'white': 'white',
     'kuqe': 'red',
     'kuq': 'red',
+    'te kuqe': 'red',           // ← MISSING: Alternative form
     'i kuq': 'red',
     'e kuqe': 'red',
     'red': 'red',
     'blu': 'blue',
+    'te blu': 'blue',           // ← MISSING: Alternative form
     'blue': 'blue',
     'i blu': 'blue',
     'e blu': 'blue',
