@@ -21,7 +21,15 @@ export class MessageParser {
     fund: ['fund', 'skirt'],
     triko: ['triko', 'knitwear'],
     peshqir: ['peshqir', 'peshqiri', 'face towel', 'towel'],
-    mantel: ['mantel', 'manteli', 'bath towel', 'bathroom towel']
+    mantel: ['mantel', 'manteli', 'bath towel', 'bathroom towel'],
+    xhinse: ['xhinse', 'xhinse', 'jeans', 'denim'],
+    // Additional categories found in Trieve dataset
+    kapel: ['kapel', 'kapelë', 'hat', 'hats'],
+    bkostum: ['b.kostum', 'bkostum', 'baby suit', 'baby suits'],
+    te_brendshme: ['te brendshme', 'të brendshme', 'underwear', 'lingerie'],
+    qante: ['qante', 'qantë', 'bag', 'bags', 'handbag'],
+    sako: ['sako', 'coat', 'coats', 'overcoat'],
+    maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'underwear shirt', 'undershirt']
   };
 
   private static readonly COLOR_MAPPINGS = {
@@ -48,6 +56,12 @@ export class MessageParser {
     'blue': 'blue',
     'i blu': 'blue',
     'e blu': 'blue',
+    'kaltër': 'blue',
+    'e kaltër': 'blue',
+    'i kaltër': 'blue',
+    'kalt�r': 'blue',
+    'e kalt�r': 'blue',
+    'i kalt�r': 'blue',
     'jeshile': 'green',
     'e gjelbër': 'green',
     'gjelber': 'green',

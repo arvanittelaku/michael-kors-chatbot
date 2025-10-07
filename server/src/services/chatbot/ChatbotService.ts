@@ -139,6 +139,30 @@ export class ChatbotService {
   ): any {
     const finalFilters = { ...parsedFilters };
 
+    // CRITICAL FIX: When only price filter is provided, preserve category context
+    if (finalFilters.price && !finalFilters.category && session.lastCategory) {
+      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for price filter`);
+      finalFilters.category = session.lastCategory;
+    }
+
+    // CRITICAL FIX: When only color filter is provided, preserve category context
+    if (finalFilters.color && !finalFilters.category && session.lastCategory) {
+      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for color filter`);
+      finalFilters.category = session.lastCategory;
+    }
+
+    // CRITICAL FIX: When only size filter is provided, preserve category context
+    if (finalFilters.size && !finalFilters.category && session.lastCategory) {
+      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for size filter`);
+      finalFilters.category = session.lastCategory;
+    }
+
+    // CRITICAL FIX: When only material filter is provided, preserve category context
+    if (finalFilters.material && !finalFilters.category && session.lastCategory) {
+      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for material filter`);
+      finalFilters.category = session.lastCategory;
+    }
+
     // 1. Handle category context - ONLY if no category is detected in current message
     if (!finalFilters.category && session.lastCategory) {
       console.log(`[ChatbotService] 🔄 Using session category: ${session.lastCategory}`);
