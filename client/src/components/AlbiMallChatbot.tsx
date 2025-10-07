@@ -9,23 +9,25 @@ interface Message {
   recommendedProducts?: Array<{
     id: string;
     title: string;
-    highlight: string[];
+    price?: number;
+    color?: string;
+    size?: string;
+    material?: string;
     image?: string;
   }>;
 }
 
 interface ChatbotResponse {
-  success: boolean;
-  data: {
-    assistant_text: string;
-    recommended_products: Array<{
-      id: string;
-      title: string;
-      highlight: string[];
-    }>;
-    audit_notes?: string;
-  };
-  sessionId: string;
+  message: string;
+  products: Array<{
+    id: string;
+    name: string;
+    price: number;
+    color: string;
+    size: string;
+    material: string;
+    images?: string[];
+  }>;
 }
 
 const AlbiMallChatbot: React.FC = () => {
@@ -34,7 +36,7 @@ const AlbiMallChatbot: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [sessionId] = useState(`session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`);
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState<{ id: string; title: string; highlight: string[]; image?: string } | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<{ id: string; title: string; price?: number; color?: string; size?: string; material?: string; image?: string } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -58,7 +60,7 @@ const AlbiMallChatbot: React.FC = () => {
     sendMessage(suggestion);
   };
 
-  const handleProductClick = (product: { id: string; title: string; highlight: string[]; image?: string }) => {
+  const handleProductClick = (product: { id: string; title: string; price?: number; color?: string; size?: string; material?: string; image?: string }) => {
     setSelectedProduct(product);
   };
 
@@ -80,26 +82,30 @@ const AlbiMallChatbot: React.FC = () => {
     console.log('Sending message:', userMessage.text, 'to session:', sessionId);
 
     try {
-      const response = await axios.post<ChatbotResponse>('http://localhost:5000/api/albi-mall/chat', {
-        message: userMessage.text,
-        sessionId: sessionId
+      const response = await axios.post<ChatbotResponse>('http://localhost:5000/chat', {
+        userId: sessionId,
+        message: userMessage.text
       });
 
       console.log('Received response:', response.data);
 
-      if (response.data.success) {
-        const assistantMessage: Message = {
-          id: `assistant_${Date.now()}`,
-          text: response.data.data.assistant_text,
-          isUser: false,
-          timestamp: new Date(),
-          recommendedProducts: response.data.data.recommended_products
-        };
+      const assistantMessage: Message = {
+        id: `assistant_${Date.now()}`,
+        text: response.data.message,
+        isUser: false,
+        timestamp: new Date(),
+        recommendedProducts: response.data.products?.map((product: any) => ({
+          id: product.id,
+          title: product.name,
+          price: product.price,
+          color: product.color,
+          size: product.size,
+          material: product.material,
+          image: product.images && product.images.length > 0 ? product.images[0] : null
+        })) || []
+      };
 
-        setMessages(prev => [...prev, assistantMessage]);
-      } else {
-        throw new Error('API returned unsuccessful response');
-      }
+      setMessages(prev => [...prev, assistantMessage]);
     } catch (error: any) {
       console.error('Chat error:', error);
       
@@ -209,7 +215,7 @@ const AlbiMallChatbot: React.FC = () => {
                     ? 'bg-blue-600 text-white' 
                     : 'bg-gray-100 text-gray-800'
                 }`}>
-                  <p className="text-sm">{message.text}</p>
+                  <p className="text-sm whitespace-pre-line">{message.text}</p>
                   
                   {message.recommendedProducts && message.recommendedProducts.length > 0 && (
                     <div className="mt-3 space-y-2">
@@ -228,12 +234,17 @@ const AlbiMallChatbot: React.FC = () => {
                             <div className="flex-1 min-w-0">
                               <h4 className="font-medium text-sm text-gray-900 truncate">{product.title}</h4>
                               <ul className="text-xs mt-1 space-y-1">
-                                {Array.isArray(product.highlight) ? (
-                                  product.highlight.map((highlight, i) => (
-                                    <li key={i} className="text-gray-600">• {highlight}</li>
-                                  ))
-                                ) : (
-                                  <li className="text-gray-600">• {product.highlight || 'No details available'}</li>
+                                {product.price && (
+                                  <li className="text-green-600 font-medium">• Çmimi: ${product.price}</li>
+                                )}
+                                {product.color && (
+                                  <li className="text-gray-600">• Ngjyra: {product.color}</li>
+                                )}
+                                {product.size && (
+                                  <li className="text-gray-600">• Madhësia: {product.size}</li>
+                                )}
+                                {product.material && (
+                                  <li className="text-gray-600">• Materiali: {product.material}</li>
                                 )}
                               </ul>
                             </div>
@@ -302,24 +313,38 @@ const AlbiMallChatbot: React.FC = () => {
             </div>
             <div className="p-4">
               <div className="mb-4">
-                <div className="w-full h-48 bg-gray-200 rounded flex items-center justify-center overflow-hidden">
+                <div className="w-full h-80 bg-gray-200 rounded flex items-center justify-center overflow-hidden">
                   {selectedProduct.image ? (
-                    <img src={selectedProduct.image} alt={selectedProduct.title} className="w-full h-full object-cover" />
+                    <img 
+                      src={selectedProduct.image} 
+                      alt={selectedProduct.title} 
+                      className="w-full h-full object-contain"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
                   ) : (
-                    <svg className="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
+                    <div className="w-full h-full flex items-center justify-center">
+                      <svg className="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                    </div>
                   )}
                 </div>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">{selectedProduct.title}</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                {Array.isArray(selectedProduct.highlight) ? (
-                  selectedProduct.highlight.map((highlight, i) => (
-                    <li key={i}>• {highlight}</li>
-                  ))
-                ) : (
-                  <li>• {selectedProduct.highlight || 'No details available'}</li>
+                {selectedProduct.price && (
+                  <li className="text-green-600 font-medium">• Çmimi: ${selectedProduct.price}</li>
+                )}
+                {selectedProduct.color && (
+                  <li>• Ngjyra: {selectedProduct.color}</li>
+                )}
+                {selectedProduct.size && (
+                  <li>• Madhësia: {selectedProduct.size}</li>
+                )}
+                {selectedProduct.material && (
+                  <li>• Materiali: {selectedProduct.material}</li>
                 )}
               </ul>
             </div>
