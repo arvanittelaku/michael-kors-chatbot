@@ -43,7 +43,16 @@ export class ChatbotService {
       // 5. Get products from Trieve with final filters - NO FALLBACK PRODUCTS
       let products: Product[] = [];
       try {
-        products = await TrieveService.getProducts(finalFilters);
+        // Check if user is asking for more products (pagination)
+        const isAskingForMore = this.isAskingForMore(message);
+        if (isAskingForMore && session.lastProducts && session.lastProducts.length > 0) {
+          // Get different products by adding a small variation to the query
+          const variedFilters = { ...finalFilters, _offset: session.lastProducts.length };
+          products = await TrieveService.getProducts(variedFilters);
+          console.log(`[ChatbotService] 🔄 Getting more products (offset: ${session.lastProducts.length})`);
+        } else {
+          products = await TrieveService.getProducts(finalFilters);
+        }
         console.log(`[ChatbotService] ✅ Products from Trieve API:`, products.map(p => ({ id: p.id, name: p.name, price: p.price, source: p._source })));
         
         // Verify we have real API data
@@ -119,6 +128,27 @@ export class ChatbotService {
     ];
     
     return resetCommands.some(cmd => lowerMessage.includes(cmd));
+  }
+
+  /**
+   * Check if user is asking for more products
+   */
+  private static isAskingForMore(message: string): boolean {
+    const lowerMessage = message.toLowerCase();
+    const moreCommands = [
+      'ndonje tjeter',
+      'ndonje tjetër',
+      'tjeter',
+      'tjetër',
+      'me shume',
+      'më shumë',
+      'more',
+      'others',
+      'different',
+      'ndryshe'
+    ];
+    
+    return moreCommands.some(cmd => lowerMessage.includes(cmd));
   }
 
   /**

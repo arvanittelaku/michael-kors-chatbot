@@ -95,6 +95,33 @@ export class TrieveService {
   }
 
   /**
+   * Normalize size display for consistency
+   */
+  private static normalizeSizeDisplay(size: string): string {
+    if (!size) return 'Unknown';
+    
+    const normalized = size.toLowerCase().trim();
+    
+    // Handle common size variations
+    const sizeMap: { [key: string]: string } = {
+      'standard': 'One Size',
+      'onesize': 'One Size',
+      'one size': 'One Size',
+      'universal': 'One Size',
+      'free size': 'One Size',
+      'xs': 'XS',
+      's': 'S', 
+      'm': 'M',
+      'l': 'L',
+      'xl': 'XL',
+      'xxl': 'XXL',
+      'xxxl': 'XXXL'
+    };
+    
+    return sizeMap[normalized] || size; // Return original if no mapping found
+  }
+
+  /**
    * Extract categories from metadata
    */
   private static extractCategories(metadata: any): string[] {
@@ -182,7 +209,7 @@ export class TrieveService {
         name: metadata.name || metadata.title || 'Unknown Product',
         price: parseFloat(metadata.price) || 0,
         color: this.normalizeColorDisplay(metadata.color || 'Unknown'),
-        size: metadata.size || 'Unknown',
+        size: this.normalizeSizeDisplay(metadata.size || 'Unknown'),
         material: metadata.material || 'Unknown',
         _source: 'trieve',
         tracking_id: metadata.tracking_id || metadata.product_no,
