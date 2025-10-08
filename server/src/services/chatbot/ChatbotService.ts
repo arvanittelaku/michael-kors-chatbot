@@ -75,6 +75,7 @@ export class ChatbotService {
       
       // Handle unknown categories first
       if (finalFilters.category === 'UNKNOWN_CATEGORY') {
+        console.log(`[ChatbotService] 🚫 Unknown category detected, returning error message`);
         responseMessage = 'Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.';
         return {
           message: responseMessage,
@@ -182,7 +183,9 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Input filters:`, parsedFilters);
     console.log(`[ChatbotService] 🔍 Session context:`, {
       lastCategory: session.lastCategory,
-      appliedFilters: session.appliedFilters
+      appliedFilters: session.appliedFilters,
+      lastProducts: session.lastProducts?.length || 0,
+      messageHistory: session.messageHistory?.length || 0
     });
 
     // CRITICAL FIX: When only price filter is provided, preserve category context
