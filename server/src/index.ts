@@ -24,9 +24,11 @@ export { app };
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production'
-    ? process.env.FRONTEND_URL 
-    : 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'https://albimalldemo.netlify.app',
+    process.env.FRONTEND_URL
+  ].filter(Boolean),
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
