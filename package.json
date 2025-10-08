@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
-    "build": "cd server && npm install && npm run build",
+    "build": "echo 'This project uses separate client and server builds. Use build:client or build:server instead.' && exit 1",
     "build:server": "cd server && npm install && npm run build",
     "build-server": "cd server && npm install && npm run build",
     "railway:build": "cd server && npm install && npm run build",
