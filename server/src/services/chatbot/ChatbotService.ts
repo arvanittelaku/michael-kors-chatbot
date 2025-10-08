@@ -139,6 +139,12 @@ export class ChatbotService {
   ): any {
     const finalFilters = { ...parsedFilters };
 
+    console.log(`[ChatbotService] 🔍 Input filters:`, parsedFilters);
+    console.log(`[ChatbotService] 🔍 Session context:`, {
+      lastCategory: session.lastCategory,
+      appliedFilters: session.appliedFilters
+    });
+
     // CRITICAL FIX: When only price filter is provided, preserve category context
     if (finalFilters.price && !finalFilters.category && session.lastCategory) {
       console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for price filter`);
@@ -182,6 +188,19 @@ export class ChatbotService {
       console.log(`[ChatbotService] 🔄 New category detected: ${finalFilters.category} (was: ${session.appliedFilters.category})`);
     }
 
+    // 4. Merge additional filters from session if not specified in current message
+    if (session.appliedFilters) {
+      if (!finalFilters.color && session.appliedFilters.color) {
+        console.log(`[ChatbotService] 🔄 Preserving color from session: ${session.appliedFilters.color}`);
+        finalFilters.color = session.appliedFilters.color;
+      }
+      if (!finalFilters.price && session.appliedFilters.price) {
+        console.log(`[ChatbotService] 🔄 Preserving price from session: ${session.appliedFilters.price}`);
+        finalFilters.price = session.appliedFilters.price;
+      }
+    }
+
+    console.log(`[ChatbotService] 🎯 Final filters:`, finalFilters);
     return finalFilters;
   }
 }

@@ -8,19 +8,19 @@ export interface ParsedFilters {
 
 export class MessageParser {
   private static readonly CATEGORY_KEYWORDS = {
-    kemishe: ['kemishe', 'këmishë', 'kemish', 'shirt'],
-    pantallona: ['pantallona', 'pantallonat', 'pants', 'trousers'],
-    fustan: ['fustan', 'fustani', 'dress'],
-    atlete: ['atlete', 'sneakers', 'shoes'],
-    kepuce: ['kepuce', 'kepucet', 'shoes'],
-    pullover: ['pullover', 'sweater'],
+    kemishe: ['kemishe', 'këmishë', 'kemish', 'shirt', 'shirts'],
+    pantallona: ['pantallona', 'pantallonat', 'pants', 'trousers', 'pantolla'],
+    fustan: ['fustan', 'fustani', 'dress', 'dresses'],
+    atlete: ['atlete', 'sneakers', 'shoes', 'athletic shoes'],
+    kepuce: ['kepuce', 'kepucet', 'shoes', 'footwear'],
+    pullover: ['pullover', 'sweater', 'sweaters'],
     pantofla: ['pantofla', 'pantofla dushi', 'slippers'],
-    bluze: ['bluze', 'bluzë', 'blouse'],
-    xhakete: ['xhakete', 'xhaketë', 'jacket'],
-    kostum: ['kostum', 'suit'],
-    fund: ['fund', 'skirt'],
+    bluze: ['bluze', 'bluzë', 'blouse', 'blouses'],
+    xhakete: ['xhakete', 'xhaketë', 'jacket', 'jackets'],
+    kostum: ['kostum', 'suit', 'suits'],
+    fund: ['fund', 'skirt', 'skirts'],
     triko: ['triko', 'knitwear'],
-    peshqir: ['peshqir', 'peshqiri', 'face towel', 'towel'],
+    peshqir: ['peshqir', 'peshqiri', 'face towel', 'towel', 'towels'],
     mantel: ['mantel', 'manteli', 'bath towel', 'bathroom towel'],
     xhinse: ['xhinse', 'xhinse', 'jeans', 'denim'],
     // Additional categories found in Trieve dataset
@@ -29,67 +29,101 @@ export class MessageParser {
     te_brendshme: ['te brendshme', 'të brendshme', 'underwear', 'lingerie'],
     qante: ['qante', 'qantë', 'bag', 'bags', 'handbag'],
     sako: ['sako', 'coat', 'coats', 'overcoat'],
-    maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'underwear shirt', 'undershirt']
+    maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'underwear shirt', 'undershirt', 'maice', 'maicë']
   };
 
   private static readonly COLOR_MAPPINGS = {
+    // Black variations
     'te zeze': 'black',
     'te zez': 'black',
-    'te zi': 'black',           // ← MISSING: This is why "pantallona te zi" fails
+    'te zi': 'black',
     'e zezë': 'black',
     'zeze': 'black',
     'e zeza': 'black',
     'i zi': 'black',
     'i zezë': 'black',
     'black': 'black',
+    'zi': 'black',
+    
+    // White variations
     'te bardhe': 'white',
-    'te bardha': 'white',        // ← MISSING: Alternative form
+    'te bardha': 'white',
     'e bardhë': 'white',
     'bardha': 'white',
     'barde': 'white',
     'i bardhë': 'white',
     'white': 'white',
+    'bardhe': 'white',
+    
+    // Red variations
     'kuqe': 'red',
     'kuq': 'red',
-    'te kuqe': 'red',           // ← MISSING: Alternative form
+    'te kuqe': 'red',
     'i kuq': 'red',
     'e kuqe': 'red',
     'red': 'red',
+    
+    // Blue variations
     'blu': 'blue',
-    'te blu': 'blue',           // ← MISSING: Alternative form
+    'te blu': 'blue',
     'blue': 'blue',
     'i blu': 'blue',
     'e blu': 'blue',
     'kaltër': 'blue',
     'e kaltër': 'blue',
-    'i kaltër': 'blue',
-    'kalt�r': 'blue',
-    'e kalt�r': 'blue',
-    'i kalt�r': 'blue',
-    'jeshile': 'green',
+    'dark blue': 'blue',
+    'light blue': 'blue',
+    'pastel blue': 'blue',
+    
+    // Green variations
+    'gjelbër': 'green',
     'e gjelbër': 'green',
-    'gjelber': 'green',
-    'i gjelbër': 'green',
     'green': 'green',
-    'gri': 'gray',
-    'e gri': 'gray',
-    'i gri': 'gray',
-    'gray': 'gray',
+    'te gjelbër': 'green',
+    'i gjelbër': 'green',
+    
+    // Yellow variations
+    'verdhë': 'yellow',
+    'e verdhë': 'yellow',
+    'yellow': 'yellow',
+    'te verdhë': 'yellow',
+    'i verdhë': 'yellow',
+    
+    // Brown variations
     'kafe': 'brown',
     'e kafe': 'brown',
-    'i kafe': 'brown',
     'brown': 'brown',
-    'verdhe': 'yellow',
-    'te verdhe': 'yellow',
-    'e verdhë': 'yellow',
-    'e verdha': 'yellow',
-    'i verdhë': 'yellow',
-    'yellow': 'yellow',
-    'roze': 'pink',
+    'te kafe': 'brown',
+    'i kafe': 'brown',
+    
+    // Gray variations
+    'gri': 'gray',
+    'e gri': 'gray',
+    'gray': 'gray',
+    'grey': 'gray',
+    'te gri': 'gray',
+    'i gri': 'gray',
+    
+    // Pink variations
     'rozë': 'pink',
     'e rozë': 'pink',
+    'pink': 'pink',
+    'te rozë': 'pink',
     'i rozë': 'pink',
-    'pink': 'pink'
+    
+    // Purple variations
+    'vjollcë': 'purple',
+    'e vjollcë': 'purple',
+    'purple': 'purple',
+    'te vjollcë': 'purple',
+    'i vjollcë': 'purple',
+    
+    // Orange variations
+    'portokalli': 'orange',
+    'e portokalli': 'orange',
+    'orange': 'orange',
+    'te portokalli': 'orange',
+    'i portokalli': 'orange'
   };
 
   private static readonly MATERIAL_KEYWORDS = [

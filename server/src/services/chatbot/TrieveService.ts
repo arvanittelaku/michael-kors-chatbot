@@ -255,7 +255,22 @@ export class TrieveService {
     const nameMatch = productName.includes(categoryNormalized);
 
     // Check if product categories include the category
-    const categoryMatch = productCategories.includes(categoryNormalized);
+    const categoryMatch = productCategories.some(cat => cat.includes(categoryNormalized));
+
+    // Special handling for specific categories
+    if (categoryNormalized === 'maica_te_mbrendshme' || categoryNormalized === 'maice') {
+      // Look for "MAICË" in product name (common in dataset)
+      const maiceMatch = productName.includes('maic') || productName.includes('maice');
+      console.log(`[FILTER] 📂 Special maice matching: "${product.name}" -> "${productName}" contains "maic": ${maiceMatch}`);
+      return maiceMatch || nameMatch || categoryMatch;
+    }
+
+    if (categoryNormalized === 'pantallona' || categoryNormalized === 'pantolla') {
+      // Look for pants-related terms
+      const pantsMatch = productName.includes('pant') || productName.includes('trousers') || productName.includes('jeans');
+      console.log(`[FILTER] 📂 Special pants matching: "${product.name}" -> "${productName}" contains pants terms: ${pantsMatch}`);
+      return pantsMatch || nameMatch || categoryMatch;
+    }
 
     console.log(`[FILTER] 📂 Category matching: "${product.name}" -> "${productName}" vs "${category}" -> "${categoryNormalized}" = ${nameMatch || categoryMatch}`);
 
@@ -286,6 +301,39 @@ export class TrieveService {
     if (!productColor || !filterColor) {
       console.log(`[FILTER] 🎨 Using strict string matching: "${product.color}" vs "${color}"`);
       return product.color.toLowerCase().trim() === color.toLowerCase().trim();
+    }
+
+    // Enhanced matching for common color variations
+    const productColorLower = productColor.toLowerCase();
+    const filterColorLower = filterColor.toLowerCase();
+    
+    // Direct match
+    if (productColorLower === filterColorLower) {
+      console.log(`[FILTER] 🎨 Direct color match: "${product.color}" = "${color}"`);
+      return true;
+    }
+    
+    // Handle common color variations
+    const colorVariations: { [key: string]: string[] } = {
+      'red': ['red', 'kuqe', 'kuq'],
+      'black': ['black', 'zeze', 'zi', 'zez'],
+      'white': ['white', 'bardhe', 'bardh'],
+      'blue': ['blue', 'blu', 'kaltër'],
+      'green': ['green', 'gjelbër'],
+      'yellow': ['yellow', 'verdhë'],
+      'brown': ['brown', 'kafe'],
+      'gray': ['gray', 'grey', 'gri'],
+      'pink': ['pink', 'rozë'],
+      'purple': ['purple', 'vjollcë'],
+      'orange': ['orange', 'portokalli']
+    };
+
+    // Check if both colors belong to the same color family
+    for (const [family, variations] of Object.entries(colorVariations)) {
+      if (variations.includes(productColorLower) && variations.includes(filterColorLower)) {
+        console.log(`[FILTER] 🎨 Color family match: "${product.color}" and "${color}" both in ${family} family`);
+        return true;
+      }
     }
 
     const match = productColor === filterColor;
