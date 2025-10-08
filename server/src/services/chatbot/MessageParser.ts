@@ -89,6 +89,8 @@ export class MessageParser {
     // Yellow variations
     'verdhë': 'yellow',
     'e verdhë': 'yellow',
+    'verdha': 'yellow',
+    'te verdha': 'yellow',
     'yellow': 'yellow',
     'te verdhë': 'yellow',
     'i verdhë': 'yellow',

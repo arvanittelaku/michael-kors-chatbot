@@ -363,6 +363,8 @@ export class TrieveService {
     const productColor = normalizeColor(product.color);
     const filterColor = normalizeColor(color);
 
+    console.log(`[FILTER] 🎨 Color normalization: "${product.color}" -> "${productColor}", "${color}" -> "${filterColor}"`);
+
     // If either color cannot be normalized, use strict string matching
     if (!productColor || !filterColor) {
       console.log(`[FILTER] 🎨 Using strict string matching: "${product.color}" vs "${color}"`);
