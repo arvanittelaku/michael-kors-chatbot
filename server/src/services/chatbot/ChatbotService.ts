@@ -220,7 +220,16 @@ export class ChatbotService {
                              session.appliedFilters.category && 
                              finalFilters.category !== session.appliedFilters.category;
       
+      console.log(`[ChatbotService] 🔍 Category change detection:`, {
+        currentCategory: finalFilters.category,
+        sessionCategory: session.appliedFilters.category,
+        categoryChanged: categoryChanged,
+        parsedCategory: parsedFilters.category,
+        parsedColor: parsedFilters.color
+      });
+      
       if (!categoryChanged) {
+        // Only preserve filters if user is continuing the same search
         if (!finalFilters.color && session.appliedFilters.color) {
           console.log(`[ChatbotService] 🔄 Preserving color from session: ${session.appliedFilters.color}`);
           finalFilters.color = session.appliedFilters.color;
