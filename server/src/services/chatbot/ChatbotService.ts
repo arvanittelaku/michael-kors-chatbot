@@ -61,17 +61,10 @@ export class ChatbotService {
         products = [];
       }
 
-      // 6. Generate response message
+      // 6. Generate response message - Only show products, no text
       let responseMessage = '';
-      if (products.length > 0) {
-        responseMessage = `Ja disa produkte që gjeta:\n\n`;
-        products.slice(0, 5).forEach((product, index) => {
-          responseMessage += `${index + 1}. ${product.name} - $${product.price}\n`;
-          responseMessage += `   Ngjyra: ${product.color}, Madhësia: ${product.size}\n`;
-          responseMessage += `   Materiali: ${product.material}\n\n`;
-        });
-      } else {
-        // Enhanced fallback message based on context
+      if (products.length === 0) {
+        // Only show error messages when no products found
         if (finalFilters.category && finalFilters.color) {
           responseMessage = `Nuk gjeta ${finalFilters.category} me ngjyrë ${finalFilters.color}. Mund të provoni me ngjyra të tjera ose kategori të tjera.`;
         } else if (finalFilters.color) {
@@ -82,6 +75,7 @@ export class ChatbotService {
           responseMessage = 'Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.';
         }
       }
+      // If products found, return empty message - products will be displayed via cards only
 
       // 7. Update session with new data
       const updatedSession = sessionManager.updateSession(userId, {

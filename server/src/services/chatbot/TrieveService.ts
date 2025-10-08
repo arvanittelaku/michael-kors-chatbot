@@ -74,6 +74,27 @@ export class TrieveService {
   }
 
   /**
+   * Normalize color display - convert manufacturer codes to user-friendly text
+   */
+  private static normalizeColorDisplay(color: string): string {
+    if (!color) return 'Unknown';
+    
+    // Check if it's a manufacturer code
+    const isManufacturerCode = (colorStr: string) => {
+      return /^[A-Z]\d+$/.test(colorStr) || 
+             /^[A-Z]{2}\d+$/.test(colorStr) || 
+             /^\d{3,4}$/.test(colorStr) ||
+             colorStr === 'OPEN MISCELLANEOUS';
+    };
+    
+    if (isManufacturerCode(color)) {
+      return 'Mixed Colors'; // More user-friendly than showing codes
+    }
+    
+    return color;
+  }
+
+  /**
    * Extract categories from metadata
    */
   private static extractCategories(metadata: any): string[] {
@@ -167,7 +188,7 @@ export class TrieveService {
         id: metadata.product_no || metadata.id || metadata.tracking_id || chunk.chunk_id,
         name: metadata.name || metadata.title || 'Unknown Product',
         price: parseFloat(metadata.price) || 0,
-        color: metadata.color || 'Unknown',
+        color: this.normalizeColorDisplay(metadata.color || 'Unknown'),
         size: metadata.size || 'Unknown',
         material: metadata.material || 'Unknown',
         _source: 'trieve',
@@ -283,9 +304,13 @@ export class TrieveService {
   private static matchesColor(product: Product, color: string): boolean {
     if (!product.color) return false;
 
-    // Check if product color is a manufacturer code (like B75, BV9, BZ2)
+    // Check if product color is a manufacturer code (like B75, BV9, BZ2, 131, 265, 999)
     const isManufacturerCode = (colorStr: string) => {
-      return /^[A-Z]\d+$/.test(colorStr) || /^[A-Z]{2}\d+$/.test(colorStr);
+      // Match patterns like: B75, BV9, BZ2, 131, 265, 999, etc.
+      return /^[A-Z]\d+$/.test(colorStr) || 
+             /^[A-Z]{2}\d+$/.test(colorStr) || 
+             /^\d{3,4}$/.test(colorStr) ||
+             colorStr === 'OPEN MISCELLANEOUS';
     };
 
     // If product color is a manufacturer code, it should not match any color filter
