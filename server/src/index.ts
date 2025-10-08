@@ -28,7 +28,7 @@ app.use(cors({
     'http://localhost:3000',
     'https://albimalldemo.netlify.app',
     process.env.FRONTEND_URL
-  ].filter(Boolean),
+  ].filter((url): url is string => Boolean(url)),
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
