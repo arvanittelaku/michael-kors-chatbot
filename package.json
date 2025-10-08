@@ -8,6 +8,8 @@
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
     "build": "cd client && npm run build && cd ../server && npm run build",
+    "build-server": "cd server && npm install && npm run build",
+    "start-server": "cd server && npm start",
     "install-all": "npm install && cd server && npm install && cd ../client && npm install",
     "convert-csv": "node convert_csv_to_trieve_batches.js",
     "upload-trieve": "node upload_to_trieve.js",
