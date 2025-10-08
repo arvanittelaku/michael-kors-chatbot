@@ -194,7 +194,8 @@ export class ChatbotService {
     }
 
     // 1. Handle category context - ONLY if no category is detected in current message
-    if (!finalFilters.category && session.lastCategory) {
+    // BUT NOT if we already have a category from current message parsing
+    if (!finalFilters.category && session.lastCategory && !parsedFilters.category) {
       console.log(`[ChatbotService] 🔄 Using session category: ${session.lastCategory}`);
       finalFilters.category = session.lastCategory;
     }

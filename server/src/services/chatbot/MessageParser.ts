@@ -123,7 +123,17 @@ export class MessageParser {
     'e portokalli': 'orange',
     'orange': 'orange',
     'te portokalli': 'orange',
-    'i portokalli': 'orange'
+    'i portokalli': 'orange',
+
+    // Mixed colors variations
+    'ngjyra te perziera': 'mixed colors',
+    'ngjyra të përziera': 'mixed colors',
+    'te perziera': 'mixed colors',
+    'të përziera': 'mixed colors',
+    'perziera': 'mixed colors',
+    'përziera': 'mixed colors',
+    'mixed colors': 'mixed colors',
+    'mixed': 'mixed colors'
   };
 
   private static readonly MATERIAL_KEYWORDS = [
