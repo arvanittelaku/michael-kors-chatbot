@@ -151,6 +151,18 @@ export class TrieveService {
         return null;
       }
 
+      // Convert HTTP image URLs to HTTPS to fix Mixed Content issues
+      const convertToHttps = (url: string): string => {
+        if (url && url.startsWith('http://')) {
+          return url.replace('http://', 'https://');
+        }
+        return url;
+      };
+
+      const rawImages = metadata.images ? 
+        (Array.isArray(metadata.images) ? metadata.images : [metadata.images]) : 
+        [];
+
       const product: Product = {
         id: metadata.product_no || metadata.id || metadata.tracking_id || chunk.chunk_id,
         name: metadata.name || metadata.title || 'Unknown Product',
@@ -161,9 +173,7 @@ export class TrieveService {
         _source: 'trieve',
         tracking_id: metadata.tracking_id || metadata.product_no,
         categories: this.extractCategories(metadata),
-        images: metadata.images ? 
-          (Array.isArray(metadata.images) ? metadata.images : [metadata.images]) : 
-          []
+        images: rawImages.map(convertToHttps)
       };
 
       return product;
