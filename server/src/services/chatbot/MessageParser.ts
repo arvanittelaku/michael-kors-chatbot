@@ -170,6 +170,15 @@ export class MessageParser {
   }
 
   private extractCategory(message: string): string | undefined {
+    // Check for unknown categories first
+    const unknownCategories = ['sony', 'kompjuter', 'computer', 'laptop', 'phone', 'telefon', 'tv', 'television', 'car', 'makinë', 'house', 'shtëpi'];
+    
+    for (const unknown of unknownCategories) {
+      if (message.includes(unknown)) {
+        return 'UNKNOWN_CATEGORY';
+      }
+    }
+    
     for (const [category, keywords] of Object.entries(MessageParser.CATEGORY_KEYWORDS)) {
       for (const keyword of keywords) {
         if (message.includes(keyword)) {

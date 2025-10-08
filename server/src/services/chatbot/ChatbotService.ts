@@ -72,6 +72,22 @@ export class ChatbotService {
 
       // 6. Generate response message - Only show products, no text
       let responseMessage = '';
+      
+      // Handle unknown categories first
+      if (finalFilters.category === 'UNKNOWN_CATEGORY') {
+        responseMessage = 'Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.';
+        return {
+          message: responseMessage,
+          products: [],
+          sessionContext: sessionManager.updateSession(userId, {
+            lastCategory: session.lastCategory,
+            appliedFilters: session.appliedFilters,
+            lastProducts: [],
+            messageHistory: [...session.messageHistory, message]
+          })
+        };
+      }
+      
       if (products.length === 0) {
         // Only show error messages when no products found
         if (finalFilters.category && finalFilters.color) {
