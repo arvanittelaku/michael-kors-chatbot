@@ -1,5 +1,5 @@
 [build]
-  # Base directory is the client folder
+  # Base directory is the client folder - Updated for fresh deployment
   base = "client"
   
   # Build command

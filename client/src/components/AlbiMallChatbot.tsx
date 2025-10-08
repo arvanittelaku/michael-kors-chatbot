@@ -82,7 +82,7 @@ const AlbiMallChatbot: React.FC = () => {
     console.log('Sending message:', userMessage.text, 'to session:', sessionId);
 
     try {
-      const response = await axios.post<ChatbotResponse>('http://localhost:5000/chat', {
+      const response = await axios.post<ChatbotResponse>(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/chat`, {
         userId: sessionId,
         message: userMessage.text
       });
