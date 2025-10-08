@@ -101,6 +101,8 @@ export class MessageParser {
     'brown': 'brown',
     'te kafe': 'brown',
     'i kafe': 'brown',
+    'ngjyr kafe': 'brown',
+    'ngjyre kafe': 'brown',
     
     // Gray variations
     'gri': 'gray',
@@ -176,6 +178,30 @@ export class MessageParser {
     for (const unknown of unknownCategories) {
       if (message.includes(unknown)) {
         return 'UNKNOWN_CATEGORY';
+      }
+    }
+    
+    // Add typo tolerance for common misspellings
+    const typoMappings: { [key: string]: string } = {
+      'oantolla': 'pantallona',
+      'oantallona': 'pantallona',
+      'pantolla': 'pantallona',
+      'qant': 'qante',
+      'qanta': 'qante',
+      'kemishe': 'kemishe',
+      'kemish': 'kemishe',
+      'fustan': 'fustan',
+      'fustani': 'fustan',
+      'peshqir': 'peshqir',
+      'peshqiri': 'peshqir',
+      'maice': 'maica_te_mbrendshme',
+      'maic': 'maica_te_mbrendshme'
+    };
+    
+    // Check for typos first
+    for (const [typo, correct] of Object.entries(typoMappings)) {
+      if (message.includes(typo)) {
+        return correct;
       }
     }
     
