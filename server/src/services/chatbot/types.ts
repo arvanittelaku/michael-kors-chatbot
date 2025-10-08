@@ -57,4 +57,5 @@ export interface ParsedFilters {
   };
   size?: string[];
   material?: string;
+  _offset?: number; // For pagination support
 }
