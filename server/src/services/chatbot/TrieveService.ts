@@ -25,6 +25,7 @@ export class TrieveService {
         query: searchQuery,
         dataset_id: this.DATASET_ID,
         limit: 50,
+        offset: filters._offset || 0, // Add offset support for pagination
         search_type: "hybrid"
       }, {
         headers: {
@@ -107,6 +108,7 @@ export class TrieveService {
       'standard': 'One Size',
       'onesize': 'One Size',
       'one size': 'One Size',
+      'onesi': 'One Size', // Add Albanian variation
       'universal': 'One Size',
       'free size': 'One Size',
       'xs': 'XS',

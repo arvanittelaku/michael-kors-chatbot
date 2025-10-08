@@ -23,7 +23,7 @@ export function normalizeColor(input: string): string | null {
   const lowerInput = input.toLowerCase().trim();
   
   // Check for manufacturer codes first - these should not be normalized
-  if (/^[a-z]\d+$/.test(lowerInput) || /^[a-z]{2}\d+$/.test(lowerInput)) {
+  if (/^[a-z]\d+$/.test(lowerInput) || /^[a-z]{2}\d+$/.test(lowerInput) || /^\d+$/.test(lowerInput)) {
     return null;
   }
   
