@@ -183,14 +183,23 @@ export class ChatbotService {
     }
 
     // 4. Merge additional filters from session if not specified in current message
+    // BUT ONLY if the category hasn't changed (to avoid carrying over filters from different product types)
     if (session.appliedFilters) {
-      if (!finalFilters.color && session.appliedFilters.color) {
-        console.log(`[ChatbotService] 🔄 Preserving color from session: ${session.appliedFilters.color}`);
-        finalFilters.color = session.appliedFilters.color;
-      }
-      if (!finalFilters.price && session.appliedFilters.price) {
-        console.log(`[ChatbotService] 🔄 Preserving price from session: ${session.appliedFilters.price}`);
-        finalFilters.price = session.appliedFilters.price;
+      const categoryChanged = finalFilters.category && 
+                             session.appliedFilters.category && 
+                             finalFilters.category !== session.appliedFilters.category;
+      
+      if (!categoryChanged) {
+        if (!finalFilters.color && session.appliedFilters.color) {
+          console.log(`[ChatbotService] 🔄 Preserving color from session: ${session.appliedFilters.color}`);
+          finalFilters.color = session.appliedFilters.color;
+        }
+        if (!finalFilters.price && session.appliedFilters.price) {
+          console.log(`[ChatbotService] 🔄 Preserving price from session: ${session.appliedFilters.price}`);
+          finalFilters.price = session.appliedFilters.price;
+        }
+      } else {
+        console.log(`[ChatbotService] 🔄 Category changed from ${session.appliedFilters.category} to ${finalFilters.category} - not preserving filters`);
       }
     }
 
