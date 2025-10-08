@@ -231,13 +231,7 @@ const AlbiMallChatbot: React.FC = () => {
                                   alt={product.title} 
                                   className="w-full h-full object-cover"
                                   onError={(e) => {
-                                    // Try to convert HTTP to HTTPS if image fails to load
-                                    const img = e.currentTarget;
-                                    if (img.src.startsWith('http://')) {
-                                      img.src = img.src.replace('http://', 'https://');
-                                    } else {
-                                      img.style.display = 'none';
-                                    }
+                                    e.currentTarget.style.display = 'none';
                                   }}
                                 />
                               ) : (
@@ -335,13 +329,7 @@ const AlbiMallChatbot: React.FC = () => {
                       alt={selectedProduct.title} 
                       className="w-full h-full object-contain"
                       onError={(e) => {
-                        // Try to convert HTTP to HTTPS if image fails to load
-                        const img = e.currentTarget;
-                        if (img.src.startsWith('http://')) {
-                          img.src = img.src.replace('http://', 'https://');
-                        } else {
-                          img.style.display = 'none';
-                        }
+                        e.currentTarget.style.display = 'none';
                       }}
                     />
                   ) : (

@@ -172,14 +172,7 @@ export class TrieveService {
         return null;
       }
 
-      // Convert HTTP image URLs to HTTPS to fix Mixed Content issues
-      const convertToHttps = (url: string): string => {
-        if (url && url.startsWith('http://')) {
-          return url.replace('http://', 'https://');
-        }
-        return url;
-      };
-
+      // Keep HTTP URLs as-is since the image server doesn't support HTTPS
       const rawImages = metadata.images ? 
         (Array.isArray(metadata.images) ? metadata.images : [metadata.images]) : 
         [];
@@ -194,7 +187,7 @@ export class TrieveService {
         _source: 'trieve',
         tracking_id: metadata.tracking_id || metadata.product_no,
         categories: this.extractCategories(metadata),
-        images: rawImages.map(convertToHttps)
+        images: rawImages // Keep original HTTP URLs
       };
 
       return product;
