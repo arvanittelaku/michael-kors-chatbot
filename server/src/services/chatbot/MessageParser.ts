@@ -45,6 +45,7 @@ export class MessageParser {
     'i zezë': 'black',
     'black': 'black',
     'zi': 'black',
+    'zez': 'black',
     
     // White variations
     'te bardhe': 'white',
@@ -181,12 +182,16 @@ export class MessageParser {
       }
     }
     
-    // Check for gibberish/nonsense queries
-    const gibberishPattern = /[^a-zëç\s]/i; // Contains non-Albanian characters
-    const hasNumbers = /\d/;
-    const hasSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+    // Check for gibberish/nonsense queries - but be more intelligent about it
+    // Only flag as gibberish if it contains multiple consecutive non-Albanian characters
+    const gibberishPattern = /[^a-zëç\s]{2,}/i; // 2+ consecutive non-Albanian characters
+    const hasSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{2,}/; // 2+ consecutive special chars
     
-    if (gibberishPattern.test(message) || hasNumbers.test(message) || hasSpecialChars.test(message)) {
+    // Allow single numbers and single special chars (like $30, 25€)
+    const hasMultipleNumbers = /\d{3,}/; // 3+ consecutive numbers
+    const hasMultipleSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{2,}/;
+    
+    if (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message)) {
       return 'UNKNOWN_CATEGORY';
     }
     
@@ -234,8 +239,8 @@ export class MessageParser {
   }
 
   private extractPrice(message: string): { min?: number; max?: number } | undefined {
-    // Pattern for "nen X", "poshte X", "under X" → max: X
-    const underPattern = /(?:nen|poshte|under)\s*(\d+)(?:\$|€)?/i;
+    // Pattern for "nen X", "poshte X", "ner X", "under X" → max: X
+    const underPattern = /(?:nen|poshte|ner|under)\s*(\d+)(?:\$|€)?/i;
     const underMatch = message.match(underPattern);
     if (underMatch) {
       return { max: parseInt(underMatch[1]) };
