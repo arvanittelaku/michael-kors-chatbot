@@ -27,7 +27,7 @@ export class MessageParser {
     kapel: ['kapel', 'kapelë', 'hat', 'hats'],
     bkostum: ['b.kostum', 'bkostum', 'baby suit', 'baby suits'],
     te_brendshme: ['te brendshme', 'të brendshme', 'underwear', 'lingerie'],
-    qante: ['qante', 'qantë', 'bag', 'bags', 'handbag'],
+    qante: ['qante', 'qantë', 'qant', 'qanta', 'bag', 'bags', 'handbag'],
     sako: ['sako', 'coat', 'coats', 'overcoat'],
     maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'underwear shirt', 'undershirt', 'maice', 'maicë']
   };
