@@ -27,6 +27,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'https://albimalldemo.netlify.app',
+    /^https:\/\/.*\.netlify\.app$/, // Allow all Netlify subdomains
     process.env.FRONTEND_URL
   ].filter((url): url is string => Boolean(url)),
   credentials: true
