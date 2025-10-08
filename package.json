@@ -10,6 +10,7 @@
     "build": "cd server && npm install && npm run build",
     "build:server": "cd server && npm install && npm run build",
     "build-server": "cd server && npm install && npm run build",
+    "railway:build": "cd server && npm install && npm run build",
     "start-server": "cd server && npm start",
     "install-all": "npm install && cd server && npm install && cd ../client && npm install",
     "convert-csv": "node convert_csv_to_trieve_batches.js",
