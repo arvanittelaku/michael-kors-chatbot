@@ -57,8 +57,10 @@ export class TrieveService {
       console.log('[TrieveService] 🎯 First few products:', products.slice(0, 3).map((p: Product) => ({ id: p.id, name: p.name, category: p.categories })));
 
       // Apply additional filtering (since Trieve search might not be perfect)
+      // Remove _offset from filters before applying product matching
+      const { _offset, ...filtersForMatching } = filters;
       const filteredProducts = products.filter((product: Product) => 
-        this.productMatchesFilters(product, filters)
+        this.productMatchesFilters(product, filtersForMatching)
       );
 
       console.log(`[TrieveService] 🎯 After filtering: ${filteredProducts.length} products match criteria`);
@@ -323,6 +325,13 @@ export class TrieveService {
       const pantsMatch = productName.includes('pant') || productName.includes('trousers') || productName.includes('jeans');
       console.log(`[FILTER] 📂 Special pants matching: "${product.name}" -> "${productName}" contains pants terms: ${pantsMatch}`);
       return pantsMatch || nameMatch || categoryMatch;
+    }
+
+    if (categoryNormalized === 'qante' || categoryNormalized === 'qant' || categoryNormalized === 'qanta') {
+      // Look for bag-related terms
+      const bagMatch = productName.includes('qant') || productName.includes('bag') || productName.includes('handbag');
+      console.log(`[FILTER] 📂 Special bag matching: "${product.name}" -> "${productName}" contains bag terms: ${bagMatch}`);
+      return bagMatch || nameMatch || categoryMatch;
     }
 
     console.log(`[FILTER] 📂 Category matching: "${product.name}" -> "${productName}" vs "${category}" -> "${categoryNormalized}" = ${nameMatch || categoryMatch}`);
