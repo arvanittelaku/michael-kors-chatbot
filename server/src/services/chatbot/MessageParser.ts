@@ -181,6 +181,15 @@ export class MessageParser {
       }
     }
     
+    // Check for gibberish/nonsense queries
+    const gibberishPattern = /[^a-zëç\s]/i; // Contains non-Albanian characters
+    const hasNumbers = /\d/;
+    const hasSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+    
+    if (gibberishPattern.test(message) || hasNumbers.test(message) || hasSpecialChars.test(message)) {
+      return 'UNKNOWN_CATEGORY';
+    }
+    
     // Add typo tolerance for common misspellings
     const typoMappings: { [key: string]: string } = {
       'oantolla': 'pantallona',
