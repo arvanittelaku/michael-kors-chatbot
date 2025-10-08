@@ -154,21 +154,29 @@ export class MessageParser {
     const lowerMessage = message.toLowerCase();
     const filters: ParsedFilters = {};
 
+    console.log(`[MessageParser] 🔍 Parsing message: "${message}"`);
+
     // 1️⃣ Extract Category
     filters.category = this.extractCategory(lowerMessage);
+    console.log(`[MessageParser] 📂 Extracted category: "${filters.category}"`);
 
     // 2️⃣ Extract Color
     filters.color = this.extractColor(lowerMessage);
+    console.log(`[MessageParser] 🎨 Extracted color: "${filters.color}"`);
 
     // 3️⃣ Extract Price
     filters.price = this.extractPrice(lowerMessage);
+    console.log(`[MessageParser] 💰 Extracted price:`, filters.price);
 
     // 4️⃣ Extract Size
     filters.size = this.extractSize(lowerMessage);
+    console.log(`[MessageParser] 📏 Extracted size:`, filters.size);
 
     // 5️⃣ Extract Material
     filters.material = this.extractMaterial(lowerMessage);
+    console.log(`[MessageParser] 🧵 Extracted material: "${filters.material}"`);
 
+    console.log(`[MessageParser] 🎯 Final parsed filters:`, filters);
     return filters;
   }
 
