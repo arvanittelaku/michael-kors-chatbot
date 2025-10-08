@@ -370,31 +370,43 @@ export class TrieveService {
       return true;
     }
     
-    // Handle common color variations
-    const colorVariations: { [key: string]: string[] } = {
-      'red': ['red', 'kuqe', 'kuq'],
-      'black': ['black', 'zeze', 'zi', 'zez'],
-      'white': ['white', 'bardhe', 'bardh'],
-      'blue': ['blue', 'blu', 'kaltër'],
-      'green': ['green', 'gjelbër'],
-      'yellow': ['yellow', 'verdhë'],
-      'brown': ['brown', 'kafe'],
-      'gray': ['gray', 'grey', 'gri'],
-      'pink': ['pink', 'rozë'],
-      'purple': ['purple', 'vjollcë'],
-      'orange': ['orange', 'portokalli']
-    };
-
-    // Check if both colors belong to the same color family
-    for (const [family, variations] of Object.entries(colorVariations)) {
-      if (variations.includes(productColorLower) && variations.includes(filterColorLower)) {
-        console.log(`[FILTER] 🎨 Color family match: "${product.color}" and "${color}" both in ${family} family`);
+    // Enhanced color matching - check if colors contain similar terms
+    const colorContainsMatch = (productColor: string, filterColor: string): boolean => {
+      const productLower = productColor.toLowerCase();
+      const filterLower = filterColor.toLowerCase();
+      
+      // Direct substring match
+      if (productLower.includes(filterLower) || filterLower.includes(productLower)) {
         return true;
       }
-    }
+      
+      // Check for color family matches
+      const colorFamilies = {
+        'blue': ['blue', 'blu', 'navy', 'turquoise', 'aqua', 'medium blue', 'dark blue', 'light blue'],
+        'black': ['black', 'dark', 'charcoal', 'jet', 'midnight'],
+        'red': ['red', 'crimson', 'scarlet', 'burgundy', 'garnet'],
+        'green': ['green', 'emerald', 'forest', 'lime', 'olive'],
+        'gray': ['gray', 'grey', 'silver', 'ash', 'medium grey'],
+        'white': ['white', 'ivory', 'cream', 'pearl'],
+        'brown': ['brown', 'tan', 'camel', 'chocolate'],
+        'yellow': ['yellow', 'gold', 'amber'],
+        'pink': ['pink', 'rose', 'magenta'],
+        'purple': ['purple', 'violet', 'lavender']
+      };
+      
+      for (const [family, variations] of Object.entries(colorFamilies)) {
+        const productInFamily = variations.some(v => productLower.includes(v));
+        const filterInFamily = variations.some(v => filterLower.includes(v));
+        if (productInFamily && filterInFamily) {
+          return true;
+        }
+      }
+      
+      return false;
+    };
 
-    const match = productColor === filterColor;
-    console.log(`[FILTER] 🎨 Color matching: "${product.color}" -> "${productColor}" vs "${color}" -> "${filterColor}" = ${match}`);
+    const match = colorContainsMatch(productColor, filterColor);
+    console.log(`[FILTER] 🎨 Enhanced color matching: "${product.color}" vs "${color}" = ${match}`);
     return match;
   }
 

@@ -36,6 +36,7 @@ export class MessageParser {
     // Black variations
     'te zeze': 'black',
     'te zez': 'black',
+    'te zeza': 'black',
     'te zi': 'black',
     'e zezë': 'black',
     'zeze': 'black',
@@ -71,6 +72,9 @@ export class MessageParser {
     'e blu': 'blue',
     'kaltër': 'blue',
     'e kaltër': 'blue',
+    'te kaltër': 'blue',
+    'te kalterta': 'blue',
+    'kalterta': 'blue',
     'dark blue': 'blue',
     'light blue': 'blue',
     'pastel blue': 'blue',
