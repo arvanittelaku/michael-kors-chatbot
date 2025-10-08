@@ -21,6 +21,14 @@ export class TrieveService {
       console.log('[TrieveService] 🔍 Search query:', searchQuery);
 
       // Call Trieve API
+      console.log('[TrieveService] 📡 Calling Trieve API with:', {
+        query: searchQuery,
+        dataset_id: this.DATASET_ID,
+        limit: 50,
+        offset: filters._offset || 0,
+        search_type: "hybrid"
+      });
+      
       const response = await axios.post(this.TRIEVE_API_URL, {
         query: searchQuery,
         dataset_id: this.DATASET_ID,
@@ -38,6 +46,7 @@ export class TrieveService {
 
       console.log('[TrieveService] 📡 Trieve API response received');
       console.log('[TrieveService] 📊 Response structure:', Object.keys(response.data || {}));
+      console.log('[TrieveService] 📊 Number of chunks:', response.data.chunks?.length || 0);
 
       // Map Trieve chunks to Product objects
       const products = response.data.chunks.map((chunk: any) => 
@@ -45,6 +54,7 @@ export class TrieveService {
       ).filter((product: Product) => product !== null);
 
       console.log(`[TrieveService] 🎯 Mapped ${products.length} products from Trieve`);
+      console.log('[TrieveService] 🎯 First few products:', products.slice(0, 3).map((p: Product) => ({ id: p.id, name: p.name, category: p.categories })));
 
       // Apply additional filtering (since Trieve search might not be perfect)
       const filteredProducts = products.filter((product: Product) => 
