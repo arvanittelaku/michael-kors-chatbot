@@ -34,6 +34,19 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
+// Root route for testing
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Michael Kors Chatbot API is running!', 
+    endpoints: {
+      health: '/api/health',
+      chat: '/chat',
+      debug: '/debug'
+    },
+    timestamp: new Date().toISOString() 
+  });
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
