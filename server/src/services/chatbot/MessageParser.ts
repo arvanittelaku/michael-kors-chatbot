@@ -192,6 +192,7 @@ export class MessageParser {
     
     // Check for gibberish/nonsense queries - but be more intelligent about it
     // Only flag as gibberish if it contains multiple consecutive non-Albanian characters
+    // BUT exclude common price patterns and legitimate Albanian text with numbers
     const gibberishPattern = /[^a-zëç\s]{2,}/i; // 2+ consecutive non-Albanian characters
     const hasSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{2,}/; // 2+ consecutive special chars
     
@@ -199,7 +200,11 @@ export class MessageParser {
     const hasMultipleNumbers = /\d{3,}/; // 3+ consecutive numbers
     const hasMultipleSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{2,}/;
     
-    if (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message)) {
+    // Check for legitimate price patterns first - if found, don't flag as gibberish
+    const pricePattern = /(?:nen|poshte|ner|under|mbi|siper|over)\s*\d+(?:\$|€)?/i;
+    const hasPricePattern = pricePattern.test(message);
+    
+    if (!hasPricePattern && (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message))) {
       return 'UNKNOWN_CATEGORY';
     }
     
