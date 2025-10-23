@@ -242,7 +242,23 @@ const AlbiMallChatbot: React.FC = () => {
                                   alt={product.title} 
                                   className="w-full h-full object-cover"
                                   onError={(e) => {
-                                    e.currentTarget.style.display = 'none';
+                                    // Replace with placeholder SVG on error
+                                    const parent = e.currentTarget.parentElement;
+                                    if (parent) {
+                                      e.currentTarget.style.display = 'none';
+                                      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                                      svg.setAttribute('class', 'w-6 h-6 text-gray-400');
+                                      svg.setAttribute('fill', 'none');
+                                      svg.setAttribute('stroke', 'currentColor');
+                                      svg.setAttribute('viewBox', '0 0 24 24');
+                                      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                                      path.setAttribute('stroke-linecap', 'round');
+                                      path.setAttribute('stroke-linejoin', 'round');
+                                      path.setAttribute('stroke-width', '2');
+                                      path.setAttribute('d', 'M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z');
+                                      svg.appendChild(path);
+                                      parent.appendChild(svg);
+                                    }
                                   }}
                                 />
                               ) : (
@@ -335,14 +351,23 @@ const AlbiMallChatbot: React.FC = () => {
               <div className="mb-4">
                 <div className="w-full h-80 bg-gray-200 rounded flex items-center justify-center overflow-hidden">
                   {selectedProduct.image ? (
-                    <img 
-                      src={selectedProduct.image} 
-                      alt={selectedProduct.title} 
-                      className="w-full h-full object-contain"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                      }}
-                    />
+                    <>
+                      <img 
+                        src={selectedProduct.image} 
+                        alt={selectedProduct.title} 
+                        className="w-full h-full object-contain"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                          const parent = e.currentTarget.parentElement;
+                          if (parent && !parent.querySelector('svg')) {
+                            const placeholder = document.createElement('div');
+                            placeholder.className = 'w-full h-full flex items-center justify-center';
+                            placeholder.innerHTML = '<svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>';
+                            parent.appendChild(placeholder);
+                          }
+                        }}
+                      />
+                    </>
                   ) : (
                     <div className="w-full h-full flex items-center justify-center">
                       <svg className="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

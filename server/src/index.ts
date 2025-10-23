@@ -58,6 +58,11 @@ app.get('/api/health', (req, res) => {
 
 // Image proxy to serve HTTP images over HTTPS
 app.get('/api/image-proxy', async (req, res) => {
+  // Always set CORS headers first
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'GET');
+  res.set('Cache-Control', 'public, max-age=86400');
+
   try {
     const imageUrl = req.query.url as string;
     if (!imageUrl) {
@@ -67,18 +72,25 @@ app.get('/api/image-proxy', async (req, res) => {
     const axios = require('axios');
     const response = await axios.get(imageUrl, {
       responseType: 'arraybuffer',
-      timeout: 10000
+      timeout: 10000,
+      validateStatus: (status: number) => status < 500 // Accept 404s
     });
 
-    // Set CORS headers explicitly for images
-    res.set('Access-Control-Allow-Origin', '*');
-    res.set('Access-Control-Allow-Methods', 'GET');
+    // If image not found, return a 1x1 transparent pixel
+    if (response.status === 404) {
+      const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
+      res.set('Content-Type', 'image/png');
+      return res.send(transparentPixel);
+    }
+
     res.set('Content-Type', response.headers['content-type'] || 'image/jpeg');
-    res.set('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
     res.send(response.data);
-  } catch (error) {
-    console.error('Image proxy error:', error);
-    res.status(404).send('Image not found');
+  } catch (error: any) {
+    console.error('Image proxy error:', error.message);
+    // Return transparent pixel on any error
+    const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
+    res.set('Content-Type', 'image/png');
+    res.send(transparentPixel);
   }
 });
 
