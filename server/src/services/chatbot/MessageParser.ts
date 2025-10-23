@@ -337,17 +337,37 @@ export class MessageParser {
     const albanianStopWords = [
       'dua', 'kerkoj', 'kërkoj', 'më', 'për', 'per',
       'lira', 'lire', 'shtrenjte', 'shtrenjtë', 'mirë', 'mire', 'bukur',
-      'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë'
+      'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë', 'tjera', 'tjeter',
+      'proekte', 'produkte', 'keni', 'jane', 'reja', 'peshqir', 'pantolla'
+    ];
+    
+    // Known brand names to support (helps with lowercase detection)
+    const knownBrands = [
+      'boss', 'hugo', 'ozdilek', 'shefame', 'tom tailor', 'hugo boss',
+      'nike', 'adidas', 'puma', 'zara', 'h&m', 'mango'
     ];
     
     // Explicit brand indicators
     const strongBrandIndicators = ['marka', 'brand'];
     const weakBrandIndicators = ['te', 'të', 'nga', 'me']; // from, with
     
+    const lowerMessage = message.toLowerCase();
     const words = message.split(/\s+/);
     
-    // FIRST: Check for explicit brand mentions with strong indicators
-    // "marka BOSS" or "brand Tom Tailor"
+    // FIRST: Check for known brand names (case-insensitive)
+    for (const knownBrand of knownBrands) {
+      if (lowerMessage.includes(knownBrand)) {
+        // Make sure it's not part of a larger word
+        const brandPattern = new RegExp(`\\b${knownBrand}\\b`, 'i');
+        if (brandPattern.test(lowerMessage)) {
+          console.log(`[MessageParser] 🏷️ Found known brand: ${knownBrand}`);
+          return knownBrand.toUpperCase();
+        }
+      }
+    }
+    
+    // SECOND: Check for explicit brand mentions with strong indicators
+    // "marka BOSS" or "brand Tom Tailor" - Accept ANY case after these keywords
     for (let i = 0; i < words.length; i++) {
       const prevWord = words[i - 1]?.toLowerCase();
       const currentWord = words[i];
@@ -355,16 +375,20 @@ export class MessageParser {
       if (prevWord && strongBrandIndicators.includes(prevWord)) {
         const brandCandidate = currentWord.toLowerCase();
         if (!albanianStopWords.includes(brandCandidate) && currentWord.length > 2) {
-          // Check if next word is also part of brand (e.g., "Tom Tailor")
-          if (i + 1 < words.length && /^[A-Z]/.test(words[i + 1])) {
-            return `${currentWord} ${words[i + 1]}`.toUpperCase();
+          // Check if next word is also part of brand (e.g., "Tom Tailor" or "tom tailor")
+          if (i + 1 < words.length && words[i + 1].length > 1) {
+            const nextWord = words[i + 1];
+            const twoWordBrand = `${currentWord} ${nextWord}`.toLowerCase();
+            if (!albanianStopWords.includes(nextWord.toLowerCase())) {
+              return twoWordBrand.toUpperCase();
+            }
           }
           return currentWord.toUpperCase();
         }
       }
     }
     
-    // SECOND: Check for brands after weak indicators (te, nga)
+    // THIRD: Check for brands after weak indicators (te, nga) - Now accepts lowercase!
     // "te tom tailor" or "nga boss"
     for (let i = 0; i < words.length; i++) {
       const prevWord = words[i - 1]?.toLowerCase();
@@ -372,22 +396,26 @@ export class MessageParser {
       
       if (prevWord && weakBrandIndicators.includes(prevWord)) {
         const brandCandidate = currentWord.toLowerCase();
-        // Must start with capital letter and not be a stop word
+        // Check if it's not a stop word and length > 2
         if (
-          /^[A-Z]/.test(currentWord) &&
           !albanianStopWords.includes(brandCandidate) &&
           currentWord.length > 2
         ) {
-          // Check if next word is also part of brand (e.g., "Tom Tailor")
-          if (i + 1 < words.length && /^[A-Z]/.test(words[i + 1]) && words[i + 1].length > 1) {
-            return `${currentWord} ${words[i + 1]}`.toUpperCase();
+          // Check if next word is also part of brand
+          if (i + 1 < words.length && words[i + 1].length > 1) {
+            const nextWord = words[i + 1];
+            const nextLower = nextWord.toLowerCase();
+            if (!albanianStopWords.includes(nextLower)) {
+              const twoWordBrand = `${currentWord} ${nextWord}`;
+              return twoWordBrand.toUpperCase();
+            }
           }
           return currentWord.toUpperCase();
         }
       }
     }
     
-    // THIRD: Check for ALL CAPS brands (BOSS, OZDILEK, NIKE, etc.)
+    // FOURTH: Check for ALL CAPS brands (BOSS, OZDILEK, NIKE, etc.)
     for (const word of words) {
       if (
         word.length >= 3 &&
