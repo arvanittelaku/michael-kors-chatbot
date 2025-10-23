@@ -285,6 +285,13 @@ export class TrieveService {
       if (!materialMatch) return false;
     }
 
+    // 6️⃣ Brand filtering
+    if (filters.brand) {
+      const brandMatch = this.matchesBrand(product, filters.brand);
+      console.log(`[FILTER] 🏷️ Brand "${filters.brand}" match: ${brandMatch}`);
+      if (!brandMatch) return false;
+    }
+
     console.log(`[FILTER] ✅ Product "${product.name}" passes all filters`);
     return true;
   }
@@ -463,6 +470,59 @@ export class TrieveService {
     const filterMaterial = material.toLowerCase();
 
     return productMaterial.includes(filterMaterial);
+  }
+
+  /**
+   * Brand matching with case-insensitive exact match
+   */
+  private static matchesBrand(product: Product, brand: string): boolean {
+    if (!product.brand) return false;
+
+    const productBrand = product.brand.toUpperCase();
+    const filterBrand = brand.toUpperCase();
+
+    return productBrand === filterBrand;
+  }
+
+  /**
+   * Get available brands from a list of products
+   */
+  static getAvailableBrands(products: Product[]): string[] {
+    const brands = new Set<string>();
+    products.forEach(product => {
+      if (product.brand) {
+        brands.add(product.brand.toUpperCase());
+      }
+    });
+    return Array.from(brands).sort();
+  }
+
+  /**
+   * Get available colors from a list of products
+   */
+  static getAvailableColors(products: Product[]): string[] {
+    const colors = new Set<string>();
+    products.forEach(product => {
+      if (product.color && product.color.toLowerCase() !== 'unknown') {
+        colors.add(product.color);
+      }
+    });
+    return Array.from(colors).sort();
+  }
+
+  /**
+   * Get price range from a list of products
+   */
+  static getPriceRange(products: Product[]): { min: number; max: number } | null {
+    if (products.length === 0) return null;
+    
+    const prices = products.map(p => p.price).filter(p => p > 0);
+    if (prices.length === 0) return null;
+    
+    return {
+      min: Math.min(...prices),
+      max: Math.max(...prices)
+    };
   }
 }
 

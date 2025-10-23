@@ -70,7 +70,7 @@ export class ChatbotService {
         products = [];
       }
 
-      // 6. Generate response message - Only show products, no text
+      // 6. Generate response message with smart suggestions
       let responseMessage = '';
       
       // Handle unknown categories first
@@ -90,8 +90,28 @@ export class ChatbotService {
       }
       
       if (products.length === 0) {
-        // Only show error messages when no products found
-        if (finalFilters.category && finalFilters.color) {
+        // Smart error messages based on what filter failed
+        
+        // If user asked for a specific brand that doesn't exist
+        if (finalFilters.brand && session.lastProducts && session.lastProducts.length > 0) {
+          const availableBrands = TrieveService.getAvailableBrands(session.lastProducts);
+          if (availableBrands.length > 0) {
+            responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category || 'këtë kategori'}. Markat e disponueshme janë: ${availableBrands.join(', ')}. Mund të zgjidhni një nga këto.`;
+          } else {
+            responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category || 'këtë kategori'}.`;
+          }
+        }
+        // If user asked for a color that doesn't exist
+        else if (finalFilters.color && session.lastProducts && session.lastProducts.length > 0) {
+          const availableColors = TrieveService.getAvailableColors(session.lastProducts);
+          if (availableColors.length > 0) {
+            responseMessage = `Nuk gjeta ${finalFilters.category || 'produkte'} me ngjyrë ${finalFilters.color}. Ngjyrat e disponueshme janë: ${availableColors.join(', ')}.`;
+          } else {
+            responseMessage = `Nuk gjeta ${finalFilters.category || 'produkte'} me ngjyrë ${finalFilters.color}.`;
+          }
+        }
+        // Generic no results messages
+        else if (finalFilters.category && finalFilters.color) {
           responseMessage = `Nuk gjeta ${finalFilters.category} me ngjyrë ${finalFilters.color}. Mund të provoni me ngjyra të tjera ose kategori të tjera.`;
         } else if (finalFilters.color) {
           responseMessage = `Nuk gjeta produkte me ngjyrë ${finalFilters.color}. Mund të specifikoni një kategori për rezultate më të sakta.`;
@@ -100,8 +120,27 @@ export class ChatbotService {
         } else {
           responseMessage = 'Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.';
         }
+      } else {
+        // If products found, add helpful suggestions for filtering
+        const availableBrands = TrieveService.getAvailableBrands(products);
+        const availableColors = TrieveService.getAvailableColors(products);
+        const priceRange = TrieveService.getPriceRange(products);
+        
+        const suggestions = [];
+        if (availableBrands.length > 1) {
+          suggestions.push(`marka (${availableBrands.slice(0, 3).join(', ')}${availableBrands.length > 3 ? '...' : ''})`);
+        }
+        if (availableColors.length > 1) {
+          suggestions.push(`ngjyrë (${availableColors.slice(0, 3).join(', ')}${availableColors.length > 3 ? '...' : ''})`);
+        }
+        if (priceRange) {
+          suggestions.push(`çmim ($${priceRange.min}-$${priceRange.max})`);
+        }
+        
+        if (suggestions.length > 0) {
+          responseMessage = `Mund të filtroni sipas: ${suggestions.join(', ')}. Për shembull: "më të lira", "ngjyrë e kuqe", "marka ${availableBrands[0] || 'BOSS'}".`;
+        }
       }
-      // If products found, return empty message - products will be displayed via cards only
 
       // 7. Update session with new data
       const updatedSession = sessionManager.updateSession(userId, {

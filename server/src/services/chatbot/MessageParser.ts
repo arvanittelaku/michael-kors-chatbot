@@ -4,6 +4,7 @@ export interface ParsedFilters {
   price?: { min?: number; max?: number };
   size?: string[];
   material?: string;
+  brand?: string;
 }
 
 export class MessageParser {
@@ -176,6 +177,10 @@ export class MessageParser {
     filters.material = this.extractMaterial(lowerMessage);
     console.log(`[MessageParser] 🧵 Extracted material: "${filters.material}"`);
 
+    // 6️⃣ Extract Brand
+    filters.brand = this.extractBrand(lowerMessage);
+    console.log(`[MessageParser] 🏷️ Extracted brand: "${filters.brand}"`);
+
     console.log(`[MessageParser] 🎯 Final parsed filters:`, filters);
     return filters;
   }
@@ -310,6 +315,45 @@ export class MessageParser {
         return materialMap[material] || material;
       }
     }
+    return undefined;
+  }
+
+  private extractBrand(message: string): string | undefined {
+    // Common brand keywords in Albanian and English
+    const brandIndicators = ['marka', 'brand', 'nga', 'from', 'i', 'e', 'te'];
+    
+    // Check for explicit brand mentions
+    // Pattern: "marka X" or "brand X" or just "X" where X is a capitalized word
+    const words = message.split(/\s+/);
+    
+    for (let i = 0; i < words.length; i++) {
+      const word = words[i];
+      
+      // Check if previous word is a brand indicator
+      if (i > 0 && brandIndicators.includes(words[i - 1])) {
+        return word.toUpperCase();
+      }
+      
+      // Check for capitalized brand names (likely brands)
+      // Common brands in your dataset: OZDILEK, BOSS, etc.
+      if (word.length > 2 && word === word.toUpperCase() && !/\d/.test(word)) {
+        return word;
+      }
+    }
+    
+    // Also check the original message for common brand patterns
+    const originalWords = message.split(/\s+/);
+    for (const word of originalWords) {
+      // Match capitalized words that could be brands
+      if (word.length > 2 && /^[A-Z]/.test(word) && !/\d/.test(word)) {
+        // Skip common Albanian words
+        const skipWords = ['Dua', 'Kerkoj', 'Kërkoj', 'Më', 'Me', 'Të', 'Te', 'Nga'];
+        if (!skipWords.includes(word)) {
+          return word.toUpperCase();
+        }
+      }
+    }
+    
     return undefined;
   }
 }

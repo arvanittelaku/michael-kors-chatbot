@@ -18,6 +18,7 @@ export interface Filters {
   };
   size?: string[];
   material?: string;
+  brand?: string;
 }
 
 export interface Product {
