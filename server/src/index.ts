@@ -27,9 +27,12 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'https://albimalldemo.netlify.app',
+    'https://michael-kors-chatbot.vercel.app',
+    'https://michael-kors-chatbot-xkof.vercel.app',
     /^https:\/\/.*\.netlify\.app$/, // Allow all Netlify subdomains
+    /^https:\/\/.*\.vercel\.app$/, // Allow all Vercel subdomains
     process.env.FRONTEND_URL
-  ].filter((url): url is string => Boolean(url)),
+  ].filter((url): url is string | RegExp => Boolean(url)),
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
