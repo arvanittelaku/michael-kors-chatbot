@@ -7,6 +7,7 @@ export interface Product {
   color: string;
   size: string;
   material: string;
+  brand?: string;
   _source?: string;
   tracking_id?: string;
   categories?: string[];

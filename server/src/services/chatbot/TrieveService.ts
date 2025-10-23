@@ -225,6 +225,7 @@ export class TrieveService {
         color: this.normalizeColorDisplay(metadata.color || 'Unknown'),
         size: this.normalizeSizeDisplay(metadata.size || 'Unknown'),
         material: metadata.material || 'Unknown',
+        brand: metadata.brandname || metadata.brand || undefined,
         _source: 'trieve',
         tracking_id: metadata.tracking_id || metadata.product_no,
         categories: this.extractCategories(metadata),

@@ -14,6 +14,7 @@ interface Message {
     color?: string;
     size?: string;
     material?: string;
+    brand?: string;
     image?: string;
   }>;
 }
@@ -27,6 +28,7 @@ interface ChatbotResponse {
     color: string;
     size: string;
     material: string;
+    brand?: string;
     images?: string[];
   }>;
 }
@@ -37,7 +39,7 @@ const AlbiMallChatbot: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [sessionId] = useState(`session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`);
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState<{ id: string; title: string; price?: number; color?: string; size?: string; material?: string; image?: string } | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<{ id: string; title: string; price?: number; color?: string; size?: string; material?: string; brand?: string; image?: string } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -61,7 +63,7 @@ const AlbiMallChatbot: React.FC = () => {
     sendMessage(suggestion);
   };
 
-  const handleProductClick = (product: { id: string; title: string; price?: number; color?: string; size?: string; material?: string; image?: string }) => {
+  const handleProductClick = (product: { id: string; title: string; price?: number; color?: string; size?: string; material?: string; brand?: string; image?: string }) => {
     setSelectedProduct(product);
   };
 
@@ -113,6 +115,7 @@ const AlbiMallChatbot: React.FC = () => {
             color: product.color,
             size: product.size,
             material: product.material,
+            brand: product.brand,
             image: imageUrl
           };
         }) || []
@@ -273,6 +276,9 @@ const AlbiMallChatbot: React.FC = () => {
                                 {product.price && (
                                   <li className="text-green-600 font-medium">• Çmimi: ${product.price}</li>
                                 )}
+                                {product.brand && (
+                                  <li className="text-blue-600 font-medium">• Marka: {product.brand}</li>
+                                )}
                                 {product.color && (
                                   <li className="text-gray-600">• Ngjyra: {product.color}</li>
                                 )}
@@ -381,6 +387,9 @@ const AlbiMallChatbot: React.FC = () => {
               <ul className="text-sm text-gray-600 space-y-1">
                 {selectedProduct.price && (
                   <li className="text-green-600 font-medium">• Çmimi: ${selectedProduct.price}</li>
+                )}
+                {selectedProduct.brand && (
+                  <li className="text-blue-600 font-medium">• Marka: {selectedProduct.brand}</li>
                 )}
                 {selectedProduct.color && (
                   <li>• Ngjyra: {selectedProduct.color}</li>
