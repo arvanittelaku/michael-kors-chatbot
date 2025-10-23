@@ -1,0 +1,2959 @@
+{
+  "summary": {
+    "totalTests": 12,
+    "passed": 10,
+    "failed": 2,
+    "passRate": "10/12"
+  },
+  "tests": [
+    {
+      "id": "A1",
+      "utterance": "Kam nevojë për peshqir",
+      "expected": "Return towels with varied prices, all items have price/brand/color",
+      "actual": "Returned 10 items. Price range: $10-$32",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": {
+        "category": "peshqir"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "Kam nevojë për peshqir"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353545368",
+            "name": "Peshqir - Colourist",
+            "price": 14,
+            "color": "WHITE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "SHEFAME",
+            "_source": "trieve",
+            "tracking_id": "8697353545368",
+            "categories": [
+              "apparel",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353548963",
+            "name": "Peshqir - Colourist",
+            "price": 21,
+            "color": "BLACK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353548963",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327SIYAH_8697353548963.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353545399",
+            "name": "Peshqir - Colourist",
+            "price": 22,
+            "color": "BEIGE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545399",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545429",
+            "name": "Peshqir - Colourist",
+            "price": 10,
+            "color": "GREEN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545429",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545467",
+            "name": "Peshqir - Colourist",
+            "price": 32,
+            "color": "ROSE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545467",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545412",
+            "name": "Peshqir - Colourist",
+            "price": 19,
+            "color": "GREEN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545412",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412.jpeg?lastmod=1630-20220906",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353548956",
+            "name": "Peshqir - Colourist",
+            "price": 13,
+            "color": "BLACK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353548956",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623"
+            ]
+          },
+          {
+            "id": "8697353545450",
+            "name": "Peshqir - Colourist",
+            "price": 17,
+            "color": "PINK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545450",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545405",
+            "name": "Peshqir - Colourist",
+            "price": 20,
+            "color": "BROWN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545405",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545474",
+            "name": "Peshqir - Colourist",
+            "price": 15,
+            "color": "CREAM",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545474",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474.jpeg?lastmod=1451-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_2.jpeg?lastmod=1600-20230224"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250237509",
+          "messageHistory": [
+            "Kam nevojë për peshqir"
+          ],
+          "timestamp": 1761250238618,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353545368",
+              "name": "Peshqir - Colourist",
+              "price": 14,
+              "color": "WHITE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "SHEFAME",
+              "_source": "trieve",
+              "tracking_id": "8697353545368",
+              "categories": [
+                "apparel",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353548963",
+              "name": "Peshqir - Colourist",
+              "price": 21,
+              "color": "BLACK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353548963",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327SIYAH_8697353548963.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353545399",
+              "name": "Peshqir - Colourist",
+              "price": 22,
+              "color": "BEIGE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545399",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545429",
+              "name": "Peshqir - Colourist",
+              "price": 10,
+              "color": "GREEN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545429",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545467",
+              "name": "Peshqir - Colourist",
+              "price": 32,
+              "color": "ROSE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545467",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545412",
+              "name": "Peshqir - Colourist",
+              "price": 19,
+              "color": "GREEN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545412",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412.jpeg?lastmod=1630-20220906",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353548956",
+              "name": "Peshqir - Colourist",
+              "price": 13,
+              "color": "BLACK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353548956",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623"
+              ]
+            },
+            {
+              "id": "8697353545450",
+              "name": "Peshqir - Colourist",
+              "price": 17,
+              "color": "PINK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545450",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545405",
+              "name": "Peshqir - Colourist",
+              "price": 20,
+              "color": "BROWN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545405",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545474",
+              "name": "Peshqir - Colourist",
+              "price": 15,
+              "color": "CREAM",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545474",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474.jpeg?lastmod=1451-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_2.jpeg?lastmod=1600-20230224"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractCategory",
+          "lines": "191-248"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "B1",
+      "utterance": "pantolla marka TOM TAILOR",
+      "expected": "Only TOM TAILOR pants returned",
+      "actual": "Returned 2 items. Brands: TOM TAILOR",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: çmim ($44-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
+      "filters": {
+        "category": "pantallona",
+        "brand": "TOM TAILOR"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "pantolla marka TOM TAILOR"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: çmim ($44-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
+        "products": [
+          {
+            "id": "68102117571",
+            "name": "Pantallona",
+            "price": 44,
+            "color": "Mixed Colors",
+            "size": "XS",
+            "material": "74% PL",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "68102117571",
+            "categories": [
+              "2025",
+              "apparel",
+              "chn",
+              "female",
+              "infant",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+            ]
+          },
+          {
+            "id": "68102117571",
+            "name": "Pantallona",
+            "price": 44,
+            "color": "Mixed Colors",
+            "size": "S",
+            "material": "74% PL",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "68102117571",
+            "categories": [
+              "2025",
+              "apparel",
+              "chn",
+              "female",
+              "infant",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250238742",
+          "messageHistory": [
+            "pantolla marka TOM TAILOR"
+          ],
+          "timestamp": 1761250239613,
+          "lastCategory": "pantallona",
+          "appliedFilters": {
+            "category": "pantallona",
+            "brand": "TOM TAILOR"
+          },
+          "lastProducts": [
+            {
+              "id": "68102117571",
+              "name": "Pantallona",
+              "price": 44,
+              "color": "Mixed Colors",
+              "size": "XS",
+              "material": "74% PL",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "68102117571",
+              "categories": [
+                "2025",
+                "apparel",
+                "chn",
+                "female",
+                "infant",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+              ]
+            },
+            {
+              "id": "68102117571",
+              "name": "Pantallona",
+              "price": 44,
+              "color": "Mixed Colors",
+              "size": "S",
+              "material": "74% PL",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "68102117571",
+              "categories": [
+                "2025",
+                "apparel",
+                "chn",
+                "female",
+                "infant",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "338-457"
+        },
+        {
+          "file": "server/src/services/chatbot/TrieveService.ts",
+          "fn": "matchesBrand",
+          "lines": "478-485"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "C1",
+      "utterance": "peshqir i kuq",
+      "expected": "Red towels, no brand misclassification",
+      "actual": "Returned 2 items. Colors: RED. Brand error: false",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": {
+        "category": "peshqir",
+        "color": "red"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir i kuq"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353549052",
+            "name": "Peshqir Fytyre - Colourist",
+            "price": 19,
+            "color": "RED",
+            "size": "M",
+            "material": "100% PAMBUK",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353549052",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir fytyre - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353578595",
+            "name": "Set Peshqire Per Femije - Spiderman Red",
+            "price": 27,
+            "color": "RED",
+            "size": "M/L",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353578595",
+            "categories": [
+              "home",
+              "bathroom",
+              "male",
+              "child",
+              "set peshqire per femije - spiderman red"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250239722",
+          "messageHistory": [
+            "peshqir i kuq"
+          ],
+          "timestamp": 1761250240162,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir",
+            "color": "red"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353549052",
+              "name": "Peshqir Fytyre - Colourist",
+              "price": 19,
+              "color": "RED",
+              "size": "M",
+              "material": "100% PAMBUK",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353549052",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir fytyre - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353578595",
+              "name": "Set Peshqire Per Femije - Spiderman Red",
+              "price": 27,
+              "color": "RED",
+              "size": "M/L",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353578595",
+              "categories": [
+                "home",
+                "bathroom",
+                "male",
+                "child",
+                "set peshqire per femije - spiderman red"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "250-257"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "C2",
+      "utterance": "peshqir te kuq",
+      "expected": "Red towels, no brand misclassification",
+      "actual": "Returned 2 items. Colors: RED. Brand error: false",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": {
+        "category": "peshqir",
+        "color": "red"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir te kuq"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353549052",
+            "name": "Peshqir Fytyre - Colourist",
+            "price": 19,
+            "color": "RED",
+            "size": "M",
+            "material": "100% PAMBUK",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353549052",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir fytyre - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353578595",
+            "name": "Set Peshqire Per Femije - Spiderman Red",
+            "price": 27,
+            "color": "RED",
+            "size": "M/L",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353578595",
+            "categories": [
+              "home",
+              "bathroom",
+              "male",
+              "child",
+              "set peshqire per femije - spiderman red"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250240276",
+          "messageHistory": [
+            "peshqir te kuq"
+          ],
+          "timestamp": 1761250240723,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir",
+            "color": "red"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353549052",
+              "name": "Peshqir Fytyre - Colourist",
+              "price": 19,
+              "color": "RED",
+              "size": "M",
+              "material": "100% PAMBUK",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353549052",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir fytyre - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353578595",
+              "name": "Set Peshqire Per Femije - Spiderman Red",
+              "price": 27,
+              "color": "RED",
+              "size": "M/L",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353578595",
+              "categories": [
+                "home",
+                "bathroom",
+                "male",
+                "child",
+                "set peshqire per femije - spiderman red"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "250-257"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "C3",
+      "utterance": "peshqir ngjyrë e kuqe",
+      "expected": "Red towels, no brand misclassification",
+      "actual": "Returned 2 items. Colors: RED. Brand error: false",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": {
+        "category": "peshqir",
+        "color": "red"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir ngjyrë e kuqe"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353549052",
+            "name": "Peshqir Fytyre - Colourist",
+            "price": 19,
+            "color": "RED",
+            "size": "M",
+            "material": "100% PAMBUK",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353549052",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir fytyre - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353578595",
+            "name": "Set Peshqire Per Femije - Spiderman Red",
+            "price": 27,
+            "color": "RED",
+            "size": "M/L",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353578595",
+            "categories": [
+              "home",
+              "bathroom",
+              "male",
+              "child",
+              "set peshqire per femije - spiderman red"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250240835",
+          "messageHistory": [
+            "peshqir ngjyrë e kuqe"
+          ],
+          "timestamp": 1761250241288,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir",
+            "color": "red"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353549052",
+              "name": "Peshqir Fytyre - Colourist",
+              "price": 19,
+              "color": "RED",
+              "size": "M",
+              "material": "100% PAMBUK",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353549052",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir fytyre - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353578595",
+              "name": "Set Peshqire Per Femije - Spiderman Red",
+              "price": 27,
+              "color": "RED",
+              "size": "M/L",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353578595",
+              "categories": [
+                "home",
+                "bathroom",
+                "male",
+                "child",
+                "set peshqire per femije - spiderman red"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "250-257"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "D1",
+      "utterance": "peshqir nën $20",
+      "expected": "Only towels with price < $20",
+      "actual": "Returned 0 items. Prices: ",
+      "result": "FAIL",
+      "transcript": "Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
+      "filters": {
+        "category": "peshqir",
+        "priceMax": 20
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir nën $20"
+      },
+      "backendResponse": {
+        "message": "Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
+        "products": [],
+        "sessionContext": {
+          "userId": "test_1761250241393",
+          "messageHistory": [
+            "peshqir nën $20"
+          ],
+          "timestamp": 1761250241799,
+          "lastProducts": []
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractPrice",
+          "lines": "277-281"
+        },
+        {
+          "file": "server/src/services/chatbot/TrieveService.ts",
+          "fn": "matchesPrice",
+          "lines": "435-449"
+        }
+      ],
+      "hypothesis": "Price filter not applied correctly",
+      "severity": "MAJOR"
+    },
+    {
+      "id": "D2",
+      "utterance": "peshqir më të lira",
+      "expected": "Towels sorted cheapest first, no LIRA brand error",
+      "actual": "Returned 10 items. Prices: 10, 13, 14, 15, 17, 19, 20, 21, 22, 32. Sorted: true. No LIRA error: true",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": {
+        "category": "peshqir",
+        "sortBy": "price_asc"
+      },
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir më të lira"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353545429",
+            "name": "Peshqir - Colourist",
+            "price": 10,
+            "color": "GREEN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545429",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353548956",
+            "name": "Peshqir - Colourist",
+            "price": 13,
+            "color": "BLACK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353548956",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623"
+            ]
+          },
+          {
+            "id": "8697353545368",
+            "name": "Peshqir - Colourist",
+            "price": 14,
+            "color": "WHITE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "SHEFAME",
+            "_source": "trieve",
+            "tracking_id": "8697353545368",
+            "categories": [
+              "apparel",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545474",
+            "name": "Peshqir - Colourist",
+            "price": 15,
+            "color": "CREAM",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545474",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474.jpeg?lastmod=1451-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545450",
+            "name": "Peshqir - Colourist",
+            "price": 17,
+            "color": "PINK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545450",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545412",
+            "name": "Peshqir - Colourist",
+            "price": 19,
+            "color": "GREEN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545412",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412.jpeg?lastmod=1630-20220906",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545405",
+            "name": "Peshqir - Colourist",
+            "price": 20,
+            "color": "BROWN",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545405",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353548963",
+            "name": "Peshqir - Colourist",
+            "price": 21,
+            "color": "BLACK",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353548963",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327SIYAH_8697353548963.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353545399",
+            "name": "Peshqir - Colourist",
+            "price": 22,
+            "color": "BEIGE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545399",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_2.jpeg?lastmod=1600-20230224"
+            ]
+          },
+          {
+            "id": "8697353545467",
+            "name": "Peshqir - Colourist",
+            "price": 32,
+            "color": "ROSE",
+            "size": "S",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353545467",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467.jpeg?lastmod=1450-20230220",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250241910",
+          "messageHistory": [
+            "peshqir më të lira"
+          ],
+          "timestamp": 1761250242309,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353545429",
+              "name": "Peshqir - Colourist",
+              "price": 10,
+              "color": "GREEN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545429",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUYESIL_8697353545429_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353548956",
+              "name": "Peshqir - Colourist",
+              "price": 13,
+              "color": "BLACK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353548956",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54523801327SIYAH_8697353548956.jpeg?lastmod=1400-20230623"
+              ]
+            },
+            {
+              "id": "8697353545368",
+              "name": "Peshqir - Colourist",
+              "price": 14,
+              "color": "WHITE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "SHEFAME",
+              "_source": "trieve",
+              "tracking_id": "8697353545368",
+              "categories": [
+                "apparel",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEYAZ_8697353545368_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545474",
+              "name": "Peshqir - Colourist",
+              "price": 15,
+              "color": "CREAM",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545474",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474.jpeg?lastmod=1451-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KREM_8697353545474_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545450",
+              "name": "Peshqir - Colourist",
+              "price": 17,
+              "color": "PINK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545450",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327PEMBE_8697353545450_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545412",
+              "name": "Peshqir - Colourist",
+              "price": 19,
+              "color": "GREEN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545412",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412.jpeg?lastmod=1630-20220906",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327YESIL_8697353545412_1.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545405",
+              "name": "Peshqir - Colourist",
+              "price": 20,
+              "color": "BROWN",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545405",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353548963",
+              "name": "Peshqir - Colourist",
+              "price": 21,
+              "color": "BLACK",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353548963",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327SIYAH_8697353548963.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353545399",
+              "name": "Peshqir - Colourist",
+              "price": 22,
+              "color": "BEIGE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545399",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327BEJ_8697353545399_2.jpeg?lastmod=1600-20230224"
+              ]
+            },
+            {
+              "id": "8697353545467",
+              "name": "Peshqir - Colourist",
+              "price": 32,
+              "color": "ROSE",
+              "size": "S",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353545467",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467.jpeg?lastmod=1450-20230220",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KOYUPEMBE_8697353545467_1.jpeg?lastmod=1600-20230224"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractPrice",
+          "lines": "263-269"
+        },
+        {
+          "file": "server/src/services/chatbot/ChatbotService.ts",
+          "fn": "handleMessage",
+          "lines": "72-78"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "E1",
+      "utterance": "peshqir → nën $20",
+      "expected": "Follow-up filters previous category results",
+      "actual": "Initial: 10 items. After filter: 0 items (all < $20: true)",
+      "result": "FAIL",
+      "transcript": "Turn 1: Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".\nTurn 2: Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
+      "filters": {
+        "category": "peshqir",
+        "priceMax": 20
+      },
+      "backendRequest": {
+        "userId": "test_multiturn_1761250242422",
+        "message": "nën $20"
+      },
+      "backendResponse": {
+        "message": "Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
+        "products": [],
+        "sessionContext": {
+          "userId": "test_multiturn_1761250242422",
+          "messageHistory": [
+            "peshqir",
+            "nën $20"
+          ],
+          "timestamp": 1761250243904,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir"
+          },
+          "lastProducts": []
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/ChatbotService.ts",
+          "fn": "applyContextFiltering",
+          "lines": "231-234"
+        },
+        {
+          "file": "server/src/services/chatbot/SessionManager.ts",
+          "fn": "getSession",
+          "lines": "61-68"
+        }
+      ],
+      "hypothesis": "Context not preserved or price filter not applied to previous category",
+      "severity": "BLOCKER"
+    },
+    {
+      "id": "F1",
+      "utterance": "peshqir te kuq",
+      "expected": "Color RED (not brand KUQ)",
+      "actual": "Products: 2. Message: Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\"...",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "filters": null,
+      "backendRequest": {
+        "userId": "test",
+        "message": "peshqir te kuq"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: çmim ($19-$27). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "products": [
+          {
+            "id": "8697353549052",
+            "name": "Peshqir Fytyre - Colourist",
+            "price": 19,
+            "color": "RED",
+            "size": "M",
+            "material": "100% PAMBUK",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353549052",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir fytyre - colourist"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+            ]
+          },
+          {
+            "id": "8697353578595",
+            "name": "Set Peshqire Per Femije - Spiderman Red",
+            "price": 27,
+            "color": "RED",
+            "size": "M/L",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353578595",
+            "categories": [
+              "home",
+              "bathroom",
+              "male",
+              "child",
+              "set peshqire per femije - spiderman red"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250244012",
+          "messageHistory": [
+            "peshqir te kuq"
+          ],
+          "timestamp": 1761250244427,
+          "lastCategory": "peshqir",
+          "appliedFilters": {
+            "category": "peshqir",
+            "color": "red"
+          },
+          "lastProducts": [
+            {
+              "id": "8697353549052",
+              "name": "Peshqir Fytyre - Colourist",
+              "price": 19,
+              "color": "RED",
+              "size": "M",
+              "material": "100% PAMBUK",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353549052",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir fytyre - colourist"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54549801327KIRMIZI_8697353549052.jpeg?lastmod=1453-20230220"
+              ]
+            },
+            {
+              "id": "8697353578595",
+              "name": "Set Peshqire Per Femije - Spiderman Red",
+              "price": 27,
+              "color": "RED",
+              "size": "M/L",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353578595",
+              "categories": [
+                "home",
+                "bathroom",
+                "male",
+                "child",
+                "set peshqire per femije - spiderman red"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57859501327KIRMIZI_8697353578595_1.jpeg?lastmod=1410-20230904"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "64-69"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "F2",
+      "utterance": "pantolla te boss",
+      "expected": "Brand BOSS",
+      "actual": "Products: 8. Message: Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më ...",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+      "filters": null,
+      "backendRequest": {
+        "userId": "test",
+        "message": "pantolla te boss"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+        "products": [
+          {
+            "id": "50527969",
+            "name": "PANTALLONA",
+            "price": 43,
+            "color": "Mixed Colors",
+            "size": "52",
+            "material": "98% Virgin wool 2% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50527969",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 22,
+            "color": "SILVER",
+            "size": "48",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 38,
+            "color": "SILVER",
+            "size": "52",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 28,
+            "color": "SILVER",
+            "size": "54",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50514199",
+            "name": "PANTALLONA",
+            "price": 26,
+            "color": "DARK BLUE",
+            "size": "48",
+            "material": "96% Cotton 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50514199",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "spring/summer",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+            ]
+          },
+          {
+            "id": "50514199",
+            "name": "PANTALLONA",
+            "price": 43,
+            "color": "DARK BLUE",
+            "size": "50",
+            "material": "96% Cotton 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50514199",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "spring/summer",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+            ]
+          },
+          {
+            "id": "50514199",
+            "name": "PANTALLONA",
+            "price": 50,
+            "color": "DARK BLUE",
+            "size": "56",
+            "material": "96% Cotton 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50514199",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "spring/summer",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+            ]
+          },
+          {
+            "id": "50514199",
+            "name": "PANTALLONA",
+            "price": 50,
+            "color": "DARK BLUE",
+            "size": "54",
+            "material": "96% Cotton 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50514199",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "spring/summer",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250244532",
+          "messageHistory": [
+            "pantolla te boss"
+          ],
+          "timestamp": 1761250244912,
+          "lastCategory": "pantallona",
+          "appliedFilters": {
+            "category": "pantallona",
+            "brand": "BOSS"
+          },
+          "lastProducts": [
+            {
+              "id": "50527969",
+              "name": "PANTALLONA",
+              "price": 43,
+              "color": "Mixed Colors",
+              "size": "52",
+              "material": "98% Virgin wool 2% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50527969",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 22,
+              "color": "SILVER",
+              "size": "48",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 38,
+              "color": "SILVER",
+              "size": "52",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 28,
+              "color": "SILVER",
+              "size": "54",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50514199",
+              "name": "PANTALLONA",
+              "price": 26,
+              "color": "DARK BLUE",
+              "size": "48",
+              "material": "96% Cotton 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50514199",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "spring/summer",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+              ]
+            },
+            {
+              "id": "50514199",
+              "name": "PANTALLONA",
+              "price": 43,
+              "color": "DARK BLUE",
+              "size": "50",
+              "material": "96% Cotton 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50514199",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "spring/summer",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+              ]
+            },
+            {
+              "id": "50514199",
+              "name": "PANTALLONA",
+              "price": 50,
+              "color": "DARK BLUE",
+              "size": "56",
+              "material": "96% Cotton 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50514199",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "spring/summer",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+              ]
+            },
+            {
+              "id": "50514199",
+              "name": "PANTALLONA",
+              "price": 50,
+              "color": "DARK BLUE",
+              "size": "54",
+              "material": "96% Cotton 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50514199",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "spring/summer",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "64-69"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "F3",
+      "utterance": "me te lira",
+      "expected": "Price sort (not brand LIRA)",
+      "actual": "Products: 10. Message: Mund të filtroni sipas: marka (BOSS, HUGO, OZDILEK), ngjyrë (BLACK, CREAM, DARK BLUE...), çmim ($10-...",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: marka (BOSS, HUGO, OZDILEK), ngjyrë (BLACK, CREAM, DARK BLUE...), çmim ($10-$45). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+      "filters": null,
+      "backendRequest": {
+        "userId": "test",
+        "message": "me te lira"
+      },
+      "backendResponse": {
+        "message": "Mund të filtroni sipas: marka (BOSS, HUGO, OZDILEK), ngjyrë (BLACK, CREAM, DARK BLUE...), çmim ($10-$45). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+        "products": [
+          {
+            "id": "50468262",
+            "name": "PULLOVER",
+            "price": 10,
+            "color": "DARK BLUE",
+            "size": "L",
+            "material": "100% Virgin wool",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50468262",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "fall/winter",
+              "pullover"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg"
+            ]
+          },
+          {
+            "id": "50468262",
+            "name": "PULLOVER",
+            "price": 12,
+            "color": "DARK BLUE",
+            "size": "XL",
+            "material": "100% Virgin wool",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50468262",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "fall/winter",
+              "pullover"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg"
+            ]
+          },
+          {
+            "id": "8697353576300",
+            "name": "Peshqir Fytyre - Bright",
+            "price": 17,
+            "color": "CREAM",
+            "size": "M",
+            "material": "100% Pambuk",
+            "brand": "OZDILEK",
+            "_source": "trieve",
+            "tracking_id": "8697353576300",
+            "categories": [
+              "home",
+              "bathroom",
+              "unisex",
+              "adult",
+              "peshqir fytyre - bright"
+            ],
+            "images": [
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300.jpeg?lastmod=1550-20240325",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_2.jpeg?lastmod=1550-20240325"
+            ]
+          },
+          {
+            "id": "50507106",
+            "name": "B.KOSTUM",
+            "price": 19,
+            "color": "BLACK",
+            "size": "50",
+            "material": "60% lesh i virgjër 35% poliestër (i ricikluar) 5% elastan",
+            "brand": "HUGO",
+            "_source": "trieve",
+            "tracking_id": "50507106",
+            "categories": [
+              "apparel",
+              "suits",
+              "male",
+              "newborn",
+              "spring/summer",
+              "b.kostum"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_4.jpg"
+            ]
+          },
+          {
+            "id": "50468262",
+            "name": "PULLOVER",
+            "price": 20,
+            "color": "MEDIUM GREY",
+            "size": "XL",
+            "material": "100% Virgin wool",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50468262",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "fall/winter",
+              "pullover"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg"
+            ]
+          },
+          {
+            "id": "50507106",
+            "name": "B.KOSTUM",
+            "price": 21,
+            "color": "BLACK",
+            "size": "48",
+            "material": "60% lesh i virgjër 35% poliestër (i ricikluar) 5% elastan",
+            "brand": "HUGO",
+            "_source": "trieve",
+            "tracking_id": "50507106",
+            "categories": [
+              "apparel",
+              "suits",
+              "male",
+              "newborn",
+              "spring/summer",
+              "b.kostum"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063541432811_4.jpg"
+            ]
+          },
+          {
+            "id": "50518880",
+            "name": "KAPELË",
+            "price": 29,
+            "color": "BLACK",
+            "size": "One Size",
+            "material": "Lining / Sweatband 100% Cotton Quality 70% Wool 25% Polyamide 5% Other fibres",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50518880",
+            "categories": [
+              "accessories",
+              "hats",
+              "male",
+              "newborn",
+              "fall/winter",
+              "kapelë"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542714756_1.jpg"
+            ]
+          },
+          {
+            "id": "50468254",
+            "name": "PULLOVER",
+            "price": 40,
+            "color": "DARK BLUE",
+            "size": "L",
+            "material": "100% Virgin wool",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50468254",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "fall/winter",
+              "pullover"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4029054985664_5.jpg"
+            ]
+          },
+          {
+            "id": "50502893",
+            "name": "ATLETE",
+            "price": 45,
+            "color": "BLACK",
+            "size": "42",
+            "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50502893",
+            "categories": [
+              "footwear",
+              "sneakers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "atlete"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
+            ]
+          },
+          {
+            "id": "50502893",
+            "name": "ATLETE",
+            "price": 45,
+            "color": "BLACK",
+            "size": "44",
+            "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50502893",
+            "categories": [
+              "footwear",
+              "sneakers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "atlete"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063539050881_1.jpg"
+            ]
+          }
+        ],
+        "sessionContext": {
+          "userId": "test_1761250245027",
+          "messageHistory": [
+            "me te lira"
+          ],
+          "timestamp": 1761250245445,
+          "appliedFilters": {},
+          "lastProducts": [
+            {
+              "id": "50468262",
+              "name": "PULLOVER",
+              "price": 10,
+              "color": "DARK BLUE",
+              "size": "L",
+              "material": "100% Virgin wool",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50468262",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "fall/winter",
+                "pullover"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg"
+              ]
+            },
+            {
+              "id": "50468262",
+              "name": "PULLOVER",
+              "price": 12,
+              "color": "DARK BLUE",
+              "size": "XL",
+              "material": "100% Virgin wool",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50468262",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "fall/winter",
+                "pullover"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055189535_5.jpg"
+              ]
+            },
+            {
+              "id": "8697353576300",
+              "name": "Peshqir Fytyre - Bright",
+              "price": 17,
+              "color": "CREAM",
+              "size": "M",
+              "material": "100% Pambuk",
+              "brand": "OZDILEK",
+              "_source": "trieve",
+              "tracking_id": "8697353576300",
+              "categories": [
+                "home",
+                "bathroom",
+                "unisex",
+                "adult",
+                "peshqir fytyre - bright"
+              ],
+              "images": [
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300.jpeg?lastmod=1550-20240325",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_1.jpeg?lastmod=1550-20240325",
+                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-57630001327KREM_8697353576300_2.jpeg?lastmod=1550-20240325"
+              ]
+            },
+            {
+              "id": "50507106",
+              "name": "B.KOSTUM",
+              "price": 19,
+              "color": "BLACK",
+              "size": "50",
+              "material": "60% lesh i virgjër 35% poliestër (i ricikluar) 5% elastan",
+              "brand": "HUGO",
+              "_source": "trieve",
+              "tracking_id": "50507106",
+              "categories": [
+                "apparel",
+                "suits",
+                "male",
+                "newborn",
+                "spring/summer",
+                "b.kostum"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_4.jpg"
+              ]
+            },
+            {
+              "id": "50468262",
+              "name": "PULLOVER",
+              "price": 20,
+              "color": "MEDIUM GREY",
+              "size": "XL",
+              "material": "100% Virgin wool",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50468262",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "fall/winter",
+                "pullover"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029055188200_5.jpg"
+              ]
+            },
+            {
+              "id": "50507106",
+              "name": "B.KOSTUM",
+              "price": 21,
+              "color": "BLACK",
+              "size": "48",
+              "material": "60% lesh i virgjër 35% poliestër (i ricikluar) 5% elastan",
+              "brand": "HUGO",
+              "_source": "trieve",
+              "tracking_id": "50507106",
+              "categories": [
+                "apparel",
+                "suits",
+                "male",
+                "newborn",
+                "spring/summer",
+                "b.kostum"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063541432811_4.jpg"
+              ]
+            },
+            {
+              "id": "50518880",
+              "name": "KAPELË",
+              "price": 29,
+              "color": "BLACK",
+              "size": "One Size",
+              "material": "Lining / Sweatband 100% Cotton Quality 70% Wool 25% Polyamide 5% Other fibres",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50518880",
+              "categories": [
+                "accessories",
+                "hats",
+                "male",
+                "newborn",
+                "fall/winter",
+                "kapelë"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542714756_1.jpg"
+              ]
+            },
+            {
+              "id": "50468254",
+              "name": "PULLOVER",
+              "price": 40,
+              "color": "DARK BLUE",
+              "size": "L",
+              "material": "100% Virgin wool",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50468254",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "fall/winter",
+                "pullover"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4029054985664_5.jpg"
+              ]
+            },
+            {
+              "id": "50502893",
+              "name": "ATLETE",
+              "price": 45,
+              "color": "BLACK",
+              "size": "42",
+              "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50502893",
+              "categories": [
+                "footwear",
+                "sneakers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "atlete"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
+              ]
+            },
+            {
+              "id": "50502893",
+              "name": "ATLETE",
+              "price": 45,
+              "color": "BLACK",
+              "size": "44",
+              "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50502893",
+              "categories": [
+                "footwear",
+                "sneakers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "atlete"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063539050881_1.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "64-69"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    },
+    {
+      "id": "F4",
+      "utterance": "tom tailor",
+      "expected": "Brand TOM TAILOR (lowercase)",
+      "actual": "Products: 0. Message: Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë....",
+      "result": "PASS",
+      "transcript": "Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.",
+      "filters": null,
+      "backendRequest": {
+        "userId": "test",
+        "message": "tom tailor"
+      },
+      "backendResponse": {
+        "message": "Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.",
+        "products": [],
+        "sessionContext": {
+          "userId": "test_1761250245557",
+          "messageHistory": [
+            "tom tailor"
+          ],
+          "timestamp": 1761250245945,
+          "appliedFilters": {
+            "brand": "TOM TAILOR"
+          },
+          "lastProducts": []
+        }
+      },
+      "logs": [],
+      "codeLocations": [
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractBrand",
+          "lines": "417-420"
+        },
+        {
+          "file": "server/src/services/chatbot/MessageParser.ts",
+          "fn": "extractColor",
+          "lines": "64-69"
+        }
+      ],
+      "hypothesis": null,
+      "severity": "OK"
+    }
+  ],
+  "artifacts": {
+    "screenshots": [],
+    "rawLogs": [],
+    "transcripts": []
+  },
+  "recommendations": []
+}

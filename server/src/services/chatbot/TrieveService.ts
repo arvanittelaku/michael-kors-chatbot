@@ -189,13 +189,12 @@ export class TrieveService {
       queryParts.push(...filters.size);
     }
 
-    if (filters.price) {
-      if (filters.price.min) {
-        queryParts.push(`over ${filters.price.min}`);
-      }
-      if (filters.price.max) {
-        queryParts.push(`under ${filters.price.max}`);
-      }
+    // NOTE: Price is NOT included in semantic search query
+    // Price filtering is applied post-search in productMatchesFilters()
+    // This prevents confusing Trieve's semantic engine with numeric ranges
+
+    if (filters.brand) {
+      queryParts.push(filters.brand);
     }
 
     return queryParts.join(' ') || 'products';
