@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
+import config from '../config';
 
 interface Message {
   id: string;
@@ -82,10 +83,10 @@ const AlbiMallChatbot: React.FC = () => {
     console.log('Sending message:', userMessage.text, 'to session:', sessionId);
 
     try {
-      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
-      console.log('🔍 DEBUG - API URL:', apiUrl);
+      const apiUrl = config.API_URL;
+      console.log('🔍 DEBUG - API URL from config:', apiUrl);
+      console.log('🔍 DEBUG - NODE_ENV:', process.env.NODE_ENV);
       console.log('🔍 DEBUG - REACT_APP_API_URL env var:', process.env.REACT_APP_API_URL);
-      console.log('🔍 DEBUG - All env vars:', process.env);
       const response = await axios.post<ChatbotResponse>(`${apiUrl}/api/albi-mall/chat`, {
         userId: sessionId,
         message: userMessage.text
