@@ -70,6 +70,9 @@ app.get('/api/image-proxy', async (req, res) => {
       timeout: 10000
     });
 
+    // Set CORS headers explicitly for images
+    res.set('Access-Control-Allow-Origin', '*');
+    res.set('Access-Control-Allow-Methods', 'GET');
     res.set('Content-Type', response.headers['content-type'] || 'image/jpeg');
     res.set('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
     res.send(response.data);
