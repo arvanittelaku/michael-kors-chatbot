@@ -10,7 +10,6 @@ console.log('TRIEVE_DATASET_ID:', process.env.TRIEVE_DATASET_ID ? 'Configured' :
 console.log('OPENAI_API_KEY:', process.env.OPENAI_API_KEY ? 'Configured' : 'Not configured');
 
 import express from 'express';
-import cors from 'cors';
 import helmet from 'helmet';
 import chatbotRouter from './routes/chatbot';
 import debugRouter from './routes/debug'; // Import debug router
@@ -23,20 +22,42 @@ export { app };
 
 // Middleware
 app.use(helmet());
-app.use(cors({
-  origin: [
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Custom CORS middleware that skips credentials for image proxy
+app.use((req, res, next) => {
+  const allowedOrigins = [
     'http://localhost:3000',
     'https://albimalldemo.netlify.app',
     'https://michael-kors-chatbot.vercel.app',
     'https://michael-kors-chatbot-xkof.vercel.app',
-    /^https:\/\/.*\.netlify\.app$/, // Allow all Netlify subdomains
-    /^https:\/\/.*\.vercel\.app$/, // Allow all Vercel subdomains
     process.env.FRONTEND_URL
-  ].filter((url): url is string | RegExp => Boolean(url)),
-  credentials: true
-}));
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+  ].filter(Boolean);
+
+  const origin = req.headers.origin || '';
+  const isAllowed = allowedOrigins.some(allowed => 
+    typeof allowed === 'string' && allowed === origin
+  ) || /^https:\/\/.*\.netlify\.app$/.test(origin) || /^https:\/\/.*\.vercel\.app$/.test(origin);
+
+  if (isAllowed || origin === '') {
+    res.setHeader('Access-Control-Allow-Origin', origin || '*');
+    
+    // Only set credentials for non-image-proxy routes
+    if (!req.path.startsWith('/api/image-proxy')) {
+      res.setHeader('Access-Control-Allow-Credentials', 'true');
+    }
+    
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  }
+
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(204);
+  }
+
+  next();
+});
 
 // Root route for testing
 app.get('/', (req, res) => {
@@ -56,26 +77,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
-// Image proxy to serve HTTP images over HTTPS with full CORS support
-app.options('/api/image-proxy', (req, res) => {
-  const origin = req.headers.origin || '*';
-  res.set('Access-Control-Allow-Origin', origin);
-  res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.set('Access-Control-Allow-Headers', 'Content-Type');
-  res.set('Access-Control-Max-Age', '86400');
-  res.set('Vary', 'Origin');
-  res.sendStatus(204);
-});
-
+// Image proxy to serve HTTP images over HTTPS (CORS handled by middleware above)
 app.get('/api/image-proxy', async (req, res) => {
-  // Set comprehensive CORS headers - use the requesting origin instead of *
-  const origin = req.headers.origin || '*';
-  res.set('Access-Control-Allow-Origin', origin);
-  res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.set('Access-Control-Allow-Headers', 'Content-Type');
-  res.set('Access-Control-Expose-Headers', 'Content-Type, Content-Length');
-  res.set('Vary', 'Origin');
+  // Additional headers for caching and content
   res.set('Cache-Control', 'public, max-age=86400');
+  res.set('Access-Control-Expose-Headers', 'Content-Type, Content-Length');
 
   try {
     const imageUrl = req.query.url as string;
