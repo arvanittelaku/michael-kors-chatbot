@@ -61,7 +61,10 @@ export class MessageParser {
     // Red variations
     'kuqe': 'red',
     'kuq': 'red',
+    'te kuq': 'red',
     'te kuqe': 'red',
+    'të kuq': 'red',
+    'të kuqe': 'red',
     'i kuq': 'red',
     'e kuqe': 'red',
     'red': 'red',
@@ -177,8 +180,8 @@ export class MessageParser {
     filters.material = this.extractMaterial(lowerMessage);
     console.log(`[MessageParser] 🧵 Extracted material: "${filters.material}"`);
 
-    // 6️⃣ Extract Brand
-    filters.brand = this.extractBrand(lowerMessage);
+    // 6️⃣ Extract Brand (pass detected color to avoid conflicts)
+    filters.brand = this.extractBrand(message, filters.color);
     console.log(`[MessageParser] 🏷️ Extracted brand: "${filters.brand}"`);
 
     console.log(`[MessageParser] 🎯 Final parsed filters:`, filters);
@@ -332,13 +335,21 @@ export class MessageParser {
     return undefined;
   }
 
-  private extractBrand(message: string): string | undefined {
+  private extractBrand(message: string, detectedColor?: string): string | undefined {
     // Albanian stop words that should NEVER be brands
     const albanianStopWords = [
       'dua', 'kerkoj', 'kërkoj', 'më', 'për', 'per',
       'lira', 'lire', 'shtrenjte', 'shtrenjtë', 'mirë', 'mire', 'bukur',
       'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë', 'tjera', 'tjeter',
       'proekte', 'produkte', 'keni', 'jane', 'reja', 'peshqir', 'pantolla'
+    ];
+    
+    // Known color words in Albanian (for disambiguation)
+    const knownColorWords = [
+      'kuq', 'kuqe', 'zeze', 'zez', 'zi', 'bardhe', 'bardha', 'barde',
+      'blu', 'kaltër', 'kalterta', 'gjelbër', 'verdhë', 'verdha',
+      'kafe', 'gri', 'rozë', 'vjollcë', 'portokalli',
+      'red', 'black', 'white', 'blue', 'green', 'yellow', 'brown', 'gray', 'pink', 'purple', 'orange'
     ];
     
     // Known brand names to support (helps with lowercase detection)
@@ -353,6 +364,11 @@ export class MessageParser {
     
     const lowerMessage = message.toLowerCase();
     const words = message.split(/\s+/);
+    
+    // If a color was already detected, log it for debugging
+    if (detectedColor) {
+      console.log(`[MessageParser] 🎨 Color already detected: ${detectedColor}, will skip color words in brand extraction`);
+    }
     
     // FIRST: Check for known brand names (case-insensitive)
     for (const knownBrand of knownBrands) {
@@ -374,6 +390,13 @@ export class MessageParser {
       
       if (prevWord && strongBrandIndicators.includes(prevWord)) {
         const brandCandidate = currentWord.toLowerCase();
+        
+        // DISAMBIGUATION: Even with strong indicators, skip if it's a color word
+        if (knownColorWords.includes(brandCandidate)) {
+          console.log(`[MessageParser] 🎨 Skipping "${currentWord}" after "marka" - it's a color word`);
+          continue;
+        }
+        
         if (!albanianStopWords.includes(brandCandidate) && currentWord.length > 2) {
           // Check if next word is also part of brand (e.g., "Tom Tailor" or "tom tailor")
           if (i + 1 < words.length && words[i + 1].length > 1) {
@@ -390,12 +413,20 @@ export class MessageParser {
     
     // THIRD: Check for brands after weak indicators (te, nga) - Now accepts lowercase!
     // "te tom tailor" or "nga boss"
+    // BUT: Skip if next word is a known color (ChatGPT's disambiguation rule)
     for (let i = 0; i < words.length; i++) {
       const prevWord = words[i - 1]?.toLowerCase();
       const currentWord = words[i];
       
       if (prevWord && weakBrandIndicators.includes(prevWord)) {
         const brandCandidate = currentWord.toLowerCase();
+        
+        // DISAMBIGUATION: If current word is a known color, skip it
+        if (knownColorWords.includes(brandCandidate)) {
+          console.log(`[MessageParser] 🎨 Skipping "${currentWord}" - it's a color, not a brand`);
+          continue; // Skip to next word
+        }
+        
         // Check if it's not a stop word and length > 2
         if (
           !albanianStopWords.includes(brandCandidate) &&
