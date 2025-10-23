@@ -84,7 +84,7 @@ const AlbiMallChatbot: React.FC = () => {
     try {
       const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
       console.log('API URL:', apiUrl); // Debug log
-      const response = await axios.post<ChatbotResponse>(`${apiUrl}/chat`, {
+      const response = await axios.post<ChatbotResponse>(`${apiUrl}/api/albi-mall/chat`, {
         userId: sessionId,
         message: userMessage.text
       });

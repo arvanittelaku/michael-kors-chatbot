@@ -35,7 +35,7 @@ app.get('/api/health', (req, res) => {
 // Simple chatbot endpoint
 app.post('/api/albi-mall/chat', async (req, res) => {
   try {
-    const { message, sessionId } = req.body;
+    const { message, userId } = req.body;
 
     if (!message || typeof message !== 'string') {
       return res.status(400).json({
@@ -44,34 +44,29 @@ app.post('/api/albi-mall/chat', async (req, res) => {
       });
     }
 
-    // Simple response for testing
+    // Response format that matches frontend expectations
     const response = {
-      success: true,
-      data: {
-        assistant_text: `Mirë se vini! Kërkesa juaj: "${message}". Kam marrë mesazhin tuaj dhe po punoj për të gjetur produkte të përshtatshme.`,
-        recommended_products: [
-          {
-            id: 'test_product_1',
-            title: 'Produkt Test 1',
-            highlight: [
-              'Çmimi: $25',
-              'Ngjyra: Bardhë',
-              'Materiali: Pambuk'
-            ]
-          },
-          {
-            id: 'test_product_2', 
-            title: 'Produkt Test 2',
-            highlight: [
-              'Çmimi: $30',
-              'Ngjyra: Zi',
-              'Materiali: Polyester'
-            ]
-          }
-        ],
-        audit_notes: 'Test response - backend working'
-      },
-      sessionId: sessionId || 'default-session'
+      message: `Mirë se vini! Kërkesa juaj: "${message}". Kam marrë mesazhin tuaj dhe po punoj për të gjetur produkte të përshtatshme.`,
+      products: [
+        {
+          id: 'test_product_1',
+          name: 'Produkt Test 1',
+          price: 25,
+          color: 'Bardhë',
+          size: 'M',
+          material: 'Pambuk',
+          images: []
+        },
+        {
+          id: 'test_product_2', 
+          name: 'Produkt Test 2',
+          price: 30,
+          color: 'Zi',
+          size: 'L',
+          material: 'Polyester',
+          images: []
+        }
+      ]
     };
 
     res.json(response);
