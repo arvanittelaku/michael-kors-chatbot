@@ -99,15 +99,23 @@ const AlbiMallChatbot: React.FC = () => {
         text: response.data.message,
         isUser: false,
         timestamp: new Date(),
-        recommendedProducts: response.data.products?.map((product: any) => ({
-          id: product.id,
-          title: product.name,
-          price: product.price,
-          color: product.color,
-          size: product.size,
-          material: product.material,
-          image: product.images && product.images.length > 0 ? product.images[0] : null
-        })) || []
+        recommendedProducts: response.data.products?.map((product: any) => {
+          // Proxy HTTP images through our HTTPS backend
+          let imageUrl = product.images && product.images.length > 0 ? product.images[0] : null;
+          if (imageUrl && imageUrl.startsWith('http://')) {
+            imageUrl = `${config.API_URL}/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+          }
+          
+          return {
+            id: product.id,
+            title: product.name,
+            price: product.price,
+            color: product.color,
+            size: product.size,
+            material: product.material,
+            image: imageUrl
+          };
+        }) || []
       };
 
       setMessages(prev => [...prev, assistantMessage]);

@@ -56,6 +56,29 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// Image proxy to serve HTTP images over HTTPS
+app.get('/api/image-proxy', async (req, res) => {
+  try {
+    const imageUrl = req.query.url as string;
+    if (!imageUrl) {
+      return res.status(400).json({ error: 'URL parameter required' });
+    }
+
+    const axios = require('axios');
+    const response = await axios.get(imageUrl, {
+      responseType: 'arraybuffer',
+      timeout: 10000
+    });
+
+    res.set('Content-Type', response.headers['content-type'] || 'image/jpeg');
+    res.set('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
+    res.send(response.data);
+  } catch (error) {
+    console.error('Image proxy error:', error);
+    res.status(404).send('Image not found');
+  }
+});
+
 // AI-powered store assistant chatbot routes
 app.use("/chat", chatbotRouter);
 
