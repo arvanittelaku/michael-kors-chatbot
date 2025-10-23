@@ -56,11 +56,25 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
-// Image proxy to serve HTTP images over HTTPS
+// Image proxy to serve HTTP images over HTTPS with full CORS support
+app.options('/api/image-proxy', (req, res) => {
+  const origin = req.headers.origin || '*';
+  res.set('Access-Control-Allow-Origin', origin);
+  res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.set('Access-Control-Allow-Headers', 'Content-Type');
+  res.set('Access-Control-Max-Age', '86400');
+  res.set('Vary', 'Origin');
+  res.sendStatus(204);
+});
+
 app.get('/api/image-proxy', async (req, res) => {
-  // Always set CORS headers first
-  res.set('Access-Control-Allow-Origin', '*');
-  res.set('Access-Control-Allow-Methods', 'GET');
+  // Set comprehensive CORS headers - use the requesting origin instead of *
+  const origin = req.headers.origin || '*';
+  res.set('Access-Control-Allow-Origin', origin);
+  res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.set('Access-Control-Allow-Headers', 'Content-Type');
+  res.set('Access-Control-Expose-Headers', 'Content-Type, Content-Length');
+  res.set('Vary', 'Origin');
   res.set('Cache-Control', 'public, max-age=86400');
 
   try {
