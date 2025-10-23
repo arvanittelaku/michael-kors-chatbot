@@ -257,18 +257,15 @@ export class MessageParser {
   }
 
   private extractPrice(message: string): { min?: number; max?: number } | undefined {
-    // Pattern for comparative terms: "më të lira", "më shtrenjte"
-    // These will be interpreted as sorting preference, not hard filters
-    // We mark this with a special max: 0 to signal "cheaper preference"
-    const cheaperPattern = /(?:më\s*të\s*lira|me\s*te\s*lira|më\s*lira|me\s*lira|cheaper|less\s*expensive)/i;
+    // Pattern for comparative terms: "më të lira", "me te lire", etc.
+    // Handle multiple spelling variations (with/without diacritics, -a/-e endings)
+    const cheaperPattern = /(?:më\s*të\s*lira|me\s*te\s*lira|me\s*te\s*lire|më\s*lira|me\s*lira|me\s*lire|cheaper|less\s*expensive)/i;
     if (cheaperPattern.test(message)) {
-      // Return a signal that means "sort by price ascending" or "prefer lower prices"
-      // We'll use max: 0 as a special signal that will be handled differently
       console.log(`[MessageParser] 💰 Detected "cheaper" comparative - will sort by low price`);
       return { max: 0 }; // Special signal for "cheaper preference"
     }
 
-    const expensivePattern = /(?:më\s*shtrenjte|me\s*shtrenjte|më\s*te\s*shtrenjte|me\s*te\s*shtrenjte|expensive|costly)/i;
+    const expensivePattern = /(?:më\s*shtrenjte|me\s*shtrenjte|më\s*te\s*shtrenjte|me\s*te\s*shtrenjte|më\s*shtrenjtë|me\s*shtrenjtë|expensive|costly)/i;
     if (expensivePattern.test(message)) {
       console.log(`[MessageParser] 💰 Detected "expensive" comparative - will sort by high price`);
       return { min: 99999 }; // Special signal for "expensive preference"
@@ -338,34 +335,60 @@ export class MessageParser {
   private extractBrand(message: string): string | undefined {
     // Albanian stop words that should NEVER be brands
     const albanianStopWords = [
-      'dua', 'kerkoj', 'kërkoj', 'më', 'me', 'të', 'te', 'nga', 'për', 'per',
+      'dua', 'kerkoj', 'kërkoj', 'më', 'për', 'per',
       'lira', 'lire', 'shtrenjte', 'shtrenjtë', 'mirë', 'mire', 'bukur',
       'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë'
     ];
     
-    // Explicit brand indicators - ONLY trust these
+    // Explicit brand indicators
     const strongBrandIndicators = ['marka', 'brand'];
+    const weakBrandIndicators = ['te', 'të', 'nga', 'me']; // from, with
     
     const words = message.split(/\s+/);
     
     // FIRST: Check for explicit brand mentions with strong indicators
+    // "marka BOSS" or "brand Tom Tailor"
     for (let i = 0; i < words.length; i++) {
       const prevWord = words[i - 1]?.toLowerCase();
       const currentWord = words[i];
       
-      // Only extract if preceded by "marka" or "brand"
       if (prevWord && strongBrandIndicators.includes(prevWord)) {
         const brandCandidate = currentWord.toLowerCase();
         if (!albanianStopWords.includes(brandCandidate) && currentWord.length > 2) {
+          // Check if next word is also part of brand (e.g., "Tom Tailor")
+          if (i + 1 < words.length && /^[A-Z]/.test(words[i + 1])) {
+            return `${currentWord} ${words[i + 1]}`.toUpperCase();
+          }
           return currentWord.toUpperCase();
         }
       }
     }
     
-    // SECOND: Check for ALL CAPS brands (BOSS, OZDILEK, NIKE, etc.)
-    // Only from original message, not lowercased
+    // SECOND: Check for brands after weak indicators (te, nga)
+    // "te tom tailor" or "nga boss"
+    for (let i = 0; i < words.length; i++) {
+      const prevWord = words[i - 1]?.toLowerCase();
+      const currentWord = words[i];
+      
+      if (prevWord && weakBrandIndicators.includes(prevWord)) {
+        const brandCandidate = currentWord.toLowerCase();
+        // Must start with capital letter and not be a stop word
+        if (
+          /^[A-Z]/.test(currentWord) &&
+          !albanianStopWords.includes(brandCandidate) &&
+          currentWord.length > 2
+        ) {
+          // Check if next word is also part of brand (e.g., "Tom Tailor")
+          if (i + 1 < words.length && /^[A-Z]/.test(words[i + 1]) && words[i + 1].length > 1) {
+            return `${currentWord} ${words[i + 1]}`.toUpperCase();
+          }
+          return currentWord.toUpperCase();
+        }
+      }
+    }
+    
+    // THIRD: Check for ALL CAPS brands (BOSS, OZDILEK, NIKE, etc.)
     for (const word of words) {
-      // Must be ALL CAPS, 3+ characters, no numbers, not a stop word
       if (
         word.length >= 3 &&
         word === word.toUpperCase() &&
