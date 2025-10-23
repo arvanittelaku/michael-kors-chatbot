@@ -42,7 +42,20 @@ export class ChatbotService {
 
       // 5. Get products from Trieve with final filters - NO FALLBACK PRODUCTS
       let products: Product[] = [];
+      let sortPreference: 'cheap' | 'expensive' | null = null;
+      
       try {
+        // Detect if user wants "cheaper" or "more expensive" (comparative sorting)
+        if (finalFilters.price?.max === 0) {
+          sortPreference = 'cheap';
+          delete finalFilters.price; // Remove the signal, don't use as actual filter
+          console.log(`[ChatbotService] 💰 User wants CHEAPER products - will sort by price ASC`);
+        } else if (finalFilters.price?.min === 99999) {
+          sortPreference = 'expensive';
+          delete finalFilters.price; // Remove the signal
+          console.log(`[ChatbotService] 💰 User wants MORE EXPENSIVE products - will sort by price DESC`);
+        }
+        
         // Check if user is asking for more products (pagination)
         const isAskingForMore = this.isAskingForMore(message);
         if (isAskingForMore && session.lastProducts && session.lastProducts.length > 0) {
@@ -54,6 +67,15 @@ export class ChatbotService {
           products = await TrieveService.getProducts(finalFilters);
         }
         console.log(`[ChatbotService] ✅ Products from Trieve API:`, products.map(p => ({ id: p.id, name: p.name, price: p.price, source: p._source })));
+        
+        // Apply sorting based on price preference
+        if (sortPreference === 'cheap') {
+          products = products.sort((a, b) => (a.price || 0) - (b.price || 0));
+          console.log(`[ChatbotService] 💰 Sorted by CHEAPEST first`);
+        } else if (sortPreference === 'expensive') {
+          products = products.sort((a, b) => (b.price || 0) - (a.price || 0));
+          console.log(`[ChatbotService] 💰 Sorted by MOST EXPENSIVE first`);
+        }
         
         // Verify we have real API data
         if (products.length > 0) {
@@ -243,6 +265,30 @@ export class ChatbotService {
     if (finalFilters.size && !finalFilters.category && session.lastCategory) {
       console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for size filter`);
       finalFilters.category = session.lastCategory;
+    }
+
+    // CRITICAL FIX: When only brand filter is provided, preserve category context OR search all categories
+    if (finalFilters.brand && !finalFilters.category) {
+      if (session.lastCategory) {
+        console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for brand filter`);
+        finalFilters.category = session.lastCategory;
+      } else {
+        console.log(`[ChatbotService] 🔍 Brand-only search across all categories`);
+        // Allow brand-only search without category
+      }
+    }
+
+    // INTENT SWITCHING: Clear incompatible filters when a new primary intent is detected
+    if (finalFilters.brand && session.appliedFilters) {
+      // If user specifies a brand, clear old color/size filters unless explicitly mentioned
+      if (!parsedFilters.color && session.appliedFilters.color) {
+        console.log(`[ChatbotService] 🔄 Clearing old color filter due to brand intent switch`);
+        // Don't copy old color filter
+      }
+      if (!parsedFilters.size && session.appliedFilters.size) {
+        console.log(`[ChatbotService] 🔄 Clearing old size filter due to brand intent switch`);
+        // Don't copy old size filter
+      }
     }
 
     // CRITICAL FIX: When only material filter is provided, preserve category context

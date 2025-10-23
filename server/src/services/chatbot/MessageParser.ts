@@ -257,6 +257,23 @@ export class MessageParser {
   }
 
   private extractPrice(message: string): { min?: number; max?: number } | undefined {
+    // Pattern for comparative terms: "më të lira", "më shtrenjte"
+    // These will be interpreted as sorting preference, not hard filters
+    // We mark this with a special max: 0 to signal "cheaper preference"
+    const cheaperPattern = /(?:më\s*të\s*lira|me\s*te\s*lira|më\s*lira|me\s*lira|cheaper|less\s*expensive)/i;
+    if (cheaperPattern.test(message)) {
+      // Return a signal that means "sort by price ascending" or "prefer lower prices"
+      // We'll use max: 0 as a special signal that will be handled differently
+      console.log(`[MessageParser] 💰 Detected "cheaper" comparative - will sort by low price`);
+      return { max: 0 }; // Special signal for "cheaper preference"
+    }
+
+    const expensivePattern = /(?:më\s*shtrenjte|me\s*shtrenjte|më\s*te\s*shtrenjte|me\s*te\s*shtrenjte|expensive|costly)/i;
+    if (expensivePattern.test(message)) {
+      console.log(`[MessageParser] 💰 Detected "expensive" comparative - will sort by high price`);
+      return { min: 99999 }; // Special signal for "expensive preference"
+    }
+
     // Pattern for "nen X", "poshte X", "ner X", "under X" → max: X
     const underPattern = /(?:nen|poshte|ner|under)\s*(\d+)(?:\$|€)?/i;
     const underMatch = message.match(underPattern);
@@ -319,38 +336,43 @@ export class MessageParser {
   }
 
   private extractBrand(message: string): string | undefined {
-    // Common brand keywords in Albanian and English
-    const brandIndicators = ['marka', 'brand', 'nga', 'from', 'i', 'e', 'te'];
+    // Albanian stop words that should NEVER be brands
+    const albanianStopWords = [
+      'dua', 'kerkoj', 'kërkoj', 'më', 'me', 'të', 'te', 'nga', 'për', 'per',
+      'lira', 'lire', 'shtrenjte', 'shtrenjtë', 'mirë', 'mire', 'bukur',
+      'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë'
+    ];
     
-    // Check for explicit brand mentions
-    // Pattern: "marka X" or "brand X" or just "X" where X is a capitalized word
+    // Explicit brand indicators - ONLY trust these
+    const strongBrandIndicators = ['marka', 'brand'];
+    
     const words = message.split(/\s+/);
     
+    // FIRST: Check for explicit brand mentions with strong indicators
     for (let i = 0; i < words.length; i++) {
-      const word = words[i];
+      const prevWord = words[i - 1]?.toLowerCase();
+      const currentWord = words[i];
       
-      // Check if previous word is a brand indicator
-      if (i > 0 && brandIndicators.includes(words[i - 1])) {
-        return word.toUpperCase();
-      }
-      
-      // Check for capitalized brand names (likely brands)
-      // Common brands in your dataset: OZDILEK, BOSS, etc.
-      if (word.length > 2 && word === word.toUpperCase() && !/\d/.test(word)) {
-        return word;
+      // Only extract if preceded by "marka" or "brand"
+      if (prevWord && strongBrandIndicators.includes(prevWord)) {
+        const brandCandidate = currentWord.toLowerCase();
+        if (!albanianStopWords.includes(brandCandidate) && currentWord.length > 2) {
+          return currentWord.toUpperCase();
+        }
       }
     }
     
-    // Also check the original message for common brand patterns
-    const originalWords = message.split(/\s+/);
-    for (const word of originalWords) {
-      // Match capitalized words that could be brands
-      if (word.length > 2 && /^[A-Z]/.test(word) && !/\d/.test(word)) {
-        // Skip common Albanian words
-        const skipWords = ['Dua', 'Kerkoj', 'Kërkoj', 'Më', 'Me', 'Të', 'Te', 'Nga'];
-        if (!skipWords.includes(word)) {
-          return word.toUpperCase();
-        }
+    // SECOND: Check for ALL CAPS brands (BOSS, OZDILEK, NIKE, etc.)
+    // Only from original message, not lowercased
+    for (const word of words) {
+      // Must be ALL CAPS, 3+ characters, no numbers, not a stop word
+      if (
+        word.length >= 3 &&
+        word === word.toUpperCase() &&
+        /^[A-Z]+$/.test(word) &&
+        !albanianStopWords.includes(word.toLowerCase())
+      ) {
+        return word;
       }
     }
     
