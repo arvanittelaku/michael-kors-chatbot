@@ -20,12 +20,49 @@ const PORT = process.env.PORT || 5000;
 // Export app for testing
 export { app };
 
-// Middleware
+// Image proxy route MUST come BEFORE all other middleware to avoid CORS conflicts
+app.get('/api/image-proxy', async (req, res) => {
+  // Set CORS headers FIRST, before any other processing
+  res.removeHeader('Access-Control-Allow-Credentials'); // Remove if already set
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
+  res.setHeader('Cache-Control', 'public, max-age=86400');
+
+  try {
+    const imageUrl = req.query.url as string;
+    if (!imageUrl) {
+      return res.status(400).send('URL parameter required');
+    }
+
+    const axios = require('axios');
+    const response = await axios.get(imageUrl, {
+      responseType: 'arraybuffer',
+      timeout: 10000,
+      validateStatus: (status: number) => status < 500
+    });
+
+    if (response.status === 404) {
+      const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
+      res.setHeader('Content-Type', 'image/png');
+      return res.send(transparentPixel);
+    }
+
+    res.setHeader('Content-Type', response.headers['content-type'] || 'image/jpeg');
+    res.send(response.data);
+  } catch (error: any) {
+    console.error('Image proxy error:', error.message);
+    const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
+    res.setHeader('Content-Type', 'image/png');
+    res.send(transparentPixel);
+  }
+});
+
+// Middleware (applied AFTER image proxy to avoid conflicts)
 app.use(helmet());
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Custom CORS middleware that skips credentials for image proxy
+// Custom CORS middleware for all other routes
 app.use((req, res, next) => {
   const allowedOrigins = [
     'http://localhost:3000',
@@ -42,12 +79,7 @@ app.use((req, res, next) => {
 
   if (isAllowed || origin === '') {
     res.setHeader('Access-Control-Allow-Origin', origin || '*');
-    
-    // Only set credentials for non-image-proxy routes
-    if (!req.path.startsWith('/api/image-proxy')) {
-      res.setHeader('Access-Control-Allow-Credentials', 'true');
-    }
-    
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   }
@@ -75,43 +107,6 @@ app.get('/', (req, res) => {
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
-});
-
-// Image proxy to serve HTTP images over HTTPS (CORS handled by middleware above)
-app.get('/api/image-proxy', async (req, res) => {
-  // Additional headers for caching and content
-  res.set('Cache-Control', 'public, max-age=86400');
-  res.set('Access-Control-Expose-Headers', 'Content-Type, Content-Length');
-
-  try {
-    const imageUrl = req.query.url as string;
-    if (!imageUrl) {
-      return res.status(400).json({ error: 'URL parameter required' });
-    }
-
-    const axios = require('axios');
-    const response = await axios.get(imageUrl, {
-      responseType: 'arraybuffer',
-      timeout: 10000,
-      validateStatus: (status: number) => status < 500 // Accept 404s
-    });
-
-    // If image not found, return a 1x1 transparent pixel
-    if (response.status === 404) {
-      const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
-      res.set('Content-Type', 'image/png');
-      return res.send(transparentPixel);
-    }
-
-    res.set('Content-Type', response.headers['content-type'] || 'image/jpeg');
-    res.send(response.data);
-  } catch (error: any) {
-    console.error('Image proxy error:', error.message);
-    // Return transparent pixel on any error
-    const transparentPixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'base64');
-    res.set('Content-Type', 'image/png');
-    res.send(transparentPixel);
-  }
 });
 
 // AI-powered store assistant chatbot routes
