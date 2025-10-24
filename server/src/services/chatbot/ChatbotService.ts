@@ -151,10 +151,19 @@ export class ChatbotService {
       }
       
       // 🔥 CRITICAL: Check if user asked for brands
-      // Pattern 1: "ndonje mark tjeter" (another brand)
+      // Pattern 1: "ndonje mark tjeter", "dua nje brend tjeter", "a keni brend tjeter" (another brand)
       // Pattern 2: "qfar brands/brende" (what brands)
-      const askedForOtherBrand = /ndon[eë]\s*(mark|marka|brand|brend)/i.test(message) && 
-                                 /(tjeter|tjetër|tjera)/i.test(message);
+      const askedForOtherBrand = (
+        // Pattern 1a: "ndonje/nje mark/brend tjeter"
+        /(ndon[eë]|nje|një)\s*(mark|marka|brand|brend)/i.test(message) && /(tjeter|tjetër|tjera)/i.test(message)
+      ) || (
+        // Pattern 1b: "a keni brend tjeter", "keni ndonje brend tjeter"
+        /(keni|ke)\s*(ndon[eë]|nje|një)?\s*(mark|marka|brand|brend)/i.test(message) && /(tjeter|tjetër|tjera)/i.test(message)
+      ) || (
+        // Pattern 1c: "dua brend tjeter" (without nje/ndonje)
+        /dua\s*(mark|marka|brand|brend)/i.test(message) && /(tjeter|tjetër|tjera)/i.test(message)
+      );
+      
       const askedForBrands = /qfar|çfarë|cfare/i.test(message) && 
                             /(brand|brend|mark|marka)/i.test(message);
       
@@ -228,8 +237,9 @@ export class ChatbotService {
         }
       }
 
-      // 7. 🤖 Try OpenAI response generation (if enabled and we have a response message)
-      if (OpenAIService.isEnabled() && products.length > 0) {
+      // 7. 🤖 Try OpenAI response generation (ONLY if we don't have a specific message already)
+      // 🔥 CRITICAL: Don't overwrite specific messages (brand availability, error messages, etc.)
+      if (OpenAIService.isEnabled() && products.length > 0 && !responseMessage) {
         console.log(`[ChatbotService] 🤖 Attempting OpenAI response generation...`);
         const aiResponse = await OpenAIService.generateResponse({
           userMessage: message,
@@ -247,6 +257,8 @@ export class ChatbotService {
         } else {
           console.log(`[ChatbotService] ⚠️ OpenAI response generation failed, using template`);
         }
+      } else if (responseMessage) {
+        console.log(`[ChatbotService] 📝 Using specific pre-set message (not calling OpenAI): "${responseMessage.substring(0, 50)}..."`);
       }
 
       // 8. Update session with new data
