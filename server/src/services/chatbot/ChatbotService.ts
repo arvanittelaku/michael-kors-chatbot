@@ -36,8 +36,8 @@ export class ChatbotService {
       const parsedFilters = messageParser.parse(message);
       console.log(`[ChatbotService] 🔍 Parsed filters from message:`, parsedFilters);
 
-      // 4. Apply context-aware filtering logic
-      const finalFilters = this.applyContextFiltering(parsedFilters, session);
+      // 4. Apply context-aware filtering logic (with message for intent detection)
+      const finalFilters = this.applyContextFiltering(parsedFilters, session, message);
       console.log(`[ChatbotService] 🎯 Final filters after context application:`, finalFilters);
 
       // 5. Get products from Trieve with final filters - NO FALLBACK PRODUCTS
@@ -209,7 +209,7 @@ export class ChatbotService {
   }
 
   /**
-   * Check if user is asking for more products
+   * Check if user is asking for more products (pagination)
    */
   private static isAskingForMore(message: string): boolean {
     const lowerMessage = message.toLowerCase();
@@ -230,14 +230,74 @@ export class ChatbotService {
   }
 
   /**
+   * Check if user is making an exploratory query (browsing, not refining)
+   * Research-backed patterns for exploratory intent detection
+   */
+  private static isExploratoryQuery(message: string): boolean {
+    const lowerMessage = message.toLowerCase();
+    
+    // Exploratory patterns - user wants to see ALL options
+    const exploratoryPatterns = [
+      // Albanian "what" questions
+      'qfar', 'çfarë', 'cfare', 'cfar',
+      // "do you have" / "what do you have"
+      'keni', 'ka',
+      // "show me" / "display"
+      'trego', 'shfaq', 'shiko',
+      // "all" / "everything"
+      'te gjitha', 'të gjitha', 'gjitha', 'çdo', 'cdo',
+      // English equivalents
+      'what', 'show', 'all', 'everything', 'have',
+      // "other" when standalone (not part of filter)
+      'tjeter', 'tjetër'
+    ];
+    
+    // Check for exploratory patterns
+    const hasExploratoryPattern = exploratoryPatterns.some(pattern => 
+      lowerMessage.includes(pattern)
+    );
+    
+    // Additional check: very short queries like "kemishe?" (just category name)
+    const isShortCategoryQuery = lowerMessage.length < 15 && 
+      !lowerMessage.includes('nen') && 
+      !lowerMessage.includes('nën') &&
+      !lowerMessage.includes('mbi') &&
+      !lowerMessage.includes('te ') &&
+      !lowerMessage.includes('të ');
+    
+    return hasExploratoryPattern || isShortCategoryQuery;
+  }
+
+  /**
+   * Check if user wants to recover from failed search
+   * When "ndonje tjeter" is used after getting no results, clear failed filters
+   */
+  private static isRecoveryIntent(message: string, lastProductCount: number): boolean {
+    const lowerMessage = message.toLowerCase();
+    const recoveryPatterns = [
+      'ndonje tjeter',
+      'ndonje tjetër',
+      'tjeter',
+      'tjetër',
+      'ndryshe'
+    ];
+    
+    // Recovery = asking for "something else" after getting 0 results
+    return lastProductCount === 0 && 
+           recoveryPatterns.some(pattern => lowerMessage.includes(pattern));
+  }
+
+  /**
    * Apply context-aware filtering logic
    * - If no category in current message but session has lastCategory, use it
    * - If no filters in current message but session has appliedFilters, merge them
    * - If new category detected, reset other filters but preserve price/color if specified
+   * - ENHANCED: Handle exploratory queries and recovery from failed searches
    */
   private static applyContextFiltering(
     parsedFilters: any, 
-    session: any
+    session: any,
+    message: string
   ): any {
     const finalFilters = { ...parsedFilters };
 
@@ -248,6 +308,36 @@ export class ChatbotService {
       lastProducts: session.lastProducts?.length || 0,
       messageHistory: session.messageHistory?.length || 0
     });
+
+    // 🔥 NEW: Check if this is an exploratory query
+    const isExploratory = this.isExploratoryQuery(message);
+    const lastProductCount = session.lastProducts?.length || 0;
+    const isRecovery = this.isRecoveryIntent(message, lastProductCount);
+
+    console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
+
+    // 🔥 EXPLORATORY QUERY: Clear all filters except category
+    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price) {
+      console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing filters to show all options`);
+      
+      // Keep only the category (either from parsed or session)
+      const categoryToUse = parsedFilters.category || session.lastCategory;
+      
+      return {
+        category: categoryToUse
+      };
+    }
+
+    // 🔥 RECOVERY INTENT: Clear failed filters, keep category
+    if (isRecovery && session.appliedFilters) {
+      console.log(`[ChatbotService] 🔄 RECOVERY INTENT detected - clearing failed filters`);
+      
+      // Clear the filter that resulted in 0 products
+      // Keep only category from session
+      return {
+        category: session.lastCategory
+      };
+    }
 
     // CRITICAL FIX: When only price filter is provided, preserve category context
     if (finalFilters.price && !finalFilters.category && session.lastCategory) {
