@@ -193,6 +193,28 @@ export class MessageParser {
     'orange': 'orange',
     'te portokalli': 'orange',
     'i portokalli': 'orange',
+    
+    // 🔥 CRITICAL FIX: Add missing colors that exist in products
+    // Silver variations
+    'silver': 'silver',
+    'argjend': 'silver',
+    'e argjendtë': 'silver',
+    'argjendtë': 'silver',
+    
+    // Cream variations
+    'cream': 'cream',
+    'krem': 'cream',
+    'e kremte': 'cream',
+    
+    // Beige variations
+    'beige': 'beige',
+    'bezh': 'beige',
+    'e bezhë': 'beige',
+    
+    // Navy variations
+    'navy': 'navy',
+    'blu e errët': 'navy',
+    'dark navy': 'navy',
 
     // Mixed colors variations
     'ngjyra te perziera': 'mixed colors',

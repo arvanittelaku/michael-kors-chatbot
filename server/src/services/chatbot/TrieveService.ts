@@ -370,6 +370,23 @@ export class TrieveService {
       console.log(`[FILTER] 📂 Special bag matching: "${product.name}" -> "${productName}" contains bag terms: ${bagMatch}`);
       return bagMatch || nameMatch || categoryMatch;
     }
+    
+    // 🔥 CRITICAL FIX: Strict filtering for unavailable categories
+    // If user asks for kepuce (shoes) or atlete (sneakers), ONLY match if product actually contains those words
+    // Don't allow Trieve to return similar items like "pantofla" (slippers)
+    if (categoryNormalized === 'kepuce' || categoryNormalized === 'atlete') {
+      // STRICT match: product must contain "kepuce", "atlete", "shoes", or "sneakers"
+      const shoeMatch = productName.includes('kepuce') || productName.includes('atlete') || 
+                       productName.includes('shoes') || productName.includes('sneakers') ||
+                       productName.includes('athletic');
+      console.log(`[FILTER] 📂 STRICT shoe/sneaker matching: "${product.name}" -> "${productName}" = ${shoeMatch}`);
+      // If no match, explicitly reject (don't fall back to pantofla)
+      if (!shoeMatch) {
+        console.log(`[FILTER] ❌ Product is NOT shoes/sneakers (might be slippers/pantofla), rejecting`);
+        return false;
+      }
+      return shoeMatch;
+    }
 
     console.log(`[FILTER] 📂 Category matching: "${product.name}" -> "${productName}" vs "${category}" -> "${categoryNormalized}" = ${nameMatch || categoryMatch}`);
 
