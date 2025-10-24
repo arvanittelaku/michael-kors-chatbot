@@ -438,11 +438,18 @@ export class MessageParser {
 
   private extractBrand(message: string, detectedColor?: string): string | undefined {
     // Albanian stop words that should NEVER be brands
+    // 🔥 CRITICAL: Include genitive case forms to prevent "pantollave kenoi" being treated as brand
     const albanianStopWords = [
       'dua', 'kerkoj', 'kërkoj', 'më', 'për', 'per',
       'lira', 'lire', 'shtrenjte', 'shtrenjtë', 'mirë', 'mire', 'bukur',
       'vogel', 'vogël', 'madhe', 'madhë', 'shume', 'shumë', 'tjera', 'tjeter',
-      'proekte', 'produkte', 'keni', 'jane', 'reja', 'peshqir', 'pantolla'
+      'proekte', 'produkte', 'keni', 'jane', 'reja', 'peshqir', 'pantolla',
+      // 🔥 Genitive case category forms (CRITICAL FIX)
+      'pantollave', 'pantallonave', 'kemishave', 'peshqireve', 'peshqirit',
+      'qantave', 'pantoflave', 'pantofleve', 'fustaneve', 'fustanit',
+      'bluzave', 'xhaketave', 'maicave', 'atleteve', 'kepuceve',
+      'xhinseve', 'kostumeve', 'fundeve', 'trikove', 'manteleve',
+      'kenoi', 'brand', 'brende' // Also block typos and exploratory words
     ];
     
     // Known color words in Albanian (for disambiguation)

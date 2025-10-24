@@ -323,7 +323,17 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
 
     // 🔥 EXPLORATORY QUERY: Clear all filters except category
-    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price && !parsedFilters.size) {
+    // CRITICAL FIX: Check if brand mentions "qfar brand", "what brands", etc. (exploratory brand query)
+    const isExploratoryBrandQuery = isExploratory && (
+      message.toLowerCase().includes('qfar brand') || 
+      message.toLowerCase().includes('qfar brende') ||
+      message.toLowerCase().includes('what brand') ||
+      message.toLowerCase().includes('çfarë brand') ||
+      message.toLowerCase().includes('cfare brand')
+    );
+    
+    if (isExploratoryBrandQuery || 
+        (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price && !parsedFilters.size)) {
       console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing ALL filters to show all options`);
       
       const categoryToUse = parsedFilters.category || session.lastCategory;
@@ -346,13 +356,23 @@ export class ChatbotService {
     // Start with previous filters, then apply current message filters
     let finalFilters: any = {};
     
+    // 🔥 CRITICAL FIX: Detect if user is asking for a NEW category vs. follow-up filter
+    // If message looks like it's trying to specify a category (not just filters), don't use session
+    const looksLikeCategoryQuery = !parsedFilters.color && !parsedFilters.price && 
+                                  !parsedFilters.size && !parsedFilters.brand &&
+                                  message.split(/\s+/).length <= 3; // Short query like "trenerka" or "dua pantallona"
+    
     // Step 1: If user didn't mention category but we have one in session, keep it
-    if (!parsedFilters.category && session.lastCategory) {
+    // BUT: Only if it looks like a follow-up filter, not a new category request
+    if (!parsedFilters.category && session.lastCategory && !looksLikeCategoryQuery) {
       finalFilters.category = session.lastCategory;
-      console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category}`);
+      console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category} (follow-up filter)`);
     } else if (parsedFilters.category) {
       finalFilters.category = parsedFilters.category;
       console.log(`[ChatbotService] ✨ New category from message: ${finalFilters.category}`);
+    } else if (looksLikeCategoryQuery) {
+      console.log(`[ChatbotService] ❌ Category not recognized and looks like new category request (not follow-up)`);
+      // Don't use session category - this is likely an unknown category
     }
     
     // Step 2: If user mentioned a new category, clear old filters (context switch)
