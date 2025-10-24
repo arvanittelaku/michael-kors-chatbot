@@ -339,6 +339,22 @@ export class MessageParser {
   }
 
   private extractColor(message: string): string | undefined {
+    // 🔥 CRITICAL FIX: First check for "ngjyre [color]" or "ngjyr [color]" patterns
+    // This handles "ngjyre silver", "ngjyr te bardhe", etc.
+    const ngjyrePattern = /(?:ngjyre|ngjyr|ngjyra)\s+(\w+)/i;
+    const ngjyreMatch = message.match(ngjyrePattern);
+    if (ngjyreMatch) {
+      const colorWord = ngjyreMatch[1].toLowerCase();
+      console.log(`[MessageParser] 🎨 Found "ngjyre [color]" pattern: "${colorWord}"`);
+      // Check if this color word is in our mappings
+      const mappings = MessageParser.COLOR_MAPPINGS as Record<string, string>;
+      if (mappings[colorWord]) {
+        console.log(`[MessageParser] ✅ Color "${colorWord}" mapped to "${mappings[colorWord]}"`);
+        return mappings[colorWord];
+      }
+    }
+    
+    // Regular color detection
     for (const [albanianPhrase, englishColor] of Object.entries(MessageParser.COLOR_MAPPINGS)) {
       if (message.includes(albanianPhrase)) {
         return englishColor;
