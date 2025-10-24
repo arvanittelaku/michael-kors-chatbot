@@ -41,7 +41,9 @@ export class ChatbotService {
         
         if (aiParsed) {
           console.log(`[ChatbotService] ✅ OpenAI parsed filters:`, aiParsed);
-          parsedFilters = aiParsed;
+          // 🔥 CRITICAL FIX: Normalize OpenAI results too! (silver→SILVER, xs→XS, etc.)
+          parsedFilters = buildNormalizedFilters(aiParsed);
+          console.log(`[ChatbotService] ✨ NORMALIZED OpenAI filters:`, parsedFilters);
         } else {
           console.log(`[ChatbotService] ⚠️ OpenAI parsing failed, falling back to regex`);
         }
