@@ -357,22 +357,43 @@ export class ChatbotService {
     let finalFilters: any = {};
     
     // 🔥 CRITICAL FIX: Detect if user is asking for a NEW category vs. follow-up filter
-    // If message looks like it's trying to specify a category (not just filters), don't use session
-    const looksLikeCategoryQuery = !parsedFilters.color && !parsedFilters.price && 
-                                  !parsedFilters.size && !parsedFilters.brand &&
-                                  message.split(/\s+/).length <= 3; // Short query like "trenerka" or "dua pantallona"
+    // Follow-up filter indicators (Albanian + English)
+    const followUpFilterPatterns = [
+      // Brand/other: "ndonje mark tjeter", "different brand", "another brand"
+      'ndonje', 'ndonjë', 'tjeter', 'tjetër', 'tjer', 'tjera', 'another', 'different', 'other',
+      // Color: "te zeze", "color", "ngjyr"
+      'te', 'të', 'ngjyr', 'ngjyra', 'color', 'colour',
+      // Price: "nen", "mbi", "under", "over"
+      'nen', 'nën', 'mbi', 'poshte', 'poshtë', 'siper', 'sipër', 'under', 'over',
+      // Size: "madhesia", "size"
+      'madhesia', 'madhësia', 'madhsi', 'madhsine', 'size',
+      // Material/quality
+      'material', 'cilesi', 'cilësi', 'quality',
+      // Comparative: "me te lira", "cheaper"
+      'lira', 'lire', 'cheap', 'expensive', 'shtrenjt'
+    ];
     
-    // Step 1: If user didn't mention category but we have one in session, keep it
-    // BUT: Only if it looks like a follow-up filter, not a new category request
-    if (!parsedFilters.category && session.lastCategory && !looksLikeCategoryQuery) {
-      finalFilters.category = session.lastCategory;
-      console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category} (follow-up filter)`);
+    const lowerMessage = message.toLowerCase();
+    const hasFollowUpPattern = followUpFilterPatterns.some(pattern => lowerMessage.includes(pattern));
+    
+    // Step 1: If user didn't mention category but we have one in session
+    if (!parsedFilters.category && session.lastCategory) {
+      // Use session category IF:
+      // - Message has follow-up filter patterns (te zeze, ndonje tjeter, nen 20$), OR
+      // - Message has ANY detected filter (color, price, size, brand)
+      const hasAnyFilter = parsedFilters.color || parsedFilters.price || parsedFilters.size || 
+                          parsedFilters.brand || parsedFilters.material;
+      
+      if (hasFollowUpPattern || hasAnyFilter) {
+        finalFilters.category = session.lastCategory;
+        console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category} (follow-up filter detected)`);
+      } else {
+        console.log(`[ChatbotService] ❌ No category detected and no follow-up patterns - likely unknown category`);
+        // Don't use session category - user is asking for something new that we don't recognize
+      }
     } else if (parsedFilters.category) {
       finalFilters.category = parsedFilters.category;
       console.log(`[ChatbotService] ✨ New category from message: ${finalFilters.category}`);
-    } else if (looksLikeCategoryQuery) {
-      console.log(`[ChatbotService] ❌ Category not recognized and looks like new category request (not follow-up)`);
-      // Don't use session category - this is likely an unknown category
     }
     
     // Step 2: If user mentioned a new category, clear old filters (context switch)
