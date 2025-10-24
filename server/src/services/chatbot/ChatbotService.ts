@@ -1,7 +1,7 @@
 import { ChatRequest, ChatResponse, Product } from './types';
 import { TrieveService } from './TrieveService';
 import { SessionManager } from './SessionManager';
-import { MessageParser } from './MessageParser';
+import { MessageParser, buildNormalizedFilters } from './MessageParser';
 
 // Global SessionManager instance
 const sessionManager = new SessionManager();
@@ -33,8 +33,12 @@ export class ChatbotService {
 
       // 3. Parse the message using MessageParser
       const messageParser = new MessageParser();
-      const parsedFilters = messageParser.parse(message);
-      console.log(`[ChatbotService] 🔍 Parsed filters from message:`, parsedFilters);
+      const rawParsedFilters = messageParser.parse(message);
+      console.log(`[ChatbotService] 🔍 RAW parsed filters from message:`, rawParsedFilters);
+      
+      // 3.5 🔥 NEW: Normalize filters (xs→XS, black→BLACK, etc.)
+      const parsedFilters = buildNormalizedFilters(rawParsedFilters);
+      console.log(`[ChatbotService] ✨ NORMALIZED parsed filters:`, parsedFilters);
 
       // 4. Apply context-aware filtering logic (with message for intent detection)
       const finalFilters = this.applyContextFiltering(parsedFilters, session, message);
@@ -303,9 +307,7 @@ export class ChatbotService {
     session: any,
     message: string
   ): any {
-    const finalFilters = { ...parsedFilters };
-
-    console.log(`[ChatbotService] 🔍 Input filters:`, parsedFilters);
+    console.log(`[ChatbotService] 🔍 Input normalized filters:`, parsedFilters);
     console.log(`[ChatbotService] 🔍 Session context:`, {
       lastCategory: session.lastCategory,
       appliedFilters: session.appliedFilters,
@@ -321,14 +323,11 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
 
     // 🔥 EXPLORATORY QUERY: Clear all filters except category
-    // Only trigger if the current message doesn't have specific filters
-    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price && !parsedFilters.size) {
+    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.priceMax && !parsedFilters.priceMin && !parsedFilters.size) {
       console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing ALL filters to show all options`);
       
-      // Keep only the category (either from parsed or session)
       const categoryToUse = parsedFilters.category || session.lastCategory;
       
-      // Return ONLY category, clear everything else from session
       return {
         category: categoryToUse
       };
@@ -338,112 +337,61 @@ export class ChatbotService {
     if (isRecovery && session.appliedFilters) {
       console.log(`[ChatbotService] 🔄 RECOVERY INTENT detected - clearing failed filters`);
       
-      // Clear the filter that resulted in 0 products
-      // Keep only category from session
       return {
         category: session.lastCategory
       };
     }
 
-    // CRITICAL FIX: When only price filter is provided, preserve category context
-    if (finalFilters.price && !finalFilters.category && session.lastCategory) {
-      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for price filter`);
+    // 🔥 CORE FIX: Merge session filters with new filters (new filters override)
+    // Start with previous filters, then apply current message filters
+    let finalFilters: any = {};
+    
+    // Step 1: If user didn't mention category but we have one in session, keep it
+    if (!parsedFilters.category && session.lastCategory) {
       finalFilters.category = session.lastCategory;
+      console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category}`);
+    } else if (parsedFilters.category) {
+      finalFilters.category = parsedFilters.category;
+      console.log(`[ChatbotService] ✨ New category from message: ${finalFilters.category}`);
     }
-
-    // CRITICAL FIX: When only color filter is provided, preserve category context
-    if (finalFilters.color && !finalFilters.category && session.lastCategory) {
-      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for color filter`);
-      finalFilters.category = session.lastCategory;
-    }
-
-    // CRITICAL FIX: When only size filter is provided, preserve category context
-    if (finalFilters.size && !finalFilters.category && session.lastCategory) {
-      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for size filter`);
-      finalFilters.category = session.lastCategory;
-    }
-
-    // CRITICAL FIX: When only brand filter is provided, preserve category context OR search all categories
-    if (finalFilters.brand && !finalFilters.category) {
-      if (session.lastCategory) {
-        console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for brand filter`);
-        finalFilters.category = session.lastCategory;
-      } else {
-        console.log(`[ChatbotService] 🔍 Brand-only search across all categories`);
-        // Allow brand-only search without category
+    
+    // Step 2: If user mentioned a new category, clear old filters (context switch)
+    const isCategorySwitch = parsedFilters.category && session.lastCategory && 
+                            parsedFilters.category !== session.lastCategory;
+    
+    if (isCategorySwitch) {
+      console.log(`[ChatbotService] 🔄 CATEGORY SWITCH: ${session.lastCategory} → ${parsedFilters.category}. Clearing old filters.`);
+      // Only apply new filters from current message
+      finalFilters = { ...parsedFilters };
+    } else {
+      // Step 3: Merge session filters with current message filters
+      // Session filters are base, current message overrides specific keys
+      if (session.appliedFilters) {
+        console.log(`[ChatbotService] 🔄 Merging session filters:`, session.appliedFilters);
       }
-    }
-
-    // INTENT SWITCHING: Clear incompatible filters when a new primary intent is detected
-    if (finalFilters.brand && session.appliedFilters) {
-      // If user specifies a brand, clear old color/size filters unless explicitly mentioned
-      if (!parsedFilters.color && session.appliedFilters.color) {
-        console.log(`[ChatbotService] 🔄 Clearing old color filter due to brand intent switch`);
-        // Don't copy old color filter
-      }
-      if (!parsedFilters.size && session.appliedFilters.size) {
-        console.log(`[ChatbotService] 🔄 Clearing old size filter due to brand intent switch`);
-        // Don't copy old size filter
-      }
-    }
-
-    // CRITICAL FIX: When only material filter is provided, preserve category context
-    if (finalFilters.material && !finalFilters.category && session.lastCategory) {
-      console.log(`[ChatbotService] 🔄 Preserving category context: ${session.lastCategory} for material filter`);
-      finalFilters.category = session.lastCategory;
-    }
-
-    // 1. Handle category context - ONLY if no category is detected in current message
-    // BUT NOT if we already have a category from current message parsing
-    if (!finalFilters.category && session.lastCategory && !parsedFilters.category) {
-      console.log(`[ChatbotService] 🔄 Using session category: ${session.lastCategory}`);
-      finalFilters.category = session.lastCategory;
-    }
-
-    // 2. Handle filter context for attribute-only queries (color, price, size, material)
-    if (!finalFilters.category && session.appliedFilters?.category) {
-      // If no category in current message but session has a category, use it
-      console.log(`[ChatbotService] 🔄 Applying session category: ${session.appliedFilters.category}`);
-      finalFilters.category = session.appliedFilters.category;
-    }
-
-    // 3. If user specifies a new category, reset previous filters but preserve current message filters
-    if (finalFilters.category && session.appliedFilters?.category && 
-        finalFilters.category !== session.appliedFilters.category) {
-      console.log(`[ChatbotService] 🔄 New category detected: ${finalFilters.category} (was: ${session.appliedFilters.category})`);
-    }
-
-    // 4. Merge additional filters from session if not specified in current message
-    // BUT ONLY if the category hasn't changed (to avoid carrying over filters from different product types)
-    if (session.appliedFilters) {
-      const categoryChanged = finalFilters.category && 
-                             session.appliedFilters.category && 
-                             finalFilters.category !== session.appliedFilters.category;
       
-      console.log(`[ChatbotService] 🔍 Category change detection:`, {
-        currentCategory: finalFilters.category,
-        sessionCategory: session.appliedFilters.category,
-        categoryChanged: categoryChanged,
-        parsedCategory: parsedFilters.category,
-        parsedColor: parsedFilters.color
-      });
+      // Merge strategy: session base + current message overrides
+      finalFilters = {
+        category: finalFilters.category, // Already determined above
+        brand: parsedFilters.brand ?? session.appliedFilters?.brand ?? null,
+        color: parsedFilters.color ?? session.appliedFilters?.color ?? null,
+        size: parsedFilters.size ?? session.appliedFilters?.size ?? null,
+        priceMax: parsedFilters.priceMax ?? session.appliedFilters?.priceMax ?? null,
+        priceMin: parsedFilters.priceMin ?? session.appliedFilters?.priceMin ?? null,
+        material: parsedFilters.material ?? session.appliedFilters?.material ?? null
+      };
       
-      if (!categoryChanged) {
-        // Only preserve filters if user is continuing the same search
-        if (!finalFilters.color && session.appliedFilters.color) {
-          console.log(`[ChatbotService] 🔄 Preserving color from session: ${session.appliedFilters.color}`);
-          finalFilters.color = session.appliedFilters.color;
-        }
-        if (!finalFilters.price && session.appliedFilters.price) {
-          console.log(`[ChatbotService] 🔄 Preserving price from session: ${session.appliedFilters.price}`);
-          finalFilters.price = session.appliedFilters.price;
-        }
-      } else {
-        console.log(`[ChatbotService] 🔄 Category changed from ${session.appliedFilters.category} to ${finalFilters.category} - not preserving filters`);
-      }
+      console.log(`[ChatbotService] ✅ Merged filters:`, finalFilters);
     }
-
-    console.log(`[ChatbotService] 🎯 Final filters:`, finalFilters);
+    
+    // Clean up null values
+    Object.keys(finalFilters).forEach(key => {
+      if (finalFilters[key] === null || finalFilters[key] === undefined) {
+        delete finalFilters[key];
+      }
+    });
+    
+    console.log(`[ChatbotService] 🎯 FINAL merged filters (ready for Trieve):`, finalFilters);
     return finalFilters;
   }
 }

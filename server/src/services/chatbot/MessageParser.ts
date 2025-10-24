@@ -7,6 +7,58 @@ export interface ParsedFilters {
   brand?: string;
 }
 
+// =====================================================
+// 🔧 Normalization Helpers (AI engineer approved)
+// =====================================================
+
+const SIZE_ALIASES: Record<string, string> = {
+  'xs': 'XS', 'x s': 'XS', 's': 'S', 'm': 'M', 'l': 'L', 'xl': 'XL', 'xxl': 'XXL',
+  '40': '40', '41': '41', '42': '42', '43': '43', '44': '44', '45': '45', '46': '46',
+  '48': '48', '50': '50', '52': '52', '54': '54', '56': '56'
+};
+
+const COLOR_ALIASES: Record<string, string> = {
+  'black': 'BLACK', 'zi': 'BLACK', 'e zeze': 'BLACK', 'zeze': 'BLACK', 'te zeze': 'BLACK',
+  'dark blue': 'DARK_BLUE', 'darkblue': 'DARK_BLUE', 'blu': 'DARK_BLUE', 'blue': 'DARK_BLUE',
+  'light/pastel blue': 'LIGHT_PASTEL_BLUE', 'light blue': 'LIGHT_PASTEL_BLUE',
+  'mixed colors': 'MIXED_COLORS', 'white': 'WHITE', 'bardhe': 'WHITE',
+  'red': 'RED', 'kuq': 'RED', 'kuqe': 'RED',
+  'green': 'GREEN', 'gjelbër': 'GREEN', 'gjelber': 'GREEN',
+  'beige': 'BEIGE', 'brown': 'BROWN', 'kafe': 'BROWN',
+  'pink': 'PINK', 'roze': 'PINK', 'rozë': 'PINK',
+  'yellow': 'YELLOW', 'verdhë': 'YELLOW', 'verdhe': 'YELLOW',
+  'cream': 'CREAM', 'silver': 'SILVER', 'grey': 'GREY', 'gray': 'GREY', 'gri': 'GREY'
+};
+
+export function normalizeSize(raw?: string | null): string | null {
+  if (!raw) return null;
+  const r = raw.trim().toLowerCase();
+  if (/^\d+$/.test(r)) return r;
+  if (SIZE_ALIASES[r]) return SIZE_ALIASES[r];
+  const cleaned = r.replace(/[^a-z0-9]/gi, '');
+  return SIZE_ALIASES[cleaned] ?? null;
+}
+
+export function normalizeColor(raw?: string | null): string | null {
+  if (!raw) return null;
+  const r = raw.trim().toLowerCase();
+  if (COLOR_ALIASES[r]) return COLOR_ALIASES[r];
+  const cleaned = r.replace(/[^\p{L}\s]/gu, '').trim();
+  return COLOR_ALIASES[cleaned] ?? cleaned.toUpperCase();
+}
+
+export function buildNormalizedFilters(parsed: any) {
+  return {
+    category: parsed.category?.toUpperCase() ?? null,
+    brand: parsed.brand?.toUpperCase() ?? null,
+    color: normalizeColor(parsed.color),
+    size: parsed.size ? (Array.isArray(parsed.size) ? parsed.size.map(normalizeSize).filter(Boolean) : [normalizeSize(parsed.size)].filter(Boolean)) : null,
+    priceMax: parsed.price?.max ?? null,
+    priceMin: parsed.price?.min ?? null,
+    material: parsed.material ?? null
+  };
+}
+
 export class MessageParser {
   private static readonly CATEGORY_KEYWORDS = {
     kemishe: ['kemishe', 'këmishë', 'kemish', 'shirt', 'shirts'],

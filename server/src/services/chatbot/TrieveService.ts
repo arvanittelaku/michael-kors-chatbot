@@ -352,80 +352,29 @@ export class TrieveService {
   private static matchesColor(product: Product, color: string): boolean {
     if (!product.color) return false;
 
+    // 🔥 NORMALIZE: Ensure both product and filter colors are uppercase and normalized
+    const normalizedProductColor = (product.color || '').toUpperCase().replace(/[\s\/-]+/g, '_').trim();
+    const normalizedFilterColor = color.toUpperCase().replace(/[\s\/-]+/g, '_').trim();
+
     // Check if product color is a manufacturer code (like B75, BV9, BZ2, 131, 265, 999)
     const isManufacturerCode = (colorStr: string) => {
       // Match patterns like: B75, BV9, BZ2, 131, 265, 999, etc.
       return /^[A-Z]\d+$/.test(colorStr) || 
              /^[A-Z]{2}\d+$/.test(colorStr) || 
              /^\d{3,4}$/.test(colorStr) ||
-             colorStr === 'OPEN MISCELLANEOUS';
+             colorStr === 'OPEN_MISCELLANEOUS';
     };
 
     // If product color is a manufacturer code, it should not match any color filter
-    if (isManufacturerCode(product.color)) {
-      console.log(`[FILTER] 🎨 Product color "${product.color}" is manufacturer code - excluding from color match`);
+    if (isManufacturerCode(normalizedProductColor)) {
+      console.log(`[FILTER] 🎨 Product color "${normalizedProductColor}" is manufacturer code - excluding from color match`);
       return false;
     }
 
-    const productColor = normalizeColor(product.color);
-    const filterColor = normalizeColor(color);
-
-    console.log(`[FILTER] 🎨 Color normalization: "${product.color}" -> "${productColor}", "${color}" -> "${filterColor}"`);
-
-    // If either color cannot be normalized, use strict string matching
-    if (!productColor || !filterColor) {
-      console.log(`[FILTER] 🎨 Using strict string matching: "${product.color}" vs "${color}"`);
-      return product.color.toLowerCase().trim() === color.toLowerCase().trim();
-    }
-
-    // Enhanced matching for common color variations
-    const productColorLower = productColor.toLowerCase();
-    const filterColorLower = filterColor.toLowerCase();
-    
-    // Direct match
-    if (productColorLower === filterColorLower) {
-      console.log(`[FILTER] 🎨 Direct color match: "${product.color}" = "${color}"`);
-      return true;
-    }
-    
-    // Enhanced color matching - check if colors contain similar terms
-    const colorContainsMatch = (productColor: string, filterColor: string): boolean => {
-      const productLower = productColor.toLowerCase();
-      const filterLower = filterColor.toLowerCase();
-      
-      // Direct substring match
-      if (productLower.includes(filterLower) || filterLower.includes(productLower)) {
-        return true;
-      }
-      
-      // Check for color family matches
-      const colorFamilies = {
-        'blue': ['blue', 'blu', 'navy', 'turquoise', 'aqua', 'medium blue', 'dark blue', 'light blue'],
-        'black': ['black', 'dark', 'charcoal', 'jet', 'midnight'],
-        'red': ['red', 'crimson', 'scarlet', 'burgundy', 'garnet'],
-        'green': ['green', 'emerald', 'forest', 'lime', 'olive'],
-        'gray': ['gray', 'grey', 'silver', 'ash', 'medium grey'],
-        'white': ['white', 'ivory', 'cream', 'pearl'],
-        'brown': ['brown', 'tan', 'camel', 'chocolate'],
-        'yellow': ['yellow', 'gold', 'amber'],
-        'pink': ['pink', 'rose', 'magenta'],
-        'purple': ['purple', 'violet', 'lavender']
-      };
-      
-      for (const [family, variations] of Object.entries(colorFamilies)) {
-        const productInFamily = variations.some(v => productLower.includes(v));
-        const filterInFamily = variations.some(v => filterLower.includes(v));
-        if (productInFamily && filterInFamily) {
-          return true;
-        }
-      }
-      
-      return false;
-    };
-
-    const match = colorContainsMatch(productColor, filterColor);
-    console.log(`[FILTER] 🎨 Enhanced color matching: "${product.color}" vs "${color}" = ${match}`);
-    return match;
+    // 🔥 DIRECT COMPARISON: After normalization, do strict equals
+    const matches = normalizedProductColor === normalizedFilterColor;
+    console.log(`[FILTER] 🎨 Color match: "${product.color}" (normalized: "${normalizedProductColor}") vs "${color}" (normalized: "${normalizedFilterColor}") = ${matches}`);
+    return matches;
   }
 
   /**
@@ -450,15 +399,26 @@ export class TrieveService {
   }
 
   /**
-   * Size matching with array inclusion
+   * Size matching with array inclusion and normalization
    */
   private static matchesSize(product: Product, sizes: string[]): boolean {
     if (!product.size) return false;
 
-    const productSize = product.size.toUpperCase();
-    const filterSizes = sizes.map(s => s.toUpperCase());
+    // 🔥 NORMALIZE: Ensure consistent uppercase + trimming + handle numeric vs alpha sizes
+    const normalizeSize = (size: string | number): string => {
+      const sizeStr = String(size).toUpperCase().trim();
+      // Numeric sizes: just return as-is
+      if (/^\d+$/.test(sizeStr)) return sizeStr;
+      // Alpha sizes: remove spaces (X S → XS)
+      return sizeStr.replace(/\s+/g, '');
+    };
 
-    return filterSizes.includes(productSize);
+    const normalizedProductSize = normalizeSize(product.size);
+    const normalizedFilterSizes = sizes.map(normalizeSize);
+
+    const matches = normalizedFilterSizes.includes(normalizedProductSize);
+    console.log(`[FILTER] 📏 Size match: "${product.size}" (normalized: "${normalizedProductSize}") in [${normalizedFilterSizes.join(', ')}] = ${matches}`);
+    return matches;
   }
 
   /**
@@ -479,10 +439,13 @@ export class TrieveService {
   private static matchesBrand(product: Product, brand: string): boolean {
     if (!product.brand) return false;
 
-    const productBrand = product.brand.toUpperCase();
-    const filterBrand = brand.toUpperCase();
+    // 🔥 NORMALIZE: Uppercase + trim for both sides
+    const normalizedProductBrand = (product.brand || '').toUpperCase().trim();
+    const normalizedFilterBrand = brand.toUpperCase().trim();
 
-    return productBrand === filterBrand;
+    const matches = normalizedProductBrand === normalizedFilterBrand;
+    console.log(`[FILTER] 🏷️ Brand match: "${product.brand}" (normalized: "${normalizedProductBrand}") vs "${brand}" (normalized: "${normalizedFilterBrand}") = ${matches}`);
+    return matches;
   }
 
   /**
