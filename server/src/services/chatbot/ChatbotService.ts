@@ -115,6 +115,24 @@ export class ChatbotService {
         };
       }
       
+      // 🔥 CRITICAL: Check if user asked for "another brand" (ndonje mark tjeter)
+      const askedForOtherBrand = /ndon[eë]\s*(mark|marka|brand|brend)/i.test(message) && 
+                                 /(tjeter|tjetër|tjera)/i.test(message);
+      
+      if (askedForOtherBrand && products.length > 0) {
+        const availableBrands = TrieveService.getAvailableBrands(products);
+        
+        if (availableBrands.length === 1) {
+          // Only one brand exists
+          responseMessage = `Më vjen keq, vetëm marka ${availableBrands[0]} është e disponueshme për ${finalFilters.category?.toLowerCase() || 'këtë kategori'} aktualisht.`;
+          console.log(`[ChatbotService] 🏷️ User asked for other brands but only ${availableBrands[0]} exists`);
+        } else if (availableBrands.length > 1) {
+          // Multiple brands exist - show suggestion
+          responseMessage = `Markat e disponueshme janë: ${availableBrands.join(', ')}. Për shembull, provoni: "marka ${availableBrands[1]}" ose "${availableBrands[0]}".`;
+          console.log(`[ChatbotService] 🏷️ User asked for other brands - showing all ${availableBrands.length} available`);
+        }
+      }
+      
       if (products.length === 0) {
         // Smart error messages based on what filter failed
         
