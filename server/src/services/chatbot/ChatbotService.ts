@@ -115,6 +115,22 @@ export class ChatbotService {
         };
       }
       
+      // 🔥 CRITICAL: Handle gibberish/unrecognized queries (Question 2 Option A - VERY strict)
+      if (finalFilters.category === 'GIBBERISH' || (!finalFilters.category && !session.lastCategory)) {
+        console.log(`[ChatbotService] 🚫 Gibberish or completely unrecognized query, returning error message`);
+        responseMessage = 'Nuk e kuptova kërkesën tuaj. Mund ta përsërisni? Provoni të përdorni fjalë si: kemishe, pantallona, peshqir, qante, fustan, pantofla, kapele.';
+        return {
+          message: responseMessage,
+          products: [],
+          sessionContext: sessionManager.updateSession(userId, {
+            lastCategory: session.lastCategory,
+            appliedFilters: session.appliedFilters,
+            lastProducts: [],
+            messageHistory: [...session.messageHistory, message]
+          })
+        };
+      }
+      
       // 🔥 CRITICAL: Check if user asked for brands
       // Pattern 1: "ndonje mark tjeter" (another brand)
       // Pattern 2: "qfar brands/brende" (what brands)
@@ -170,23 +186,26 @@ export class ChatbotService {
         }
       } else {
         // If products found, add helpful suggestions for filtering
-        const availableBrands = TrieveService.getAvailableBrands(products);
-        const availableColors = TrieveService.getAvailableColors(products);
-        const priceRange = TrieveService.getPriceRange(products);
-        
-        const suggestions = [];
-        if (availableBrands.length > 1) {
-          suggestions.push(`marka (${availableBrands.slice(0, 3).join(', ')}${availableBrands.length > 3 ? '...' : ''})`);
-        }
-        if (availableColors.length > 1) {
-          suggestions.push(`ngjyrë (${availableColors.slice(0, 3).join(', ')}${availableColors.length > 3 ? '...' : ''})`);
-        }
-        if (priceRange) {
-          suggestions.push(`çmim ($${priceRange.min}-$${priceRange.max})`);
-        }
-        
-        if (suggestions.length > 0) {
-          responseMessage = `Mund të filtroni sipas: ${suggestions.join(', ')}. Për shembull: "më të lira", "ngjyrë e kuqe", "marka ${availableBrands[0] || 'BOSS'}".`;
+        // 🔥 CRITICAL: Only set this message if responseMessage hasn't already been set (e.g., by brand listing)
+        if (!responseMessage) {
+          const availableBrands = TrieveService.getAvailableBrands(products);
+          const availableColors = TrieveService.getAvailableColors(products);
+          const priceRange = TrieveService.getPriceRange(products);
+          
+          const suggestions = [];
+          if (availableBrands.length > 1) {
+            suggestions.push(`marka (${availableBrands.slice(0, 3).join(', ')}${availableBrands.length > 3 ? '...' : ''})`);
+          }
+          if (availableColors.length > 1) {
+            suggestions.push(`ngjyrë (${availableColors.slice(0, 3).join(', ')}${availableColors.length > 3 ? '...' : ''})`);
+          }
+          if (priceRange) {
+            suggestions.push(`çmim ($${priceRange.min}-$${priceRange.max})`);
+          }
+          
+          if (suggestions.length > 0) {
+            responseMessage = `Mund të filtroni sipas: ${suggestions.join(', ')}. Për shembull: "më të lira", "ngjyrë e kuqe", "marka ${availableBrands[0] || 'BOSS'}".`;
+          }
         }
       }
 
@@ -402,26 +421,26 @@ export class ChatbotService {
     
     // Step 1: If user didn't mention category but we have one in session
     if (!parsedFilters.category && session.lastCategory) {
-      // Use session category IF:
-      // - Message has follow-up filter patterns (te zeze, ndonje tjeter, nen 20$), OR
-      // - Message has ANY detected filter (color, price, size, brand)
+      // 🔥 CRITICAL: Question 3 Option B implementation
+      // Use session category ONLY if BOTH conditions are met:
+      // 1. Message has follow-up filter patterns (te zeze, ndonje tjeter, nen 20$)
+      // 2. At least ONE valid filter was detected (color, price, size, brand)
       const hasAnyFilter = parsedFilters.color || parsedFilters.price || parsedFilters.size || 
                           parsedFilters.brand || parsedFilters.material;
       
-      // 🔥 CRITICAL FIX: If message has "dua nje X" pattern where X looks like a category attempt,
-      // don't use session context - it's a new category request (possibly gibberish)
-      const hasDuaNjePattern = /dua\s+(nje|një|ndonje|ndonjë|ni)\s+\w+/i.test(message);
-      const isLikelyNewCategoryAttempt = hasDuaNjePattern && !hasAnyFilter && !hasFollowUpPattern;
-      
-      if (isLikelyNewCategoryAttempt) {
-        console.log(`[ChatbotService] 🚫 "dua nje X" pattern detected without valid filter - treating as failed new category request`);
-        // Don't use session category - this is a new category request that failed
-      } else if (hasFollowUpPattern || hasAnyFilter) {
+      if (hasFollowUpPattern && hasAnyFilter) {
+        // Valid follow-up: has both pattern and detected filter
         finalFilters.category = session.lastCategory;
-        console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category} (follow-up filter detected)`);
+        console.log(`[ChatbotService] ✅ Valid follow-up detected (pattern + filter) - retained category: ${finalFilters.category}`);
+      } else if (!hasFollowUpPattern && !hasAnyFilter) {
+        // Pure gibberish: no pattern, no filter
+        console.log(`[ChatbotService] 🚫 Gibberish detected (no pattern, no filter) - rejecting query`);
+        // Set finalFilters to indicate gibberish/unknown
+        finalFilters.category = 'GIBBERISH';
       } else {
-        console.log(`[ChatbotService] ❌ No category detected and no follow-up patterns - likely unknown category`);
-        // Don't use session category - user is asking for something new that we don't recognize
+        // Ambiguous: has pattern but no filter, or has filter but no pattern
+        console.log(`[ChatbotService] ⚠️ Ambiguous query (pattern: ${hasFollowUpPattern}, filter: ${hasAnyFilter}) - treating as new query attempt`);
+        // Don't use session category - might be trying to ask for something new
       }
     } else if (parsedFilters.category) {
       finalFilters.category = parsedFilters.category;
