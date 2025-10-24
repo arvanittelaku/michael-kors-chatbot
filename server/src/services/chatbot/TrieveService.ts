@@ -434,13 +434,15 @@ export class TrieveService {
   private static matchesPrice(product: Product, priceFilter: { min?: number; max?: number }): boolean {
     const productPrice = product.price || 0;
 
-    if (priceFilter.min !== undefined && productPrice < priceFilter.min) {
-      console.log(`[FILTER] 💰 Price ${productPrice} < min ${priceFilter.min}`);
+    // "mbi X" (over X) means price must be strictly greater than X
+    if (priceFilter.min !== undefined && productPrice <= priceFilter.min) {
+      console.log(`[FILTER] 💰 Price ${productPrice} <= min ${priceFilter.min} (excluded)`);
       return false;
     }
 
-    if (priceFilter.max !== undefined && productPrice > priceFilter.max) {
-      console.log(`[FILTER] 💰 Price ${productPrice} > max ${priceFilter.max}`);
+    // "nën X" (under X) means price must be strictly less than X
+    if (priceFilter.max !== undefined && productPrice >= priceFilter.max) {
+      console.log(`[FILTER] 💰 Price ${productPrice} >= max ${priceFilter.max} (excluded)`);
       return false;
     }
 
