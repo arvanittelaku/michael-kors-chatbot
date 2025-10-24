@@ -317,7 +317,23 @@ export class ChatbotService {
         } else if (finalFilters.color) {
           responseMessage = `Nuk gjeta produkte me ngjyrë ${finalFilters.color}. Mund të specifikoni një kategori për rezultate më të sakta.`;
         } else if (finalFilters.category) {
-          responseMessage = `Nuk gjeta ${finalFilters.category}. Mund të provoni me terma të tjerë.`;
+          // 🔥 CRITICAL FIX: Special handling for unavailable categories (kepuce, atlete)
+          const unavailableCategories = ['kepuce', 'atlete', 'shoes', 'sneakers'];
+          if (unavailableCategories.includes(finalFilters.category.toLowerCase())) {
+            console.log(`[ChatbotService] 🚫 User asked for unavailable category: ${finalFilters.category}`);
+            responseMessage = `Më vjen keq, nuk kemi ${finalFilters.category} në dispozicion aktualisht. Kemi këto kategori:\n\n` +
+              '👕 **Kemishe** - Shirts\n' +
+              '👖 **Pantallona** - Pants\n' +
+              '🧺 **Peshqir** - Towels\n' +
+              '👜 **Qante** - Bags\n' +
+              '👗 **Fustan** - Dresses\n' +
+              '🩴 **Pantofla** - Slippers\n' +
+              '🧢 **Kapele** - Hats\n' +
+              '👕 **Maice** - T-shirts\n\n' +
+              'Çfarë dëshironi të shihni?';
+          } else {
+            responseMessage = `Nuk gjeta ${finalFilters.category}. Mund të provoni me terma të tjerë.`;
+          }
         } else {
           responseMessage = 'Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.';
         }

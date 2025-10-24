@@ -54,7 +54,9 @@ export class OpenAIService {
 
 Your task: Parse the user's message and extract structured filters for product search.
 
-Available categories: kemishe (shirts), pantallona (pants), peshqir (towels), qante (bags), fustan (dresses), pantofla (slippers), kapele (hats), maice (t-shirts)
+Available categories: kemishe (shirts), pantallona (pants), peshqir (towels), qante (bags), fustan (dresses), pantofla (slippers), kapele (hats), maice (t-shirts), kepuce (shoes - NOT AVAILABLE), atlete (sneakers - NOT AVAILABLE)
+
+IMPORTANT: If user asks for kepuce or atlete, recognize the category correctly so the system can inform them these products are not available.
 
 Available colors: BLACK, WHITE, RED, BLUE, GREEN, YELLOW, BROWN, GRAY, PINK, PURPLE, ORANGE, BEIGE, CREAM, NAVY, SILVER (IMPORTANT: silver/argjend is a common color in our products!)
 
