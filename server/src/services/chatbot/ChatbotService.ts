@@ -115,21 +115,25 @@ export class ChatbotService {
         };
       }
       
-      // 🔥 CRITICAL: Check if user asked for "another brand" (ndonje mark tjeter)
+      // 🔥 CRITICAL: Check if user asked for brands
+      // Pattern 1: "ndonje mark tjeter" (another brand)
+      // Pattern 2: "qfar brands/brende" (what brands)
       const askedForOtherBrand = /ndon[eë]\s*(mark|marka|brand|brend)/i.test(message) && 
                                  /(tjeter|tjetër|tjera)/i.test(message);
+      const askedForBrands = /qfar|çfarë|cfare/i.test(message) && 
+                            /(brand|brend|mark|marka)/i.test(message);
       
-      if (askedForOtherBrand && products.length > 0) {
+      if ((askedForOtherBrand || askedForBrands) && products.length > 0) {
         const availableBrands = TrieveService.getAvailableBrands(products);
         
         if (availableBrands.length === 1) {
           // Only one brand exists
-          responseMessage = `Më vjen keq, vetëm marka ${availableBrands[0]} është e disponueshme për ${finalFilters.category?.toLowerCase() || 'këtë kategori'} aktualisht.`;
-          console.log(`[ChatbotService] 🏷️ User asked for other brands but only ${availableBrands[0]} exists`);
+          responseMessage = `Për ${finalFilters.category?.toLowerCase() || 'këtë kategori'}, vetëm marka ${availableBrands[0]} është e disponueshme aktualisht.`;
+          console.log(`[ChatbotService] 🏷️ User asked for brands but only ${availableBrands[0]} exists`);
         } else if (availableBrands.length > 1) {
-          // Multiple brands exist - show suggestion
-          responseMessage = `Markat e disponueshme janë: ${availableBrands.join(', ')}. Për shembull, provoni: "marka ${availableBrands[1]}" ose "${availableBrands[0]}".`;
-          console.log(`[ChatbotService] 🏷️ User asked for other brands - showing all ${availableBrands.length} available`);
+          // Multiple brands exist - show list
+          responseMessage = `Markat e disponueshme për ${finalFilters.category?.toLowerCase() || 'këtë kategori'} janë: ${availableBrands.join(', ')}. Për shembull, provoni: "marka ${availableBrands[0]}" ose "${availableBrands[1]}".`;
+          console.log(`[ChatbotService] 🏷️ User asked for brands - showing all ${availableBrands.length} available`);
         }
       }
       
@@ -341,13 +345,15 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
 
     // 🔥 EXPLORATORY QUERY: Clear all filters except category
-    // CRITICAL FIX: Check if brand mentions "qfar brand", "what brands", etc. (exploratory brand query)
+    // CRITICAL FIX: Check if brand mentions "qfar brand/brands", "what brands", etc. (exploratory brand query)
     const isExploratoryBrandQuery = isExploratory && (
       message.toLowerCase().includes('qfar brand') || 
-      message.toLowerCase().includes('qfar brende') ||
+      message.toLowerCase().includes('qfar brend') || // catches both "brend" and "brende"
       message.toLowerCase().includes('what brand') ||
       message.toLowerCase().includes('çfarë brand') ||
-      message.toLowerCase().includes('cfare brand')
+      message.toLowerCase().includes('cfare brand') ||
+      message.toLowerCase().includes('çfarë brend') ||
+      message.toLowerCase().includes('cfare brend')
     );
     
     if (isExploratoryBrandQuery || 
@@ -402,7 +408,15 @@ export class ChatbotService {
       const hasAnyFilter = parsedFilters.color || parsedFilters.price || parsedFilters.size || 
                           parsedFilters.brand || parsedFilters.material;
       
-      if (hasFollowUpPattern || hasAnyFilter) {
+      // 🔥 CRITICAL FIX: If message has "dua nje X" pattern where X looks like a category attempt,
+      // don't use session context - it's a new category request (possibly gibberish)
+      const hasDuaNjePattern = /dua\s+(nje|një|ndonje|ndonjë|ni)\s+\w+/i.test(message);
+      const isLikelyNewCategoryAttempt = hasDuaNjePattern && !hasAnyFilter && !hasFollowUpPattern;
+      
+      if (isLikelyNewCategoryAttempt) {
+        console.log(`[ChatbotService] 🚫 "dua nje X" pattern detected without valid filter - treating as failed new category request`);
+        // Don't use session category - this is a new category request that failed
+      } else if (hasFollowUpPattern || hasAnyFilter) {
         finalFilters.category = session.lastCategory;
         console.log(`[ChatbotService] 🔄 Retained category from session: ${finalFilters.category} (follow-up filter detected)`);
       } else {
