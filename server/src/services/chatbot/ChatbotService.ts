@@ -216,13 +216,26 @@ export class ChatbotService {
       if (products.length === 0) {
         // Smart error messages based on what filter failed
         
-        // If user asked for a specific brand that doesn't exist
-        if (finalFilters.brand && session.lastProducts && session.lastProducts.length > 0) {
-          const availableBrands = TrieveService.getAvailableBrands(session.lastProducts);
-          if (availableBrands.length > 0) {
-            responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category || 'këtë kategori'}. Markat e disponueshme janë: ${availableBrands.join(', ')}. Mund të zgjidhni një nga këto.`;
+        // 🔥 CRITICAL FIX: If user asked for a specific brand that doesn't exist
+        // Do a FRESH search without the brand to get ACTUAL available brands
+        if (finalFilters.brand && finalFilters.category) {
+          console.log(`[ChatbotService] 🔍 Brand "${finalFilters.brand}" not found, searching category without brand to get available brands...`);
+          
+          // Search again WITHOUT the brand filter to get actual products
+          const categoryOnlyFilters = { ...finalFilters, brand: undefined };
+          const categoryProducts = await TrieveService.getProducts(categoryOnlyFilters);
+          
+          if (categoryProducts.length > 0) {
+            const availableBrands = TrieveService.getAvailableBrands(categoryProducts);
+            if (availableBrands.length > 0) {
+              responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category}. Markat e disponueshme janë: ${availableBrands.join(', ')}. Këtu janë disa ${finalFilters.category}:`;
+              // Use the category-only products, NOT the original empty results
+              products = categoryProducts;
+            } else {
+              responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category}.`;
+            }
           } else {
-            responseMessage = `Më vjen keq, nuk kemi markën "${finalFilters.brand}" në ${finalFilters.category || 'këtë kategori'}.`;
+            responseMessage = `Më vjen keq, nuk kemi ${finalFilters.category} në dispozicion aktualisht.`;
           }
         }
         // If user asked for a color that doesn't exist

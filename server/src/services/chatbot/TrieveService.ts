@@ -47,6 +47,14 @@ export class TrieveService {
       console.log('[TrieveService] 📡 Trieve API response received');
       console.log('[TrieveService] 📊 Response structure:', Object.keys(response.data || {}));
       console.log('[TrieveService] 📊 Number of chunks:', response.data.chunks?.length || 0);
+      
+      // 🔥 DEBUG: Log first 3 product names for kemishe debugging
+      if (filters.category === 'kemishe' && response.data.chunks?.length > 0) {
+        console.log('[TrieveService] 🔍 DEBUG kemishe - First 3 product names from Trieve:');
+        response.data.chunks.slice(0, 3).forEach((chunk: any, i: number) => {
+          console.log(`  ${i + 1}. ${chunk.chunk_html?.metadata?.name || chunk.metadata?.name || 'NO NAME'}`);
+        });
+      }
 
       // Map Trieve chunks to Product objects
       const products = response.data.chunks.map((chunk: any) => 
@@ -64,6 +72,20 @@ export class TrieveService {
       );
 
       console.log(`[TrieveService] 🎯 After filtering: ${filteredProducts.length} products match criteria`);
+      
+      // 🔥 DEBUG: If kemishe and 0 results, log what happened
+      if (filters.category === 'kemishe' && filteredProducts.length === 0) {
+        console.log('[TrieveService] 🚨 DEBUG kemishe - 0 results after filtering!');
+        if (products.length > 0) {
+          console.log(`[TrieveService] 🚨 Had ${products.length} products from Trieve but all were filtered out`);
+          console.log('[TrieveService] 🚨 Sample products that were filtered:');
+          products.slice(0, 3).forEach((p: Product, i: number) => {
+            console.log(`  ${i + 1}. "${p.name}" - categories: ${JSON.stringify(p.categories)}`);
+          });
+        } else {
+          console.log('[TrieveService] 🚨 Trieve returned 0 products for search query: "kemishe"');
+        }
+      }
       
       if (filteredProducts.length > 0) {
         console.log("🟢 Real data from Trieve used");
