@@ -553,21 +553,38 @@ export class ChatbotService {
       // Only apply new filters from current message
       finalFilters = { ...parsedFilters };
     } else {
-      // Step 3: Merge session filters with current message filters
-      // Session filters are base, current message overrides specific keys
+      // Step 3: Smart filter merging with intent detection
       if (session.appliedFilters) {
-        console.log(`[ChatbotService] 🔄 Merging session filters:`, session.appliedFilters);
+        console.log(`[ChatbotService] 🔄 Session filters available:`, session.appliedFilters);
       }
       
-      // Merge strategy: session base + current message overrides
-      finalFilters = {
-        category: finalFilters.category, // Already determined above
-        brand: parsedFilters.brand ?? session.appliedFilters?.brand ?? null,
-        color: parsedFilters.color ?? session.appliedFilters?.color ?? null,
-        size: parsedFilters.size ?? session.appliedFilters?.size ?? null,
-        price: parsedFilters.price ?? session.appliedFilters?.price ?? null,
-        material: parsedFilters.material ?? session.appliedFilters?.material ?? null
-      };
+      // 🔥 CRITICAL FIX: Detect if user is refining search with NEW filters
+      // If user adds color/price/size WITHOUT mentioning brand again, CLEAR the brand
+      const hasNewVisualFilter = parsedFilters.color || parsedFilters.price || parsedFilters.size;
+      const hadOldBrand = session.appliedFilters?.brand && !parsedFilters.brand;
+      
+      if (hasNewVisualFilter && hadOldBrand) {
+        console.log(`[ChatbotService] 🔄 User added new filters (color/price/size) without mentioning brand - CLEARING old brand`);
+        // User is refining with visual filters, clear the old brand
+        finalFilters = {
+          category: finalFilters.category,
+          brand: null, // CLEAR old brand
+          color: parsedFilters.color ?? session.appliedFilters?.color ?? null,
+          size: parsedFilters.size ?? session.appliedFilters?.size ?? null,
+          price: parsedFilters.price ?? session.appliedFilters?.price ?? null,
+          material: parsedFilters.material ?? session.appliedFilters?.material ?? null
+        };
+      } else {
+        // Standard merge: new values override, old values persist if not overridden
+        finalFilters = {
+          category: finalFilters.category,
+          brand: parsedFilters.brand ?? session.appliedFilters?.brand ?? null,
+          color: parsedFilters.color ?? session.appliedFilters?.color ?? null,
+          size: parsedFilters.size ?? session.appliedFilters?.size ?? null,
+          price: parsedFilters.price ?? session.appliedFilters?.price ?? null,
+          material: parsedFilters.material ?? session.appliedFilters?.material ?? null
+        };
+      }
       
       console.log(`[ChatbotService] ✅ Merged filters:`, finalFilters);
     }
