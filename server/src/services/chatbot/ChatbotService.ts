@@ -236,6 +236,12 @@ export class ChatbotService {
   private static isExploratoryQuery(message: string): boolean {
     const lowerMessage = message.toLowerCase();
     
+    // EXCLUDE pagination patterns - these are NOT exploratory
+    const paginationPatterns = ['ndonje tjeter', 'ndonje tjetër', 'me shume', 'më shumë'];
+    if (paginationPatterns.some(p => lowerMessage.includes(p))) {
+      return false; // Pagination, not exploration
+    }
+    
     // Exploratory patterns - user wants to see ALL options
     const exploratoryPatterns = [
       // Albanian "what" questions
@@ -247,9 +253,7 @@ export class ChatbotService {
       // "all" / "everything"
       'te gjitha', 'të gjitha', 'gjitha', 'çdo', 'cdo',
       // English equivalents
-      'what', 'show', 'all', 'everything', 'have',
-      // "other" when standalone (not part of filter)
-      'tjeter', 'tjetër'
+      'what', 'show', 'all', 'everything', 'have'
     ];
     
     // Check for exploratory patterns
@@ -317,12 +321,14 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
 
     // 🔥 EXPLORATORY QUERY: Clear all filters except category
-    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price) {
-      console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing filters to show all options`);
+    // Only trigger if the current message doesn't have specific filters
+    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price && !parsedFilters.size) {
+      console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing ALL filters to show all options`);
       
       // Keep only the category (either from parsed or session)
       const categoryToUse = parsedFilters.category || session.lastCategory;
       
+      // Return ONLY category, clear everything else from session
       return {
         category: categoryToUse
       };
