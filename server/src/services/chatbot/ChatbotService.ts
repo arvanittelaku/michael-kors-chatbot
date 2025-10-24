@@ -2,6 +2,7 @@ import { ChatRequest, ChatResponse, Product } from './types';
 import { TrieveService } from './TrieveService';
 import { SessionManager } from './SessionManager';
 import { MessageParser, buildNormalizedFilters } from './MessageParser';
+import OpenAIService from '../ai/OpenAIService';
 
 // Global SessionManager instance
 const sessionManager = new SessionManager();
@@ -31,14 +32,32 @@ export class ChatbotService {
         };
       }
 
-      // 3. Parse the message using MessageParser
-      const messageParser = new MessageParser();
-      const rawParsedFilters = messageParser.parse(message);
-      console.log(`[ChatbotService] 🔍 RAW parsed filters from message:`, rawParsedFilters);
+      // 3. 🤖 Try OpenAI parsing first (if enabled), then fallback to regex
+      let parsedFilters: any = {};
       
-      // 3.5 🔥 NEW: Normalize filters (xs→XS, black→BLACK, etc.)
-      const parsedFilters = buildNormalizedFilters(rawParsedFilters);
-      console.log(`[ChatbotService] ✨ NORMALIZED parsed filters:`, parsedFilters);
+      if (OpenAIService.isEnabled()) {
+        console.log(`[ChatbotService] 🤖 Attempting OpenAI intent parsing...`);
+        const aiParsed = await OpenAIService.parseUserIntent(message, session.messageHistory);
+        
+        if (aiParsed) {
+          console.log(`[ChatbotService] ✅ OpenAI parsed filters:`, aiParsed);
+          parsedFilters = aiParsed;
+        } else {
+          console.log(`[ChatbotService] ⚠️ OpenAI parsing failed, falling back to regex`);
+        }
+      }
+      
+      // Fallback to regex-based MessageParser if OpenAI is disabled or failed
+      if (!OpenAIService.isEnabled() || Object.keys(parsedFilters).length === 0) {
+        console.log(`[ChatbotService] 🔍 Using regex-based MessageParser...`);
+        const messageParser = new MessageParser();
+        const rawParsedFilters = messageParser.parse(message);
+        console.log(`[ChatbotService] 🔍 RAW parsed filters from message:`, rawParsedFilters);
+        
+        // 3.5 🔥 Normalize filters (xs→XS, black→BLACK, etc.)
+        parsedFilters = buildNormalizedFilters(rawParsedFilters);
+        console.log(`[ChatbotService] ✨ NORMALIZED parsed filters:`, parsedFilters);
+      }
 
       // 4. Apply context-aware filtering logic (with message for intent detection)
       const finalFilters = this.applyContextFiltering(parsedFilters, session, message);
@@ -209,7 +228,28 @@ export class ChatbotService {
         }
       }
 
-      // 7. Update session with new data
+      // 7. 🤖 Try OpenAI response generation (if enabled and we have a response message)
+      if (OpenAIService.isEnabled() && products.length > 0) {
+        console.log(`[ChatbotService] 🤖 Attempting OpenAI response generation...`);
+        const aiResponse = await OpenAIService.generateResponse({
+          userMessage: message,
+          extractedFilters: finalFilters,
+          products: products,
+          conversationHistory: session.messageHistory,
+          availableBrands: TrieveService.getAvailableBrands(products),
+          availableColors: TrieveService.getAvailableColors(products),
+          priceRange: TrieveService.getPriceRange(products)
+        });
+        
+        if (aiResponse) {
+          console.log(`[ChatbotService] ✅ Using OpenAI-generated response`);
+          responseMessage = aiResponse;
+        } else {
+          console.log(`[ChatbotService] ⚠️ OpenAI response generation failed, using template`);
+        }
+      }
+
+      // 8. Update session with new data
       const updatedSession = sessionManager.updateSession(userId, {
         lastCategory: finalFilters.category || session.lastCategory,
         appliedFilters: finalFilters,
