@@ -271,11 +271,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250237509",
+          "userId": "test_1761292702300",
           "messageHistory": [
             "Kam nevojë për peshqir"
           ],
-          "timestamp": 1761250238618,
+          "timestamp": 1761292725384,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir"
@@ -545,9 +545,9 @@
       "id": "B1",
       "utterance": "pantolla marka TOM TAILOR",
       "expected": "Only TOM TAILOR pants returned",
-      "actual": "Returned 2 items. Brands: TOM TAILOR",
+      "actual": "Returned 4 items. Brands: TOM TAILOR",
       "result": "PASS",
-      "transcript": "Mund të filtroni sipas: çmim ($44-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
+      "transcript": "Mund të filtroni sipas: ngjyrë (Apparel, Mixed Colors), çmim ($17-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
       "filters": {
         "category": "pantallona",
         "brand": "TOM TAILOR"
@@ -557,8 +557,32 @@
         "message": "pantolla marka TOM TAILOR"
       },
       "backendResponse": {
-        "message": "Mund të filtroni sipas: çmim ($44-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
+        "message": "Mund të filtroni sipas: ngjyrë (Apparel, Mixed Colors), çmim ($17-$44). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
         "products": [
+          {
+            "id": "68102117571",
+            "name": "Pantallona",
+            "price": 44,
+            "color": "Mixed Colors",
+            "size": "S",
+            "material": "74% PL",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "68102117571",
+            "categories": [
+              "2025",
+              "apparel",
+              "chn",
+              "female",
+              "infant",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+            ]
+          },
           {
             "id": "68102117571",
             "name": "Pantallona",
@@ -584,42 +608,89 @@
             ]
           },
           {
-            "id": "68102117571",
-            "name": "Pantallona",
-            "price": 44,
+            "id": "62100811970",
+            "name": "Jeans",
+            "price": 26,
             "color": "Mixed Colors",
-            "size": "S",
-            "material": "74% PL",
+            "size": "27/30",
+            "material": "50% OCO",
             "brand": "TOM TAILOR",
             "_source": "trieve",
-            "tracking_id": "68102117571",
+            "tracking_id": "62100811970",
             "categories": [
               "2025",
               "apparel",
-              "chn",
+              "bgd",
               "female",
               "infant",
-              "pantallona"
+              "jeans"
             ],
             "images": [
-              "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
-              "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
-              "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_3.jpg"
+            ]
+          },
+          {
+            "id": "62100812270",
+            "name": "Jeans",
+            "price": 17,
+            "color": "Apparel",
+            "size": "27/30",
+            "material": "42% CO",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "62100812270",
+            "categories": [
+              "spring/summer",
+              "1",
+              "2% ea",
+              "2",
+              "jeans"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
             ]
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250238742",
+          "userId": "test_1761292724517",
           "messageHistory": [
             "pantolla marka TOM TAILOR"
           ],
-          "timestamp": 1761250239613,
+          "timestamp": 1761292726007,
           "lastCategory": "pantallona",
           "appliedFilters": {
             "category": "pantallona",
             "brand": "TOM TAILOR"
           },
           "lastProducts": [
+            {
+              "id": "68102117571",
+              "name": "Pantallona",
+              "price": 44,
+              "color": "Mixed Colors",
+              "size": "S",
+              "material": "74% PL",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "68102117571",
+              "categories": [
+                "2025",
+                "apparel",
+                "chn",
+                "female",
+                "infant",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+              ]
+            },
             {
               "id": "68102117571",
               "name": "Pantallona",
@@ -645,27 +716,50 @@
               ]
             },
             {
-              "id": "68102117571",
-              "name": "Pantallona",
-              "price": 44,
+              "id": "62100811970",
+              "name": "Jeans",
+              "price": 26,
               "color": "Mixed Colors",
-              "size": "S",
-              "material": "74% PL",
+              "size": "27/30",
+              "material": "50% OCO",
               "brand": "TOM TAILOR",
               "_source": "trieve",
-              "tracking_id": "68102117571",
+              "tracking_id": "62100811970",
               "categories": [
                 "2025",
                 "apparel",
-                "chn",
+                "bgd",
                 "female",
                 "infant",
-                "pantallona"
+                "jeans"
               ],
               "images": [
-                "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
-                "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
-                "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_3.jpg"
+              ]
+            },
+            {
+              "id": "62100812270",
+              "name": "Jeans",
+              "price": 17,
+              "color": "Apparel",
+              "size": "27/30",
+              "material": "42% CO",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "62100812270",
+              "categories": [
+                "spring/summer",
+                "1",
+                "2% ea",
+                "2",
+                "jeans"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
               ]
             }
           ]
@@ -753,11 +847,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250239722",
+          "userId": "test_1761292725122",
           "messageHistory": [
             "peshqir i kuq"
           ],
-          "timestamp": 1761250240162,
+          "timestamp": 1761292726604,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -895,11 +989,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250240276",
+          "userId": "test_1761292725721",
           "messageHistory": [
             "peshqir te kuq"
           ],
-          "timestamp": 1761250240723,
+          "timestamp": 1761292727130,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1037,11 +1131,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250240835",
+          "userId": "test_1761292726246",
           "messageHistory": [
             "peshqir ngjyrë e kuqe"
           ],
-          "timestamp": 1761250241288,
+          "timestamp": 1761292727661,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1132,11 +1226,11 @@
         "message": "Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
         "products": [],
         "sessionContext": {
-          "userId": "test_1761250241393",
+          "userId": "test_1761292726776",
           "messageHistory": [
             "peshqir nën $20"
           ],
-          "timestamp": 1761250241799,
+          "timestamp": 1761292728193,
           "lastProducts": []
         }
       },
@@ -1422,11 +1516,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250241910",
+          "userId": "test_1761292727313",
           "messageHistory": [
             "peshqir më të lira"
           ],
-          "timestamp": 1761250242309,
+          "timestamp": 1761292728683,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir"
@@ -1709,19 +1803,19 @@
         "priceMax": 20
       },
       "backendRequest": {
-        "userId": "test_multiturn_1761250242422",
+        "userId": "test_multiturn_1761292727800",
         "message": "nën $20"
       },
       "backendResponse": {
         "message": "Na vjen keq, por nuk kemi produkte të kësaj kategorie. Mund të provoni me kategori të tjera si kemishe, pantallona, qante, fustan, pantofla, peshqir, ose maice.",
         "products": [],
         "sessionContext": {
-          "userId": "test_multiturn_1761250242422",
+          "userId": "test_multiturn_1761292727800",
           "messageHistory": [
             "peshqir",
             "nën $20"
           ],
-          "timestamp": 1761250243904,
+          "timestamp": 1761292730284,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir"
@@ -1808,11 +1902,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250244012",
+          "userId": "test_1761292729400",
           "messageHistory": [
             "peshqir te kuq"
           ],
-          "timestamp": 1761250244427,
+          "timestamp": 1761292730789,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1888,125 +1982,17 @@
       "id": "F2",
       "utterance": "pantolla te boss",
       "expected": "Brand BOSS",
-      "actual": "Products: 8. Message: Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më ...",
+      "actual": "Products: 10. Message: Mund të filtroni sipas: ngjyrë (BLACK, DARK BLUE, Mixed Colors...), çmim ($14-$50). Për shembull: \"m...",
       "result": "PASS",
-      "transcript": "Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+      "transcript": "Mund të filtroni sipas: ngjyrë (BLACK, DARK BLUE, Mixed Colors...), çmim ($14-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
       "filters": null,
       "backendRequest": {
         "userId": "test",
         "message": "pantolla te boss"
       },
       "backendResponse": {
-        "message": "Mund të filtroni sipas: ngjyrë (DARK BLUE, Mixed Colors, SILVER), çmim ($22-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
+        "message": "Mund të filtroni sipas: ngjyrë (BLACK, DARK BLUE, Mixed Colors...), çmim ($14-$50). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka BOSS\".",
         "products": [
-          {
-            "id": "50527969",
-            "name": "PANTALLONA",
-            "price": 43,
-            "color": "Mixed Colors",
-            "size": "52",
-            "material": "98% Virgin wool 2% Elastane",
-            "brand": "BOSS",
-            "_source": "trieve",
-            "tracking_id": "50527969",
-            "categories": [
-              "apparel",
-              "trousers",
-              "male",
-              "newborn",
-              "fall/winter",
-              "pantallona"
-            ],
-            "images": [
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
-            ]
-          },
-          {
-            "id": "50521051",
-            "name": "PANTALLONA",
-            "price": 22,
-            "color": "SILVER",
-            "size": "48",
-            "material": "67% Polyester 29% Viscose 4% Elastane",
-            "brand": "BOSS",
-            "_source": "trieve",
-            "tracking_id": "50521051",
-            "categories": [
-              "apparel",
-              "trousers",
-              "male",
-              "newborn",
-              "fall/winter",
-              "pantallona"
-            ],
-            "images": [
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-            ]
-          },
-          {
-            "id": "50521051",
-            "name": "PANTALLONA",
-            "price": 38,
-            "color": "SILVER",
-            "size": "52",
-            "material": "67% Polyester 29% Viscose 4% Elastane",
-            "brand": "BOSS",
-            "_source": "trieve",
-            "tracking_id": "50521051",
-            "categories": [
-              "apparel",
-              "trousers",
-              "male",
-              "newborn",
-              "fall/winter",
-              "pantallona"
-            ],
-            "images": [
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-            ]
-          },
-          {
-            "id": "50521051",
-            "name": "PANTALLONA",
-            "price": 28,
-            "color": "SILVER",
-            "size": "54",
-            "material": "67% Polyester 29% Viscose 4% Elastane",
-            "brand": "BOSS",
-            "_source": "trieve",
-            "tracking_id": "50521051",
-            "categories": [
-              "apparel",
-              "trousers",
-              "male",
-              "newborn",
-              "fall/winter",
-              "pantallona"
-            ],
-            "images": [
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-            ]
-          },
           {
             "id": "50514199",
             "name": "PANTALLONA",
@@ -2114,128 +2100,181 @@
               "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
               "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
             ]
+          },
+          {
+            "id": "50514321",
+            "name": "PANTALLONA",
+            "price": 14,
+            "color": "BLACK",
+            "size": "36",
+            "material": "92% Cotton 6% Elastomultiester 2% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50514321",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "spring/summer",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063542382252_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 22,
+            "color": "SILVER",
+            "size": "48",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 38,
+            "color": "SILVER",
+            "size": "52",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50527969",
+            "name": "PANTALLONA",
+            "price": 43,
+            "color": "Mixed Colors",
+            "size": "52",
+            "material": "98% Virgin wool 2% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50527969",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
+            ]
+          },
+          {
+            "id": "50521051",
+            "name": "PANTALLONA",
+            "price": 28,
+            "color": "SILVER",
+            "size": "54",
+            "material": "67% Polyester 29% Viscose 4% Elastane",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50521051",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+            ]
+          },
+          {
+            "id": "50469169",
+            "name": "PANTALLONA",
+            "price": 20,
+            "color": "BLACK",
+            "size": "48",
+            "material": "100% Virgin wool",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50469169",
+            "categories": [
+              "apparel",
+              "trousers",
+              "male",
+              "adult",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_1.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_2.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_3.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_4.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_5.jpg",
+              "http://91.187.98.69:8001/07/2615/Published/4021401883241_5.jpg"
+            ]
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250244532",
+          "userId": "test_1761292729904",
           "messageHistory": [
             "pantolla te boss"
           ],
-          "timestamp": 1761250244912,
+          "timestamp": 1761292731267,
           "lastCategory": "pantallona",
           "appliedFilters": {
             "category": "pantallona",
             "brand": "BOSS"
           },
           "lastProducts": [
-            {
-              "id": "50527969",
-              "name": "PANTALLONA",
-              "price": 43,
-              "color": "Mixed Colors",
-              "size": "52",
-              "material": "98% Virgin wool 2% Elastane",
-              "brand": "BOSS",
-              "_source": "trieve",
-              "tracking_id": "50527969",
-              "categories": [
-                "apparel",
-                "trousers",
-                "male",
-                "newborn",
-                "fall/winter",
-                "pantallona"
-              ],
-              "images": [
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
-              ]
-            },
-            {
-              "id": "50521051",
-              "name": "PANTALLONA",
-              "price": 22,
-              "color": "SILVER",
-              "size": "48",
-              "material": "67% Polyester 29% Viscose 4% Elastane",
-              "brand": "BOSS",
-              "_source": "trieve",
-              "tracking_id": "50521051",
-              "categories": [
-                "apparel",
-                "trousers",
-                "male",
-                "newborn",
-                "fall/winter",
-                "pantallona"
-              ],
-              "images": [
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-              ]
-            },
-            {
-              "id": "50521051",
-              "name": "PANTALLONA",
-              "price": 38,
-              "color": "SILVER",
-              "size": "52",
-              "material": "67% Polyester 29% Viscose 4% Elastane",
-              "brand": "BOSS",
-              "_source": "trieve",
-              "tracking_id": "50521051",
-              "categories": [
-                "apparel",
-                "trousers",
-                "male",
-                "newborn",
-                "fall/winter",
-                "pantallona"
-              ],
-              "images": [
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-              ]
-            },
-            {
-              "id": "50521051",
-              "name": "PANTALLONA",
-              "price": 28,
-              "color": "SILVER",
-              "size": "54",
-              "material": "67% Polyester 29% Viscose 4% Elastane",
-              "brand": "BOSS",
-              "_source": "trieve",
-              "tracking_id": "50521051",
-              "categories": [
-                "apparel",
-                "trousers",
-                "male",
-                "newborn",
-                "fall/winter",
-                "pantallona"
-              ],
-              "images": [
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
-                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
-              ]
-            },
             {
               "id": "50514199",
               "name": "PANTALLONA",
@@ -2342,6 +2381,167 @@
                 "http://91.187.98.69:8001/07/2615/Published/4063542378019_4.jpg",
                 "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg",
                 "http://91.187.98.69:8001/07/2615/Published/4063542378019_5.jpg"
+              ]
+            },
+            {
+              "id": "50514321",
+              "name": "PANTALLONA",
+              "price": 14,
+              "color": "BLACK",
+              "size": "36",
+              "material": "92% Cotton 6% Elastomultiester 2% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50514321",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "spring/summer",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063542382252_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 22,
+              "color": "SILVER",
+              "size": "48",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 38,
+              "color": "SILVER",
+              "size": "52",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50527969",
+              "name": "PANTALLONA",
+              "price": 43,
+              "color": "Mixed Colors",
+              "size": "52",
+              "material": "98% Virgin wool 2% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50527969",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063544641920_5.jpg"
+              ]
+            },
+            {
+              "id": "50521051",
+              "name": "PANTALLONA",
+              "price": 28,
+              "color": "SILVER",
+              "size": "54",
+              "material": "67% Polyester 29% Viscose 4% Elastane",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50521051",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4063543494633_5.jpg"
+              ]
+            },
+            {
+              "id": "50469169",
+              "name": "PANTALLONA",
+              "price": 20,
+              "color": "BLACK",
+              "size": "48",
+              "material": "100% Virgin wool",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50469169",
+              "categories": [
+                "apparel",
+                "trousers",
+                "male",
+                "adult",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_1.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_2.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_3.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_4.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_5.jpg",
+                "http://91.187.98.69:8001/07/2615/Published/4021401883241_5.jpg"
               ]
             }
           ]
@@ -2589,28 +2789,6 @@
             "name": "ATLETE",
             "price": 45,
             "color": "BLACK",
-            "size": "42",
-            "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
-            "brand": "BOSS",
-            "_source": "trieve",
-            "tracking_id": "50502893",
-            "categories": [
-              "footwear",
-              "sneakers",
-              "male",
-              "newborn",
-              "fall/winter",
-              "atlete"
-            ],
-            "images": [
-              "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
-            ]
-          },
-          {
-            "id": "50502893",
-            "name": "ATLETE",
-            "price": 45,
-            "color": "BLACK",
             "size": "44",
             "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
             "brand": "BOSS",
@@ -2627,14 +2805,36 @@
             "images": [
               "http://91.187.98.69:8001/07/2615/Published/4063539050881_1.jpg"
             ]
+          },
+          {
+            "id": "50502893",
+            "name": "ATLETE",
+            "price": 45,
+            "color": "BLACK",
+            "size": "42",
+            "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+            "brand": "BOSS",
+            "_source": "trieve",
+            "tracking_id": "50502893",
+            "categories": [
+              "footwear",
+              "sneakers",
+              "male",
+              "newborn",
+              "fall/winter",
+              "atlete"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
+            ]
           }
         ],
         "sessionContext": {
-          "userId": "test_1761250245027",
+          "userId": "test_1761292730382",
           "messageHistory": [
             "me te lira"
           ],
-          "timestamp": 1761250245445,
+          "timestamp": 1761292731774,
           "appliedFilters": {},
           "lastProducts": [
             {
@@ -2848,28 +3048,6 @@
               "name": "ATLETE",
               "price": 45,
               "color": "BLACK",
-              "size": "42",
-              "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
-              "brand": "BOSS",
-              "_source": "trieve",
-              "tracking_id": "50502893",
-              "categories": [
-                "footwear",
-                "sneakers",
-                "male",
-                "newborn",
-                "fall/winter",
-                "atlete"
-              ],
-              "images": [
-                "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
-              ]
-            },
-            {
-              "id": "50502893",
-              "name": "ATLETE",
-              "price": 45,
-              "color": "BLACK",
               "size": "44",
               "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
               "brand": "BOSS",
@@ -2885,6 +3063,28 @@
               ],
               "images": [
                 "http://91.187.98.69:8001/07/2615/Published/4063539050881_1.jpg"
+              ]
+            },
+            {
+              "id": "50502893",
+              "name": "ATLETE",
+              "price": 45,
+              "color": "BLACK",
+              "size": "42",
+              "material": "Lining 100% Polyester Lining 100% Cow hide leather Sole 100% Rubber Upper material 100% Cow hide lea",
+              "brand": "BOSS",
+              "_source": "trieve",
+              "tracking_id": "50502893",
+              "categories": [
+                "footwear",
+                "sneakers",
+                "male",
+                "newborn",
+                "fall/winter",
+                "atlete"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2615/Published/4063538789904_1.jpg"
               ]
             }
           ]
@@ -2910,27 +3110,489 @@
       "id": "F4",
       "utterance": "tom tailor",
       "expected": "Brand TOM TAILOR (lowercase)",
-      "actual": "Products: 0. Message: Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë....",
+      "actual": "Products: 10. Message: Mund të filtroni sipas: ngjyrë (Apparel, BLACK GREY MELANGE, DARK STONE WASH DENIM...), çmim ($11-$4...",
       "result": "PASS",
-      "transcript": "Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.",
+      "transcript": "Mund të filtroni sipas: ngjyrë (Apparel, BLACK GREY MELANGE, DARK STONE WASH DENIM...), çmim ($11-$49). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
       "filters": null,
       "backendRequest": {
         "userId": "test",
         "message": "tom tailor"
       },
       "backendResponse": {
-        "message": "Nuk gjeta produkte që përputhen me kërkesën tuaj. Mund të provoni me terma të tjerë.",
-        "products": [],
+        "message": "Mund të filtroni sipas: ngjyrë (Apparel, BLACK GREY MELANGE, DARK STONE WASH DENIM...), çmim ($11-$49). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka TOM TAILOR\".",
+        "products": [
+          {
+            "id": "30103842710",
+            "name": "Pulover",
+            "price": 14,
+            "color": "VINTAGE INDIGO BLUE MELANGE",
+            "size": "S",
+            "material": "Base yarn 1(CO 100%)",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30103842710",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "pulover"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4067261790480_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790480_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790480_3.jpg"
+            ]
+          },
+          {
+            "id": "30104295270",
+            "name": "Pulover i thurur me vija për femra",
+            "price": 18,
+            "color": "Sweaters",
+            "size": "XS",
+            "material": "60% CO",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30104295270",
+            "categories": [
+              "1",
+              "109",
+              "2",
+              "pulover i thurur me vija për femra"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_3.jpg"
+            ]
+          },
+          {
+            "id": "30103842610",
+            "name": "Pulover me jakë rrumbullak",
+            "price": 15,
+            "color": "VINTAGE INDIGO BLUE MELANGE",
+            "size": "M",
+            "material": "Base yarn 1(CO 100%)",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30103842610",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "pulover me jakë rrumbullak"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4067261790237_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790237_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790237_3.jpg"
+            ]
+          },
+          {
+            "id": "62100811970",
+            "name": "Jeans",
+            "price": 26,
+            "color": "Mixed Colors",
+            "size": "27/30",
+            "material": "50% OCO",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "62100811970",
+            "categories": [
+              "2025",
+              "apparel",
+              "bgd",
+              "female",
+              "infant",
+              "jeans"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945255043_3.jpg"
+            ]
+          },
+          {
+            "id": "30104295270",
+            "name": "Pulover i thurur me vija për femra",
+            "price": 40,
+            "color": "Sweaters",
+            "size": "S",
+            "material": "60% CO",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30104295270",
+            "categories": [
+              "1",
+              "109",
+              "2",
+              "pulover i thurur me vija për femra"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4068127252524_3.jpg"
+            ]
+          },
+          {
+            "id": "30103842710",
+            "name": "Pulover me jakë V",
+            "price": 11,
+            "color": "BLACK GREY MELANGE",
+            "size": "XL",
+            "material": "Base yarn 1(CO 100%)",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30103842710",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "pulover me jakë v"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4067261790589_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790589_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790589_3.jpg"
+            ]
+          },
+          {
+            "id": "30103842610",
+            "name": "Pulover me jakë rrumbullak",
+            "price": 39,
+            "color": "KNITTED NAVY MELANGE",
+            "size": "S",
+            "material": "Base yarn 1(CO 100%)",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "30103842610",
+            "categories": [
+              "apparel",
+              "sweaters",
+              "male",
+              "adult",
+              "pulover me jakë rrumbullak"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4067261790398_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790398_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4067261790398_3.jpg"
+            ]
+          },
+          {
+            "id": "68102117571",
+            "name": "Pantallona",
+            "price": 44,
+            "color": "Mixed Colors",
+            "size": "S",
+            "material": "74% PL",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "68102117571",
+            "categories": [
+              "2025",
+              "apparel",
+              "chn",
+              "female",
+              "infant",
+              "pantallona"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+            ]
+          },
+          {
+            "id": "62100812270",
+            "name": "Jeans",
+            "price": 17,
+            "color": "Apparel",
+            "size": "27/30",
+            "material": "42% CO",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "62100812270",
+            "categories": [
+              "spring/summer",
+              "1",
+              "2% ea",
+              "2",
+              "jeans"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
+            ]
+          },
+          {
+            "id": "62100812270",
+            "name": "Jeans",
+            "price": 49,
+            "color": "DARK STONE WASH DENIM",
+            "size": "26/32",
+            "material": "Cotton",
+            "brand": "TOM TAILOR",
+            "_source": "trieve",
+            "tracking_id": "62100812270",
+            "categories": [
+              "apparel",
+              "jeans",
+              "female",
+              "infant",
+              "fall/winter"
+            ],
+            "images": [
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+              "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
+            ]
+          }
+        ],
         "sessionContext": {
-          "userId": "test_1761250245557",
+          "userId": "test_1761292730897",
           "messageHistory": [
             "tom tailor"
           ],
-          "timestamp": 1761250245945,
+          "timestamp": 1761292732343,
           "appliedFilters": {
             "brand": "TOM TAILOR"
           },
-          "lastProducts": []
+          "lastProducts": [
+            {
+              "id": "30103842710",
+              "name": "Pulover",
+              "price": 14,
+              "color": "VINTAGE INDIGO BLUE MELANGE",
+              "size": "S",
+              "material": "Base yarn 1(CO 100%)",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30103842710",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "pulover"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4067261790480_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790480_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790480_3.jpg"
+              ]
+            },
+            {
+              "id": "30104295270",
+              "name": "Pulover i thurur me vija për femra",
+              "price": 18,
+              "color": "Sweaters",
+              "size": "XS",
+              "material": "60% CO",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30104295270",
+              "categories": [
+                "1",
+                "109",
+                "2",
+                "pulover i thurur me vija për femra"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_3.jpg"
+              ]
+            },
+            {
+              "id": "30103842610",
+              "name": "Pulover me jakë rrumbullak",
+              "price": 15,
+              "color": "VINTAGE INDIGO BLUE MELANGE",
+              "size": "M",
+              "material": "Base yarn 1(CO 100%)",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30103842610",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "pulover me jakë rrumbullak"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4067261790237_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790237_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790237_3.jpg"
+              ]
+            },
+            {
+              "id": "62100811970",
+              "name": "Jeans",
+              "price": 26,
+              "color": "Mixed Colors",
+              "size": "27/30",
+              "material": "50% OCO",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "62100811970",
+              "categories": [
+                "2025",
+                "apparel",
+                "bgd",
+                "female",
+                "infant",
+                "jeans"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945255043_3.jpg"
+              ]
+            },
+            {
+              "id": "30104295270",
+              "name": "Pulover i thurur me vija për femra",
+              "price": 40,
+              "color": "Sweaters",
+              "size": "S",
+              "material": "60% CO",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30104295270",
+              "categories": [
+                "1",
+                "109",
+                "2",
+                "pulover i thurur me vija për femra"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4068127252524_3.jpg"
+              ]
+            },
+            {
+              "id": "30103842710",
+              "name": "Pulover me jakë V",
+              "price": 11,
+              "color": "BLACK GREY MELANGE",
+              "size": "XL",
+              "material": "Base yarn 1(CO 100%)",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30103842710",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "pulover me jakë v"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4067261790589_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790589_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790589_3.jpg"
+              ]
+            },
+            {
+              "id": "30103842610",
+              "name": "Pulover me jakë rrumbullak",
+              "price": 39,
+              "color": "KNITTED NAVY MELANGE",
+              "size": "S",
+              "material": "Base yarn 1(CO 100%)",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "30103842610",
+              "categories": [
+                "apparel",
+                "sweaters",
+                "male",
+                "adult",
+                "pulover me jakë rrumbullak"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4067261790398_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790398_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4067261790398_3.jpg"
+              ]
+            },
+            {
+              "id": "68102117571",
+              "name": "Pantallona",
+              "price": 44,
+              "color": "Mixed Colors",
+              "size": "S",
+              "material": "74% PL",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "68102117571",
+              "categories": [
+                "2025",
+                "apparel",
+                "chn",
+                "female",
+                "infant",
+                "pantallona"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4063879189876_3.jpg"
+              ]
+            },
+            {
+              "id": "62100812270",
+              "name": "Jeans",
+              "price": 17,
+              "color": "Apparel",
+              "size": "27/30",
+              "material": "42% CO",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "62100812270",
+              "categories": [
+                "spring/summer",
+                "1",
+                "2% ea",
+                "2",
+                "jeans"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
+              ]
+            },
+            {
+              "id": "62100812270",
+              "name": "Jeans",
+              "price": 49,
+              "color": "DARK STONE WASH DENIM",
+              "size": "26/32",
+              "material": "Cotton",
+              "brand": "TOM TAILOR",
+              "_source": "trieve",
+              "tracking_id": "62100812270",
+              "categories": [
+                "apparel",
+                "jeans",
+                "female",
+                "infant",
+                "fall/winter"
+              ],
+              "images": [
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_1.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_2.jpg",
+                "http://91.187.98.69:8001/07/2570/Published/4061945265561_3.jpg"
+              ]
+            }
+          ]
         }
       },
       "logs": [],

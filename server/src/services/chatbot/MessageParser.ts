@@ -209,7 +209,8 @@ export class MessageParser {
     const hasMultipleSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{2,}/;
     
     // Check for legitimate price patterns first - if found, don't flag as gibberish
-    const pricePattern = /(?:nen|poshte|ner|under|mbi|siper|over)\s*\d+(?:\$|€)?/i;
+    // CRITICAL FIX: Include Albanian diacritics (nën, sipër, etj.)
+    const pricePattern = /(?:nen|nën|poshte|poshtë|ner|nër|under|mbi|siper|sipër|over)\s*[\d\$€]+/i;
     const hasPricePattern = pricePattern.test(message);
     
     if (!hasPricePattern && (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message))) {
@@ -274,15 +275,17 @@ export class MessageParser {
       return { min: 99999 }; // Special signal for "expensive preference"
     }
 
-    // Pattern for "nen X", "poshte X", "ner X", "under X" → max: X
-    const underPattern = /(?:nen|poshte|ner|under)\s*(\d+)(?:\$|€)?/i;
+    // Pattern for "nen X", "nën X", "poshte X", "poshtë X", "ner X", "under X" → max: X
+    // CRITICAL FIX: Include Albanian diacritics
+    const underPattern = /(?:nen|nën|poshte|poshtë|ner|nër|under)\s*[\$€]?(\d+)[\$€]?/i;
     const underMatch = message.match(underPattern);
     if (underMatch) {
       return { max: parseInt(underMatch[1]) };
     }
 
-    // Pattern for "mbi X", "siper X", "over X" → min: X
-    const overPattern = /(?:mbi|siper|over)\s*(\d+)(?:\$|€)?/i;
+    // Pattern for "mbi X", "siper X", "sipër X", "over X" → min: X
+    // CRITICAL FIX: Include Albanian diacritics
+    const overPattern = /(?:mbi|siper|sipër|over)\s*[\$€]?(\d+)[\$€]?/i;
     const overMatch = message.match(overPattern);
     if (overMatch) {
       return { min: parseInt(overMatch[1]) };
