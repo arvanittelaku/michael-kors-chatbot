@@ -64,28 +64,28 @@ export function buildNormalizedFilters(parsed: any) {
 
 export class MessageParser {
   private static readonly CATEGORY_KEYWORDS = {
-    kemishe: ['kemishe', 'këmishë', 'kemish', 'shirt', 'shirts'],
-    pantallona: ['pantallona', 'pantallonat', 'pants', 'trousers', 'pantolla'],
-    fustan: ['fustan', 'fustani', 'dress', 'dresses'],
-    atlete: ['atlete', 'sneakers', 'shoes', 'athletic shoes'],
-    kepuce: ['kepuce', 'kepucet', 'shoes', 'footwear'],
-    pullover: ['pullover', 'sweater', 'sweaters'],
-    pantofla: ['pantofla', 'pantofla dushi', 'slippers'],
-    bluze: ['bluze', 'bluzë', 'blouse', 'blouses'],
-    xhakete: ['xhakete', 'xhaketë', 'jacket', 'jackets'],
-    kostum: ['kostum', 'suit', 'suits'],
-    fund: ['fund', 'skirt', 'skirts'],
-    triko: ['triko', 'knitwear'],
-    peshqir: ['peshqir', 'peshqiri', 'face towel', 'towel', 'towels'],
-    mantel: ['mantel', 'manteli', 'bath towel', 'bathroom towel'],
-    xhinse: ['xhinse', 'xhinse', 'jeans', 'denim'],
+    kemishe: ['kemishe', 'këmishë', 'kemish', 'kemishave', 'kemishave', 'shirt', 'shirts'],
+    pantallona: ['pantallona', 'pantallonat', 'pantollave', 'pantallonave', 'pants', 'trousers', 'pantolla'],
+    fustan: ['fustan', 'fustani', 'fustaneve', 'fustanit', 'dress', 'dresses'],
+    atlete: ['atlete', 'atleteve', 'sneakers', 'shoes', 'athletic shoes'],
+    kepuce: ['kepuce', 'kepucet', 'kepuceve', 'shoes', 'footwear'],
+    pullover: ['pullover', 'pullovereve', 'sweater', 'sweaters'],
+    pantofla: ['pantofla', 'pantoflave', 'pantofleve', 'pantofla dushi', 'slippers'],
+    bluze: ['bluze', 'bluzë', 'bluzave', 'blouse', 'blouses'],
+    xhakete: ['xhakete', 'xhaketë', 'xhaketave', 'jacket', 'jackets'],
+    kostum: ['kostum', 'kostumeve', 'suit', 'suits'],
+    fund: ['fund', 'fundeve', 'skirt', 'skirts'],
+    triko: ['triko', 'trikove', 'knitwear'],
+    peshqir: ['peshqir', 'peshqiri', 'peshqireve', 'peshqirit', 'face towel', 'towel', 'towels'],
+    mantel: ['mantel', 'manteli', 'manteleve', 'bath towel', 'bathroom towel'],
+    xhinse: ['xhinse', 'xhinseve', 'jeans', 'denim'],
     // Additional categories found in Trieve dataset
     kapel: ['kapel', 'kapelë', 'hat', 'hats'],
     bkostum: ['b.kostum', 'bkostum', 'baby suit', 'baby suits'],
     te_brendshme: ['te brendshme', 'të brendshme', 'underwear', 'lingerie'],
-    qante: ['qante', 'qantë', 'qant', 'qanta', 'bag', 'bags', 'handbag'],
+    qante: ['qante', 'qantë', 'qant', 'qanta', 'qantave', 'bag', 'bags', 'handbag'],
     sako: ['sako', 'coat', 'coats', 'overcoat'],
-    maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'underwear shirt', 'undershirt', 'maice', 'maicë']
+    maica_te_mbrendshme: ['maica te mbrendshme', 'maicë të mbrendshme', 'maicave', 'underwear shirt', 'undershirt', 'maice', 'maicë']
   };
 
   private static readonly COLOR_MAPPINGS = {
