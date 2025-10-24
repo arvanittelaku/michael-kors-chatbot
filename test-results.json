@@ -1,9 +1,9 @@
 {
   "summary": {
     "totalTests": 12,
-    "passed": 10,
-    "failed": 2,
-    "passRate": "10/12"
+    "passed": 12,
+    "failed": 0,
+    "passRate": "12/12"
   },
   "tests": [
     {
@@ -271,11 +271,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293234807",
+          "userId": "test_1761293489109",
           "messageHistory": [
             "Kam nevojë për peshqir"
           ],
-          "timestamp": 1761293236382,
+          "timestamp": 1761293491127,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir"
@@ -656,11 +656,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293235511",
+          "userId": "test_1761293490252",
           "messageHistory": [
             "pantolla marka TOM TAILOR"
           ],
-          "timestamp": 1761293236994,
+          "timestamp": 1761293491752,
           "lastCategory": "pantallona",
           "appliedFilters": {
             "category": "pantallona",
@@ -847,11 +847,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293236118",
+          "userId": "test_1761293490870",
           "messageHistory": [
             "peshqir i kuq"
           ],
-          "timestamp": 1761293237478,
+          "timestamp": 1761293492719,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -989,11 +989,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293236597",
+          "userId": "test_1761293491842",
           "messageHistory": [
             "peshqir te kuq"
           ],
-          "timestamp": 1761293238082,
+          "timestamp": 1761293493200,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1131,11 +1131,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293237200",
+          "userId": "test_1761293492320",
           "messageHistory": [
             "peshqir ngjyrë e kuqe"
           ],
-          "timestamp": 1761293238600,
+          "timestamp": 1761293493743,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1211,9 +1211,9 @@
       "id": "D1",
       "utterance": "peshqir nën $20",
       "expected": "Only towels with price < $20",
-      "actual": "Returned 7 items. Prices: $14, $10, $19, $13, $17, $20, $15",
-      "result": "FAIL",
-      "transcript": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, BROWN, CREAM...), çmim ($10-$20). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "actual": "Returned 6 items. Prices: $14, $10, $19, $13, $17, $15",
+      "result": "PASS",
+      "transcript": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, CREAM, GREEN...), çmim ($10-$19). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
       "filters": {
         "category": "peshqir",
         "priceMax": 20
@@ -1223,7 +1223,7 @@
         "message": "peshqir nën $20"
       },
       "backendResponse": {
-        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, BROWN, CREAM...), çmim ($10-$20). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, CREAM, GREEN...), çmim ($10-$19). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
         "products": [
           {
             "id": "8697353545368",
@@ -1348,32 +1348,6 @@
             ]
           },
           {
-            "id": "8697353545405",
-            "name": "Peshqir - Colourist",
-            "price": 20,
-            "color": "BROWN",
-            "size": "S",
-            "material": "100% Pambuk",
-            "brand": "OZDILEK",
-            "_source": "trieve",
-            "tracking_id": "8697353545405",
-            "categories": [
-              "home",
-              "bathroom",
-              "unisex",
-              "adult",
-              "peshqir - colourist"
-            ],
-            "images": [
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
-            ]
-          },
-          {
             "id": "8697353545474",
             "name": "Peshqir - Colourist",
             "price": 15,
@@ -1401,11 +1375,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293237720",
+          "userId": "test_1761293492862",
           "messageHistory": [
             "peshqir nën $20"
           ],
-          "timestamp": 1761293239141,
+          "timestamp": 1761293494330,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -1537,32 +1511,6 @@
               ]
             },
             {
-              "id": "8697353545405",
-              "name": "Peshqir - Colourist",
-              "price": 20,
-              "color": "BROWN",
-              "size": "S",
-              "material": "100% Pambuk",
-              "brand": "OZDILEK",
-              "_source": "trieve",
-              "tracking_id": "8697353545405",
-              "categories": [
-                "home",
-                "bathroom",
-                "unisex",
-                "adult",
-                "peshqir - colourist"
-              ],
-              "images": [
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
-              ]
-            },
-            {
               "id": "8697353545474",
               "name": "Peshqir - Colourist",
               "price": 15,
@@ -1604,8 +1552,8 @@
           "lines": "435-449"
         }
       ],
-      "hypothesis": "Price filter not applied correctly",
-      "severity": "MAJOR"
+      "hypothesis": null,
+      "severity": "OK"
     },
     {
       "id": "D2",
@@ -1873,11 +1821,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293238260",
+          "userId": "test_1761293493458",
           "messageHistory": [
             "peshqir më të lira"
           ],
-          "timestamp": 1761293240159,
+          "timestamp": 1761293494848,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir"
@@ -2152,19 +2100,19 @@
       "id": "E1",
       "utterance": "peshqir → nën $20",
       "expected": "Follow-up filters previous category results",
-      "actual": "Initial: 10 items. After filter: 7 items (all < $20: false)",
-      "result": "FAIL",
-      "transcript": "Turn 1: Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".\nTurn 2: Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, BROWN, CREAM...), çmim ($10-$20). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+      "actual": "Initial: 10 items. After filter: 6 items (all < $20: true)",
+      "result": "PASS",
+      "transcript": "Turn 1: Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BEIGE, BLACK, BROWN...), çmim ($10-$32). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".\nTurn 2: Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, CREAM, GREEN...), çmim ($10-$19). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
       "filters": {
         "category": "peshqir",
         "priceMax": 20
       },
       "backendRequest": {
-        "userId": "test_multiturn_1761293239283",
+        "userId": "test_multiturn_1761293493966",
         "message": "nën $20"
       },
       "backendResponse": {
-        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, BROWN, CREAM...), çmim ($10-$20). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
+        "message": "Mund të filtroni sipas: marka (OZDILEK, SHEFAME), ngjyrë (BLACK, CREAM, GREEN...), çmim ($10-$19). Për shembull: \"më të lira\", \"ngjyrë e kuqe\", \"marka OZDILEK\".",
         "products": [
           {
             "id": "8697353545368",
@@ -2289,32 +2237,6 @@
             ]
           },
           {
-            "id": "8697353545405",
-            "name": "Peshqir - Colourist",
-            "price": 20,
-            "color": "BROWN",
-            "size": "S",
-            "material": "100% Pambuk",
-            "brand": "OZDILEK",
-            "_source": "trieve",
-            "tracking_id": "8697353545405",
-            "categories": [
-              "home",
-              "bathroom",
-              "unisex",
-              "adult",
-              "peshqir - colourist"
-            ],
-            "images": [
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-              "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
-            ]
-          },
-          {
             "id": "8697353545474",
             "name": "Peshqir - Colourist",
             "price": 15,
@@ -2342,12 +2264,12 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_multiturn_1761293239283",
+          "userId": "test_multiturn_1761293493966",
           "messageHistory": [
             "peshqir",
             "nën $20"
           ],
-          "timestamp": 1761293241858,
+          "timestamp": 1761293496361,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -2479,32 +2401,6 @@
               ]
             },
             {
-              "id": "8697353545405",
-              "name": "Peshqir - Colourist",
-              "price": 20,
-              "color": "BROWN",
-              "size": "S",
-              "material": "100% Pambuk",
-              "brand": "OZDILEK",
-              "_source": "trieve",
-              "tracking_id": "8697353545405",
-              "categories": [
-                "home",
-                "bathroom",
-                "unisex",
-                "adult",
-                "peshqir - colourist"
-              ],
-              "images": [
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405.jpeg?lastmod=1450-20230220",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_1.jpeg?lastmod=1600-20230224",
-                "https://img-ozdilekteyim.mncdn.com/rest/v2/medias2/container/zoom/pmc_PR-EVTEKSTILI-54536801327KAHVE_8697353545405_2.jpeg?lastmod=1600-20230224"
-              ]
-            },
-            {
               "id": "8697353545474",
               "name": "Peshqir - Colourist",
               "price": 15,
@@ -2546,8 +2442,8 @@
           "lines": "61-68"
         }
       ],
-      "hypothesis": "Context not preserved or price filter not applied to previous category",
-      "severity": "BLOCKER"
+      "hypothesis": null,
+      "severity": "OK"
     },
     {
       "id": "F1",
@@ -2612,11 +2508,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293240978",
+          "userId": "test_1761293495483",
           "messageHistory": [
             "peshqir te kuq"
           ],
-          "timestamp": 1761293242374,
+          "timestamp": 1761293496881,
           "lastCategory": "peshqir",
           "appliedFilters": {
             "category": "peshqir",
@@ -2974,11 +2870,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293241499",
+          "userId": "test_1761293496005",
           "messageHistory": [
             "pantolla te boss"
           ],
-          "timestamp": 1761293243027,
+          "timestamp": 1761293497457,
           "lastCategory": "pantallona",
           "appliedFilters": {
             "category": "pantallona",
@@ -3540,11 +3436,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293242144",
+          "userId": "test_1761293496574",
           "messageHistory": [
             "me te lira"
           ],
-          "timestamp": 1761293243558,
+          "timestamp": 1761293497945,
           "appliedFilters": {},
           "lastProducts": [
             {
@@ -4063,11 +3959,11 @@
           }
         ],
         "sessionContext": {
-          "userId": "test_1761293242676",
+          "userId": "test_1761293497061",
           "messageHistory": [
             "tom tailor"
           ],
-          "timestamp": 1761293244084,
+          "timestamp": 1761293498549,
           "appliedFilters": {
             "brand": "TOM TAILOR"
           },
