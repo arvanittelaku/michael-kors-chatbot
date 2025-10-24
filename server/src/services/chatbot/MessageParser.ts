@@ -339,27 +339,49 @@ export class MessageParser {
       return { min: 99999 }; // Special signal for "expensive preference"
     }
 
+    // 🔥 CRITICAL FIX: Pattern for "me i vogel se X" (smaller than X) - natural language
+    // Handles: "me i vogel se X", "me i vogël se X", "më i vogël se X euro/dollarë"
+    const smallerPattern = /(?:me\s*i\s*vogel|më\s*i\s*vogël)\s*se\s*(\d+)\s*(?:euro|eur|dollarë|dollar|\$|€)?/i;
+    const smallerMatch = message.match(smallerPattern);
+    if (smallerMatch) {
+      console.log(`[MessageParser] 💰 Detected "me i vogel se" (smaller than) pattern`);
+      return { max: parseInt(smallerMatch[1]) };
+    }
+
+    // 🔥 CRITICAL FIX: Pattern for "me i larte se X" (higher than X) - natural language
+    // Handles: "me i larte se X", "më i lartë se X euro/dollarë"
+    const higherPattern = /(?:me\s*i\s*larte|më\s*i\s*lartë)\s*se\s*(\d+)\s*(?:euro|eur|dollarë|dollar|\$|€)?/i;
+    const higherMatch = message.match(higherPattern);
+    if (higherMatch) {
+      console.log(`[MessageParser] 💰 Detected "me i larte se" (higher than) pattern`);
+      return { min: parseInt(higherMatch[1]) };
+    }
+
     // Pattern for "nen X", "nën X", "poshte X", "poshtë X", "ner X", "under X" → max: X
-    // CRITICAL FIX: Include Albanian diacritics
-    const underPattern = /(?:nen|nën|poshte|poshtë|ner|nër|under)\s*[\$€]?(\d+)[\$€]?/i;
+    // 🔥 CRITICAL FIX: Add "euro", "eur", "dollarë", "dollar" as valid currency words
+    const underPattern = /(?:nen|nën|poshte|poshtë|ner|nër|under)\s*(?:[\$€]?\s*)?(\d+)\s*(?:euro|eur|dollarë|dollar|\$|€)?/i;
     const underMatch = message.match(underPattern);
     if (underMatch) {
+      console.log(`[MessageParser] 💰 Detected "under" pattern: ${underMatch[0]}`);
       return { max: parseInt(underMatch[1]) };
     }
 
     // Pattern for "mbi X", "siper X", "sipër X", "over X" → min: X
-    // CRITICAL FIX: Include Albanian diacritics
-    const overPattern = /(?:mbi|siper|sipër|over)\s*[\$€]?(\d+)[\$€]?/i;
+    // 🔥 CRITICAL FIX: Add "euro", "eur", "dollarë", "dollar" as valid currency words
+    const overPattern = /(?:mbi|siper|sipër|over)\s*(?:[\$€]?\s*)?(\d+)\s*(?:euro|eur|dollarë|dollar|\$|€)?/i;
     const overMatch = message.match(overPattern);
     if (overMatch) {
+      console.log(`[MessageParser] 💰 Detected "over" pattern: ${overMatch[0]}`);
       return { min: parseInt(overMatch[1]) };
     }
 
     // Pattern for "rreth X", "around X" → min: X-5, max: X+5
-    const aroundPattern = /(?:rreth|around)\s*(\d+)(?:\$|€)?/i;
+    // 🔥 CRITICAL FIX: Add "euro", "eur", "dollarë", "dollar" as valid currency words
+    const aroundPattern = /(?:rreth|around)\s*(\d+)\s*(?:euro|eur|dollarë|dollar|\$|€)?/i;
     const aroundMatch = message.match(aroundPattern);
     if (aroundMatch) {
       const value = parseInt(aroundMatch[1]);
+      console.log(`[MessageParser] 💰 Detected "around" pattern: ~${value}`);
       return { min: Math.max(0, value - 5), max: value + 5 };
     }
 
