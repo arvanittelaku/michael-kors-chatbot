@@ -53,8 +53,11 @@ export function buildNormalizedFilters(parsed: any) {
     brand: parsed.brand?.toUpperCase() ?? null,
     color: normalizeColor(parsed.color),
     size: parsed.size ? (Array.isArray(parsed.size) ? parsed.size.map(normalizeSize).filter(Boolean) : [normalizeSize(parsed.size)].filter(Boolean)) : null,
-    priceMax: parsed.price?.max ?? null,
-    priceMin: parsed.price?.min ?? null,
+    // 🔥 CRITICAL FIX: Price must be { min, max } object, not flat properties
+    price: (parsed.price?.min !== undefined || parsed.price?.max !== undefined) ? {
+      min: parsed.price?.min,
+      max: parsed.price?.max
+    } : null,
     material: parsed.material ?? null
   };
 }

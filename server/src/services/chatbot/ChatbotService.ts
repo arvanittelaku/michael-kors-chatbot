@@ -323,7 +323,7 @@ export class ChatbotService {
     console.log(`[ChatbotService] 🔍 Query type:`, { isExploratory, isRecovery, lastProductCount });
 
     // 🔥 EXPLORATORY QUERY: Clear all filters except category
-    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.priceMax && !parsedFilters.priceMin && !parsedFilters.size) {
+    if (isExploratory && !parsedFilters.brand && !parsedFilters.color && !parsedFilters.price && !parsedFilters.size) {
       console.log(`[ChatbotService] 🌐 EXPLORATORY QUERY detected - clearing ALL filters to show all options`);
       
       const categoryToUse = parsedFilters.category || session.lastCategory;
@@ -376,8 +376,7 @@ export class ChatbotService {
         brand: parsedFilters.brand ?? session.appliedFilters?.brand ?? null,
         color: parsedFilters.color ?? session.appliedFilters?.color ?? null,
         size: parsedFilters.size ?? session.appliedFilters?.size ?? null,
-        priceMax: parsedFilters.priceMax ?? session.appliedFilters?.priceMax ?? null,
-        priceMin: parsedFilters.priceMin ?? session.appliedFilters?.priceMin ?? null,
+        price: parsedFilters.price ?? session.appliedFilters?.price ?? null,
         material: parsedFilters.material ?? session.appliedFilters?.material ?? null
       };
       
