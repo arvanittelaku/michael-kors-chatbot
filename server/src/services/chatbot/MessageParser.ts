@@ -194,7 +194,7 @@ export class MessageParser {
     'te portokalli': 'orange',
     'i portokalli': 'orange',
     
-    // 🔥 CRITICAL FIX: Add missing colors that exist in products
+    // 🔥 CRITICAL FIX: Add missing colors that exist in products (silver, cream, beige, navy)
     // Silver variations
     'silver': 'silver',
     'argjend': 'silver',
