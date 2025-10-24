@@ -49,7 +49,8 @@ export function normalizeColor(raw?: string | null): string | null {
 
 export function buildNormalizedFilters(parsed: any) {
   return {
-    category: parsed.category?.toUpperCase() ?? null,
+    // 🔥 CRITICAL FIX: Categories must be lowercase for Trieve semantic search
+    category: parsed.category?.toLowerCase() ?? null,
     brand: parsed.brand?.toUpperCase() ?? null,
     color: normalizeColor(parsed.color),
     size: parsed.size ? (Array.isArray(parsed.size) ? parsed.size.map(normalizeSize).filter(Boolean) : [normalizeSize(parsed.size)].filter(Boolean)) : null,

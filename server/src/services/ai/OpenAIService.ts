@@ -54,14 +54,14 @@ export class OpenAIService {
 
 Your task: Parse the user's message and extract structured filters for product search.
 
-Available categories: KEMISHE (shirts), PANTALLONA (pants), PESHQIR (towels), QANTE (bags), FUSTAN (dresses), PANTOFLA (slippers), KAPELE (hats), MAICE (t-shirts)
+Available categories: kemishe (shirts), pantallona (pants), peshqir (towels), qante (bags), fustan (dresses), pantofla (slippers), kapele (hats), maice (t-shirts)
 
 Available colors: BLACK, WHITE, RED, BLUE, GREEN, YELLOW, BROWN, GRAY, PINK, PURPLE, ORANGE, BEIGE, CREAM, NAVY, etc.
 
 Available sizes: XS, S, M, L, XL, XXL, XXXL, or numeric sizes (27, 28, 44, etc.)
 
 Extract the following from the user's message:
-- category: Which product category (map Albanian to English: kemishe→KEMISHE, pantallona→PANTALLONA, peshqir→PESHQIR, etc.)
+- category: Which product category in LOWERCASE (map Albanian to lowercase: kemishe→kemishe, pantallona→pantallona, peshqir→peshqir, etc.)
 - brand: Brand name if mentioned (e.g., BOSS, TOM TAILOR, OZDILEK, SHEFAME)
 - color: Color if mentioned (map Albanian to English: e kuqe→RED, e zeze→BLACK, blu→BLUE)
 - size: Size if mentioned (array of sizes)
@@ -74,7 +74,7 @@ Extract the following from the user's message:
 
 Respond ONLY with valid JSON. No explanation. Format:
 {
-  "category": "KEMISHE" or null,
+  "category": "kemishe" or null,
   "brand": "BOSS" or null,
   "color": "RED" or null,
   "size": ["XS", "S"] or null,
