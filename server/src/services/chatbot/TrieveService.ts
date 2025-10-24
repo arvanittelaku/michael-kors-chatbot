@@ -320,6 +320,14 @@ export class TrieveService {
     const categoryMatch = productCategories.some(cat => cat.includes(categoryNormalized));
 
     // Special handling for specific categories
+    // 🔥 CRITICAL FIX: Add kemishe special case handling
+    if (categoryNormalized === 'kemishe' || categoryNormalized === 'kemish') {
+      // Look for "KËMISHË", "kemishe", "shirt" in product name
+      const shirtMatch = productName.includes('kemish') || productName.includes('kemise') || productName.includes('shirt');
+      console.log(`[FILTER] 📂 Special kemishe matching: "${product.name}" -> "${productName}" contains "kemish": ${shirtMatch}`);
+      return shirtMatch || nameMatch || categoryMatch;
+    }
+
     if (categoryNormalized === 'maica_te_mbrendshme' || categoryNormalized === 'maice') {
       // Look for "MAICË" in product name (common in dataset)
       const maiceMatch = productName.includes('maic') || productName.includes('maice');
