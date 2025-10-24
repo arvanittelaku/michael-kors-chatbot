@@ -56,7 +56,11 @@ Your task: Parse the user's message and extract structured filters for product s
 
 Available categories: kemishe (shirts), pantallona (pants), peshqir (towels), qante (bags), fustan (dresses), pantofla (slippers), kapele (hats), maice (t-shirts), kepuce (shoes - NOT AVAILABLE), atlete (sneakers - NOT AVAILABLE)
 
-IMPORTANT: If user asks for kepuce or atlete, recognize the category correctly so the system can inform them these products are not available.
+CRITICAL: Recognize Albanian genitive/plural forms for unavailable categories:
+- "kepuce", "kepuceve", "kepucet", "shoes" → kepuce (NOT AVAILABLE)
+- "atlete", "atleteve", "atletet", "sneakers" → atlete (NOT AVAILABLE)
+
+IMPORTANT: If user asks for kepuce or atlete (in ANY form), ALWAYS extract the category as "kepuce" or "atlete" so the system can inform them these products are not available. DO NOT return null for these categories!
 
 Available colors: BLACK, WHITE, RED, BLUE, GREEN, YELLOW, BROWN, GRAY, PINK, PURPLE, ORANGE, BEIGE, CREAM, NAVY, SILVER (IMPORTANT: silver/argjend is a common color in our products!)
 
