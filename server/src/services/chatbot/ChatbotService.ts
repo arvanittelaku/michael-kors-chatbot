@@ -266,6 +266,40 @@ export class ChatbotService {
             }
           }
         }
+        // 🔥 CRITICAL FIX: If user asked for a specific size that doesn't exist
+        // Similar logic to brand - check if category exists with OTHER sizes
+        else if (finalFilters.size && finalFilters.category) {
+          console.log(`[ChatbotService] 🔍 Size "${finalFilters.size}" + filters returned 0 results. Checking if category exists with other sizes...`);
+          
+          // STEP 1: Check if category exists with ANY size (without the size filter)
+          const categoryOnlyFilters = { 
+            category: finalFilters.category
+          };
+          const categoryProducts = await TrieveService.getProducts(categoryOnlyFilters);
+          
+          if (categoryProducts.length > 0) {
+            // ✅ Category EXISTS but not with the specific size
+            console.log(`[ChatbotService] ✅ Category "${finalFilters.category}" exists but size "${finalFilters.size}" not available`);
+            
+            // Get available sizes
+            const availableSizes = [...new Set(categoryProducts.map(p => p.size).filter(Boolean))].sort();
+            
+            const requestedSizeStr = Array.isArray(finalFilters.size) ? finalFilters.size.join(', ') : finalFilters.size;
+            
+            if (availableSizes.length > 0) {
+              responseMessage = `Më vjen keq, nuk kemi ${finalFilters.category} madhësi ${requestedSizeStr}. Madhësitë e disponueshme janë: ${availableSizes.join(', ')}. Këtu janë disa ${finalFilters.category}:`;
+            } else {
+              responseMessage = `Më vjen keq, nuk kemi ${finalFilters.category} madhësi ${requestedSizeStr}.`;
+            }
+            
+            // Show category products (without the failed size filter)
+            products = categoryProducts;
+          } else {
+            // ❌ Category does NOT exist at all
+            console.log(`[ChatbotService] ❌ Category "${finalFilters.category}" does NOT exist`);
+            responseMessage = `Më vjen keq, nuk kemi ${finalFilters.category} në dispozicion aktualisht.`;
+          }
+        }
         // If user asked for a color that doesn't exist
         else if (finalFilters.color && session.lastProducts && session.lastProducts.length > 0) {
           const availableColors = TrieveService.getAvailableColors(session.lastProducts);
