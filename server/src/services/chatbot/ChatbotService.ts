@@ -170,18 +170,31 @@ export class ChatbotService {
       
       // 🔥 CRITICAL: Handle gibberish/unrecognized queries (Question 2 Option A - VERY strict)
       if (finalFilters.category === 'GIBBERISH' || (!finalFilters.category && !session.lastCategory)) {
-        console.log(`[ChatbotService] 🚫 Gibberish or completely unrecognized query, returning error message`);
-        responseMessage = 'Nuk e kuptova kërkesën tuaj. Mund ta përsërisni? Provoni të përdorni fjalë si: kemishe, pantallona, peshqir, qante, fustan, pantofla, kapele.';
-        return {
-          message: responseMessage,
-          products: [],
-          sessionContext: sessionManager.updateSession(userId, {
-            lastCategory: session.lastCategory,
-            appliedFilters: session.appliedFilters,
-            lastProducts: [],
-            messageHistory: [...session.messageHistory, message]
-          })
-        };
+        // 🔥 NEW: Before treating as gibberish, check if MessageParser can detect an unavailable category
+        // This catches cases where OpenAI fails to recognize kepuce/atlete
+        console.log(`[ChatbotService] 🔍 Potential gibberish, checking MessageParser for unavailable categories...`);
+        const messageParser = new MessageParser();
+        const regexParsed = messageParser.parse(message);
+        
+        const unavailableCategories = ['kepuce', 'atlete'];
+        if (regexParsed.category && unavailableCategories.includes(regexParsed.category)) {
+          console.log(`[ChatbotService] ✅ MessageParser detected unavailable category: ${regexParsed.category}`);
+          finalFilters.category = regexParsed.category; // Use the detected category
+          // Don't return gibberish - let it continue to the error handling below
+        } else {
+          console.log(`[ChatbotService] 🚫 Confirmed gibberish or completely unrecognized query, returning error message`);
+          responseMessage = 'Nuk e kuptova kërkesën tuaj. Mund ta përsërisni? Provoni të përdorni fjalë si: kemishe, pantallona, peshqir, qante, fustan, pantofla, kapele.';
+          return {
+            message: responseMessage,
+            products: [],
+            sessionContext: sessionManager.updateSession(userId, {
+              lastCategory: session.lastCategory,
+              appliedFilters: session.appliedFilters,
+              lastProducts: [],
+              messageHistory: [...session.messageHistory, message]
+            })
+          };
+        }
       }
       
       // 🔥 CRITICAL: Check if user asked for brands
