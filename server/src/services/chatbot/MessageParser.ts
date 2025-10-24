@@ -213,7 +213,16 @@ export class MessageParser {
     const pricePattern = /(?:nen|nën|poshte|poshtë|ner|nër|under|mbi|siper|sipër|over)\s*[\d\$€]+/i;
     const hasPricePattern = pricePattern.test(message);
     
-    if (!hasPricePattern && (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message))) {
+    // Check for size patterns - don't flag as gibberish
+    // CRITICAL FIX: Include typo variations like "madhsine"
+    const sizePattern = /(?:madhesia|madhësia|madhsine|madhësine|size|numri)\s*[a-z0-9]+/i;
+    const hasSizePattern = sizePattern.test(message);
+    
+    // Check for standalone size codes (xs, s, m, l, xl, etc.)
+    const standaloneSizePattern = /\b(xxs|xs|s|m|l|xl|xxl|xxxl)\b/i;
+    const hasStandaloneSize = standaloneSizePattern.test(message);
+    
+    if (!hasPricePattern && !hasSizePattern && !hasStandaloneSize && (gibberishPattern.test(message) || hasMultipleNumbers.test(message) || hasMultipleSpecialChars.test(message))) {
       return 'UNKNOWN_CATEGORY';
     }
     
@@ -304,9 +313,11 @@ export class MessageParser {
 
   private extractSize(message: string): string[] | undefined {
     const sizes: string[] = [];
+    const lowerMessage = message.toLowerCase();
 
-    // Pattern for "madhesia X", "size X"
-    const sizePattern = /(?:madhesia|size)\s*([A-Z0-9]+)/gi;
+    // Pattern for "madhesia X", "madhësia X", "madhsine X" (typo tolerance), "size X"
+    // Support common typos and variations
+    const sizePattern = /(?:madhesia|madhësia|madhsine|madhësine|size)\s*([a-z0-9]+)/gi;
     let match;
     while ((match = sizePattern.exec(message)) !== null) {
       sizes.push(match[1].toUpperCase());
@@ -316,6 +327,38 @@ export class MessageParser {
     const numberPattern = /(?:numri|number)\s*(\d+)/gi;
     while ((match = numberPattern.exec(message)) !== null) {
       sizes.push(match[1]);
+    }
+
+    // CRITICAL: Detect standalone size codes (XS, S, M, L, XL, XXL, XXXL, or numeric sizes)
+    // This handles cases like just "xs" or "madhsine xs" where the word might be misspelled
+    const standaloneSizes = ['xs', 'xxs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl'];
+    const words = lowerMessage.split(/\s+/);
+    
+    for (const word of words) {
+      // Check if word is a standalone size code
+      if (standaloneSizes.includes(word)) {
+        const upperSize = word.toUpperCase();
+        if (!sizes.includes(upperSize)) {
+          sizes.push(upperSize);
+          console.log(`[MessageParser] 📏 Found standalone size: ${upperSize}`);
+        }
+      }
+      
+      // Check for numeric sizes (27, 28, 29, etc. for jeans/pants)
+      if (/^\d{2,3}$/.test(word)) {
+        if (!sizes.includes(word)) {
+          sizes.push(word);
+          console.log(`[MessageParser] 📏 Found numeric size: ${word}`);
+        }
+      }
+      
+      // Check for jeans sizes like "27/30", "28/32"
+      if (/^\d{2}\/\d{2}$/.test(word)) {
+        if (!sizes.includes(word)) {
+          sizes.push(word);
+          console.log(`[MessageParser] 📏 Found jeans size: ${word}`);
+        }
+      }
     }
 
     return sizes.length > 0 ? sizes : undefined;
