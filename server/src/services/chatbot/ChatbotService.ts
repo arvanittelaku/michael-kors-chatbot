@@ -134,6 +134,38 @@ export class ChatbotService {
         };
       }
       
+      // 🔥 NEW: Handle "what products do you have?" queries
+      // Pattern: "qfar produkte keni", "qfar keni", "çfarë produktesh keni", etc.
+      const askedForAllProducts = (
+        /qfar|çfarë|cfare/i.test(message) && 
+        /(produkte|produktesh)/i.test(message) &&
+        /keni|ke|ka/i.test(message)
+      );
+      
+      if (askedForAllProducts && !finalFilters.category) {
+        console.log(`[ChatbotService] 📋 User asked "what products do you have?" - listing all categories`);
+        responseMessage = 'Kemi këto kategori produktesh:\n\n' +
+          '👕 **Kemishe** - Shirts\n' +
+          '👖 **Pantallona** - Pants\n' +
+          '🧺 **Peshqir** - Towels\n' +
+          '👜 **Qante** - Bags\n' +
+          '👗 **Fustan** - Dresses\n' +
+          '🩴 **Pantofla** - Slippers\n' +
+          '🧢 **Kapele** - Hats\n' +
+          '👕 **Maice** - T-shirts\n\n' +
+          'Çfarë dëshironi të shihni?';
+        return {
+          message: responseMessage,
+          products: [],
+          sessionContext: sessionManager.updateSession(userId, {
+            lastCategory: session.lastCategory,
+            appliedFilters: session.appliedFilters,
+            lastProducts: [],
+            messageHistory: [...session.messageHistory, message]
+          })
+        };
+      }
+      
       // 🔥 CRITICAL: Handle gibberish/unrecognized queries (Question 2 Option A - VERY strict)
       if (finalFilters.category === 'GIBBERISH' || (!finalFilters.category && !session.lastCategory)) {
         console.log(`[ChatbotService] 🚫 Gibberish or completely unrecognized query, returning error message`);

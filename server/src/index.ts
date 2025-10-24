@@ -64,24 +64,23 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Custom CORS middleware for all other routes
 app.use((req, res, next) => {
-  const allowedOrigins = [
-    'http://localhost:3000',
-    'https://albimalldemo.netlify.app',
-    'https://michael-kors-chatbot.vercel.app',
-    'https://michael-kors-chatbot-xkof.vercel.app',
-    process.env.FRONTEND_URL
-  ].filter(Boolean);
-
   const origin = req.headers.origin || '';
-  const isAllowed = allowedOrigins.some(allowed => 
-    typeof allowed === 'string' && allowed === origin
-  ) || /^https:\/\/.*\.netlify\.app$/.test(origin) || /^https:\/\/.*\.vercel\.app$/.test(origin);
+  
+  // Allow all Vercel and Netlify subdomains + localhost
+  const isAllowedOrigin = 
+    origin.includes('localhost') ||
+    origin.includes('netlify.app') ||
+    origin.includes('vercel.app') ||
+    origin === 'https://michael-kors-chatbot.vercel.app' ||
+    origin === process.env.FRONTEND_URL;
 
-  if (isAllowed || origin === '') {
-    res.setHeader('Access-Control-Allow-Origin', origin || '*');
+  if (isAllowedOrigin) {
+    // 🔥 CRITICAL FIX: Set exact origin, not wildcard, to work with credentials
+    res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.setHeader('Vary', 'Origin'); // Important for caching
   }
 
   if (req.method === 'OPTIONS') {
