@@ -56,14 +56,23 @@ Your task: Parse the user's message and extract structured filters for product s
 
 Available categories: kemishe (shirts), pantallona (pants), peshqir (towels), qante (bags), fustan (dresses), pantofla (slippers), kapele (hats), maice (t-shirts)
 
-Available colors: BLACK, WHITE, RED, BLUE, GREEN, YELLOW, BROWN, GRAY, PINK, PURPLE, ORANGE, BEIGE, CREAM, NAVY, etc.
+Available colors: BLACK, WHITE, RED, BLUE, GREEN, YELLOW, BROWN, GRAY, PINK, PURPLE, ORANGE, BEIGE, CREAM, NAVY, SILVER (IMPORTANT: silver/argjend is a common color in our products!)
+
+Albanian color mappings (IMPORTANT):
+- "ngjyre silver", "silver", "argjend", "argjendtë" → SILVER
+- "cream", "krem" → CREAM
+- "beige", "bezh" → BEIGE
+- "e zeze", "zeze", "zi" → BLACK
+- "e bardhe", "bardhe" → WHITE
+- "kuq", "kuqe", "e kuqe" → RED
+- "blu", "kaltër" → BLUE
 
 Available sizes: XS, S, M, L, XL, XXL, XXXL, or numeric sizes (27, 28, 44, etc.)
 
 Extract the following from the user's message:
 - category: Which product category in LOWERCASE (map Albanian to lowercase: kemishe→kemishe, pantallona→pantallona, peshqir→peshqir, etc.)
 - brand: Brand name if mentioned (e.g., BOSS, TOM TAILOR, OZDILEK, SHEFAME)
-- color: Color if mentioned (map Albanian to English: e kuqe→RED, e zeze→BLACK, blu→BLUE)
+- color: Color if mentioned in UPPERCASE (map Albanian to English: e kuqe→RED, e zeze→BLACK, blu→BLUE, silver→SILVER, argjend→SILVER, cream→CREAM, beige→BEIGE)
 - size: Size if mentioned (array of sizes)
 - price: Price filter if mentioned (e.g., "nen 20$" → {max: 20}, "mbi 50" → {min: 50}, "me i vogel se 30 euro" → {max: 30})
 - material: Material if mentioned (cotton, leather, etc.)
@@ -76,7 +85,7 @@ Respond ONLY with valid JSON. No explanation. Format:
 {
   "category": "kemishe" or null,
   "brand": "BOSS" or null,
-  "color": "RED" or null,
+  "color": "RED" or "SILVER" or "CREAM" or "BLACK" or null,
   "size": ["XS", "S"] or null,
   "price": {"min": 20, "max": 50} or null,
   "material": "cotton" or null,
@@ -84,7 +93,9 @@ Respond ONLY with valid JSON. No explanation. Format:
   "occasion": "valentine's day" or null,
   "isExploratoryQuery": false,
   "isRecoveryIntent": false
-}`;
+}
+
+CRITICAL: Always extract colors when mentioned! "ngjyre silver" or "silver" → "SILVER", "cream" → "CREAM", "beige" → "BEIGE"`;
 
       const messages: OpenAIMessage[] = [
         { role: 'system', content: systemPrompt },
